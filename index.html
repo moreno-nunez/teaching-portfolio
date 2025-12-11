@@ -9,17 +9,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
 
     <style>
       :root {
-        --bg: #f7f7f9;
-        --text-main: #222222;
-        --text-muted: #666666;
+        --bg: #ffffff;
+        --text-main: #202124;
+        --text-muted: #5f6368;
         --accent: #1a73e8;
-        --divider: #e1e1e6;
+        --divider: #e0e0e0;
       }
 
       * {
@@ -35,62 +35,60 @@
       }
 
       .page {
-        max-width: 780px;
+        max-width: 880px;
         margin: 0 auto;
-        padding: 2.5rem 1.5rem 3rem;
+        padding: 1.5rem 1.25rem 3rem;
       }
 
+      /* Barra de navegación superior */
+      .top-nav {
+        display: flex;
+        justify-content: flex-end;
+        gap: 1rem;
+        font-size: 0.9rem;
+        padding-bottom: 0.75rem;
+        border-bottom: 1px solid var(--divider);
+      }
+
+      .top-nav a {
+        text-decoration: none;
+        color: var(--text-muted);
+      }
+
+      .top-nav a:hover {
+        color: var(--accent);
+      }
+
+      /* Cabecera principal */
       header {
-        margin-bottom: 2.5rem;
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
       }
 
-      .site-title {
-        font-size: 1.8rem;
-        font-weight: 600;
+      header h1 {
+        font-size: 2.4rem;
         margin: 0;
+        font-weight: 500;
       }
 
-      .site-subtitle {
-        margin: 0.4rem 0 0;
+      header .role {
+        margin-top: 0.4rem;
+        font-size: 1rem;
+        color: var(--text-muted);
+      }
+
+      header .affiliation {
+        margin-top: 0.15rem;
         font-size: 0.95rem;
         color: var(--text-muted);
       }
 
-      nav {
-        margin-top: 1.5rem;
-        font-size: 0.9rem;
-      }
-
-      nav a {
-        text-decoration: none;
-        color: var(--text-muted);
-        margin-right: 1rem;
-      }
-
-      nav a:hover {
-        color: var(--accent);
-      }
-
-      .hero {
-        margin-top: 2rem;
-      }
-
-      .hero h1 {
-        font-size: 2.1rem;
-        margin: 0 0 0.3rem;
-      }
-
-      .hero p {
-        margin: 0.2rem 0;
-        color: var(--text-muted);
-        max-width: 42rem;
-      }
-
+      /* Fila de enlaces tipo ORCID, perfil, etc. */
       .links-row {
         margin-top: 1rem;
         display: flex;
         flex-wrap: wrap;
-        gap: 0.6rem;
+        gap: 0.75rem;
         font-size: 0.9rem;
       }
 
@@ -104,39 +102,46 @@
         font-size: 0.8em;
       }
 
-      section {
-        margin-top: 2.5rem;
-        padding-top: 2rem;
-        border-top: 1px solid var(--divider);
+      /* Intro */
+      .intro {
+        margin-top: 1.75rem;
+        font-size: 0.98rem;
+        line-height: 1.7;
+        color: var(--text-main);
       }
 
-      section:first-of-type {
-        border-top: none;
-        padding-top: 0;
+      .intro p {
+        margin: 0.4rem 0;
+      }
+
+      .intro .tagline {
+        color: var(--text-muted);
+        font-style: italic;
+      }
+
+      /* Secciones */
+      section {
+        margin-top: 3rem;
       }
 
       section h2 {
         font-size: 1.3rem;
-        margin: 0 0 0.7rem;
+        margin-bottom: 0.6rem;
       }
 
       section p {
+        font-size: 0.96rem;
+        line-height: 1.7;
+        color: var(--text-main);
         margin: 0.4rem 0;
-        line-height: 1.6;
-        font-size: 0.95rem;
       }
 
       section ul {
         margin: 0.6rem 0 0;
-        padding-left: 1.1rem;
+        padding-left: 1.2rem;
         font-size: 0.95rem;
-        line-height: 1.6;
-      }
-
-      .tagline {
-        font-style: italic;
-        color: var(--text-muted);
-        margin-top: 0.5rem;
+        line-height: 1.7;
+        color: var(--text-main);
       }
 
       footer {
@@ -156,9 +161,15 @@
         text-decoration: underline;
       }
 
-      @media (max-width: 600px) {
-        .hero h1 {
-          font-size: 1.7rem;
+      @media (max-width: 640px) {
+        .top-nav {
+          justify-content: flex-start;
+          flex-wrap: wrap;
+          gap: 0.6rem;
+        }
+
+        header h1 {
+          font-size: 2rem;
         }
       }
     </style>
@@ -166,99 +177,105 @@
 
   <body>
     <div class="page">
-      <header>
-        <p class="site-title">Ana [Apellidos]</p>
-        <p class="site-subtitle">
-          Profesora de [Área] · [Universidad]
-        </p>
-        <nav>
-          <a href="#docencia">Docencia</a>
-          <a href="#enfoque">Enfoque</a>
-          <a href="#evaluacion">Evaluación</a>
-          <a href="#innovacion">Innovación</a>
-          <a href="#contacto">Contacto</a>
-        </nav>
-      </header>
+      <!-- Navegación superior, tipo "Home / Docencia / CV..." -->
+      <nav class="top-nav">
+        <a href="#inicio">Home</a>
+        <a href="#docencia">Docencia</a>
+        <a href="#enfoque">Enfoque</a>
+        <a href="#evaluacion">Evaluación</a>
+        <a href="#innovacion">Innovación</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
 
-      <section class="hero" id="inicio">
-        <h1>Portfolio docente</h1>
-        <p>
-          Breve párrafo de presentación: en qué enseñas, con qué tipo de
-          alumnado trabajas y qué te interesa especialmente de la docencia.
-        </p>
-        <p class="tagline">
-          Por ejemplo: “Me interesa diseñar experiencias que fomenten la
-          reflexión, el trabajo colaborativo y la conexión con contextos reales”.
-        </p>
+      <!-- Cabecera principal -->
+      <header id="inicio">
+        <h1>Ana [Apellidos]</h1>
+        <p class="role">Profesora de [Área]</p>
+        <p class="affiliation">[Departamento] · [Universidad]</p>
 
         <div class="links-row">
           <a href="mailto:tu-correo@universidad.es">Correo institucional</a>
-          <a href="https://..." target="_blank" rel="noopener">Perfil universidad</a>
+          <a href="https://..." target="_blank" rel="noopener">Perfil en la universidad</a>
           <a href="https://orcid.org/..." target="_blank" rel="noopener">ORCID</a>
           <a href="https://scholar.google.com/..." target="_blank" rel="noopener"
             >Google Scholar</a
           >
         </div>
-      </section>
+      </header>
 
+      <!-- Intro corta, tipo la de Ricardo -->
+      <div class="intro">
+        <p>
+          Aquí puedes escribir 2–3 frases sobre quién eres como docente:
+          en qué enseñas, con qué tipo de estudiantes trabajas y qué te interesa
+          especialmente de la docencia universitaria.
+        </p>
+        <p class="tagline">
+          Ejemplo: “Me interesa acompañar al alumnado en procesos de reflexión
+          crítica, conectar la teoría con prácticas situadas y explorar formas
+          colaborativas de aprender en el aula universitaria”.
+        </p>
+      </div>
+
+      <!-- Sección docencia -->
       <section id="docencia">
         <h2>Docencia actual y reciente</h2>
         <p>
-          Aquí puedes listar de forma sintética las asignaturas más relevantes en las que
-          has impartido docencia.
+          Breve selección de las asignaturas en las que has impartido docencia
+          en los últimos años.
         </p>
         <ul>
           <li>
             <strong>[Nombre de la asignatura]</strong> · Grado en [X]  
-            Breve descripción (curso, nº de estudiantes, tipo de asignatura,
-            enfoque principal).
+            Curso, nº aproximado de estudiantes, tipo (obligatoria/optativa) y
+            una línea sobre el enfoque que trabajas.
           </li>
           <li>
             <strong>[Otra asignatura]</strong> · [Estudios]  
-            Qué papel tiene esta asignatura en el plan de estudios y tu contribución
-            principal.
+            Papel de la asignatura en el plan de estudios y tu contribución principal.
           </li>
         </ul>
       </section>
 
+      <!-- Enfoque docente -->
       <section id="enfoque">
         <h2>Enfoque docente</h2>
         <p>
-          Describe tu manera de entender la enseñanza: qué esperas del alumnado,
-          qué intentas que ocurra en tus clases, cómo articulas teoría y práctica, etc.
-        </p>
-        <p>
-          Puedes organizarlo en ideas clave:
+          Describe tu forma de entender la enseñanza: qué esperas del alumnado,
+          qué intentas que ocurra en tus clases, y cómo articulas teoría, práctica
+          y reflexión.
         </p>
         <ul>
-          <li>Promover la participación activa y la reflexión crítica.</li>
-          <li>Crear espacios seguros para la discusión y el cuestionamiento.</li>
-          <li>Vincular contenidos con ejemplos y situaciones profesionales reales.</li>
+          <li>Promover la participación activa y el análisis crítico de los contenidos.</li>
+          <li>Generar espacios seguros para la discusión y el intercambio de perspectivas.</li>
+          <li>Conectar la docencia con contextos profesionales y situaciones reales.</li>
         </ul>
       </section>
 
+      <!-- Evaluación -->
       <section id="evaluacion">
         <h2>Evaluación y retroalimentación</h2>
         <p>
-          Resume cómo estructuras la evaluación (continua, pruebas finales,
-          trabajos, proyectos…) y cómo comunicas los criterios.
+          Resume cómo estructuras la evaluación (continua, pruebas finales, trabajos,
+          proyectos) y cómo comunicas los criterios al alumnado.
         </p>
         <ul>
-          <li>Combinación de evaluación continua y evaluación final.</li>
-          <li>Uso de rúbricas u orientaciones claras antes de las tareas clave.</li>
-          <li>Feedback que ayude al alumnado a entender qué y cómo puede mejorar.</li>
+          <li>Combinación de evaluación continua y actividades de síntesis final.</li>
+          <li>Uso de orientaciones claras o rúbricas antes de las tareas clave.</li>
+          <li>Feedback centrado en la mejora, no solo en la calificación numérica.</li>
         </ul>
         <p>
-          Si quieres, aquí puedes mencionar cómo utilizas encuestas, resultados
-          o datos de la propia docencia para introducir ajustes en tus asignaturas.
+          Aquí también puedes mencionar cómo utilizas encuestas, resultados u otras
+          evidencias para revisar y ajustar tus asignaturas.
         </p>
       </section>
 
+      <!-- Innovación / desarrollo -->
       <section id="innovacion">
-        <h2>Innovación y desarrollo profesional</h2>
+        <h2>Innovación docente y desarrollo profesional</h2>
         <p>
-          Espacio para proyectos de innovación docente, cambios metodológicos
-          relevantes, formación o actividades de mentoría.
+          Espacio para proyectos de innovación, cambios metodológicos relevantes
+          y formación relacionada con la docencia universitaria.
         </p>
         <ul>
           <li>
@@ -271,17 +288,17 @@
           </li>
           <li>
             <strong>[Mentoría / acompañamiento]</strong>  
-            Papel que desempeñas y qué tipo de apoyo ofreces a otros docentes.
+            Papel que desempeñas y tipo de apoyo que ofreces a otros docentes.
           </li>
         </ul>
       </section>
 
+      <!-- Contacto -->
       <section id="contacto">
         <h2>Contacto</h2>
         <p>
-          Puedes utilizar este espacio para indicar las vías principales de
-          contacto académico y, si quieres, horarios de tutoría o formas de
-          trabajar con el alumnado fuera del aula.
+          Indica las vías principales de contacto académico y, si quieres,
+          la forma habitual de organizar tutorías.
         </p>
         <ul>
           <li>
@@ -293,7 +310,7 @@
           <li>
             Perfil institucional:
             <a href="https://..." target="_blank" rel="noopener">
-              Enlace al perfil en la web de la universidad
+              Web de la universidad
             </a>
           </li>
         </ul>
