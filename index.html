@@ -1,44 +1,190 @@
 <!DOCTYPE html>
-<html>
-  <head> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-
-    <meta charset="UTF-8">
-    <title>Mi primera web</title>
-  </head>
-  <body>
-    <h1>Hola, mundo</h1>
-    <p>Mi web en GitHub Pages funciona.</p>
-  </body>
-</html>
-
-<!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <title>Mi web personal</title>
+    <title>Portfolio docente – Ana</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Estilo sencillo y limpio sin que tengas que diseñar nada -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+
     <style>
-      body { 
-        font-family: sans-serif; 
-        max-width: 700px; 
-        margin: 2rem auto; 
-        line-height: 1.6;
+      body {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 2rem 1.5rem 4rem;
       }
-      header { margin-bottom: 2rem; }
-      nav a { margin-right: 1rem; }
+      header {
+        margin-bottom: 2rem;
+      }
+      nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        list-style: none;
+        padding-left: 0;
+      }
+      nav a {
+        font-size: 0.9rem;
+      }
+      section {
+        margin-top: 2.5rem;
+      }
+      h1, h2, h3 {
+        margin-bottom: 0.5rem;
+      }
+      .tag-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+      }
+      .tag {
+        font-size: 0.8rem;
+        border-radius: 999px;
+        padding: 0.2rem 0.7rem;
+        border: 1px solid #ddd;
+      }
     </style>
   </head>
+
   <body>
     <header>
-      <h1>Bienvenida a mi web</h1>
+      <h1>Portfolio docente</h1>
+      <p>
+        <strong>Ana [Apellidos]</strong><br />
+        <small>Profesora de [Departamento / Área], [Universidad]</small>
+      </p>
+
       <nav>
-        <a href="index.html">Inicio</a>
-        <a href="sobre-mi.html">Sobre mí</a>
+        <ul>
+          <li><a href="#enfoque">Enfoque docente</a></li>
+          <li><a href="#asignaturas">Asignaturas</a></li>
+          <li><a href="#metodologia">Metodología</a></li>
+          <li><a href="#evaluacion">Evaluación</a></li>
+          <li><a href="#innovacion">Innovación y proyectos</a></li>
+          <li><a href="#desarrollo">Desarrollo profesional</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
       </nav>
     </header>
 
-    <section>
-      <h2>Primeros pasos</h2>
-      <p>Ahora ya puedo construir mi web directamente desde GitHub Pages.</p>
-    </section>
+    <main>
+      <section id="enfoque">
+        <h2>Enfoque docente</h2>
+        <p>
+          Aquí puedes describir brevemente tu visión de la docencia:
+          qué entiendes por buena enseñanza, qué papel tiene el alumnado,
+          cómo concibes la relación teoría–práctica, etc.
+        </p>
+        <ul>
+          <li>Promover la reflexión crítica y la participación activa del alumnado.</li>
+          <li>Conectar los contenidos con situaciones reales y contextos profesionales.</li>
+          <li>Utilizar evidencias para revisar y mejorar mi práctica docente.</li>
+        </ul>
+      </section>
+
+      <section id="asignaturas">
+        <h2>Asignaturas impartidas</h2>
+        <p>
+          Breve listado de asignaturas actuales y recientes, con una línea de descripción.
+        </p>
+        <ul>
+          <li>
+            <strong>[Nombre de la asignatura]</strong> – Grado/Máster [X]  
+            <br /><small>Breve descripción del contenido y tu rol principal.</small>
+          </li>
+          <li>
+            <strong>[Otra asignatura]</strong> – [Estudios]  
+            <br /><small>Tipo de grupo, nivel, enfoque principal, etc.</small>
+          </li>
+        </ul>
+      </section>
+
+      <section id="metodologia">
+        <h2>Metodología y actividades</h2>
+        <p>
+          Explica de forma breve cómo trabajas en el aula: tipos de actividades,
+          combinación de clases teóricas, seminarios, trabajo en grupo, uso de TIC, etc.
+        </p>
+        <div class="tag-list">
+          <span class="tag">Aprendizaje activo</span>
+          <span class="tag">Trabajo en grupo</span>
+          <span class="tag">Estudio de casos</span>
+          <span class="tag">Herramientas digitales</span>
+        </div>
+        <p>
+          Puedes añadir ejemplos concretos de actividades:
+        </p>
+        <ul>
+          <li>Debates guiados a partir de lecturas o vídeos breves.</li>
+          <li>Proyectos en grupo con presentación final.</li>
+          <li>Cuestionarios online para activar conocimientos previos.</li>
+        </ul>
+      </section>
+
+      <section id="evaluacion">
+        <h2>Evaluación y retroalimentación</h2>
+        <p>
+          Resume cómo evalúas: combinación de pruebas, trabajos, participación,
+          uso de rúbricas, feedback formativo, etc.
+        </p>
+        <ul>
+          <li>Evaluación continua basada en [exámenes, trabajos, proyectos…].</li>
+          <li>Uso de rúbricas para clarificar criterios de evaluación.</li>
+          <li>Espacios de retroalimentación individual o grupal.</li>
+        </ul>
+        <p>
+          Aquí también puedes mencionar cómo utilizas la información de encuestas
+          de alumnado u otras fuentes para mejorar tus asignaturas.
+        </p>
+      </section>
+
+      <section id="innovacion">
+        <h2>Innovación y proyectos docentes</h2>
+        <p>
+          Breve resumen de proyectos de innovación, cambios relevantes que hayas
+          introducido, uso de nuevas herramientas o diseños docentes recientes.
+        </p>
+        <ul>
+          <li>
+            <strong>[Nombre del proyecto / iniciativa]</strong>  
+            <br /><small>Objetivo principal, año, contexto.</small>
+          </li>
+          <li>
+            <strong>[Otra experiencia]</strong>  
+            <br /><small>Qué cambiaste, por qué y qué aprendiste.</small>
+          </li>
+        </ul>
+      </section>
+
+      <section id="desarrollo">
+        <h2>Desarrollo profesional y mentoría</h2>
+        <p>
+          Espacio para mencionar cursos de formación docente, participación en redes,
+          actividades de mentoría o asesoramiento a otros docentes.
+        </p>
+        <ul>
+          <li>Formación en [X, Y, Z].</li>
+          <li>Participación en seminarios o grupos de innovación docente.</li>
+          <li>Experiencia en mentoría/acompañamiento a profesorado novel.</li>
+        </ul>
+      </section>
+
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <p>
+          Puedes incluir aquí tu correo institucional y, si procede, enlaces
+          a tu perfil académico.
+        </p>
+        <ul>
+          <li>Correo: <a href="mailto:tu-correo@universidad.es">tu-correo@universidad.es</a></li>
+          <li>Perfil en la universidad: <a href="https://..." target="_blank">Ver perfil</a></li>
+          <li>ORCID / Google Scholar / otros (si quieres enlazarlos).</li>
+        </ul>
+      </section>
+    </main>
   </body>
 </html>
