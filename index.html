@@ -153,4 +153,266 @@
       }
 
       .card {
-        background: var(--
+        background: var(--card-bg);
+        border-radius: 1rem;
+        padding: 1.25rem 1.4rem;
+        border: 1px solid var(--border-soft);
+        box-shadow: 0 6px 18px rgba(15, 23, 42, 0.03);
+      }
+
+      .card h3 {
+        margin-top: 0;
+        margin-bottom: 0.4rem;
+        font-size: 1.1rem;
+      }
+
+      .card p {
+        margin-top: 0.3rem;
+        margin-bottom: 0.4rem;
+        font-size: 0.94rem;
+        color: var(--text-muted);
+      }
+
+      .card ul {
+        margin: 0.4rem 0 0;
+        padding-left: 1.1rem;
+        font-size: 0.94rem;
+      }
+
+      .pill-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+        margin-top: 0.4rem;
+      }
+
+      .pill {
+        font-size: 0.78rem;
+        padding: 0.2rem 0.6rem;
+        border-radius: 999px;
+        background: #f1f3f9;
+        color: #555;
+      }
+
+      .meta-list {
+        list-style: none;
+        padding: 0;
+        margin: 0.2rem 0 0;
+        font-size: 0.9rem;
+        color: var(--text-muted);
+      }
+
+      .meta-list li + li {
+        margin-top: 0.25rem;
+      }
+
+      a {
+        color: var(--accent);
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      footer {
+        margin-top: 2.5rem;
+        padding-top: 1.2rem;
+        border-top: 1px solid var(--border-soft);
+        font-size: 0.85rem;
+        color: var(--text-muted);
+        text-align: center;
+      }
+
+      @media (max-width: 800px) {
+        .hero {
+          grid-template-columns: minmax(0, 1fr);
+        }
+        .hero-side {
+          justify-self: flex-start;
+        }
+        main {
+          grid-template-columns: minmax(0, 1fr);
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="page">
+      <header class="site-header">
+        <div class="brand">
+          <h1>Portfolio docente</h1>
+          <span>Ana [Apellidos] · Profesora de [Área] · [Universidad]</span>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#enfoque">Enfoque</a></li>
+            <li><a href="#asignaturas">Asignaturas</a></li>
+            <li><a href="#metodologia">Metodología</a></li>
+            <li><a href="#evaluacion">Evaluación</a></li>
+            <li><a href="#innovacion">Innovación</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="hero" id="enfoque">
+        <div class="hero-main">
+          <h2>Enfoque docente</h2>
+          <p>
+            Breve párrafo sobre tu forma de entender la docencia:
+            rol del alumnado, importancia de la reflexión, vínculo con la práctica, etc.
+          </p>
+          <p>
+            Puedes destacar qué intentas que pase en tus clases:
+            <span class="hero-highlight">participación activa, análisis crítico y conexión con contextos reales</span>.
+          </p>
+          <div class="hero-tags">
+            <span class="tag">Aprendizaje activo</span>
+            <span class="tag">Reflexión crítica</span>
+            <span class="tag">Acompañamiento</span>
+          </div>
+        </div>
+        <div class="hero-side">
+          <p>
+            Actualmente imparto docencia en
+            <strong>[Grados / Másteres]</strong>, en asignaturas relacionadas con
+            <strong>[temas principales]</strong>.
+          </p>
+          <p>
+            Este portfolio recoge mi práctica docente, ejemplos de actividades,
+            criterios de evaluación e iniciativas de innovación.
+          </p>
+        </div>
+      </section>
+
+      <main>
+        <div class="column">
+          <section class="card" id="asignaturas">
+            <h3>Asignaturas impartidas</h3>
+            <p>
+              Resume aquí las asignaturas más relevantes en las que has trabajado
+              recientemente, con una breve nota sobre tu enfoque en cada una.
+            </p>
+            <ul>
+              <li>
+                <strong>[Nombre de la asignatura]</strong> – Grado en [X]  
+                <br />
+                <span class="text-muted">
+                  Breve descripción del contenido y tipo de grupo (obligatoria/optativa, curso, nº de estudiantes…).
+                </span>
+              </li>
+              <li>
+                <strong>[Otra asignatura]</strong> – [Estudios]  
+                <br />
+                <span class="text-muted">
+                  Enfoque principal (trabajo en grupo, estudio de casos, seminarios, etc.).
+                </span>
+              </li>
+            </ul>
+          </section>
+
+          <section class="card" id="metodologia">
+            <h3>Metodología y actividades</h3>
+            <p>
+              Explica cómo trabajas en el aula: combinación de sesiones magistrales,
+              actividades prácticas, trabajo en grupo, uso de recursos digitales, etc.
+            </p>
+            <div class="pill-list">
+              <span class="pill">Debates guiados</span>
+              <span class="pill">Análisis de casos</span>
+              <span class="pill">Trabajo cooperativo</span>
+              <span class="pill">Cuestionarios online</span>
+            </div>
+            <ul>
+              <li>Diseño de actividades que conectan teoría y práctica.</li>
+              <li>Uso de plataformas digitales para participación y feedback rápido.</li>
+              <li>Espacios para que el alumnado comparta dudas y reflexiones.</li>
+            </ul>
+          </section>
+
+          <section class="card" id="evaluacion">
+            <h3>Evaluación y retroalimentación</h3>
+            <p>
+              Describe tu sistema de evaluación (continua, pruebas finales, trabajos,
+              proyectos…) y cómo comunicas los criterios al alumnado.
+            </p>
+            <ul>
+              <li>Combinación de evaluación continua y prueba final.</li>
+              <li>Rúbricas para clarificar criterios y expectativas.</li>
+              <li>Devolución de feedback orientado a la mejora, no solo a la calificación.</li>
+            </ul>
+            <p>
+              Puedes añadir aquí cómo utilizas encuestas de estudiantes u otros
+              datos para revisar y ajustar tus asignaturas.
+            </p>
+          </section>
+        </div>
+
+        <div class="column">
+          <section class="card" id="innovacion">
+            <h3>Innovación y proyectos docentes</h3>
+            <p>
+              Espacio para recoger proyectos de innovación, cambios metodológicos
+              relevantes o experiencias específicas que consideres significativas.
+            </p>
+            <ul>
+              <li>
+                <strong>[Proyecto / iniciativa]</strong>  
+                <br />
+                <span class="text-muted">
+                  Objetivo principal, año, contexto (asignatura, titulación, nº de grupos…).
+                </span>
+              </li>
+              <li>
+                <strong>[Otra experiencia]</strong>  
+                <br />
+                <span class="text-muted">
+                  Qué cambiaste, por qué, y qué conclusiones extraes de esa experiencia.
+                </span>
+              </li>
+            </ul>
+          </section>
+
+          <section class="card" id="desarrollo">
+            <h3>Desarrollo profesional y mentoría</h3>
+            <p>
+              Formación docente, participación en seminarios, grupos de innovación,
+              y experiencias de mentoría o acompañamiento a otros docentes.
+            </p>
+            <ul>
+              <li>Formación en [temas: evaluación, innovación, mentoría…].</li>
+              <li>Participación en [redes, grupos de innovación, proyectos institucionales].</li>
+              <li>Acompañamiento a profesorado novel en [contexto o programa].</li>
+            </ul>
+          </section>
+
+          <section class="card" id="contacto">
+            <h3>Contacto</h3>
+            <ul class="meta-list">
+              <li>
+                Correo:
+                <a href="mailto:tu-correo@universidad.es">
+                  tu-correo@universidad.es
+                </a>
+              </li>
+              <li>
+                Perfil institucional:
+                <a href="https://..." target="_blank" rel="noopener">
+                  Ver perfil
+                </a>
+              </li>
+              <li>
+                Otros enlaces (ORCID, Google Scholar, etc.) si quieres añadirlos.
+              </li>
+            </ul>
+          </section>
+        </div>
+      </main>
+
+      <footer>
+        Última actualización del portfolio docente: [mes y año].
+      </footer>
+    </div>
+  </body>
+</html>
