@@ -5,7 +5,8 @@ project:
 website:
   title: "Ana Moreno Núñez"
   navbar:
-    left:
+    logo: images/logo.svg
+    right:
       - href: index.qmd
         text: Inicio
       - href: teaching.qmd

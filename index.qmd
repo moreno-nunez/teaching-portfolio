@@ -8,6 +8,14 @@ editor: visual
 title: "Portafolio docente"
 ---
 
+# Ana Moreno Núñez
+
+Profesora universitaria · Comunicación temprana · Educación infantil
+
+::: social-icons
+<a href="https://scholar.google.com/..." aria-label="Google Scholar"> <i class="bi bi-mortarboard"></i> </a> <a href="https://orcid.org/..." aria-label="ORCID"> <i class="bi bi-person-badge"></i> </a> <a href="https://github.com/..." aria-label="GitHub"> <i class="bi bi-github"></i> </a> <a href="mailto:ana@universidad.es" aria-label="Email"> <i class="bi bi-envelope"></i> </a>
+:::
+
 ## Ana Moreno Núñez
 
 Soy profesora de Psicología en UAM. En este sitio recojo mi práctica docente: asignaturas, enfoque, evaluación e innovación.

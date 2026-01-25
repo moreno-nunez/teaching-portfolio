@@ -1,21 +1,254 @@
-/* Prueba visible */
-body {
-  background: #fffdf8;
+/* ==========================================================================
+   Ana — Quarto website: estilo minimalista académico
+   Objetivos:
+   - Fondo claro cálido
+   - Columna central estrecha (~820px)
+   - Navbar en contraste sin “look bootstrap”
+   - Tipografía cuidada + jerarquía clara
+   - Links elegantes
+   - Cero sombras / cero tarjetas
+   ========================================================================== */
+
+/* --- 1) Variables rápidas para ajustar el “tono” del sitio ---------------- */
+:root{
+  --bg: #fffdf8;            /* fondo cálido */
+  --text: #121417;          /* texto principal */
+  --muted: #5b6168;         /* texto secundario */
+  --border: #e7e3dc;        /* líneas finas */
+  --accent: #1f4b99;        /* azul académico (ajústalo a gusto) */
+  --accent-soft: rgba(31,75,153,.12);
+
+  --maxw: 820px;            /* ancho de columna (780–860 recomendado) */
+  --nav-h: 64px;            /* altura visual navbar */
 }
 
-/* Navbar clara y minimal */
-.navbar {
+/* --- 2) Base: fondo, tipografía, suavizado ------------------------------- */
+html{ scroll-behavior: smooth; }
+
+body{
+  background: var(--bg);
+  color: var(--text);
+  /* stack “académico moderno” (sin depender de Google Fonts) */
+  font-family: ui-serif, "Iowan Old Style", "Palatino Linotype", Palatino, Garamond, Georgia, serif;
+  line-height: 1.65;
+  font-size: 17px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Contenedor principal: centra y estrecha el contenido */
+main.content, 
+.quarto-container, 
+.page-columns{
+  max-width: var(--maxw);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Un poco de aire vertical general */
+#quarto-content{
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+/* --- 3) Navbar: contraste, sin sombras, alineación y active state -------- */
+.navbar{
   background: #ffffff !important;
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 1px solid var(--border);
+  box-shadow: none !important;
+  min-height: var(--nav-h);
 }
 
-.navbar a {
-  color: #222 !important;
-  font-size: 0.85rem;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
+/* Quita “botones” bootstrap del toggler y estados */
+.navbar .navbar-toggler{
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: .35rem .55rem;
+  box-shadow: none !important;
 }
 
-.navbar a:hover {
-  color: #1a73e8 !important;
+/* Marca/título a la izquierda (si lo usas) */
+.navbar .navbar-brand{
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-weight: 650;
+  letter-spacing: .01em;
+  color: var(--text) !important;
+}
+
+/* Si metes logo en navbar: controla tamaño */
+.navbar .navbar-brand img{
+  height: 28px;
+  width: auto;
+  vertical-align: middle;
+}
+
+/* Links navbar: finos, sin mayúsculas obligatorias, con tracking suave */
+.navbar .nav-link{
+  color: var(--muted) !important;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: .92rem;
+  letter-spacing: .02em;
+  text-transform: none; /* fuera el “menú corporativo en mayúsculas” */
+  padding: .35rem .6rem !important;
+  border-radius: 999px;
+  transition: background .15s ease, color .15s ease;
+}
+
+/* Hover discreto */
+.navbar .nav-link:hover{
+  color: var(--text) !important;
+  background: rgba(0,0,0,.035);
+}
+
+/* Página activa: color distinto + subrayado “soft” */
+.navbar .nav-link.active,
+.navbar .nav-link[aria-current="page"]{
+  color: var(--accent) !important;
+  background: var(--accent-soft);
+}
+
+/* Iconos en navbar (si los añades): más “tool bar” que “botón” */
+.navbar .nav-link i,
+.navbar .nav-link svg{
+  font-size: 1.05rem;
+  vertical-align: -0.12em;
+}
+
+/* Alinear items a la derecha (si no lo haces desde YAML) */
+.navbar-nav{
+  margin-left: auto; /* empuja el menú a la derecha */
+}
+
+/* --- 4) Títulos: jerarquía clara, estilo “paper” ------------------------- */
+h1, h2, h3, h4{
+  color: var(--text);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  margin-top: 1.6rem;
+  margin-bottom: .65rem;
+}
+
+/* Ajustes finos de tamaños */
+h1{ font-size: clamp(2.0rem, 3.2vw, 2.6rem); margin-top: 1.2rem; }
+h2{ font-size: 1.55rem; }
+h3{ font-size: 1.22rem; color: #1b2026; }
+h4{ font-size: 1.05rem; color: #2a313a; }
+
+/* Bloque de título de página (Quarto) */
+.quarto-title-block .title{
+  margin-bottom: .25rem;
+}
+.quarto-title-block .subtitle{
+  color: var(--muted);
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 1rem;
+  margin-top: .35rem;
+}
+
+/* --- 5) Texto, listas, separadores -------------------------------------- */
+p{ margin-bottom: 1rem; }
+
+ul, ol{
+  padding-left: 1.2rem;
+}
+
+hr{
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin: 2rem 0;
+}
+
+/* --- 6) Links: elegantes, sin azul chillón, subrayado controlado ---------- */
+a{
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(31,75,153,.25);
+  transition: border-color .15s ease, color .15s ease;
+}
+
+a:hover{
+  color: #173a78;
+  border-bottom-color: rgba(31,75,153,.55);
+}
+
+/* Evita que en navbar herede el subrayado de links global */
+.navbar a{
+  border-bottom: 0;
+}
+
+/* --- 7) “Cero tarjetas / cero sombras” (Bootstrap suele meterlas) -------- */
+.card, .card *{
+  box-shadow: none !important;
+}
+.card{
+  border: 0 !important;
+  background: transparent !important;
+}
+
+/* Si Quarto te mete paneles o callouts y quieres austeridad total */
+.callout{
+  border: 1px solid var(--border) !important;
+  border-left-width: 3px !important;
+  box-shadow: none !important;
+  background: #fff !important;
+}
+
+/* --- 8) Tablas y código: limpio, estilo paper --------------------------- */
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.2rem 0;
+  font-size: .98rem;
+}
+th, td{
+  padding: .55rem .55rem;
+  border-bottom: 1px solid var(--border);
+}
+th{
+  text-align: left;
+  font-weight: 650;
+  color: #1b2026;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+/* Código sin “caja gaming RGB” */
+code, pre{
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-size: .92em;
+}
+pre{
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: .9rem 1rem;
+  background: #ffffff;
+  overflow: auto;
+  box-shadow: none !important;
+}
+
+/* --- 9) Footer (si lo usas) ---------------------------------------------- */
+.footer{
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: .92rem;
+  padding-top: 1.5rem;
+}
+/* --- Iconos sociales en bloque central (hero) ---------------------------- */
+
+.social-icons{
+  margin-top: 1.2rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-start;
+}
+
+/* Iconos: limpios, sin botón, sin sombra */
+.social-icons a{
+  color: var(--muted);
+  font-size: 1.25rem;
+  border: 0;
+  transition: color .15s ease;
+}
+
+.social-icons a:hover{
+  color: var(--accent);
 }
