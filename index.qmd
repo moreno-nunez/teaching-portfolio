@@ -17,7 +17,7 @@ title: "Portafolio docente"
 Profesora universitaria · Comunicación temprana · Educación infantil
 
 ::: social-icons
-<a href="https://scholar.google.com/..." aria-label="Google Scholar"> <i class="bi bi-mortarboard"></i> </a> <a href="https://orcid.org/..." aria-label="ORCID"> <i class="bi bi-person-badge"></i> </a> <a href="https://github.com/..." aria-label="GitHub"> <i class="bi bi-github"></i> </a> <a href="mailto:ana@universidad.es" aria-label="Email"> <i class="bi bi-envelope"></i> </a>
+<a href="https://scholar.google.com/citations?user=N9SVyYwAAAAJ&hl=es&oi=ao" aria-label="Google Scholar"> <i class="ai ai-google-scholar"></i> </a> <a href="https://orcid.org/0000-0002-0397-2513" aria-label="ORCID"> <i class="ai ai-orcid"></i> </a> <a href="https://www.researchgate.net/profile/Ana_Moreno_Nunez" aria-label="ResearchGate"> <i class="ai ai-researchgate"></i> </a> <a href="https://github.com/moreno-nunez" aria-label="GitHub"> <i class="bi bi-github"></i> </a> <a href="mailto:ana.moreno@uam.es" aria-label="Email"> <i class="bi bi-envelope"></i> </a>
 :::
 
 Soy profesora de Psicología en UAM. En este sitio recojo mi práctica docente: asignaturas, enfoque, evaluación e innovación.
