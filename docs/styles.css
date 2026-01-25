@@ -260,50 +260,90 @@ pre{
 }
 
 /* --- 13) HOME HERO ------------------------------------------------------- */
+/* ==========================================================================
+   HOME (tipo Ricardo): bloque ancho, texto alineado a la derecha + logo grande
+   Depende de index.qmd con .home-hero y headings propios.
+   ========================================================================== */
+
+/* Oculta el bloque de título automático (ya lo ponemos dentro del hero) */
+body.home .quarto-title-block{
+  display: none !important;
+}
+
+/* En HOME: contenedor full width, sin “columna centrada” */
+body.home .page-columns,
+body.home .page-columns-container,
+body.home .container,
+body.home .container-lg,
+body.home .container-xl,
+body.home .container-xxl{
+  max-width: none !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+/* Márgenes laterales: aquí eliminas el “espacio enorme a la izquierda” */
+body.home #quarto-content{
+  padding-top: 4.8rem !important;     /* aire bajo navbar */
+  padding-left: 3.0rem !important;    /* baja esto si quieres aún menos margen */
+  padding-right: 2.5rem !important;
+}
+
+@media (max-width: 1100px){
+  body.home #quarto-content{
+    padding-left: 1.5rem !important;
+    padding-right: 1.25rem !important;
+    padding-top: 2.8rem !important;
+  }
+}
+
+/* HERO: dos columnas (texto + logo) */
 body.home .home-hero{
   display: grid;
-
-  /* ✅ Columna de texto amplia + columna de logo de tamaño real */
-  grid-template-columns: minmax(760px, 1fr) 520px;
-
+  grid-template-columns: 1.15fr 0.85fr; /* logo con presencia */
   gap: 3rem;
   align-items: center;
-  margin-top: 1.4rem;
+  max-width: 1400px;
+  margin: 0; /* anclado a la izquierda */
 }
 
-/* ✅ Texto: ocupa su columna completa (sin encajonarlo hacia el centro) */
+/* Texto: alineado a la derecha dentro de su columna */
 body.home .home-hero__text{
   text-align: right;
-  max-width: none;     /* fuera límites artificiales */
-  margin-left: 0;      /* fuera “pegarlo a la derecha” dentro de la columna */
+  max-width: 820px;   /* controla anchura del bloque de texto */
+  margin-left: auto;  /* pega el bloque al lado derecho de su columna */
 }
 
-/* Nombre */
-body.home .home-hero__text h1{
-  font-size: clamp(2.05rem, 2.6vw, 2.35rem);
+/* Tipos HOME */
+body.home .home-kicker{
+  font-size: clamp(3.0rem, 4.6vw, 3.9rem);
+  line-height: 1.05;
+  margin: 0 0 1.2rem 0;
+}
+
+body.home .home-name{
+  font-size: clamp(2.05rem, 2.8vw, 2.45rem);
   line-height: 1.08;
-  margin: 0 0 0.4rem 0;
+  margin: 0 0 .55rem 0;
+  font-weight: 700;
 }
 
-/* Palabras clave (primer párrafo tras el h1) */
-body.home .home-hero__text h1 + p{
+body.home .home-keywords{
   font-size: 1.12rem;
-  color: var(--text);
-  margin: 0 0 var(--gap-keywords-icons) 0;
+  margin: 0 0 1.25rem 0;
 }
 
-/* Iconos */
+/* Iconos alineados a la derecha + aire */
 body.home .home-hero__text .social-icons{
   justify-content: flex-end;
-  margin: 0 0 var(--gap-icons-intro) 0;
+  margin: 0 0 1.25rem 0;
 }
 
-/* Descripción */
+/* Intro */
 body.home .home-intro{
-  margin: 0 0 var(--gap-icons-intro) 0;
+  margin: 0 0 1.25rem 0;
   font-size: 1.08rem;
   line-height: 1.7;
-  color: var(--text);
 }
 
 body.home .home-intro-muted{
@@ -313,38 +353,29 @@ body.home .home-intro-muted{
   color: var(--muted);
 }
 
-/* ✅ Logo: ahora sí puede crecer (tiene columna de 520px) */
+/* Logo grande */
 body.home .home-hero__logo{
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
-
 body.home .home-hero__logo img{
-  width: 100%;         /* llena su columna */
-  max-width: 520px;    /* tamaño “Ricardo-like” */
+  width: min(760px, 100%);
   height: auto;
   display: block;
 }
 
 /* Responsive */
-@media (max-width: 1100px){
-  body.home .home-hero{
-    grid-template-columns: 1fr 420px; /* logo sigue visible */
-    gap: 2rem;
-  }
-  body.home .home-hero__logo img{
-    max-width: 420px;
-  }
-}
-
 @media (max-width: 900px){
   body.home .home-hero{
     grid-template-columns: 1fr;
-    gap: 1.5rem;
+    gap: 1.75rem;
+    max-width: none;
   }
   body.home .home-hero__text{
     text-align: left;
+    max-width: none;
+    margin-left: 0;
   }
   body.home .home-hero__text .social-icons{
     justify-content: flex-start;
@@ -353,76 +384,6 @@ body.home .home-hero__logo img{
     justify-content: flex-start;
   }
   body.home .home-hero__logo img{
-    max-width: 520px;
     width: min(520px, 100%);
   }
 }
-/* ==========================================================================
-   HOME override: evitar que el logo empuje todo a la derecha
-   ========================================================================== */
-
-/* 1) En HOME, ancla el contenido a la izquierda (no centrado) */
-body.home .page-columns-container,
-body.home .page-columns,
-body.home .container,
-body.home .container-lg,
-body.home .container-xl,
-body.home .container-xxl{
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-}
-
-/* Mantén padding lateral, pero que el “bloque” arranque más a la izquierda */
-body.home #quarto-content{
-  padding-left: 2.25rem !important;  /* ajusta a gusto */
-  padding-right: 2.25rem !important;
-}
-
-/* 2) Grid: texto realmente ancho + logo grande SIN columna fija gigante */
-body.home .home-hero{
-  display: grid;
-  grid-template-columns: minmax(680px, 1fr) minmax(360px, 520px);
-  gap: 2.5rem;
-  align-items: center;
-}
-
-/* 3) Texto: NO lo encajones hacia el centro */
-body.home .home-hero__text{
-  max-width: none !important;
-  margin-left: 0 !important;
-  text-align: center; /* parecido a Ricardo; cambia a left si lo prefieres */
-}
-
-/* Iconos centrados bajo keywords */
-body.home .home-hero__text .social-icons{
-  justify-content: center;
-}
-
-/* 4) Logo grande pero contenido */
-body.home .home-hero__logo{
-  justify-content: flex-end;
-}
-body.home .home-hero__logo img{
-  width: 100%;
-  max-width: 520px;
-  height: auto;
-  display: block;
-}
-
-/* Responsive */
-@media (max-width: 900px){
-  body.home .home-hero{
-    grid-template-columns: 1fr;
-  }
-  body.home .home-hero__text{
-    text-align: left;
-  }
-  body.home .home-hero__text .social-icons{
-    justify-content: flex-start;
-  }
-  body.home .home-hero__logo{
-    justify-content: flex-start;
-  }
-}
-body.home #quarto-content{ padding-left: 1.6rem !important; }
-
