@@ -54,23 +54,23 @@ body{
 
 /* --- 2.2) HOME: romper la “columna estrecha” interna --------------------- */
 /* Esto es lo que te faltaba: Quarto encajona el contenido dentro de .page-columns/.content */
-body.page-home .page-columns{
+body.home .page-columns{
   max-width: var(--home-maxw) !important;
 }
 
-body.page-home .page-columns .content,
-body.page-home main.content{
+body.home .page-columns .content,
+body.home main.content{
   max-width: none !important;
   width: 100% !important;
 }
 
 /* Un pelín más de aire lateral en home (como el ejemplo) */
-body.page-home #quarto-content{
+body.home #quarto-content{
   padding-left: 1.5rem !important;
   padding-right: 1.5rem !important;
 }
 @media (min-width: 992px){
-  body.page-home #quarto-content{
+  body.home #quarto-content{
     padding-left: 2rem !important;
     padding-right: 2rem !important;
   }
@@ -159,7 +159,7 @@ h4{ font-size: 1.05rem; color: #2a313a; }
 }
 
 /* (Opcional) Home con título más “presencia” */
-body.page-home .quarto-title-block .title{
+body.home .quarto-title-block .title{
   font-size: clamp(2.4rem, 4vw, 3.2rem);
   margin-top: 2.2rem;
 }
@@ -276,4 +276,25 @@ pre{
   max-width: 100%;
   height: auto;
   display: block;
+}
+/* ==========================================================================
+   HOME: ancho real tipo web académica (no columna estrecha)
+   ========================================================================== */
+
+body.home .page-columns{
+  max-width: 1120px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+body.home .page-columns .content,
+body.home main.content{
+  max-width: none !important;
+  width: 100% !important;
+}
+
+/* Padding lateral cómodo, como el ejemplo */
+body.home #quarto-content{
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
 }
