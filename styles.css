@@ -1,36 +1,27 @@
 /* ==========================================================================
    Ana — Quarto website: estilo minimalista académico
-   Objetivos:
-   - Fondo claro cálido
-   - Columna central estrecha (~820px) en páginas internas
-   - Home más ancha (márgenes laterales menos exagerados) como el ejemplo
-   - Navbar en contraste sin “look bootstrap”
-   - Tipografía cuidada + jerarquía clara
-   - Links elegantes
-   - Cero sombras / cero tarjetas
    ========================================================================== */
 
-/* --- 1) Variables rápidas para ajustar el “tono” del sitio ---------------- */
+/* --- 1) Variables -------------------------------------------------------- */
 :root{
-  --bg: #fffdf8;            /* fondo cálido */
-  --text: #121417;          /* texto principal */
-  --muted: #5b6168;         /* texto secundario */
-  --border: #e7e3dc;        /* líneas finas */
-  --accent: #1f4b99;        /* azul académico (ajústalo a gusto) */
+  --bg: #fffdf8;
+  --text: #121417;
+  --muted: #5b6168;
+  --border: #e7e3dc;
+  --accent: #1f4b99;
   --accent-soft: rgba(31,75,153,.12);
 
-  --maxw: 820px;            /* ancho de columna (780–860 recomendado) */
-  --home-maxw: 1100px;      /* home más ancha (1050–1200 recomendado) */
-  --nav-h: 64px;            /* altura visual navbar */
+  --maxw: 820px;          /* páginas internas */
+  --home-maxw: 1120px;    /* home más ancha (sube a 1200 si quieres) */
+  --nav-h: 64px;
 }
 
-/* --- 2) Base: fondo, tipografía, suavizado ------------------------------- */
+/* --- 2) Base ------------------------------------------------------------- */
 html{ scroll-behavior: smooth; }
 
 body{
   background: var(--bg);
   color: var(--text);
-  /* stack “académico moderno” (sin depender de Google Fonts) */
   font-family: ui-serif, "Iowan Old Style", "Palatino Linotype", Palatino, Garamond, Georgia, serif;
   line-height: 1.65;
   font-size: 17px;
@@ -38,20 +29,15 @@ body{
   text-rendering: optimizeLegibility;
 }
 
-/* Contenedor principal: páginas internas estrechas */
-main.content,
+/* --- 2.1) Layout general: estrecho en páginas internas ------------------- */
+/* (Quarto manda mucho con .page-columns; lo controlamos ahí) */
 .page-columns{
   max-width: var(--maxw);
   margin-left: auto;
   margin-right: auto;
 }
 
-/* Home: más ancho para reducir márgenes laterales (estilo ejemplo) */
-body.page-home main.content{
-  max-width: var(--home-maxw);
-}
-
-/* Aire vertical general + padding lateral suave (evita “pegado” a los bordes) */
+/* Aire vertical + padding lateral suave */
 #quarto-content{
   padding-top: 1.5rem;
   padding-bottom: 3rem;
@@ -59,7 +45,6 @@ body.page-home main.content{
   padding-right: 1rem;
 }
 
-/* En pantallas grandes, un pelín más de aire lateral */
 @media (min-width: 992px){
   #quarto-content{
     padding-left: 1.25rem;
@@ -67,7 +52,31 @@ body.page-home main.content{
   }
 }
 
-/* --- 3) Navbar: contraste, sin sombras, alineación y active state -------- */
+/* --- 2.2) HOME: romper la “columna estrecha” interna --------------------- */
+/* Esto es lo que te faltaba: Quarto encajona el contenido dentro de .page-columns/.content */
+body.page-home .page-columns{
+  max-width: var(--home-maxw) !important;
+}
+
+body.page-home .page-columns .content,
+body.page-home main.content{
+  max-width: none !important;
+  width: 100% !important;
+}
+
+/* Un pelín más de aire lateral en home (como el ejemplo) */
+body.page-home #quarto-content{
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+}
+@media (min-width: 992px){
+  body.page-home #quarto-content{
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+}
+
+/* --- 3) Navbar ----------------------------------------------------------- */
 .navbar{
   background: #ffffff !important;
   border-bottom: 1px solid var(--border);
@@ -75,7 +84,6 @@ body.page-home main.content{
   min-height: var(--nav-h);
 }
 
-/* Quita “botones” bootstrap del toggler y estados */
 .navbar .navbar-toggler{
   border: 1px solid var(--border);
   border-radius: 999px;
@@ -83,7 +91,6 @@ body.page-home main.content{
   box-shadow: none !important;
 }
 
-/* Marca/título a la izquierda (si lo usas) */
 .navbar .navbar-brand{
   font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
   font-weight: 650;
@@ -91,51 +98,45 @@ body.page-home main.content{
   color: var(--text) !important;
 }
 
-/* Si metes logo en navbar: controla tamaño */
 .navbar .navbar-brand img{
   height: 28px;
   width: auto;
   vertical-align: middle;
 }
 
-/* Links navbar: finos, sin mayúsculas obligatorias, con tracking suave */
 .navbar .nav-link{
   color: var(--muted) !important;
   font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
   font-size: .92rem;
   letter-spacing: .02em;
-  text-transform: none; /* fuera el “menú corporativo en mayúsculas” */
+  text-transform: none;
   padding: .35rem .6rem !important;
   border-radius: 999px;
   transition: background .15s ease, color .15s ease;
 }
 
-/* Hover discreto */
 .navbar .nav-link:hover{
   color: var(--text) !important;
   background: rgba(0,0,0,.035);
 }
 
-/* Página activa: color distinto */
 .navbar .nav-link.active,
 .navbar .nav-link[aria-current="page"]{
   color: var(--accent) !important;
   background: var(--accent-soft);
 }
 
-/* Iconos en navbar (si los añades): más “tool bar” que “botón” */
 .navbar .nav-link i,
 .navbar .nav-link svg{
   font-size: 1.05rem;
   vertical-align: -0.12em;
 }
 
-/* Alinear items a la derecha (si no lo haces desde YAML) */
 .navbar-nav{
-  margin-left: auto; /* empuja el menú a la derecha */
+  margin-left: auto;
 }
 
-/* --- 4) Títulos: jerarquía clara, estilo “paper” ------------------------- */
+/* --- 4) Títulos ---------------------------------------------------------- */
 h1, h2, h3, h4{
   color: var(--text);
   line-height: 1.2;
@@ -144,16 +145,12 @@ h1, h2, h3, h4{
   margin-bottom: .65rem;
 }
 
-/* Ajustes finos de tamaños */
 h1{ font-size: clamp(2.0rem, 3.2vw, 2.6rem); margin-top: 1.2rem; }
 h2{ font-size: 1.55rem; }
 h3{ font-size: 1.22rem; color: #1b2026; }
 h4{ font-size: 1.05rem; color: #2a313a; }
 
-/* Bloque de título de página (Quarto) */
-.quarto-title-block .title{
-  margin-bottom: .25rem;
-}
+.quarto-title-block .title{ margin-bottom: .25rem; }
 .quarto-title-block .subtitle{
   color: var(--muted);
   font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
@@ -161,12 +158,15 @@ h4{ font-size: 1.05rem; color: #2a313a; }
   margin-top: .35rem;
 }
 
+/* (Opcional) Home con título más “presencia” */
+body.page-home .quarto-title-block .title{
+  font-size: clamp(2.4rem, 4vw, 3.2rem);
+  margin-top: 2.2rem;
+}
+
 /* --- 5) Texto, listas, separadores -------------------------------------- */
 p{ margin-bottom: 1rem; }
-
-ul, ol{
-  padding-left: 1.2rem;
-}
+ul, ol{ padding-left: 1.2rem; }
 
 hr{
   border: 0;
@@ -174,34 +174,26 @@ hr{
   margin: 2rem 0;
 }
 
-/* --- 6) Links: elegantes, subrayado controlado --------------------------- */
+/* --- 6) Links ------------------------------------------------------------ */
 a{
   color: var(--accent);
   text-decoration: none;
   border-bottom: 1px solid rgba(31,75,153,.25);
   transition: border-color .15s ease, color .15s ease;
 }
-
 a:hover{
   color: #173a78;
   border-bottom-color: rgba(31,75,153,.55);
 }
+.navbar a{ border-bottom: 0; }
 
-/* Evita que en navbar herede el subrayado de links global */
-.navbar a{
-  border-bottom: 0;
-}
-
-/* --- 7) “Cero tarjetas / cero sombras” (Bootstrap suele meterlas) -------- */
-.card, .card *{
-  box-shadow: none !important;
-}
+/* --- 7) Cero tarjetas / sombras ----------------------------------------- */
+.card, .card *{ box-shadow: none !important; }
 .card{
   border: 0 !important;
   background: transparent !important;
 }
 
-/* Si Quarto te mete paneles o callouts y quieres austeridad total */
 .callout{
   border: 1px solid var(--border) !important;
   border-left-width: 3px !important;
@@ -209,7 +201,7 @@ a:hover{
   background: #fff !important;
 }
 
-/* --- 8) Tablas y código: limpio, estilo paper --------------------------- */
+/* --- 8) Tablas y código -------------------------------------------------- */
 table{
   width: 100%;
   border-collapse: collapse;
@@ -227,7 +219,6 @@ th{
   font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
 }
 
-/* Código sin “caja gaming RGB” */
 code, pre{
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
   font-size: .92em;
@@ -241,7 +232,7 @@ pre{
   box-shadow: none !important;
 }
 
-/* --- 9) Footer (si lo usas) ---------------------------------------------- */
+/* --- 9) Footer ----------------------------------------------------------- */
 .footer{
   border-top: 1px solid var(--border);
   color: var(--muted);
@@ -249,29 +240,25 @@ pre{
   padding-top: 1.5rem;
 }
 
-/* --- 10) Iconos sociales en bloque central (hero) ------------------------ */
+/* --- 10) Iconos sociales en bloque central ------------------------------ */
 .social-icons{
   margin-top: 1.2rem;
   display: flex;
   gap: 1rem;
-  justify-content: flex-start; /* como el ejemplo: no centrados */
+  justify-content: flex-start;
 }
-
-/* Iconos: limpios, sin botón, sin sombra */
 .social-icons a{
   color: var(--muted);
   font-size: 1.25rem;
-  border: 0;                 /* sin subrayado */
+  border: 0;
   transition: color .15s ease;
 }
-
 .social-icons a:hover{
   color: var(--accent);
 }
 
-/* --- 11) (Opcional) Home tipo ejemplo: texto + logo a la derecha ---------- */
-/* Si en index.qmd envuelves el bloque en <div class="home-hero"> ... </div>
-   y pones dos columnas (texto / imagen), tendrás el layout como la captura. */
+/* --- 11) (Opcional) Home tipo ejemplo: texto + logo a la derecha --------- */
+/* Úsalo solo si envuelves tu home en <div class="home-hero"> ... </div> */
 .home-hero{
   display: grid;
   grid-template-columns: 1.1fr 0.9fr;
@@ -279,68 +266,14 @@ pre{
   align-items: center;
   margin-top: 1.5rem;
 }
-
-/* En móvil: apila y prioriza lectura */
-@media (max-width: 1200px){
+@media (max-width: 900px){
   .home-hero{
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
 }
-
-/* Imagen/logo del hero (si lo usas) */
 .home-hero img{
   max-width: 100%;
   height: auto;
   display: block;
 }
-/* ==========================================================================
-   HOME: romper el “bloque estrecho” interno de Quarto
-   (solo index.qmd / body.page-home)
-   ========================================================================== */
-
-/* 1) Asegura que el contenedor de la home realmente sea ancho */
-body.page-home main.content{
-  max-width: var(--home-maxw);
-}
-
-/* 2) Quita límites internos típicos que mantienen el texto en columna estrecha */
-body.page-home .page-columns,
-body.page-home .content,
-body.page-home .quarto-title-block,
-body.page-home #quarto-content,
-body.page-home .quarto-container{
-  max-width: none !important;
-  width: 100% !important;
-}
-
-/* 3) Mantén márgenes/padding razonables (como el ejemplo) */
-body.page-home #quarto-content{
-  padding-left: 1.5rem !important;
-  padding-right: 1.5rem !important;
-}
-
-/* 4) Si estás usando el layout “centered” de Quarto, fuerza un layout plano */
-body.page-home .page-layout-article,
-body.page-home .page-layout-full,
-body.page-home .page-layout-custom{
-  max-width: none !important;
-}
-
-/* 5) En pantallas grandes: aún más aire lateral, sin volver a “bloque estrecho” */
-@media (min-width: 992px){
-  body.page-home #quarto-content{
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
-  }
-}
-/* Home: título y contenido con más presencia */
-body.page-home .quarto-title-block .title{
-  font-size: clamp(2.4rem, 4vw, 3.2rem);
-  margin-top: 2.2rem;
-}
-
-body.page-home .quarto-title-block{
-  margin-bottom: 1.5rem;
-}
-body { outline: 10px solid red !important; }
