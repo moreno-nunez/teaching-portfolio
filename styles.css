@@ -370,3 +370,66 @@ pre{
     justify-content: flex-start;
   }
 }
+/* ==========================================================================
+   HOME fine-tuning (para acercarse al look de Ricardo)
+   Pegar al FINAL del styles.css
+   ========================================================================== */
+
+/* 1) Más aire arriba del conjunto de título (pero sin separar cosas dentro) */
+body.home .home-hero{
+  margin-top: 3.2rem;          /* ↑ más espacio bajo el navbar */
+}
+
+/* 2) Ajuste de jerarquía: "Portafolio docente" vs nombre
+   - Más compacto entre ambos
+   - Tamaños más parecidos al ejemplo */
+body.home .quarto-title-block{
+  margin-bottom: 0.9rem;       /* ↓ reduce separación antes del hero */
+}
+
+body.home .quarto-title-block .title{
+  /* “Portafolio docente” */
+  font-size: clamp(2.6rem, 4.3vw, 3.35rem); /* un poco menos “gigante” */
+  margin: 0 0 0.35rem 0;       /* ↓ menos hueco con el siguiente bloque */
+  line-height: 1.05;
+}
+
+body.home .home-hero__text h1{
+  /* “Ana Moreno Núñez” */
+  font-size: clamp(2.25rem, 3.4vw, 2.85rem);
+  margin-top: 0;               /* clave: que no se aleje del título superior */
+  line-height: 1.1;
+}
+
+/* 3) Bloque de texto más ancho (menos “margen izquierdo vacío”)
+   y reparto más equilibrado con el logo */
+body.home .home-hero{
+  grid-template-columns: 1.35fr 0.65fr;  /* ↑ más ancho texto, ↓ menos logo-columna */
+  gap: 2.6rem;                           /* un poco menos de separación */
+}
+
+/* El texto ya está alineado a la derecha; lo hacemos menos “estrecho” */
+body.home .home-hero__text{
+  max-width: 56rem;    /* antes 48rem -> ahora entra más texto por línea */
+}
+
+/* 4) Logo más grande para equilibrar */
+body.home .home-hero__logo img{
+  width: min(460px, 100%);  /* antes 360px */
+}
+
+/* Ajuste fino de los párrafos del hero: un poco más “Ricardo” */
+body.home .home-intro{
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+body.home .home-intro-muted{
+  font-size: 1.0rem;
+  line-height: 1.7;
+}
+
+/* (Opcional) subrayado/estilo del subtítulo bajo tu nombre: más compacto */
+body.home .home-hero__text > p:first-of-type{
+  margin-top: 0.35rem;
+}
