@@ -408,3 +408,162 @@ body.home .page-columns-container{
   max-width: none !important;
   margin: 0 !important;
 }
+/* ==========================================================================
+   HOME: ajuste fino (sin tocar tipografías globales)
+   - Sin margen izquierdo “enorme”
+   - Texto alineado a la derecha dentro de su columna
+   - Iconos pequeños y alineados
+   - Logo grande equilibrado
+   ========================================================================== */
+
+/* Oculta el title-block automático en HOME */
+body.home .quarto-title-block{ display: none !important; }
+
+/* HOME: quita el centrado del wrapper y usa todo el ancho */
+body.home main.content,
+body.home .content,
+body.home .page-columns,
+body.home .page-columns-container,
+body.home .container,
+body.home .container-lg,
+body.home .container-xl,
+body.home .container-xxl{
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* ESTE es el “margen izquierdo”: lo controlamos aquí */
+body.home #quarto-content{
+  padding-top: 5rem !important;     /* más aire bajo navbar */
+  padding-left: 1.2rem !important;  /* casi al borde */
+  padding-right: 1.2rem !important;
+}
+
+/* En pantallas grandes, un pelín más (pero sigue siendo poco) */
+@media (min-width: 1200px){
+  body.home #quarto-content{
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+}
+
+/* Layout hero */
+body.home .home-hero{
+  display: grid;
+  grid-template-columns: 1.25fr 0.75fr; /* texto más ancho */
+  gap: 2.6rem;
+  align-items: center;
+
+  /* NO lo centres: anclado a la izquierda */
+  margin: 0 !important;
+  max-width: none !important;
+}
+
+/* Texto: alineado a la derecha dentro de su columna */
+body.home .home-hero__text{
+  text-align: right;
+  max-width: 920px;     /* más ancho hacia la izquierda */
+  margin-left: auto;    /* lo pega al borde derecho de su columna */
+  font-weight: 400;     /* evita “todo en negrita” */
+}
+
+/* “Portafolio docente” */
+body.home .home-kicker{
+  font-size: clamp(3.1rem, 4.8vw, 4.0rem);
+  line-height: 1.05;
+  font-weight: 700;       /* solo este va fuerte */
+  margin: 0 0 1.1rem 0;
+}
+
+/* Nombre: más pequeño que el kicker, pero mayor que keywords */
+body.home .home-name{
+  font-size: clamp(2.0rem, 2.8vw, 2.45rem);
+  line-height: 1.12;
+  font-weight: 650;
+  margin: 0 0 .55rem 0;
+}
+
+/* Keywords */
+body.home .home-keywords{
+  font-size: 1.08rem;
+  font-weight: 400;
+  margin: 0 0 1.25rem 0; /* aire hasta iconos */
+}
+
+/* Iconos: pequeños, alineados y con el mismo baseline */
+body.home .social-icons{
+  display: flex;
+  gap: .9rem;
+  justify-content: flex-end; /* a la derecha */
+  align-items: center;
+  margin: 0 0 1.25rem 0;     /* mismo aire hacia la intro */
+}
+
+body.home .social-icons a{
+  color: var(--muted);
+  border: 0;
+  text-decoration: none;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+}
+
+body.home .social-icons a:hover{ color: var(--accent); }
+
+/* Tamaño uniforme para iconos */
+body.home .social-icons i,
+body.home .social-icons iconify-icon{
+  font-size: 1.15rem;     /* aquí controlas “enormes” -> ya no */
+  line-height: 1;
+  vertical-align: middle;
+}
+
+/* Baja un pelín iconify si lo ves “bailón” */
+body.home .social-icons iconify-icon{
+  position: relative;
+  top: 0.02em;
+}
+
+/* Intro */
+body.home .home-intro{
+  margin: 0 0 1.25rem 0;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+body.home .home-intro-muted{
+  margin: 0;
+  font-size: 1.0rem;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+/* Logo grande y equilibrado */
+body.home .home-hero__logo{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+body.home .home-hero__logo img{
+  width: min(680px, 100%);
+  height: auto;
+  display: block;
+}
+
+/* Responsive */
+@media (max-width: 900px){
+  body.home .home-hero{
+    grid-template-columns: 1fr;
+    gap: 1.6rem;
+  }
+  body.home .home-hero__text{
+    text-align: left;
+    max-width: none;
+    margin-left: 0;
+  }
+  body.home .social-icons{ justify-content: flex-start; }
+  body.home .home-hero__logo{ justify-content: flex-start; }
+  body.home .home-hero__logo img{ width: min(520px, 100%); }
+}
