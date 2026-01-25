@@ -1,5 +1,12 @@
 /* ==========================================================================
-   Ana — Quarto website: estilo minimalista académico
+   Ana — Quarto website: estilo minimalista académico (versión limpia)
+   - Fondo claro cálido
+   - Internas: columna estrecha (~820px)
+   - Home: más ancha (tipo web académica del ejemplo)
+   - Navbar minimal, sin look bootstrap
+   - Tipografía cuidada + jerarquía clara
+   - Links elegantes
+   - Cero sombras / cero tarjetas
    ========================================================================== */
 
 /* --- 1) Variables -------------------------------------------------------- */
@@ -8,11 +15,13 @@
   --text: #121417;
   --muted: #5b6168;
   --border: #e7e3dc;
+
   --accent: #1f4b99;
   --accent-soft: rgba(31,75,153,.12);
 
-  --maxw: 820px;          /* páginas internas */
-  --home-maxw: 1120px;    /* home más ancha (sube a 1200 si quieres) */
+  --maxw: 820px;        /* internas */
+  --home-maxw: 1200px;  /* home (ajusta 1120–1250 según gusto) */
+
   --nav-h: 64px;
 }
 
@@ -29,17 +38,8 @@ body{
   text-rendering: optimizeLegibility;
 }
 
-/* --- 2.1) Layout general: estrecho en páginas internas ------------------- */
-/* (Quarto manda mucho con .page-columns; lo controlamos ahí) */
-.page-columns{
-  max-width: var(--maxw);
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Aire vertical + padding lateral suave */
 #quarto-content{
-  padding-top: 1.5rem;
+  padding-top: 1.6rem;
   padding-bottom: 3rem;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -52,31 +52,55 @@ body{
   }
 }
 
-/* --- 2.2) HOME: romper la “columna estrecha” interna --------------------- */
-/* Esto es lo que te faltaba: Quarto encajona el contenido dentro de .page-columns/.content */
-body.home .page-columns{
-  max-width: var(--home-maxw) !important;
+/* --- 3) Layout: internas estrechas -------------------------------------- */
+/* En Quarto, el ancho real suele estar en .page-columns / contenedores Bootstrap */
+.page-columns,
+.page-columns-container,
+.container,
+.container-lg,
+.container-xl,
+.container-xxl{
+  max-width: var(--maxw);
+  margin-left: auto;
+  margin-right: auto;
 }
 
+/* --- 4) Layout: HOME más ancha (romper columna estrecha) ----------------- */
+/* Tu <body> incluye class="home", así que lo usamos como selector fiable. */
+body.home .page-columns-container,
+body.home .page-columns,
+body.home .container,
+body.home .container-lg,
+body.home .container-xl,
+body.home .container-xxl{
+  max-width: var(--home-maxw) !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Quita límites internos típicos de “artículo en columna” */
+body.home .content,
 body.home .page-columns .content,
-body.home main.content{
+body.home main.content,
+body.home .column-page{
   max-width: none !important;
   width: 100% !important;
 }
 
-/* Un pelín más de aire lateral en home (como el ejemplo) */
+/* Home: un pelín más de aire lateral, como el ejemplo */
 body.home #quarto-content{
-  padding-left: 1.5rem !important;
-  padding-right: 1.5rem !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
 }
-@media (min-width: 992px){
+@media (max-width: 900px){
   body.home #quarto-content{
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
   }
 }
 
-/* --- 3) Navbar ----------------------------------------------------------- */
+/* --- 5) Navbar minimal --------------------------------------------------- */
 .navbar{
   background: #ffffff !important;
   border-bottom: 1px solid var(--border);
@@ -104,6 +128,8 @@ body.home #quarto-content{
   vertical-align: middle;
 }
 
+.navbar-nav{ margin-left: auto; }
+
 .navbar .nav-link{
   color: var(--muted) !important;
   font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
@@ -126,17 +152,7 @@ body.home #quarto-content{
   background: var(--accent-soft);
 }
 
-.navbar .nav-link i,
-.navbar .nav-link svg{
-  font-size: 1.05rem;
-  vertical-align: -0.12em;
-}
-
-.navbar-nav{
-  margin-left: auto;
-}
-
-/* --- 4) Títulos ---------------------------------------------------------- */
+/* --- 6) Tipografía y jerarquía ------------------------------------------ */
 h1, h2, h3, h4{
   color: var(--text);
   line-height: 1.2;
@@ -158,13 +174,13 @@ h4{ font-size: 1.05rem; color: #2a313a; }
   margin-top: .35rem;
 }
 
-/* (Opcional) Home con título más “presencia” */
+/* Home: título con más presencia (como portfolio) */
 body.home .quarto-title-block .title{
   font-size: clamp(2.4rem, 4vw, 3.2rem);
   margin-top: 2.2rem;
 }
 
-/* --- 5) Texto, listas, separadores -------------------------------------- */
+/* --- 7) Texto, listas, separadores -------------------------------------- */
 p{ margin-bottom: 1rem; }
 ul, ol{ padding-left: 1.2rem; }
 
@@ -174,26 +190,30 @@ hr{
   margin: 2rem 0;
 }
 
-/* --- 6) Links ------------------------------------------------------------ */
+/* --- 8) Links elegantes -------------------------------------------------- */
 a{
   color: var(--accent);
   text-decoration: none;
   border-bottom: 1px solid rgba(31,75,153,.25);
   transition: border-color .15s ease, color .15s ease;
 }
+
 a:hover{
   color: #173a78;
   border-bottom-color: rgba(31,75,153,.55);
 }
+
+/* Navbar: sin subrayado */
 .navbar a{ border-bottom: 0; }
 
-/* --- 7) Cero tarjetas / sombras ----------------------------------------- */
+/* --- 9) Cero tarjetas / sombras ----------------------------------------- */
 .card, .card *{ box-shadow: none !important; }
 .card{
   border: 0 !important;
   background: transparent !important;
 }
 
+/* Callouts austeros */
 .callout{
   border: 1px solid var(--border) !important;
   border-left-width: 3px !important;
@@ -201,17 +221,19 @@ a:hover{
   background: #fff !important;
 }
 
-/* --- 8) Tablas y código -------------------------------------------------- */
+/* --- 10) Tablas y código ------------------------------------------------- */
 table{
   width: 100%;
   border-collapse: collapse;
   margin: 1.2rem 0;
   font-size: .98rem;
 }
+
 th, td{
   padding: .55rem .55rem;
   border-bottom: 1px solid var(--border);
 }
+
 th{
   text-align: left;
   font-weight: 650;
@@ -223,6 +245,7 @@ code, pre{
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
   font-size: .92em;
 }
+
 pre{
   border: 1px solid var(--border);
   border-radius: 10px;
@@ -232,7 +255,7 @@ pre{
   box-shadow: none !important;
 }
 
-/* --- 9) Footer ----------------------------------------------------------- */
+/* --- 11) Footer ---------------------------------------------------------- */
 .footer{
   border-top: 1px solid var(--border);
   color: var(--muted);
@@ -240,25 +263,27 @@ pre{
   padding-top: 1.5rem;
 }
 
-/* --- 10) Iconos sociales en bloque central ------------------------------ */
+/* --- 12) Iconos sociales en bloque central ------------------------------ */
 .social-icons{
   margin-top: 1.2rem;
   display: flex;
   gap: 1rem;
-  justify-content: flex-start;
+  justify-content: flex-start; /* como el ejemplo */
 }
+
 .social-icons a{
   color: var(--muted);
   font-size: 1.25rem;
   border: 0;
   transition: color .15s ease;
 }
+
 .social-icons a:hover{
   color: var(--accent);
 }
 
-/* --- 11) (Opcional) Home tipo ejemplo: texto + logo a la derecha --------- */
-/* Úsalo solo si envuelves tu home en <div class="home-hero"> ... </div> */
+/* --- 13) (Opcional) Home tipo ejemplo: texto + imagen -------------------- */
+/* Úsalo si en index.qmd envuelves el bloque en <div class="home-hero"> */
 .home-hero{
   display: grid;
   grid-template-columns: 1.1fr 0.9fr;
@@ -266,91 +291,16 @@ pre{
   align-items: center;
   margin-top: 1.5rem;
 }
+
 @media (max-width: 900px){
   .home-hero{
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
 }
+
 .home-hero img{
   max-width: 100%;
   height: auto;
   display: block;
-}
-/* ==========================================================================
-   HOME: ancho real tipo web académica (no columna estrecha)
-   ========================================================================== */
-
-body.home .page-columns{
-  max-width: 1120px !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
-body.home .page-columns .content,
-body.home main.content{
-  max-width: none !important;
-  width: 100% !important;
-}
-
-/* Padding lateral cómodo, como el ejemplo */
-body.home #quarto-content{
-  padding-left: 2rem !important;
-  padding-right: 2rem !important;
-}
-/* ==========================================================================
-   HOME: romper el layout estrecho sí o sí (override robusto)
-   Pegar AL FINAL del styles.css
-   ========================================================================== */
-
-body.home{
-  /* por si alguna regla global centra texto o restringe */
-  text-align: left;
-}
-
-/* 1) El contenedor que realmente limita en muchos layouts de Quarto */
-body.home .page-columns-container,
-body.home .page-columns,
-body.home .quarto-container,
-body.home main.content,
-body.home #quarto-content{
-  max-width: var(--home-maxw) !important;
-  width: 100% !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
-/* 2) Si Quarto usa .container (Bootstrap) dentro, también lo abrimos */
-body.home .container,
-body.home .container-lg,
-body.home .container-md,
-body.home .container-sm,
-body.home .container-xl,
-body.home .container-xxl{
-  max-width: var(--home-maxw) !important;
-  width: 100% !important;
-}
-
-/* 3) Quita límites internos típicos de “columna artículo” */
-body.home .content,
-body.home .page-columns .content,
-body.home .column-page,
-body.home .page-layout-article,
-body.home .page-layout-full,
-body.home .page-layout-custom{
-  max-width: none !important;
-  width: 100% !important;
-}
-
-/* 4) Padding lateral agradable como en el ejemplo */
-body.home #quarto-content{
-  padding-left: 2rem !important;
-  padding-right: 2rem !important;
-}
-
-@media (max-width: 900px){
-  body.home #quarto-content{
-    padding-left: 1.25rem !important;
-    padding-right: 1.25rem !important;
-  }
 }
