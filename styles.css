@@ -889,6 +889,6 @@ body.home .home-hero__logo{
   justify-content: center !important;
 }
 body.home .home-hero__logo img{
-  width: min(480px, 100%) !important;
+  width: min(560px, 100%) !important;
   height: auto !important;
 }
