@@ -317,3 +317,60 @@ pre{
   display: inline-block;
   line-height: 1;
 }
+
+/* === Social icons (SVG via Iconify CSS mask): robusto, sin fuentes === */
+.social-icons{
+  margin-top: 1.2rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.social-icons a{
+  color: var(--muted);
+  border: 0;
+  text-decoration: none;
+}
+
+.social-icons a:hover{
+  color: var(--accent);
+}
+
+.social-icons i{
+  font-size: 1.3em;
+  line-height: 1;
+}
+
+/* “icon” usa currentColor -> cambia con hover al cambiar color del <a> */
+.social-icons .icon{
+  width: 1.3em;
+  height: 1.3em;
+  display: inline-block;
+  vertical-align: -0.12em;
+
+  background-color: currentColor;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+
+/* Iconify SVG endpoints (academicons set) */
+.social-icons .icon-orcid{
+  -webkit-mask-image: url("https://api.iconify.design/academicons/orcid.svg");
+  mask-image: url("https://api.iconify.design/academicons/orcid.svg");
+}
+
+.social-icons .icon-rg{
+  -webkit-mask-image: url("https://api.iconify.design/academicons/researchgate.svg");
+  mask-image: url("https://api.iconify.design/academicons/researchgate.svg");
+}
+
+.social-icons .icon-scholar{
+  -webkit-mask-image: url("https://api.iconify.design/academicons/google-scholar.svg");
+  mask-image: url("https://api.iconify.design/academicons/google-scholar.svg");
+}
+

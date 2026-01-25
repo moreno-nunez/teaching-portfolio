@@ -17,7 +17,15 @@ title: "Portafolio docente"
 Profesora universitaria · Comunicación temprana · Educación infantil
 
 ::: social-icons
-<a href="https://scholar.google.com/citations?user=N9SVyYwAAAAJ&hl=es&oi=ao" aria-label="Google Scholar"> <i class="ai ai-google-scholar ai-lg"></i> </a> <a href="https://orcid.org/0000-0002-0397-2513" aria-label="ORCID"> <i class="ai ai-orcid ai-lg"></i> </a> <a href="https://www.researchgate.net/profile/Ana_Moreno_Nunez" aria-label="ResearchGate"> <i class="ai ai-researchgate ai-lg"></i> </a> <a href="https://github.com/moreno-nunez" aria-label="GitHub"> <i class="bi bi-github"></i> </a> <a href="mailto:ana.moreno@uam.es" aria-label="Email"> <i class="bi bi-envelope"></i> </a>
+<a href="https://scholar.google.com/citations?user=N9SVyYwAAAAJ&hl=es&oi=ao" aria-label="Google Scholar"> </a>
+
+<a href="https://orcid.org/0000-0002-0397-2513" aria-label="ORCID"> </a>
+
+<a href="https://www.researchgate.net/profile/Ana_Moreno_Nunez" aria-label="ResearchGate"> </a>
+
+<a href="https://github.com/moreno-nunez" aria-label="GitHub"> <i class="bi bi-github"></i> </a>
+
+<a href="mailto:ana.moreno@uam.es" aria-label="Email"> <i class="bi bi-envelope"></i> </a>
 :::
 
 Soy profesora de Psicología en UAM. En este sitio recojo mi práctica docente: asignaturas, enfoque, evaluación e innovación.
