@@ -357,4 +357,72 @@ body.home .home-hero__logo img{
     width: min(520px, 100%);
   }
 }
+/* ==========================================================================
+   HOME override: evitar que el logo empuje todo a la derecha
+   ========================================================================== */
+
+/* 1) En HOME, ancla el contenido a la izquierda (no centrado) */
+body.home .page-columns-container,
+body.home .page-columns,
+body.home .container,
+body.home .container-lg,
+body.home .container-xl,
+body.home .container-xxl{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* Mantén padding lateral, pero que el “bloque” arranque más a la izquierda */
+body.home #quarto-content{
+  padding-left: 2.25rem !important;  /* ajusta a gusto */
+  padding-right: 2.25rem !important;
+}
+
+/* 2) Grid: texto realmente ancho + logo grande SIN columna fija gigante */
+body.home .home-hero{
+  display: grid;
+  grid-template-columns: minmax(680px, 1fr) minmax(360px, 520px);
+  gap: 2.5rem;
+  align-items: center;
+}
+
+/* 3) Texto: NO lo encajones hacia el centro */
+body.home .home-hero__text{
+  max-width: none !important;
+  margin-left: 0 !important;
+  text-align: center; /* parecido a Ricardo; cambia a left si lo prefieres */
+}
+
+/* Iconos centrados bajo keywords */
+body.home .home-hero__text .social-icons{
+  justify-content: center;
+}
+
+/* 4) Logo grande pero contenido */
+body.home .home-hero__logo{
+  justify-content: flex-end;
+}
+body.home .home-hero__logo img{
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  display: block;
+}
+
+/* Responsive */
+@media (max-width: 900px){
+  body.home .home-hero{
+    grid-template-columns: 1fr;
+  }
+  body.home .home-hero__text{
+    text-align: left;
+  }
+  body.home .home-hero__text .social-icons{
+    justify-content: flex-start;
+  }
+  body.home .home-hero__logo{
+    justify-content: flex-start;
+  }
+}
+body.home #quarto-content{ padding-left: 1.6rem !important; }
 
