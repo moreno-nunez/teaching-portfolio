@@ -846,3 +846,39 @@ body.home .home-hero__logo img{
   body.home .home-hero__logo{ justify-content: flex-start; }
   body.home .home-hero__logo img{ width: min(520px, 100%); }
 }
+/* =========================================================
+   FIX REAL: el “margen” es el bloque de texto encajonado
+   ========================================================= */
+
+body.home .home-hero{
+  /* más ancho de verdad para el conjunto */
+  grid-template-columns: minmax(720px, 1fr) minmax(520px, 720px) !important;
+  gap: 2.6rem !important;
+}
+
+/* CLAVE: deja de encajonar el texto dentro de su columna */
+body.home .home-hero__text{
+  max-width: none !important;     /* antes lo hacía estrecho */
+  width: 100% !important;         /* ocupa toda la columna */
+  margin-left: 0 !important;      /* elimina el “empuje” a la derecha */
+  text-align: right !important;   /* sigue alineado a la derecha (como Ricardo) */
+  justify-self: end !important;   /* el bloque queda al final de la columna */
+}
+
+/* si quieres que el texto “tire” aún más a la izquierda, sube este ancho */
+body.home .page-columns{
+  max-width: 1600px !important;   /* antes 1200 */
+}
+
+/* logo grande pero sin reventar el layout */
+body.home .home-hero__logo img{
+  width: min(720px, 100%) !important;
+  height: auto !important;
+}
+
+/* iconos: tamaño sensato y alineados */
+body.home .social-icons i,
+body.home .social-icons iconify-icon{
+  font-size: 1.1rem !important;
+  line-height: 1 !important;
+}
