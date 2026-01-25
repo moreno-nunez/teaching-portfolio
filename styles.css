@@ -294,3 +294,52 @@ pre{
   height: auto;
   display: block;
 }
+/* ==========================================================================
+   HOME: romper el “bloque estrecho” interno de Quarto
+   (solo index.qmd / body.page-home)
+   ========================================================================== */
+
+/* 1) Asegura que el contenedor de la home realmente sea ancho */
+body.page-home main.content{
+  max-width: var(--home-maxw);
+}
+
+/* 2) Quita límites internos típicos que mantienen el texto en columna estrecha */
+body.page-home .page-columns,
+body.page-home .content,
+body.page-home .quarto-title-block,
+body.page-home #quarto-content,
+body.page-home .quarto-container{
+  max-width: none !important;
+  width: 100% !important;
+}
+
+/* 3) Mantén márgenes/padding razonables (como el ejemplo) */
+body.page-home #quarto-content{
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+}
+
+/* 4) Si estás usando el layout “centered” de Quarto, fuerza un layout plano */
+body.page-home .page-layout-article,
+body.page-home .page-layout-full,
+body.page-home .page-layout-custom{
+  max-width: none !important;
+}
+
+/* 5) En pantallas grandes: aún más aire lateral, sin volver a “bloque estrecho” */
+@media (min-width: 992px){
+  body.page-home #quarto-content{
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+}
+/* Home: título y contenido con más presencia */
+body.page-home .quarto-title-block .title{
+  font-size: clamp(2.4rem, 4vw, 3.2rem);
+  margin-top: 2.2rem;
+}
+
+body.page-home .quarto-title-block{
+  margin-bottom: 1.5rem;
+}
