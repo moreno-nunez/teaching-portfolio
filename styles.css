@@ -313,11 +313,29 @@ pre{
 /* Texto alineado a la derecha dentro de su columna */
 .home-hero__text{
   text-align: right;
+
+  /* Para que el bloque de texto “se encaje” hacia la derecha dentro de su columna */
+  max-width: 48rem;   /* ajusta 42–52rem según gusto */
+  margin-left: auto;
 }
 
 /* Iconos alineados al final del bloque de texto */
 .home-hero__text .social-icons{
   justify-content: flex-end;
+}
+
+/* Párrafos de presentación dentro del hero */
+.home-intro{
+  margin-top: 1.25rem;
+  margin-bottom: .75rem;
+  color: var(--text);
+  font-size: 1.02rem;
+}
+
+.home-intro-muted{
+  margin-top: 0;
+  color: var(--muted);
+  font-size: 0.98rem;
 }
 
 /* Logo pegado a la derecha */
@@ -342,6 +360,8 @@ pre{
   }
   .home-hero__text{
     text-align: left;
+    max-width: none;
+    margin-left: 0;
   }
   .home-hero__text .social-icons{
     justify-content: flex-start;
