@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Ana"
+  title: "Ana Moreno Núñez"
   navbar:
     left:
       - href: index.qmd
@@ -17,6 +17,6 @@ website:
 
 format:
   html:
-    theme: sandstone
+    theme: default
+    css: styles.css
     toc: false
-  
