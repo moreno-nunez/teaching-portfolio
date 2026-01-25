@@ -263,22 +263,22 @@ pre{
 body.home .home-hero{
   display: grid;
 
-  /* Texto MÁS ancho hacia la izquierda + logo con más presencia */
-  grid-template-columns: 1.75fr 0.25fr;
+  /* ✅ Columna de texto amplia + columna de logo de tamaño real */
+  grid-template-columns: minmax(760px, 1fr) 520px;
 
-  gap: var(--hero-gap);
+  gap: 3rem;
   align-items: center;
   margin-top: 1.4rem;
 }
 
-/* Texto alineado a la derecha pero MUCHO más ancho */
+/* ✅ Texto: ocupa su columna completa (sin encajonarlo hacia el centro) */
 body.home .home-hero__text{
   text-align: right;
-  max-width: 80rem;      /* ↑ ensancha el bloque */
-  margin-left: auto;
+  max-width: none;     /* fuera límites artificiales */
+  margin-left: 0;      /* fuera “pegarlo a la derecha” dentro de la columna */
 }
 
-/* Nombre: más pequeño, pero por encima de palabras clave */
+/* Nombre */
 body.home .home-hero__text h1{
   font-size: clamp(2.05rem, 2.6vw, 2.35rem);
   line-height: 1.08;
@@ -287,12 +287,12 @@ body.home .home-hero__text h1{
 
 /* Palabras clave (primer párrafo tras el h1) */
 body.home .home-hero__text h1 + p{
-  font-size: 1.12rem;        /* menor que nombre, mayor que intro muted */
+  font-size: 1.12rem;
   color: var(--text);
   margin: 0 0 var(--gap-keywords-icons) 0;
 }
 
-/* Iconos: aire respecto a palabras clave y al intro (mismo gap) */
+/* Iconos */
 body.home .home-hero__text .social-icons{
   justify-content: flex-end;
   margin: 0 0 var(--gap-icons-intro) 0;
@@ -300,7 +300,7 @@ body.home .home-hero__text .social-icons{
 
 /* Descripción */
 body.home .home-intro{
-  margin: 0 0 var(--gap-icons-intro) 0; /* mismo aire que iconos -> intro */
+  margin: 0 0 var(--gap-icons-intro) 0;
   font-size: 1.08rem;
   line-height: 1.7;
   color: var(--text);
@@ -313,7 +313,7 @@ body.home .home-intro-muted{
   color: var(--muted);
 }
 
-/* Logo: bastante más grande */
+/* ✅ Logo: ahora sí puede crecer (tiene columna de 520px) */
 body.home .home-hero__logo{
   display: flex;
   justify-content: flex-end;
@@ -321,12 +321,23 @@ body.home .home-hero__logo{
 }
 
 body.home .home-hero__logo img{
-  width: min(760px, 100%);  /* ↑ grande para equilibrar */
+  width: 100%;         /* llena su columna */
+  max-width: 520px;    /* tamaño “Ricardo-like” */
   height: auto;
   display: block;
 }
 
 /* Responsive */
+@media (max-width: 1100px){
+  body.home .home-hero{
+    grid-template-columns: 1fr 420px; /* logo sigue visible */
+    gap: 2rem;
+  }
+  body.home .home-hero__logo img{
+    max-width: 420px;
+  }
+}
+
 @media (max-width: 900px){
   body.home .home-hero{
     grid-template-columns: 1fr;
@@ -334,8 +345,6 @@ body.home .home-hero__logo img{
   }
   body.home .home-hero__text{
     text-align: left;
-    max-width: none;
-    margin-left: 0;
   }
   body.home .home-hero__text .social-icons{
     justify-content: flex-start;
@@ -344,6 +353,8 @@ body.home .home-hero__logo img{
     justify-content: flex-start;
   }
   body.home .home-hero__logo img{
+    max-width: 520px;
     width: min(520px, 100%);
   }
 }
+
