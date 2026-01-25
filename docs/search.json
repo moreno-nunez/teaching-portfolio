@@ -21,11 +21,11 @@
     "text": "Soy profesora de Psicología en UAM. En este sitio recojo mi práctica docente: asignaturas, enfoque, evaluación e innovación.\n[Aquí puedes escribir 2–3 frases sobre quién eres como docente: en qué enseñas, con qué tipo de estudiantes trabajas y qué te interesa especialmente de la docencia universitaria.]"
   },
   {
-    "objectID": "index.html#enfoque-docente",
-    "href": "index.html#enfoque-docente",
+    "objectID": "index.html#ana-moreno-núñez",
+    "href": "index.html#ana-moreno-núñez",
     "title": "Portafolio docente",
-    "section": "Enfoque docente",
-    "text": "Enfoque docente\nDescribe tu forma de entender la enseñanza: qué esperas del alumnado, qué intentas que ocurra en tus clases, y cómo articulas teoría, práctica y reflexión.\n\nPromover la participación activa y el análisis crítico de los contenidos.\nGenerar espacios seguros para la discusión y el intercambio de perspectivas.\nConectar la docencia con contextos profesionales y situaciones reales\nConexión teoría–práctica\nRetroalimentación orientada a la mejora"
+    "section": "",
+    "text": "Soy profesora de Psicología en UAM. En este sitio recojo mi práctica docente: asignaturas, enfoque, evaluación e innovación.\n[Aquí puedes escribir 2–3 frases sobre quién eres como docente: en qué enseñas, con qué tipo de estudiantes trabajas y qué te interesa especialmente de la docencia universitaria.]"
   },
   {
     "objectID": "teaching.html",
@@ -33,27 +33,6 @@
     "title": "Docencia",
     "section": "",
     "text": "Breve selección de las asignaturas en las que has impartido docencia en los últimos años.\n\n[Asignatura 1] — Grado en Psicología en [X] Curso, nº aproximado de estudiantes, tipo (obligatoria/optativa) y una línea sobre el enfoque que trabajas.\n[Asignatura 2] — Máster en Desarrollo Comunicativo y Lingüístico. Papel de la asignatura en el plan de estudios y tu contribución principal."
-  },
-  {
-    "objectID": "teaching.html#asignaturas",
-    "href": "teaching.html#asignaturas",
-    "title": "Docencia",
-    "section": "",
-    "text": "[Asignatura 1] — Grado en Psicología. Breve descripción.\n[Asignatura 2] — Máster en Desarrollo Comunicativo y Lingüístico. Breve descripción."
-  },
-  {
-    "objectID": "evaluation.html",
-    "href": "evaluation.html",
-    "title": "Evaluación",
-    "section": "",
-    "text": "Describe aquí tu sistema de evaluación y cómo das retroalimentación. Resume cómo estructuras la evaluación (continua, pruebas finales, trabajos, proyectos) y cómo comunicas los criterios al alumnado.\n\nCombinación de evaluación continua y actividades de síntesis final.\nUso de orientaciones claras o rúbricas antes de las tareas clave.\nFeedback centrado en la mejora, no solo en la calificación numérica.\n\nAquí también puedes mencionar cómo utilizas encuestas, resultados u otras evidencias para revisar y ajustar tus asignaturas."
-  },
-  {
-    "objectID": "evaluation.html#evaluación-y-feedback",
-    "href": "evaluation.html#evaluación-y-feedback",
-    "title": "Evaluación",
-    "section": "",
-    "text": "Describe aquí tu sistema de evaluación y cómo das retroalimentación. Resume cómo estructuras la evaluación (continua, pruebas finales, trabajos, proyectos) y cómo comunicas los criterios al alumnado.\n\nCombinación de evaluación continua y actividades de síntesis final.\nUso de orientaciones claras o rúbricas antes de las tareas clave.\nFeedback centrado en la mejora, no solo en la calificación numérica.\n\nAquí también puedes mencionar cómo utilizas encuestas, resultados u otras evidencias para revisar y ajustar tus asignaturas."
   },
   {
     "objectID": "teaching.html#docencia-actual-y-reciente",
@@ -70,10 +49,17 @@
     "text": "Enfoque docente\nDescribe tu forma de entender la enseñanza: qué esperas del alumnado, qué intentas que ocurra en tus clases, y cómo articulas teoría, práctica y reflexión.\n\nPromover la participación activa y el análisis crítico de los contenidos.\nGenerar espacios seguros para la discusión y el intercambio de perspectivas.\nConectar la docencia con contextos profesionales y situaciones reales.\nConexión teoría–práctica.\nRetroalimentación orientada a la mejora."
   },
   {
-    "objectID": "index.html#ana-moreno-núñez",
-    "href": "index.html#ana-moreno-núñez",
-    "title": "Portafolio docente",
+    "objectID": "evaluation.html",
+    "href": "evaluation.html",
+    "title": "Evaluación",
     "section": "",
-    "text": "Soy profesora de Psicología en UAM. En este sitio recojo mi práctica docente: asignaturas, enfoque, evaluación e innovación.\n[Aquí puedes escribir 2–3 frases sobre quién eres como docente: en qué enseñas, con qué tipo de estudiantes trabajas y qué te interesa especialmente de la docencia universitaria.]"
+    "text": "Describe aquí tu sistema de evaluación y cómo das retroalimentación. Resume cómo estructuras la evaluación (continua, pruebas finales, trabajos, proyectos) y cómo comunicas los criterios al alumnado.\n\nCombinación de evaluación continua y actividades de síntesis final.\nUso de orientaciones claras o rúbricas antes de las tareas clave.\nFeedback centrado en la mejora, no solo en la calificación numérica.\n\nAquí también puedes mencionar cómo utilizas encuestas, resultados u otras evidencias para revisar y ajustar tus asignaturas."
+  },
+  {
+    "objectID": "evaluation.html#evaluación-y-feedback",
+    "href": "evaluation.html#evaluación-y-feedback",
+    "title": "Evaluación",
+    "section": "",
+    "text": "Describe aquí tu sistema de evaluación y cómo das retroalimentación. Resume cómo estructuras la evaluación (continua, pruebas finales, trabajos, proyectos) y cómo comunicas los criterios al alumnado.\n\nCombinación de evaluación continua y actividades de síntesis final.\nUso de orientaciones claras o rúbricas antes de las tareas clave.\nFeedback centrado en la mejora, no solo en la calificación numérica.\n\nAquí también puedes mencionar cómo utilizas encuestas, resultados u otras evidencias para revisar y ajustar tus asignaturas."
   }
 ]
