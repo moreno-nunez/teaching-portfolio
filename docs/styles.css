@@ -872,7 +872,7 @@ body.home .page-columns{
 
 /* logo grande pero sin reventar el layout */
 body.home .home-hero__logo img{
-  width: min(560px, 100%) !important;
+  width: min(440px, 100%) !important;
   height: auto !important;
 }
 
