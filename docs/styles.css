@@ -2,7 +2,8 @@
    Ana — Quarto website: estilo minimalista académico
    Objetivos:
    - Fondo claro cálido
-   - Columna central estrecha (~820px)
+   - Columna central estrecha (~820px) en páginas internas
+   - Home más ancha (márgenes laterales menos exagerados) como el ejemplo
    - Navbar en contraste sin “look bootstrap”
    - Tipografía cuidada + jerarquía clara
    - Links elegantes
@@ -19,6 +20,7 @@
   --accent-soft: rgba(31,75,153,.12);
 
   --maxw: 820px;            /* ancho de columna (780–860 recomendado) */
+  --home-maxw: 1100px;      /* home más ancha (1050–1200 recomendado) */
   --nav-h: 64px;            /* altura visual navbar */
 }
 
@@ -36,19 +38,33 @@ body{
   text-rendering: optimizeLegibility;
 }
 
-/* Contenedor principal: centra y estrecha el contenido */
-main.content, 
-.quarto-container, 
+/* Contenedor principal: páginas internas estrechas */
+main.content,
 .page-columns{
   max-width: var(--maxw);
   margin-left: auto;
   margin-right: auto;
 }
 
-/* Un poco de aire vertical general */
+/* Home: más ancho para reducir márgenes laterales (estilo ejemplo) */
+body.page-home main.content{
+  max-width: var(--home-maxw);
+}
+
+/* Aire vertical general + padding lateral suave (evita “pegado” a los bordes) */
 #quarto-content{
   padding-top: 1.5rem;
   padding-bottom: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* En pantallas grandes, un pelín más de aire lateral */
+@media (min-width: 992px){
+  #quarto-content{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
 }
 
 /* --- 3) Navbar: contraste, sin sombras, alineación y active state -------- */
@@ -100,7 +116,7 @@ main.content,
   background: rgba(0,0,0,.035);
 }
 
-/* Página activa: color distinto + subrayado “soft” */
+/* Página activa: color distinto */
 .navbar .nav-link.active,
 .navbar .nav-link[aria-current="page"]{
   color: var(--accent) !important;
@@ -158,7 +174,7 @@ hr{
   margin: 2rem 0;
 }
 
-/* --- 6) Links: elegantes, sin azul chillón, subrayado controlado ---------- */
+/* --- 6) Links: elegantes, subrayado controlado --------------------------- */
 a{
   color: var(--accent);
   text-decoration: none;
@@ -232,23 +248,49 @@ pre{
   font-size: .92rem;
   padding-top: 1.5rem;
 }
-/* --- Iconos sociales en bloque central (hero) ---------------------------- */
 
+/* --- 10) Iconos sociales en bloque central (hero) ------------------------ */
 .social-icons{
   margin-top: 1.2rem;
   display: flex;
   gap: 1rem;
-  justify-content: flex-start;
+  justify-content: flex-start; /* como el ejemplo: no centrados */
 }
 
 /* Iconos: limpios, sin botón, sin sombra */
 .social-icons a{
   color: var(--muted);
   font-size: 1.25rem;
-  border: 0;
+  border: 0;                 /* sin subrayado */
   transition: color .15s ease;
 }
 
 .social-icons a:hover{
   color: var(--accent);
+}
+
+/* --- 11) (Opcional) Home tipo ejemplo: texto + logo a la derecha ---------- */
+/* Si en index.qmd envuelves el bloque en <div class="home-hero"> ... </div>
+   y pones dos columnas (texto / imagen), tendrás el layout como la captura. */
+.home-hero{
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 3rem;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+/* En móvil: apila y prioriza lectura */
+@media (max-width: 900px){
+  .home-hero{
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+/* Imagen/logo del hero (si lo usas) */
+.home-hero img{
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
