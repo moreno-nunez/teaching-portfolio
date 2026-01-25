@@ -567,3 +567,122 @@ body.home .home-hero__logo img{
   body.home .home-hero__logo{ justify-content: flex-start; }
   body.home .home-hero__logo img{ width: min(520px, 100%); }
 }
+/* =========================
+   HOME: QUITAR GUTTERS DE QUARTO
+   (el “margen enorme” viene de .page-columns)
+   ========================= */
+
+body.home .page-columns{
+  /* En lugar de 1fr a los lados (gutter enorme), metemos gutters pequeños fijos */
+  grid-template-columns:
+    [screen-start] 1.25rem
+    [body-start] minmax(0, 1400px)
+    [body-end] 1.25rem
+    [screen-end] !important;
+}
+
+@media (min-width: 1200px){
+  body.home .page-columns{
+    grid-template-columns:
+      [screen-start] 2rem
+      [body-start] minmax(0, 1500px)
+      [body-end] 2rem
+      [screen-end] !important;
+  }
+}
+
+/* Por si Quarto limita el contenido dentro */
+body.home main.content,
+body.home .content{
+  max-width: none !important;
+}
+/* =========================
+   HOME HERO: texto a la derecha + logo equilibrado
+   ========================= */
+
+body.home .quarto-title-block{ display: none !important; }
+
+body.home .home-hero{
+  display: grid;
+  grid-template-columns: 1.25fr 0.75fr; /* texto más ancho */
+  gap: 2.6rem;
+  align-items: center;
+  margin-top: 3.5rem; /* aire bajo navbar */
+}
+
+body.home .home-hero__text{
+  text-align: right;
+  max-width: 980px;   /* más ancho hacia la izquierda */
+  margin-left: auto;
+}
+
+body.home .home-kicker{
+  font-size: clamp(3.1rem, 4.8vw, 4.1rem);
+  line-height: 1.05;
+  font-weight: 700;
+  margin: 0 0 1.1rem 0;
+}
+
+body.home .home-name{
+  font-size: clamp(2.0rem, 2.8vw, 2.45rem);
+  line-height: 1.12;
+  font-weight: 650;
+  margin: 0 0 .55rem 0;
+}
+
+body.home .home-keywords{
+  font-size: 1.08rem;
+  font-weight: 400;
+  margin: 0 0 1.25rem 0;
+}
+
+body.home .social-icons{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: .9rem;
+  margin: 0 0 1.25rem 0; /* aire antes de la intro */
+}
+
+body.home .social-icons a{
+  color: var(--muted);
+  border: 0;
+  text-decoration: none;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+}
+body.home .social-icons a:hover{ color: var(--accent); }
+
+body.home .social-icons i,
+body.home .social-icons iconify-icon{
+  font-size: 1.15rem;
+  line-height: 1;
+}
+
+body.home .social-icons iconify-icon{
+  position: relative;
+  top: 0.02em; /* corrige baseline */
+}
+
+body.home .home-hero__logo{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+body.home .home-hero__logo img{
+  width: min(720px, 100%);
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 900px){
+  body.home .home-hero{
+    grid-template-columns: 1fr;
+    margin-top: 2rem;
+  }
+  body.home .home-hero__text{ text-align: left; max-width: none; margin-left: 0; }
+  body.home .social-icons{ justify-content: flex-start; }
+  body.home .home-hero__logo{ justify-content: flex-start; }
+  body.home .home-hero__logo img{ width: min(520px, 100%); }
+}
