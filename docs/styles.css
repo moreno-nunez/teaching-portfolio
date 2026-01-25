@@ -1,12 +1,13 @@
 /* ==========================================================================
-   Ana — Quarto website: estilo minimalista académico (versión limpia)
+   Ana — Quarto website: estilo minimalista académico (limpio)
    - Fondo claro cálido
    - Internas: columna estrecha (~820px)
    - Home: más ancha (tipo web académica del ejemplo)
-   - Navbar minimal, sin look bootstrap
+   - Navbar minimal (sin look bootstrap)
    - Tipografía cuidada + jerarquía clara
    - Links elegantes
    - Cero sombras / cero tarjetas
+   - Home hero: texto alineado a la derecha + logo a la derecha
    ========================================================================== */
 
 /* --- 1) Variables -------------------------------------------------------- */
@@ -20,7 +21,7 @@
   --accent-soft: rgba(31,75,153,.12);
 
   --maxw: 820px;        /* internas */
-  --home-maxw: 1200px;  /* home (ajusta 1120–1250 según gusto) */
+  --home-maxw: 1200px;  /* home (1120–1250) */
 
   --nav-h: 64px;
 }
@@ -66,7 +67,7 @@ body{
 }
 
 /* --- 4) Layout: HOME más ancha (romper columna estrecha) ----------------- */
-/* Tu <body> incluye class="home", así que lo usamos como selector fiable. */
+/* Usamos body.home (añadido vía body-classes en index.qmd). */
 body.home .page-columns-container,
 body.home .page-columns,
 body.home .container,
@@ -88,7 +89,7 @@ body.home .column-page{
   width: 100% !important;
 }
 
-/* Home: un pelín más de aire lateral, como el ejemplo */
+/* Home: aire lateral como el ejemplo */
 body.home #quarto-content{
   padding-left: 2rem !important;
   padding-right: 2rem !important;
@@ -174,7 +175,7 @@ h4{ font-size: 1.05rem; color: #2a313a; }
   margin-top: .35rem;
 }
 
-/* Home: título con más presencia (como portfolio) */
+/* Home: título con más presencia */
 body.home .quarto-title-block .title{
   font-size: clamp(2.4rem, 4vw, 3.2rem);
   margin-top: 2.2rem;
@@ -213,7 +214,6 @@ a:hover{
   background: transparent !important;
 }
 
-/* Callouts austeros */
 .callout{
   border: 1px solid var(--border) !important;
   border-left-width: 3px !important;
@@ -263,18 +263,19 @@ pre{
   padding-top: 1.5rem;
 }
 
-/* --- 12) Iconos sociales en bloque central ------------------------------ */
+/* --- 12) Iconos sociales (Iconify component + Bootstrap icons) ----------- */
 .social-icons{
   margin-top: 1.2rem;
   display: flex;
   gap: 1rem;
-  justify-content: flex-start; /* como el ejemplo */
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .social-icons a{
   color: var(--muted);
-  font-size: 1.25rem;
   border: 0;
+  text-decoration: none;
   transition: color .15s ease;
 }
 
@@ -282,124 +283,70 @@ pre{
   color: var(--accent);
 }
 
-/* --- 13) (Opcional) Home tipo ejemplo: texto + imagen -------------------- */
-/* Úsalo si en index.qmd envuelves el bloque en <div class="home-hero"> */
-.home-hero{
-  display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
-  gap: 3rem;
-  align-items: center;
-  margin-top: 1.5rem;
+.social-icons i{
+  font-size: 1.3em;
+  line-height: 1;
 }
 
+/* Iconify component: mismo tamaño y hereda color del <a> */
+.social-icons iconify-icon{
+  font-size: 1.3em;
+  color: currentColor;
+  vertical-align: -0.12em;
+}
+
+/* --- 13) Home hero: texto a la derecha + logo a la derecha --------------- */
+/* Estructura esperada en index.qmd:
+   <div class="home-hero">
+     <div class="home-hero__text">...</div>
+     <div class="home-hero__logo"><img ...></div>
+   </div>
+*/
+.home-hero{
+  display: grid;
+  grid-template-columns: 1.25fr 0.75fr; /* texto / logo */
+  gap: 3rem;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+/* Texto alineado a la derecha dentro de su columna */
+.home-hero__text{
+  text-align: right;
+}
+
+/* Iconos alineados al final del bloque de texto */
+.home-hero__text .social-icons{
+  justify-content: flex-end;
+}
+
+/* Logo pegado a la derecha */
+.home-hero__logo{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* Tamaño del logo (ajusta a ojo) */
+.home-hero__logo img{
+  width: min(360px, 100%);
+  height: auto;
+  display: block;
+}
+
+/* Responsive: apila y vuelve a alineación natural en móvil */
 @media (max-width: 900px){
   .home-hero{
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
+  .home-hero__text{
+    text-align: left;
+  }
+  .home-hero__text .social-icons{
+    justify-content: flex-start;
+  }
+  .home-hero__logo{
+    justify-content: flex-start;
+  }
 }
-
-.home-hero img{
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-.social-icons i{
-  font-size: 1.3em;
-  line-height: 1;
-}
-/* Academicons: fuerza la fuente y evita que otras reglas la pisen */
-.social-icons .ai{
-  font-family: "Academicons" !important;
-  font-style: normal !important;
-  font-weight: normal !important;
-  speak: none;
-  display: inline-block;
-  line-height: 1;
-}
-
-/* === Social icons (SVG via Iconify CSS mask): robusto, sin fuentes === */
-.social-icons{
-  margin-top: 1.2rem;
-  display: flex;
-  gap: 1rem;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.social-icons a{
-  color: var(--muted);
-  border: 0;
-  text-decoration: none;
-}
-
-.social-icons a:hover{
-  color: var(--accent);
-}
-
-.social-icons i{
-  font-size: 1.3em;
-  line-height: 1;
-}
-
-/* “icon” usa currentColor -> cambia con hover al cambiar color del <a> */
-.social-icons .icon{
-  width: 1.3em;
-  height: 1.3em;
-  display: inline-block;
-  vertical-align: -0.12em;
-
-  background-color: currentColor;
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;
-  -webkit-mask-position: center;
-  mask-position: center;
-  -webkit-mask-size: contain;
-  mask-size: contain;
-}
-
-/* Iconify SVG endpoints (academicons set) */
-.social-icons .icon-orcid{
-  -webkit-mask-image: url("https://api.iconify.design/academicons/orcid.svg");
-  mask-image: url("https://api.iconify.design/academicons/orcid.svg");
-}
-
-.social-icons .icon-rg{
-  -webkit-mask-image: url("https://api.iconify.design/academicons/researchgate.svg");
-  mask-image: url("https://api.iconify.design/academicons/researchgate.svg");
-}
-
-.social-icons .icon-scholar{
-  -webkit-mask-image: url("https://api.iconify.design/academicons/google-scholar.svg");
-  mask-image: url("https://api.iconify.design/academicons/google-scholar.svg");
-}
-.social-icons{
-  margin-top: 1.2rem;
-  display: flex;
-  gap: 1rem;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.social-icons a{
-  color: var(--muted);
-  border: 0;
-  text-decoration: none;
-}
-
-.social-icons a:hover{
-  color: var(--accent);
-}
-
-.social-icons i{
-  font-size: 1.3em;
-  line-height: 1;
-}
-
-/* Iconify component: mismo tamaño y color que el resto */
-.social-icons iconify-icon{
-  font-size: 1.3em;   /* controla tamaño */
-  color: currentColor; /* hereda del <a> */
-  vertical-align: -0.12em;
-}
-
