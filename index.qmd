@@ -1,4 +1,7 @@
 ---
+body-classes: home
+---
+---
 title: "index.qmd"
 format: html
 editor: visual
