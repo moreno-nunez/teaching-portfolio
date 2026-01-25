@@ -298,3 +298,59 @@ body.home #quarto-content{
   padding-left: 2rem !important;
   padding-right: 2rem !important;
 }
+/* ==========================================================================
+   HOME: romper el layout estrecho sí o sí (override robusto)
+   Pegar AL FINAL del styles.css
+   ========================================================================== */
+
+body.home{
+  /* por si alguna regla global centra texto o restringe */
+  text-align: left;
+}
+
+/* 1) El contenedor que realmente limita en muchos layouts de Quarto */
+body.home .page-columns-container,
+body.home .page-columns,
+body.home .quarto-container,
+body.home main.content,
+body.home #quarto-content{
+  max-width: var(--home-maxw) !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* 2) Si Quarto usa .container (Bootstrap) dentro, también lo abrimos */
+body.home .container,
+body.home .container-lg,
+body.home .container-md,
+body.home .container-sm,
+body.home .container-xl,
+body.home .container-xxl{
+  max-width: var(--home-maxw) !important;
+  width: 100% !important;
+}
+
+/* 3) Quita límites internos típicos de “columna artículo” */
+body.home .content,
+body.home .page-columns .content,
+body.home .column-page,
+body.home .page-layout-article,
+body.home .page-layout-full,
+body.home .page-layout-custom{
+  max-width: none !important;
+  width: 100% !important;
+}
+
+/* 4) Padding lateral agradable como en el ejemplo */
+body.home #quarto-content{
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
+@media (max-width: 900px){
+  body.home #quarto-content{
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+  }
+}
