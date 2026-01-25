@@ -343,3 +343,4 @@ body.page-home .quarto-title-block .title{
 body.page-home .quarto-title-block{
   margin-bottom: 1.5rem;
 }
+body { outline: 10px solid red !important; }
