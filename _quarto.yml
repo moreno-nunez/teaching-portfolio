@@ -23,8 +23,5 @@ format:
     toc: false
     include-in-header:
       - text: |
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.4/css/academicons.min.css">
-include-in-header:
-  - text: |
-      <link rel="stylesheet" href="assets/academicons/academicons.min.css">
+          <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
 

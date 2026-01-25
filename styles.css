@@ -373,4 +373,33 @@ pre{
   -webkit-mask-image: url("https://api.iconify.design/academicons/google-scholar.svg");
   mask-image: url("https://api.iconify.design/academicons/google-scholar.svg");
 }
+.social-icons{
+  margin-top: 1.2rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.social-icons a{
+  color: var(--muted);
+  border: 0;
+  text-decoration: none;
+}
+
+.social-icons a:hover{
+  color: var(--accent);
+}
+
+.social-icons i{
+  font-size: 1.3em;
+  line-height: 1;
+}
+
+/* Iconify component: mismo tamaño y color que el resto */
+.social-icons iconify-icon{
+  font-size: 1.3em;   /* controla tamaño */
+  color: currentColor; /* hereda del <a> */
+  vertical-align: -0.12em;
+}
 

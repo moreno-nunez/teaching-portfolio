@@ -17,11 +17,11 @@ title: "Portafolio docente"
 Profesora universitaria · Comunicación temprana · Educación infantil
 
 ::: social-icons
-<a href="https://scholar.google.com/citations?user=N9SVyYwAAAAJ&hl=es&oi=ao" aria-label="Google Scholar"> </a>
+<a href="https://scholar.google.com/citations?user=N9SVyYwAAAAJ&hl=es&oi=ao" aria-label="Google Scholar"> <iconify-icon icon="academicons:google-scholar"></iconify-icon> </a>
 
-<a href="https://orcid.org/0000-0002-0397-2513" aria-label="ORCID"> </a>
+<a href="https://orcid.org/0000-0002-0397-2513" aria-label="ORCID"> <iconify-icon icon="academicons:orcid"></iconify-icon> </a>
 
-<a href="https://www.researchgate.net/profile/Ana_Moreno_Nunez" aria-label="ResearchGate"> </a>
+<a href="https://www.researchgate.net/profile/Ana_Moreno_Nunez" aria-label="ResearchGate"> <iconify-icon icon="academicons:researchgate"></iconify-icon> </a>
 
 <a href="https://github.com/moreno-nunez" aria-label="GitHub"> <i class="bi bi-github"></i> </a>
 
