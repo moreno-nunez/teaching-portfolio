@@ -387,3 +387,21 @@ body.home .home-hero__logo img{
     width: min(520px, 100%);
   }
 }
+/* HOME: matar centrado y márgenes enormes */
+body.home #quarto-content{
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+}
+
+/* Esto evita el “bloque centrado” típico */
+body.home #quarto-content > *{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  max-width: none !important;
+}
+
+/* Por si el contenido va dentro de main.content */
+body.home main.content{
+  max-width: none !important;
+  margin: 0 !important;
+}
