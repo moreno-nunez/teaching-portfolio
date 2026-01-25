@@ -883,7 +883,7 @@ body.home .social-icons iconify-icon{
   line-height: 1 !important;
 }
 body.home .home-hero{
-  grid-template-columns: 1.6fr 0.4fr !important;
+  grid-template-columns: 1.0fr 0.4fr !important;
 }
 body.home .home-hero__logo{
   justify-content: center !important;
