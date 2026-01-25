@@ -308,3 +308,12 @@ pre{
   font-size: 1.3em;
   line-height: 1;
 }
+/* Academicons: fuerza la fuente y evita que otras reglas la pisen */
+.social-icons .ai{
+  font-family: "Academicons" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  speak: none;
+  display: inline-block;
+  line-height: 1;
+}
