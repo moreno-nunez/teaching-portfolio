@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Ana"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Inicio
+      - href: teaching.qmd
+        text: Docencia
+      - href: evaluation.qmd
+        text: Evaluación
+      - href: innovation.qmd
+        text: Innovación
+
+format:
+  html:
+    theme: sandstone
+    toc: false
+  

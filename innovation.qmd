@@ -1,0 +1,17 @@
+---
+title: "innovation.qmd"
+format: html
+editor: visual
+---
+
+---
+title: "Innovación"
+---
+
+## Innovación y desarrollo profesional
+
+Proyectos, cambios metodológicos, formación docente, mentoría, etc. Espacio para proyectos de innovación, cambios metodológicos relevantes y formación relacionada con la docencia universitaria.
+
+-   \[Proyecto / iniciativa\] Objetivo, año y contexto (asignatura, titulación, etc.).
+-   \[Formación o seminario\] Qué has incorporado a tu práctica a partir de esa experiencia.
+-   \[Mentoría / acompañamiento\] Papel que desempeñas y tipo de apoyo que ofreces a otros docentes.
