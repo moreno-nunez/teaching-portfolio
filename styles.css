@@ -340,3 +340,70 @@ body.home .social-icons iconify-icon{
   position: relative;
   top: 0.02em; /* microajuste */
 }
+/* =========================================================
+   NAVBAR: fix real para estructura Quarto (mx-auto + me-auto)
+   - Marca a la izquierda
+   - Menú pegado a la derecha
+   ========================================================= */
+
+#quarto-header .navbar-container{
+  width: 100% !important;
+  max-width: none !important;
+  padding-left: 1.25rem !important;
+  padding-right: 1.25rem !important;
+}
+
+/* Quarto centra la marca con mx-auto -> lo anulamos */
+#quarto-header .navbar-brand-container.mx-auto{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* El UL trae me-auto (Bootstrap): lo quita de la izquierda */
+#quarto-header .navbar-nav.me-auto{
+  margin-right: 0 !important;  /* anula me-auto */
+  margin-left: auto !important;/* empuja a la derecha */
+}
+
+/* Por si el collapse no ocupa, lo hacemos flex */
+#quarto-header .navbar-collapse{
+  display: flex !important;
+  justify-content: flex-end !important;
+  flex-grow: 1 !important;
+}
+/* =========================================================
+   ICONOS: misma caja + misma línea (Iconify + Bootstrap Icons)
+   ========================================================= */
+
+.social-icons{
+  display: flex !important;
+  gap: .9rem !important;
+  align-items: center !important;
+}
+
+/* Cada enlace con caja fija */
+.social-icons a{
+  width: 1.35rem;
+  height: 1.35rem;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  line-height: 1 !important;
+  border: 0 !important;
+}
+
+/* Bootstrap icons */
+.social-icons i.bi{
+  font-size: 1.15rem !important;
+  line-height: 1 !important;
+  display: block !important;
+}
+
+/* Iconify */
+.social-icons iconify-icon{
+  font-size: 1.15rem !important;
+  line-height: 1 !important;
+  display: block !important;
+  position: relative;
+  top: 0.02em;
+}
