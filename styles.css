@@ -1,8 +1,5 @@
 /* ==========================================================================
    Ana — Quarto website: minimalista académico (LIMPIO)
-   - Internas: columna estrecha (~820px)
-   - HOME: hero centrado tipo “Ricardo” (texto a la derecha + logo a la derecha)
-   - Navbar: fondo con personalidad + menú a la derecha
    ========================================================================== */
 
 /* --- 1) Variables -------------------------------------------------------- */
@@ -12,26 +9,26 @@
   --muted: #5f705f;
   --border: #f6f4ec;
 
-  /* Colores clave */
+  /* Navbar */
   --nav-bg: #5f705f;
-  --nav-link: #f6f4ec;      /* menú navbar (normal) */
-  --nav-active: #f2d46b;    /* menú navbar (activo) */
-  --brand: #f6f4ec;         /* título web en navbar */
+  --nav-link: #f6f4ec;
+  --nav-active: #f2d46b;
+  --brand: #f6f4ec;
 
-  /* Redes (independientes del menú) */
-  --social-color: var(--text);  /* normal */
-  --social-hover: #f2d46b;      /* hover color */
-  --social-pill: rgba(0,0,0,.06); /* “círculo” hover (visible en fondo claro) */
+  /* Redes */
+  --social-color: var(--text);
+  --social-hover: #f4d3c3;
+  --social-pill: rgba(0,0,0,.06);
 
-  --maxw: 820px;            /* internas */
-  --home-body-max: 1520px;  /* ancho útil HOME */
+  --maxw: 820px;
+  --home-body-max: 1520px;
   --nav-h: 64px;
 
-  --home-top-gap: 4.8rem;   /* aire bajo navbar */
-  --home-gutter: 2.25rem;   /* márgenes laterales HOME */
+  --home-top-gap: 4.8rem;
+  --home-gutter: 2.25rem;
   --hero-gap: 2.6rem;
 
-  --logo-max: 560px;        /* tamaño del logo */
+  --logo-max: 560px;
 }
 
 /* --- 2) Base ------------------------------------------------------------- */
@@ -43,15 +40,13 @@ body{
   font-family: ui-serif, "Iowan Old Style", "Palatino Linotype", Palatino, Garamond, Georgia, serif;
   line-height: 1.65;
   font-size: 17px;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
 }
 
 #quarto-content{
   padding: 1.8rem 1rem 3rem;
 }
 
-/* --- 3) Layout internas estrechas --------------------------------------- */
+/* --- 3) Layout internas -------------------------------------------------- */
 #quarto-content .page-columns,
 #quarto-content .page-columns-container,
 #quarto-content .container,
@@ -59,72 +54,43 @@ body{
 #quarto-content .container-xl,
 #quarto-content .container-xxl{
   max-width: var(--maxw);
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
-/* --- 4) Navbar (Quarto/Bootstrap) --------------------------------------- */
+/* --- 4) Navbar ----------------------------------------------------------- */
 .navbar{
   background: var(--nav-bg) !important;
   border-bottom: 1px solid var(--border);
-  box-shadow: none !important;
   min-height: var(--nav-h);
-  padding-left: 0 !important;
-  padding-right: 0 !important;
 }
 
-/* Quarto suele usar container-fluid y estructura propia */
 .navbar > .container-fluid,
-.navbar > .container,
-.navbar > .container-lg,
-.navbar > .container-xl,
-.navbar > .container-xxl,
 #quarto-header .navbar-container{
   max-width: none !important;
   width: 100% !important;
-  padding-left: 1.25rem !important;
-  padding-right: 1.25rem !important;
+  padding: 0 1.25rem !important;
 }
 
-/* Marca (título de la web) */
 .navbar .navbar-brand{
   font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
   font-weight: 650;
   letter-spacing: .01em;
   color: var(--brand) !important;
-  white-space: nowrap !important;
-  margin-right: 1rem !important;
-  overflow: visible !important;
+  white-space: nowrap;
 }
 
-/* Quarto a veces centra la marca con mx-auto -> fuera */
-#quarto-header .navbar-brand-container.mx-auto{
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-}
-
-/* Menú pegado a la derecha */
 .navbar .navbar-collapse{
   display: flex !important;
   justify-content: flex-end !important;
-  flex-grow: 1 !important;
 }
 
-/* Bootstrap/Quarto puede meter me-auto: lo anulamos y empujamos a la derecha */
 #quarto-header .navbar-nav.me-auto{
+  margin-left: auto !important;
   margin-right: 0 !important;
-  margin-left: auto !important;
 }
 
-.navbar .navbar-nav{
-  margin-left: auto !important;
-  justify-content: flex-end !important;
-}
-
-/* Links del menú */
 .navbar .nav-link{
   color: var(--nav-link) !important;
-  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
   font-size: .92rem;
   letter-spacing: .02em;
   padding: .35rem .6rem !important;
@@ -132,29 +98,26 @@ body{
   transition: background .15s ease, color .15s ease;
 }
 
-/* Hover */
 .navbar .nav-link:hover{
-  color: var(--nav-link) !important;
   background: rgba(255,255,255,.12);
 }
 
-/* Activo */
 .navbar .nav-link.active,
 .navbar .nav-link[aria-current="page"]{
   color: var(--nav-active) !important;
   background: transparent !important;
 }
 
-/* Quitar subrayados/bordes en navbar */
-.navbar a{ border-bottom: 0 !important; text-decoration: none !important; }
+.navbar a{
+  text-decoration: none !important;
+  border-bottom: 0 !important;
+}
 
-/* --- 5) Tipografía general ---------------------------------------------- */
+/* --- 5) Tipografía ------------------------------------------------------- */
 h1, h2, h3, h4{
   color: var(--text);
   line-height: 1.2;
-  letter-spacing: -0.01em;
-  margin-top: 1.6rem;
-  margin-bottom: .65rem;
+  margin: 1.6rem 0 .65rem;
 }
 
 a{
@@ -164,32 +127,19 @@ a{
 }
 a:hover{ border-bottom-color: rgba(31,75,153,.55); }
 
-/* --- 6) HOME (centrada, sin title-block duplicado) ---------------------- */
+/* --- 6) HOME ------------------------------------------------------------- */
 body.home .quarto-title-block{ display: none !important; }
 
-/* HOME: quita la columna estrecha SOLO en home */
-body.home #quarto-content .page-columns,
-body.home #quarto-content .page-columns-container,
-body.home #quarto-content main.content,
-body.home #quarto-content .content{
-  max-width: none !important;
-  width: 100% !important;
-  margin: 0 !important;
-}
-
-/* HOME: espacio superior y gutters laterales */
 body.home #quarto-content{
-  padding-top: var(--home-top-gap) !important;
-  padding-left: var(--home-gutter) !important;
-  padding-right: var(--home-gutter) !important;
+  max-width: none !important;
+  padding: var(--home-top-gap) var(--home-gutter) 0;
 }
 
-/* HERO */
 body.home .home-hero{
   max-width: var(--home-body-max);
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1.25fr 0.75fr; /* texto / logo */
+  grid-template-columns: 1.25fr 0.75fr;
   gap: var(--hero-gap);
   align-items: center;
 }
@@ -197,34 +147,28 @@ body.home .home-hero{
 body.home .home-hero__text{ text-align: right; }
 
 body.home .home-kicker{
-  font-size: clamp(3.0rem, 4.6vw, 3.7rem);
-  line-height: 1.05;
+  font-size: clamp(3rem, 4.6vw, 3.7rem);
   font-weight: 700;
-  margin: 0 0 1.1rem 0;
 }
 
 body.home .home-name{
-  font-size: clamp(2.0rem, 2.8vw, 2.45rem);
-  line-height: 1.12;
+  font-size: clamp(2rem, 2.8vw, 2.45rem);
   font-weight: 650;
-  margin: 0 0 .55rem 0;
 }
 
 body.home .home-keywords{
   font-size: 1.08rem;
-  margin: 0 0 1.25rem 0;
 }
 
-/* --- 7) ICONOS redes: hover “pastilla” + alineación real ---------------- */
+/* --- 7) ICONOS redes: alineación óptica real ----------------------------- */
 
-/* Contenedor */
 .social-icons{
   display: flex !important;
   gap: .9rem !important;
   align-items: center !important;
 }
 
-/* Cada icono con “botón” circular real (no aplastado) */
+/* Caja uniforme para TODOS */
 .social-icons a{
   width: 2.05rem;
   height: 2.05rem;
@@ -234,13 +178,11 @@ body.home .home-keywords{
 
   border-radius: 999px;
   border: 0 !important;
+  background: transparent;
   text-decoration: none !important;
-  line-height: 1 !important;
 
   color: var(--social-color) !important;
-  background: transparent;
-
-  transition: background .15s ease, color .15s ease, transform .15s ease;
+  transition: background .15s ease, color .15s ease;
 }
 
 .social-icons a:hover{
@@ -248,78 +190,46 @@ body.home .home-keywords{
   background: var(--social-pill);
 }
 
-/* Truco: evita “saltitos” raros de línea/baseline */
+/* Reset óptico */
 .social-icons a > *{
   display: block;
   line-height: 1;
 }
 
-/* Bootstrap Icons (i.bi) */
+/* Bootstrap Icons (GitHub, mail) */
 .social-icons i.bi{
   font-size: 1.15rem !important;
-  line-height: 1 !important;
-  display: block !important;
   position: relative;
-  top: 0.02em; /* microajuste */
+  top: 0;
 }
 
-/* Iconify */
+/* Iconify (Scholar, ORCID, ResearchGate) */
 .social-icons iconify-icon{
   font-size: 1.15rem !important;
-  line-height: 1 !important;
-  display: block !important;
   position: relative;
-  top: 0.06em; /* Iconify suele quedar más alto -> lo bajamos */
+  top: 0.18em;
 }
 
-/* HOME: iconos a la derecha como ya tenías */
+/* HOME: colocación */
 body.home .social-icons{
   justify-content: flex-end;
   margin: 0 0 1.25rem 0;
-}
-
-/* Intro */
-body.home .home-intro{
-  margin: 0 0 1.25rem 0;
-  font-size: 1.05rem;
-  line-height: 1.7;
-}
-
-body.home .home-intro-muted{
-  margin: 0;
-  font-size: 1.0rem;
-  line-height: 1.7;
-  color: var(--muted);
 }
 
 /* Logo */
 body.home .home-hero__logo{
   display: flex;
   justify-content: flex-end;
-  align-items: center;
 }
 body.home .home-logo{
   width: min(var(--logo-max), 100%);
-  height: auto;
-  display: block;
 }
 
 /* Responsive */
 @media (max-width: 900px){
-  body.home #quarto-content{
-    padding-left: 1.25rem !important;
-    padding-right: 1.25rem !important;
-    padding-top: 2.8rem !important;
-  }
-
   body.home .home-hero{
     grid-template-columns: 1fr;
-    gap: 1.6rem;
   }
-
   body.home .home-hero__text{ text-align: left; }
   body.home .social-icons{ justify-content: flex-start; }
-
-  body.home .home-hero__logo{ justify-content: flex-start; }
-  body.home .home-logo{ width: min(420px, 100%); }
 }
