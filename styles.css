@@ -7,13 +7,13 @@
 
 /* --- 1) Variables -------------------------------------------------------- */
 :root{
-  --bg: #fffdf8;
-  --text: #121417;
-  --muted: #5b6168;
-  --border: #e7e3dc;
+  --bg: #b3b5d1;
+  --text: #5c5a78;
+  --muted: #7a7892;
+  --border: #403e59;
 
-  --accent: #1f4b99;
-  --accent-soft: rgba(31,75,153,.12);
+  --accent: #e7b5a4;
+  --accent-soft: #ead3a8;
 
   --maxw: 820px;            /* internas */
   --home-body-max: 1520px;  /* ancho útil HOME (tu “ancho actual”) */
