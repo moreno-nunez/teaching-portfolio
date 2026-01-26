@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Ana Moreno Núñez"
+  title: "portafolio docente"
   navbar:
     left:
       - href: index.qmd

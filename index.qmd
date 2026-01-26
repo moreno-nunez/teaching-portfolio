@@ -12,15 +12,11 @@ editor: source
 ::: {.home-hero__text}
 
 ::: {.home-kicker}
-Portafolio docente
-:::
-
-::: {.home-name}
 Ana Moreno Núñez
 :::
 
 ::: {.home-keywords}
-Profesora universitaria · Comunicación temprana · Educación infantil
+docencia universitaria · comunicación temprana · educación infantil
 :::
 
 ::: {.social-icons}

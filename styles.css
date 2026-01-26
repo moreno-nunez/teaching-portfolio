@@ -5,19 +5,20 @@
 /* --- 1) Variables -------------------------------------------------------- */
 :root{
   --bg: #f6f4ec;
-  --text: #4a594a;
+  --text: #556b5a;
   --muted: #5f705f;
   --border: #f6f4ec;
 
   /* Navbar */
   --nav-bg: #6b7f63;
   --nav-link: #f6f4ec;
+  --nav-hover: #f1bfae;
   --nav-active: #f2d46b;
   --brand: #f6f4ec;
 
   /* Redes */
-  --social-color: #7c8e7c;
-  --social-hover: #4a594a;
+  --social-color: #6b7f63;
+  --social-hover: #3e5244;
   --social-pill: #f4d3c3;
 
   --maxw: 820px;
@@ -99,6 +100,7 @@ body{
 }
 
 .navbar .nav-link:hover{
+  color: var(--nav-hover) !important;   /* 👈 cambia el color */
   background: rgba(255,255,255,.12);
 }
 
@@ -154,21 +156,24 @@ body.home .home-kicker{
 body.home .home-name{
   font-size: clamp(2rem, 2.8vw, 2.45rem);
   font-weight: 650;
+  color: #556b5a;
 }
 
 body.home .home-keywords{
   font-size: 1.08rem;
+color: #8fa08a;
 }
 
-/* --- 7) ICONOS redes: alineación óptica real ----------------------------- */
+/* --- 7) ICONOS redes: alineación + peso visual SIN “caída” en hover ------ */
 
 .social-icons{
   display: flex !important;
   gap: .9rem !important;
   align-items: center !important;
+  line-height: 0 !important;          /* evita baselines raros */
 }
 
-/* Caja uniforme para TODOS */
+/* Botón circular (hover incluido) */
 .social-icons a{
   width: 2.05rem;
   height: 2.05rem;
@@ -182,7 +187,7 @@ body.home .home-keywords{
   text-decoration: none !important;
 
   color: var(--social-color) !important;
-  transition: background .15s ease, color .15s ease;
+  transition: background .15s ease, color .15s ease, transform .15s ease;
 }
 
 .social-icons a:hover{
@@ -190,42 +195,45 @@ body.home .home-keywords{
   background: var(--social-pill);
 }
 
-/* Reset óptico */
+/* Normaliza el “contenido” del botón */
 .social-icons a > *{
-  display: block;
-  line-height: 1;
+  display: block !important;
+  line-height: 1 !important;
 }
 
-/* Bootstrap Icons (GitHub, mail) */
-.social-icons i.bi{
+/* Tamaño base común */
+.social-icons i.bi,
+.social-icons iconify-icon{
   font-size: 1.15rem !important;
-  position: relative;
-  top: 0;
+  display: block !important;
 }
 
-/* --- Ajuste óptico por icono (definitivo) ------------------------------- */
-
-/* Google Scholar: el más alto */
+/* Peso visual: ajustes por icono (SOLO escala, sin top) */
 .social-icons iconify-icon[icon*="scholar"],
-.social-icons iconify-icon[icon*="google-scholar"]{
-  top: 0.26em;
+.social-icons iconify-icon[icon*="google-scholar"]{ transform: scale(1.08); }
+
+.social-icons iconify-icon[icon*="orcid"]{ transform: scale(1.03); }
+
+.social-icons iconify-icon[icon*="researchgate"]{ transform: scale(1.07); }
+
+.social-icons i.bi.bi-github{ transform: scale(0.94); }
+
+.social-icons i.bi.bi-envelope,
+.social-icons i.bi.bi-envelope-fill{ transform: scale(1.05); }
+
+/* Alineación óptica: mover EL BOTÓN (icono + hover juntos) */
+.social-icons a:has(iconify-icon[icon*="scholar"]),
+.social-icons a:has(iconify-icon[icon*="google-scholar"]){
+  transform: translateY(0.10rem);
 }
 
-/* ORCID: ligeramente alto */
-.social-icons iconify-icon[icon*="orcid"]{
-  top: 0.20em;
+.social-icons a:has(iconify-icon[icon*="orcid"]){
+  transform: translateY(0.06rem);
 }
 
-/* ResearchGate: un poco menos */
-.social-icons iconify-icon[icon*="researchgate"]{
-  top: 0.16em;
+.social-icons a:has(iconify-icon[icon*="researchgate"]){
+  transform: translateY(0.03rem);
 }
-
-/* Bootstrap Icons: referencia (no se mueven) */
-.social-icons i.bi{
-  top: 0;
-}
-
 
 /* HOME: colocación */
 body.home .social-icons{
