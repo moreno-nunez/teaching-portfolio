@@ -5,7 +5,7 @@ editor: visual
 ---
 
 ---
-title: "Docencia"
+title: "docencia"
 ---
 
 ## Docencia actual y reciente

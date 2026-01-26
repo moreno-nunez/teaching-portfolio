@@ -1,13 +1,14 @@
 /* ==========================================================================
-   Ana — Quarto website: minimalista académico (LIMPIO)
+   Ana — Quarto website: minimalista académico (LIMPIO) — estilo editorial
+   Referencia: “graniflora” (serif display + subtítulos con tracking)
    ========================================================================== */
 
 /* --- 1) Variables -------------------------------------------------------- */
 :root{
-  --bg: #f6f4ec;
-  --text: #556b5a;
-  --muted: #5f705f;
-  --border: #f6f4ec;
+  --bg: #f6f4ec;          /* Warm Ivory */
+  --text: #556b5a;        /* Deep Sage */
+  --muted: #5f705f;       /* Soft Sage */
+  --border: rgba(85,107,90,.18);
 
   /* Navbar */
   --nav-bg: #6b7f63;
@@ -16,10 +17,29 @@
   --nav-active: #f2d46b;
   --brand: #f6f4ec;
 
+  /* Accents */
+  --raspberry: #B23A6F;
+  --raspberry-soft: #C45A86;
+  --peach-soft: #f4d3c3;
+
   /* Redes */
-  --social-color: #6b7f63;
+  --social-color: var(--raspberry-soft);
   --social-hover: #3e5244;
-  --social-pill: #f4d3c3;
+  --social-pill: var(--peach-soft);
+
+  /* Tipos */
+  --font-body: "Lora", serif;
+  --font-display: "Playfair Display", serif;
+
+  /* Escala editorial (no sobredimensiona) */
+  --body-size: 17px;             /* texto cómodo */
+  --body-lh: 1.75;
+
+  --h1-size: clamp(2.8rem, 5vw, 4.6rem);  /* graniflora-style */
+  --h1-lh: 0.98;
+
+  --h2-size: clamp(1.05rem, 1.3vw, 1.35rem);
+  --h2-track: 0.22em;
 
   --maxw: 820px;
   --home-body-max: 1520px;
@@ -38,9 +58,11 @@ html{ scroll-behavior: smooth; }
 body{
   background: var(--bg);
   color: var(--text);
-  font-family: ui-serif, "Iowan Old Style", "Palatino Linotype", Palatino, Garamond, Georgia, serif;
-  line-height: 1.65;
-  font-size: 17px;
+
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: var(--body-size);
+  line-height: var(--body-lh);
 }
 
 #quarto-content{
@@ -59,6 +81,7 @@ body{
 }
 
 /* --- 4) Navbar ----------------------------------------------------------- */
+/* (IGUAL que tu versión; no toco nada) */
 .navbar{
   background: var(--nav-bg) !important;
   border-bottom: 1px solid var(--border);
@@ -73,8 +96,8 @@ body{
 }
 
 .navbar .navbar-brand{
-  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
-  font-weight: 650;
+  font-family: 'Open Sans', system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-weight: 600;
   letter-spacing: .01em;
   color: var(--brand) !important;
   white-space: nowrap;
@@ -97,10 +120,11 @@ body{
   padding: .35rem .6rem !important;
   border-radius: 999px;
   transition: background .15s ease, color .15s ease;
+  font-weight: 600;
 }
 
 .navbar .nav-link:hover{
-  color: var(--nav-hover) !important;   /* 👈 cambia el color */
+  color: var(--nav-hover) !important;
   background: rgba(255,255,255,.12);
 }
 
@@ -115,21 +139,55 @@ body{
   border-bottom: 0 !important;
 }
 
-/* --- 5) Tipografía ------------------------------------------------------- */
-h1, h2, h3, h4{
+/* --- 5) Tipografía (editorial graniflora) -------------------------------- */
+
+/* Título principal: serif display, itálica, elegante */
+h1{
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 600;
+  font-size: var(--h1-size);
+  line-height: var(--h1-lh);
+  letter-spacing: -0.01em;
+  margin: 0 0 1rem;
+  color: var(--raspberry);
+}
+
+/* Subtítulo: uppercase con tracking, fino */
+h2{
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: var(--h2-size);
+  text-transform: uppercase;
+  letter-spacing: var(--h2-track);
   color: var(--text);
-  line-height: 1.2;
+  margin: 2.2rem 0 1rem;
+}
+
+/* Niveles inferiores: sobrios, sin inflar */
+h3, h4{
+  font-family: var(--font-body);
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.25;
   margin: 1.6rem 0 .65rem;
 }
 
+p{ margin: 0 0 1rem; }
+
+/* Links coherentes con la paleta */
 a{
   color: var(--muted);
   text-decoration: none;
-  border-bottom: 1px solid rgba(31,75,153,.25);
+  border-bottom: 1px solid rgba(95,112,95,.35);
+  transition: color .15s ease, border-bottom-color .15s ease;
 }
-a:hover{ border-bottom-color: rgba(31,75,153,.55); }
+a:hover{
+  color: var(--raspberry);
+  border-bottom-color: rgba(178,58,111,.55);
+}
 
-/* --- 6) HOME ------------------------------------------------------------- */
+/* --- 6) HOME (misma escala que páginas internas) ------------------------- */
 body.home .quarto-title-block{ display: none !important; }
 
 body.home #quarto-content{
@@ -148,32 +206,45 @@ body.home .home-hero{
 
 body.home .home-hero__text{ text-align: right; }
 
+/* HOME: el “título” debe parecer un h1 editorial */
 body.home .home-kicker{
-  font-size: clamp(3rem, 4.6vw, 3.7rem);
-  font-weight: 700;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 600;
+  font-size: var(--h1-size);
+  line-height: var(--h1-lh);
+  letter-spacing: -0.01em;
+  color: var(--raspberry);
+  margin: 0 0 1rem;
 }
 
+/* HOME: subtítulo como h2 editorial */
 body.home .home-name{
-  font-size: clamp(2rem, 2.8vw, 2.45rem);
-  font-weight: 650;
-  color: #556b5a;
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: var(--h2-size);
+  text-transform: uppercase;
+  letter-spacing: var(--h2-track);
+  color: #8fa08a;
+  margin: 0 0 1.1rem;
 }
 
+/* HOME: keywords (texto normal, no grita) */
 body.home .home-keywords{
-  font-size: 1.08rem;
-color: #8fa08a;
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 1.05rem;
+  color: #8fa08a;
 }
 
-/* --- 7) ICONOS redes: alineación + peso visual SIN “caída” en hover ------ */
-
+/* --- 7) ICONOS redes: lo tuyo tal cual ---------------------------------- */
 .social-icons{
   display: flex !important;
   gap: .9rem !important;
   align-items: center !important;
-  line-height: 0 !important;          /* evita baselines raros */
+  line-height: 0 !important;
 }
 
-/* Botón circular (hover incluido) */
 .social-icons a{
   width: 2.05rem;
   height: 2.05rem;
@@ -195,20 +266,18 @@ color: #8fa08a;
   background: var(--social-pill);
 }
 
-/* Normaliza el “contenido” del botón */
 .social-icons a > *{
   display: block !important;
   line-height: 1 !important;
 }
 
-/* Tamaño base común */
 .social-icons i.bi,
 .social-icons iconify-icon{
   font-size: 1.15rem !important;
   display: block !important;
 }
 
-/* Peso visual: ajustes por icono (SOLO escala, sin top) */
+/* Peso visual: ajustes por icono */
 .social-icons iconify-icon[icon*="scholar"],
 .social-icons iconify-icon[icon*="google-scholar"]{ transform: scale(1.08); }
 
@@ -221,7 +290,7 @@ color: #8fa08a;
 .social-icons i.bi.bi-envelope,
 .social-icons i.bi.bi-envelope-fill{ transform: scale(1.05); }
 
-/* Alineación óptica: mover EL BOTÓN (icono + hover juntos) */
+/* Alineación óptica: mover EL BOTÓN */
 .social-icons a:has(iconify-icon[icon*="scholar"]),
 .social-icons a:has(iconify-icon[icon*="google-scholar"]){
   transform: translateY(0.10rem);
@@ -257,4 +326,9 @@ body.home .home-logo{
   }
   body.home .home-hero__text{ text-align: left; }
   body.home .social-icons{ justify-content: flex-start; }
+
+  /* En móvil bajamos tracking para que no parezca matrícula */
+  h2, body.home .home-name{
+    letter-spacing: 0.14em;
+  }
 }

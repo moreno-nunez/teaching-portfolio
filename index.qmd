@@ -12,11 +12,11 @@ editor: source
 ::: {.home-hero__text}
 
 ::: {.home-kicker}
-Ana Moreno Núñez
+ana moreno núñez
 :::
 
 ::: {.home-keywords}
-docencia universitaria · comunicación temprana · educación infantil
+TITULO DE EXPERTO EN MENTORÍA UNIVERSITARIA
 :::
 
 ::: {.social-icons}
