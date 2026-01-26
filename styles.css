@@ -9,11 +9,11 @@
 :root{
   --bg: #f6f4ec;
   --text: #4a594a;
-  --muted: #f6f4ec;
+  --muted: #f2d46b;
   --border: #f6f4ec;
 
   --accent: #f2d46b;
-  --accent-soft: #f4d3c3;
+  --accent-soft: #5f705f;
 
 :root{
   ...
