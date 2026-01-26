@@ -8,12 +8,12 @@
 /* --- 1) Variables -------------------------------------------------------- */
 :root{
   --bg: #f6f4ec;
-  --text: #5f705f;
-  --muted: #f2d46b;
-  --border: #7a7892;
+  --text: #4a594a;
+  --muted: #7c8e7c;
+  --border: #f4d3c3;
 
-  --accent: #4a594a;
-  --accent-soft: #7a7892;
+  --accent: #f2d46b;
+  --accent-soft: #5f705f;
 
   --maxw: 820px;            /* internas */
   --home-body-max: 1520px;  /* ancho útil HOME (tu “ancho actual”) */
