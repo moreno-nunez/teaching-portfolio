@@ -17,7 +17,7 @@
 
   /* Redes */
   --social-color: var(--text);
-  --social-hover: #f4d3c3;
+  --social-hover: #f6f4ec;
   --social-pill: rgba(0,0,0,.06);
 
   --maxw: 820px;
@@ -203,12 +203,29 @@ body.home .home-keywords{
   top: 0;
 }
 
-/* Iconify (Scholar, ORCID, ResearchGate) */
-.social-icons iconify-icon{
-  font-size: 1.15rem !important;
-  position: relative;
-  top: 0.18em;
+/* --- Ajuste óptico por icono (definitivo) ------------------------------- */
+
+/* Google Scholar: el más alto */
+.social-icons iconify-icon[icon*="scholar"],
+.social-icons iconify-icon[icon*="google-scholar"]{
+  top: 0.26em;
 }
+
+/* ORCID: ligeramente alto */
+.social-icons iconify-icon[icon*="orcid"]{
+  top: 0.20em;
+}
+
+/* ResearchGate: un poco menos */
+.social-icons iconify-icon[icon*="researchgate"]{
+  top: 0.16em;
+}
+
+/* Bootstrap Icons: referencia (no se mueven) */
+.social-icons i.bi{
+  top: 0;
+}
+
 
 /* HOME: colocación */
 body.home .social-icons{
