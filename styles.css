@@ -10,10 +10,10 @@
   --bg: #fffdf8;
   --text: #5c5a78;
   --muted: #7a7892;
-  --border: #e7e3dc;
+  --border: #fffdf8;
 
-  --accent: #b3b5d1;
-  --accent-soft: rgba(31,75,153,.12);
+  --accent: #5c5a78;
+  --accent-soft: #fffdf8;
 
   --maxw: 820px;            /* internas */
   --home-body-max: 1520px;  /* ancho útil HOME (tu “ancho actual”) */
