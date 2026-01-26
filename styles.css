@@ -1,9 +1,8 @@
 /* ==========================================================================
    Ana — Quarto website: minimalista académico (LIMPIO)
    - Internas: columna estrecha (~820px)
-   - HOME: layout tipo “Ricardo” (texto a la derecha + logo a la derecha)
-   - Navbar minimal
-   - Links elegantes, sin sombras, sin tarjetas
+   - HOME: hero centrado tipo “Ricardo” (texto a la derecha + logo a la derecha)
+   - Navbar minimal (links a la derecha)
    ========================================================================== */
 
 /* --- 1) Variables -------------------------------------------------------- */
@@ -16,22 +15,16 @@
   --accent: #1f4b99;
   --accent-soft: rgba(31,75,153,.12);
 
-  --maxw: 820px;          /* internas */
-  --home-body-max: 1520px;/* “ancho útil” del contenido HOME */
+  --maxw: 820px;            /* internas */
+  --home-body-max: 1520px;  /* ancho útil HOME (tu “ancho actual”) */
 
   --nav-h: 64px;
 
-  /* HOME spacing */
-  --home-top-gap: 4.8rem;     /* aire bajo navbar */
-  --home-gutter-sm: 1.25rem;  /* gutters laterales (móvil/mediano) */
-  --home-gutter-lg: 2.25rem;  /* gutters laterales (pantallas grandes) */
+  --home-top-gap: 4.8rem;   /* aire bajo navbar */
+  --home-gutter: 2.25rem;   /* márgenes laterales HOME */
+  --hero-gap: 2.6rem;
 
-  --hero-gap: 2.6rem;         /* gap entre texto y logo */
-  --gap-keywords-icons: 1.25rem;
-  --gap-icons-intro: 1.25rem;
-
-  /* Logo */
-  --logo-max: 620px;          /* AJUSTA AQUÍ tamaño logo (p.ej. 560px) */
+  --logo-max: 560px;        /* AJUSTA AQUÍ el tamaño del logo */
 }
 
 /* --- 2) Base ------------------------------------------------------------- */
@@ -48,21 +41,10 @@ body{
 }
 
 #quarto-content{
-  padding-top: 1.8rem;
-  padding-bottom: 3rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 1.8rem 1rem 3rem;
 }
 
-@media (min-width: 992px){
-  #quarto-content{
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-}
-
-/* --- 3) Layout: internas estrechas -------------------------------------- */
-/* SOLO contenido (no navbar): internas estrechas */
+/* --- 3) Layout internas estrechas --------------------------------------- */
 #quarto-content .page-columns,
 #quarto-content .page-columns-container,
 #quarto-content .container,
@@ -74,7 +56,7 @@ body{
   margin-right: auto;
 }
 
-/* --- 4) Navbar minimal --------------------------------------------------- */
+/* --- 4) Navbar minimal + a la derecha ----------------------------------- */
 .navbar{
   background: #ffffff !important;
   border-bottom: 1px solid var(--border);
@@ -82,11 +64,12 @@ body{
   min-height: var(--nav-h);
 }
 
-.navbar .navbar-toggler{
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  padding: .35rem .55rem;
-  box-shadow: none !important;
+.navbar .container,
+.navbar .container-lg,
+.navbar .container-xl,
+.navbar .container-xxl{
+  max-width: none !important;
+  width: 100% !important;
 }
 
 .navbar .navbar-brand{
@@ -96,14 +79,14 @@ body{
   color: var(--text) !important;
 }
 
-.navbar-nav{ margin-left: auto; }
+.navbar .navbar-collapse{ justify-content: flex-end !important; }
+.navbar-nav{ margin-left: auto !important; }
 
 .navbar .nav-link{
   color: var(--muted) !important;
   font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
   font-size: .92rem;
   letter-spacing: .02em;
-  text-transform: none;
   padding: .35rem .6rem !important;
   border-radius: 999px;
   transition: background .15s ease, color .15s ease;
@@ -118,16 +101,7 @@ body{
 .navbar .nav-link[aria-current="page"]{
   color: var(--accent) !important;
   background: var(--accent-soft);
-}/* NAVBAR: nunca debe heredar los max-width del contenido */
-.navbar .container,
-.navbar .container-lg,
-.navbar .container-xl,
-.navbar .container-xxl{
-  max-width: none !important;
-  width: 100% !important;
 }
-
-.navbar-nav{ margin-left: auto; } /* links a la derecha como lo tenías */
 
 /* --- 5) Tipografía general ---------------------------------------------- */
 h1, h2, h3, h4{
@@ -138,107 +112,18 @@ h1, h2, h3, h4{
   margin-bottom: .65rem;
 }
 
-h2{ font-size: 1.55rem; }
-h3{ font-size: 1.22rem; color: #1b2026; }
-h4{ font-size: 1.05rem; color: #2a313a; }
-
-/* --- 6) Links ------------------------------------------------------------ */
 a{
   color: var(--accent);
   text-decoration: none;
   border-bottom: 1px solid rgba(31,75,153,.25);
-  transition: border-color .15s ease, color .15s ease;
 }
-a:hover{
-  color: #173a78;
-  border-bottom-color: rgba(31,75,153,.55);
-}
+a:hover{ border-bottom-color: rgba(31,75,153,.55); }
 .navbar a{ border-bottom: 0; }
 
-/* --- 7) Cero tarjetas / sombras ----------------------------------------- */
-.card, .card *{ box-shadow: none !important; }
-.card{ border: 0 !important; background: transparent !important; }
+/* --- 6) HOME (centrada, sin title-block duplicado) ---------------------- */
+body.home .quarto-title-block{ display: none !important; }
 
-.callout{
-  border: 1px solid var(--border) !important;
-  border-left-width: 3px !important;
-  box-shadow: none !important;
-  background: #fff !important;
-}
-
-/* --- 8) Tablas y código -------------------------------------------------- */
-table{
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1.2rem 0;
-  font-size: .98rem;
-}
-th, td{
-  padding: .55rem .55rem;
-  border-bottom: 1px solid var(--border);
-}
-th{
-  text-align: left;
-  font-weight: 650;
-  color: #1b2026;
-  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
-}
-code, pre{
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
-  font-size: .92em;
-}
-pre{
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: .9rem 1rem;
-  background: #ffffff;
-  overflow: auto;
-  box-shadow: none !important;
-}
-
-/* --- 9) Footer ----------------------------------------------------------- */
-.footer{
-  border-top: 1px solid var(--border);
-  color: var(--muted);
-  font-size: .92rem;
-  padding-top: 1.5rem;
-}
-
-/* --- 10) Iconos sociales (base) ----------------------------------------- */
-.social-icons{
-  display: flex;
-  gap: .9rem;
-  align-items: center;
-}
-
-.social-icons a{
-  color: var(--muted);
-  border: 0;
-  text-decoration: none;
-  transition: color .15s ease;
-  display: inline-flex;
-  align-items: center;
-  line-height: 1;
-}
-.social-icons a:hover{ color: var(--accent); }
-
-.social-icons i,
-.social-icons iconify-icon{
-  font-size: 1.12rem;     /* tamaño “sensato” */
-  line-height: 1;
-  color: currentColor;
-  vertical-align: middle;
-}
-.social-icons iconify-icon{
-  position: relative;
-  top: 0.02em;            /* corrige baseline */
-}
-
-/* ===========================
-   HOME (único bloque válido)
-   =========================== */
-
-/* En HOME, el contenido NO va en columna estrecha */
+/* HOME: quita la columna estrecha SOLO en home */
 body.home #quarto-content .page-columns,
 body.home #quarto-content .page-columns-container,
 body.home #quarto-content main.content,
@@ -248,63 +133,114 @@ body.home #quarto-content .content{
   margin: 0 !important;
 }
 
-/* Quita el gutter enorme de Quarto en HOME */
-body.home #quarto-content.page-columns{
-  grid-template-columns:
-    [screen-start] 2rem
-    [body-start] minmax(0, 1600px)
-    [body-end] 2rem
-    [screen-end] !important;
-}
-
-/* Aire arriba bajo navbar */
+/* HOME: espacio superior y gutters laterales */
 body.home #quarto-content{
-  padding-top: 5rem !important;
+  padding-top: var(--home-top-gap) !important;
+  padding-left: var(--home-gutter) !important;
+  padding-right: var(--home-gutter) !important;
 }
 
-/* HERO layout */
+/* HERO: centrado en página con tu ancho útil actual */
 body.home .home-hero{
+  max-width: var(--home-body-max);
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: minmax(680px, 1fr) minmax(420px, 560px);
-  gap: 2.6rem;
+  grid-template-columns: 1.25fr 0.75fr; /* texto / logo */
+  gap: var(--hero-gap);
   align-items: center;
 }
 
-/* Columna izquierda: alineada a la derecha (como Ricardo) */
+/* Columna texto: alineada a la derecha (tipo Ricardo) */
 body.home .home-hero__text{
   text-align: right;
 }
 
-/* Logo: control aquí (esto es lo que te interesa) */
-body.home .home-hero__logo img,
+/* Jerarquía dentro del hero */
+body.home .home-kicker{
+  font-size: clamp(3.0rem, 4.6vw, 3.7rem);
+  line-height: 1.05;
+  font-weight: 700;
+  margin: 0 0 1.1rem 0;
+}
+
+body.home .home-name{
+  font-size: clamp(2.0rem, 2.8vw, 2.45rem);
+  line-height: 1.12;
+  font-weight: 650;
+  margin: 0 0 .55rem 0;
+}
+
+body.home .home-keywords{
+  font-size: 1.08rem;
+  margin: 0 0 1.25rem 0;
+}
+
+/* Iconos: a la derecha, tamaño normal, bien alineados */
+body.home .social-icons{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: .9rem;
+  margin: 0 0 1.25rem 0;
+}
+
+body.home .social-icons a{
+  color: var(--muted);
+  border: 0;
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+}
+body.home .social-icons a:hover{ color: var(--accent); }
+
+body.home .social-icons i,
+body.home .social-icons iconify-icon{
+  font-size: 1.12rem;
+  line-height: 1;
+  color: currentColor;
+  vertical-align: middle;
+}
+body.home .social-icons iconify-icon{ position: relative; top: 0.02em; }
+
+/* Intro */
+body.home .home-intro{
+  margin: 0 0 1.25rem 0;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+body.home .home-intro-muted{
+  margin: 0;
+  font-size: 1.0rem;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+/* Logo: a la derecha y ajustable */
+body.home .home-hero__logo{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
 body.home .home-logo{
-  width: min(520px, 100%);
+  width: min(var(--logo-max), 100%);
   height: auto;
   display: block;
 }
 
 /* Responsive */
 @media (max-width: 900px){
+  body.home #quarto-content{
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+    padding-top: 2.8rem !important;
+  }
   body.home .home-hero{
     grid-template-columns: 1fr;
+    gap: 1.6rem;
   }
   body.home .home-hero__text{ text-align: left; }
+  body.home .social-icons{ justify-content: flex-start; }
   body.home .home-hero__logo{ justify-content: flex-start; }
   body.home .home-logo{ width: min(420px, 100%); }
-}
-/* Navbar: usar todo el ancho y empujar items a la derecha */
-.navbar .container,
-.navbar .container-lg,
-.navbar .container-xl,
-.navbar .container-xxl{
-  max-width: none !important;
-  width: 100% !important;
-}
-
-.navbar .navbar-collapse{
-  justify-content: flex-end !important;
-}
-
-.navbar-nav{
-  margin-left: auto !important;
 }

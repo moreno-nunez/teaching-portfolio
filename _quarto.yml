@@ -17,4 +17,9 @@ website:
 
 format:
   html:
+    theme: cosmo
     css: styles.css
+    toc: false
+    include-in-header:
+      - text: |
+          <script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
