@@ -1,5 +1,9 @@
 /* ==========================================================================
-   Ana — Quarto website: minimalista académico (HOME afinada tipo “Ricardo”)
+   Ana — Quarto website: minimalista académico (LIMPIO)
+   - Internas: columna estrecha (~820px)
+   - HOME: layout tipo “Ricardo” (texto a la derecha + logo a la derecha)
+   - Navbar minimal
+   - Links elegantes, sin sombras, sin tarjetas
    ========================================================================== */
 
 /* --- 1) Variables -------------------------------------------------------- */
@@ -12,18 +16,22 @@
   --accent: #1f4b99;
   --accent-soft: rgba(31,75,153,.12);
 
-  --maxw: 820px;        /* internas */
-  --home-maxw: 1400px;  /* HOME: más ancho */
+  --maxw: 820px;          /* internas */
+  --home-body-max: 1520px;/* “ancho útil” del contenido HOME */
 
   --nav-h: 64px;
 
-  /* Espaciados HOME */
-  --home-top-gap: 4.8rem; /* ↑ aprox el doble que antes */
-  --hero-gap: 2.4rem;
+  /* HOME spacing */
+  --home-top-gap: 4.8rem;     /* aire bajo navbar */
+  --home-gutter-sm: 1.25rem;  /* gutters laterales (móvil/mediano) */
+  --home-gutter-lg: 2.25rem;  /* gutters laterales (pantallas grandes) */
 
-  /* Aire vertical “Ricardo” */
+  --hero-gap: 2.6rem;         /* gap entre texto y logo */
   --gap-keywords-icons: 1.25rem;
   --gap-icons-intro: 1.25rem;
+
+  /* Logo */
+  --logo-max: 620px;          /* AJUSTA AQUÍ tamaño logo (p.ej. 560px) */
 }
 
 /* --- 2) Base ------------------------------------------------------------- */
@@ -65,42 +73,7 @@ body{
   margin-right: auto;
 }
 
-/* --- 4) Layout: HOME más ancha ------------------------------------------ */
-body.home .page-columns-container,
-body.home .page-columns,
-body.home .container,
-body.home .container-lg,
-body.home .container-xl,
-body.home .container-xxl{
-  max-width: var(--home-maxw) !important;
-  width: 100% !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
-body.home .content,
-body.home .page-columns .content,
-body.home main.content,
-body.home .column-page{
-  max-width: none !important;
-  width: 100% !important;
-}
-
-/* Home: aire lateral + mucho aire superior bajo navbar */
-body.home #quarto-content{
-  padding-left: 2.75rem !important;
-  padding-right: 2.75rem !important;
-  padding-top: var(--home-top-gap) !important;
-}
-@media (max-width: 900px){
-  body.home #quarto-content{
-    padding-left: 1.25rem !important;
-    padding-right: 1.25rem !important;
-    padding-top: 2.4rem !important;
-  }
-}
-
-/* --- 5) Navbar minimal --------------------------------------------------- */
+/* --- 4) Navbar minimal --------------------------------------------------- */
 .navbar{
   background: #ffffff !important;
   border-bottom: 1px solid var(--border);
@@ -146,22 +119,7 @@ body.home #quarto-content{
   background: var(--accent-soft);
 }
 
-/* --- 6) Bloque título de página ----------------------------------------- */
-.quarto-title-block{
-  margin-bottom: 0.5rem; /* ↓ menos hueco con el hero */
-}
-
-.quarto-title-block .title{
-  margin: 0;
-  line-height: 1.05;
-}
-
-/* HOME: “Portafolio docente” grande, con aire arriba ya dado por #quarto-content */
-body.home .quarto-title-block .title{
-  font-size: clamp(3.0rem, 4.6vw, 3.7rem);
-}
-
-/* --- 7) Tipografía general ---------------------------------------------- */
+/* --- 5) Tipografía general ---------------------------------------------- */
 h1, h2, h3, h4{
   color: var(--text);
   line-height: 1.2;
@@ -174,7 +132,7 @@ h2{ font-size: 1.55rem; }
 h3{ font-size: 1.22rem; color: #1b2026; }
 h4{ font-size: 1.05rem; color: #2a313a; }
 
-/* --- 8) Links ------------------------------------------------------------ */
+/* --- 6) Links ------------------------------------------------------------ */
 a{
   color: var(--accent);
   text-decoration: none;
@@ -187,7 +145,7 @@ a:hover{
 }
 .navbar a{ border-bottom: 0; }
 
-/* --- 9) Cero tarjetas / sombras ----------------------------------------- */
+/* --- 7) Cero tarjetas / sombras ----------------------------------------- */
 .card, .card *{ box-shadow: none !important; }
 .card{ border: 0 !important; background: transparent !important; }
 
@@ -198,7 +156,7 @@ a:hover{
   background: #fff !important;
 }
 
-/* --- 10) Tablas y código ------------------------------------------------- */
+/* --- 8) Tablas y código -------------------------------------------------- */
 table{
   width: 100%;
   border-collapse: collapse;
@@ -228,7 +186,7 @@ pre{
   box-shadow: none !important;
 }
 
-/* --- 11) Footer ---------------------------------------------------------- */
+/* --- 9) Footer ----------------------------------------------------------- */
 .footer{
   border-top: 1px solid var(--border);
   color: var(--muted);
@@ -236,10 +194,10 @@ pre{
   padding-top: 1.5rem;
 }
 
-/* --- 12) Iconos sociales ------------------------------------------------- */
+/* --- 10) Iconos sociales (base) ----------------------------------------- */
 .social-icons{
   display: flex;
-  gap: 1rem;
+  gap: .9rem;
   align-items: center;
 }
 
@@ -248,134 +206,141 @@ pre{
   border: 0;
   text-decoration: none;
   transition: color .15s ease;
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
 }
 .social-icons a:hover{ color: var(--accent); }
 
 .social-icons i,
 .social-icons iconify-icon{
-  font-size: 1.28em;
+  font-size: 1.12rem;     /* tamaño “sensato” */
   line-height: 1;
   color: currentColor;
-  vertical-align: -0.12em;
+  vertical-align: middle;
+}
+.social-icons iconify-icon{
+  position: relative;
+  top: 0.02em;            /* corrige baseline */
 }
 
-/* --- 13) HOME HERO ------------------------------------------------------- */
 /* ==========================================================================
-   HOME (tipo Ricardo): bloque ancho, texto alineado a la derecha + logo grande
-   Depende de index.qmd con .home-hero y headings propios.
+   HOME (tipo Ricardo)
    ========================================================================== */
 
-/* Oculta el bloque de título automático (ya lo ponemos dentro del hero) */
-body.home .quarto-title-block{
-  display: none !important;
+/* 1) No queremos el title-block automático en HOME */
+body.home .quarto-title-block{ display: none !important; }
+
+/* 2) El “margen enorme” viene de .page-columns (gutter lateral)
+      Re-definimos la grid para gutters pequeños y un body ancho */
+body.home .page-columns{
+  grid-template-columns:
+    [screen-start] var(--home-gutter-sm)
+    [body-start] minmax(0, var(--home-body-max))
+    [body-end] var(--home-gutter-sm)
+    [screen-end] !important;
 }
 
-/* En HOME: contenedor full width, sin “columna centrada” */
-body.home .page-columns,
-body.home .page-columns-container,
-body.home .container,
-body.home .container-lg,
-body.home .container-xl,
-body.home .container-xxl{
-  max-width: none !important;
-  width: 100% !important;
-  margin: 0 !important;
-}
-
-/* Márgenes laterales: aquí eliminas el “espacio enorme a la izquierda” */
-body.home #quarto-content{
-  padding-top: 4.8rem !important;     /* aire bajo navbar */
-  padding-left: 3.0rem !important;    /* baja esto si quieres aún menos margen */
-  padding-right: 2.5rem !important;
-}
-
-@media (max-width: 1100px){
-  body.home #quarto-content{
-    padding-left: 1.5rem !important;
-    padding-right: 1.25rem !important;
-    padding-top: 2.8rem !important;
+@media (min-width: 1200px){
+  body.home .page-columns{
+    grid-template-columns:
+      [screen-start] var(--home-gutter-lg)
+      [body-start] minmax(0, var(--home-body-max))
+      [body-end] var(--home-gutter-lg)
+      [screen-end] !important;
   }
 }
 
-/* HERO: dos columnas (texto + logo) */
-body.home .home-hero{
-  display: grid;
-  grid-template-columns: 1.15fr 0.85fr; /* logo con presencia */
-  gap: 3rem;
-  align-items: center;
-  max-width: 1400px;
-  margin: 0; /* anclado a la izquierda */
+/* 3) Aire bajo navbar en HOME */
+body.home #quarto-content{
+  padding-top: var(--home-top-gap) !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
-/* Texto: alineado a la derecha dentro de su columna */
+/* 4) HOME HERO layout */
+body.home .home-hero{
+  display: grid;
+  grid-template-columns: 1.35fr 0.65fr; /* texto más ancho que logo */
+  gap: var(--hero-gap);
+  align-items: center;
+  margin: 0;
+}
+
+/* Texto: alineado a la derecha dentro de su columna (NO centrado en página) */
 body.home .home-hero__text{
   text-align: right;
-  max-width: 820px;   /* controla anchura del bloque de texto */
-  margin-left: auto;  /* pega el bloque al lado derecho de su columna */
+  width: 100%;
+  max-width: none;          /* clave: que no “encajone” y genere aire raro */
+  justify-self: end;        /* el bloque queda al final de su columna */
+  font-weight: 400;
 }
 
 /* Tipos HOME */
 body.home .home-kicker{
-  font-size: clamp(3.0rem, 4.6vw, 3.9rem);
+  font-size: clamp(3.1rem, 4.8vw, 4.05rem);
   line-height: 1.05;
-  margin: 0 0 1.2rem 0;
+  font-weight: 700;
+  margin: 0 0 1.1rem 0;
 }
 
 body.home .home-name{
-  font-size: clamp(2.05rem, 2.8vw, 2.45rem);
-  line-height: 1.08;
+  font-size: clamp(2.0rem, 2.8vw, 2.45rem);
+  line-height: 1.12;
+  font-weight: 650;
   margin: 0 0 .55rem 0;
-  font-weight: 700;
 }
 
 body.home .home-keywords{
-  font-size: 1.12rem;
-  margin: 0 0 1.25rem 0;
+  font-size: 1.08rem;
+  margin: 0 0 var(--gap-keywords-icons) 0;
 }
 
-/* Iconos alineados a la derecha + aire */
+/* Iconos: alineados a la derecha + aire */
 body.home .home-hero__text .social-icons{
   justify-content: flex-end;
-  margin: 0 0 1.25rem 0;
+  margin: 0 0 var(--gap-icons-intro) 0;
 }
 
 /* Intro */
 body.home .home-intro{
   margin: 0 0 1.25rem 0;
-  font-size: 1.08rem;
+  font-size: 1.05rem;
   line-height: 1.7;
 }
 
 body.home .home-intro-muted{
   margin: 0;
-  font-size: 1.02rem;
+  font-size: 1.0rem;
   line-height: 1.7;
   color: var(--muted);
 }
 
-/* Logo grande */
+/* Logo */
 body.home .home-hero__logo{
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
+
 body.home .home-hero__logo img{
-  width: min(760px, 100%);
+  width: min(var(--logo-max), 100%); /* AJUSTA CON --logo-max */
   height: auto;
   display: block;
 }
 
 /* Responsive */
 @media (max-width: 900px){
+  body.home #quarto-content{
+    padding-top: 3.0rem !important;
+  }
   body.home .home-hero{
     grid-template-columns: 1fr;
-    gap: 1.75rem;
-    max-width: none;
+    gap: 1.6rem;
   }
   body.home .home-hero__text{
     text-align: left;
-    max-width: none;
-    margin-left: 0;
+    justify-self: start;
   }
   body.home .home-hero__text .social-icons{
     justify-content: flex-start;
@@ -386,499 +351,4 @@ body.home .home-hero__logo img{
   body.home .home-hero__logo img{
     width: min(520px, 100%);
   }
-}
-/* HOME: usar casi todo el ancho útil y reducir margen izquierdo */
-body.home #quarto-content{
-  padding-left: 1rem !important;
-  padding-right: 1rem !important;
-}
-
-@media (min-width: 1100px){
-  body.home #quarto-content{
-    padding-left: 2rem !important;  /* súbelo/bájalo a ojo */
-    padding-right: 2rem !important;
-  }
-}
-
-/* mata el centrado del wrapper típico */
-body.home main.content,
-body.home .content,
-body.home .page-columns,
-body.home .page-columns-container{
-  max-width: none !important;
-  margin: 0 !important;
-}
-/* ==========================================================================
-   HOME: ajuste fino (sin tocar tipografías globales)
-   - Sin margen izquierdo “enorme”
-   - Texto alineado a la derecha dentro de su columna
-   - Iconos pequeños y alineados
-   - Logo grande equilibrado
-   ========================================================================== */
-
-/* Oculta el title-block automático en HOME */
-body.home .quarto-title-block{ display: none !important; }
-
-/* HOME: quita el centrado del wrapper y usa todo el ancho */
-body.home main.content,
-body.home .content,
-body.home .page-columns,
-body.home .page-columns-container,
-body.home .container,
-body.home .container-lg,
-body.home .container-xl,
-body.home .container-xxl{
-  max-width: none !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-/* ESTE es el “margen izquierdo”: lo controlamos aquí */
-body.home #quarto-content{
-  padding-top: 5rem !important;     /* más aire bajo navbar */
-  padding-left: 1.2rem !important;  /* casi al borde */
-  padding-right: 1.2rem !important;
-}
-
-/* En pantallas grandes, un pelín más (pero sigue siendo poco) */
-@media (min-width: 1200px){
-  body.home #quarto-content{
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
-  }
-}
-
-/* Layout hero */
-body.home .home-hero{
-  display: grid;
-  grid-template-columns: 1.25fr 0.75fr; /* texto más ancho */
-  gap: 2.6rem;
-  align-items: center;
-
-  /* NO lo centres: anclado a la izquierda */
-  margin: 0 !important;
-  max-width: none !important;
-}
-
-/* Texto: alineado a la derecha dentro de su columna */
-body.home .home-hero__text{
-  text-align: right;
-  max-width: 920px;     /* más ancho hacia la izquierda */
-  margin-left: auto;    /* lo pega al borde derecho de su columna */
-  font-weight: 400;     /* evita “todo en negrita” */
-}
-
-/* “Portafolio docente” */
-body.home .home-kicker{
-  font-size: clamp(3.1rem, 4.8vw, 4.0rem);
-  line-height: 1.05;
-  font-weight: 700;       /* solo este va fuerte */
-  margin: 0 0 1.1rem 0;
-}
-
-/* Nombre: más pequeño que el kicker, pero mayor que keywords */
-body.home .home-name{
-  font-size: clamp(2.0rem, 2.8vw, 2.45rem);
-  line-height: 1.12;
-  font-weight: 650;
-  margin: 0 0 .55rem 0;
-}
-
-/* Keywords */
-body.home .home-keywords{
-  font-size: 1.08rem;
-  font-weight: 400;
-  margin: 0 0 1.25rem 0; /* aire hasta iconos */
-}
-
-/* Iconos: pequeños, alineados y con el mismo baseline */
-body.home .social-icons{
-  display: flex;
-  gap: .9rem;
-  justify-content: flex-end; /* a la derecha */
-  align-items: center;
-  margin: 0 0 1.25rem 0;     /* mismo aire hacia la intro */
-}
-
-body.home .social-icons a{
-  color: var(--muted);
-  border: 0;
-  text-decoration: none;
-  line-height: 1;
-  display: inline-flex;
-  align-items: center;
-}
-
-body.home .social-icons a:hover{ color: var(--accent); }
-
-/* Tamaño uniforme para iconos */
-body.home .social-icons i,
-body.home .social-icons iconify-icon{
-  font-size: 1.15rem;     /* aquí controlas “enormes” -> ya no */
-  line-height: 1;
-  vertical-align: middle;
-}
-
-/* Baja un pelín iconify si lo ves “bailón” */
-body.home .social-icons iconify-icon{
-  position: relative;
-  top: 0.02em;
-}
-
-/* Intro */
-body.home .home-intro{
-  margin: 0 0 1.25rem 0;
-  font-size: 1.05rem;
-  line-height: 1.7;
-}
-
-body.home .home-intro-muted{
-  margin: 0;
-  font-size: 1.0rem;
-  line-height: 1.7;
-  color: var(--muted);
-}
-
-/* Logo grande y equilibrado */
-body.home .home-hero__logo{
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-body.home .home-hero__logo img{
-  width: min(680px, 100%);
-  height: auto;
-  display: block;
-}
-
-/* Responsive */
-@media (max-width: 900px){
-  body.home .home-hero{
-    grid-template-columns: 1fr;
-    gap: 1.6rem;
-  }
-  body.home .home-hero__text{
-    text-align: left;
-    max-width: none;
-    margin-left: 0;
-  }
-  body.home .social-icons{ justify-content: flex-start; }
-  body.home .home-hero__logo{ justify-content: flex-start; }
-  body.home .home-hero__logo img{ width: min(520px, 100%); }
-}
-/* =========================
-   HOME: QUITAR GUTTERS DE QUARTO
-   (el “margen enorme” viene de .page-columns)
-   ========================= */
-
-body.home .page-columns{
-  /* En lugar de 1fr a los lados (gutter enorme), metemos gutters pequeños fijos */
-  grid-template-columns:
-    [screen-start] 1.25rem
-    [body-start] minmax(0, 1400px)
-    [body-end] 1.25rem
-    [screen-end] !important;
-}
-
-@media (min-width: 1200px){
-  body.home .page-columns{
-    grid-template-columns:
-      [screen-start] 2rem
-      [body-start] minmax(0, 1500px)
-      [body-end] 2rem
-      [screen-end] !important;
-  }
-}
-
-/* Por si Quarto limita el contenido dentro */
-body.home main.content,
-body.home .content{
-  max-width: none !important;
-}
-/* =========================
-   HOME HERO: texto a la derecha + logo equilibrado
-   ========================= */
-
-body.home .quarto-title-block{ display: none !important; }
-
-body.home .home-hero{
-  display: grid;
-  grid-template-columns: 1.25fr 0.75fr; /* texto más ancho */
-  gap: 2.6rem;
-  align-items: center;
-  margin-top: 3.5rem; /* aire bajo navbar */
-}
-
-body.home .home-hero__text{
-  text-align: right;
-  max-width: 980px;   /* más ancho hacia la izquierda */
-  margin-left: auto;
-}
-
-body.home .home-kicker{
-  font-size: clamp(3.1rem, 4.8vw, 4.1rem);
-  line-height: 1.05;
-  font-weight: 700;
-  margin: 0 0 1.1rem 0;
-}
-
-body.home .home-name{
-  font-size: clamp(2.0rem, 2.8vw, 2.45rem);
-  line-height: 1.12;
-  font-weight: 650;
-  margin: 0 0 .55rem 0;
-}
-
-body.home .home-keywords{
-  font-size: 1.08rem;
-  font-weight: 400;
-  margin: 0 0 1.25rem 0;
-}
-
-body.home .social-icons{
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: .9rem;
-  margin: 0 0 1.25rem 0; /* aire antes de la intro */
-}
-
-body.home .social-icons a{
-  color: var(--muted);
-  border: 0;
-  text-decoration: none;
-  line-height: 1;
-  display: inline-flex;
-  align-items: center;
-}
-body.home .social-icons a:hover{ color: var(--accent); }
-
-body.home .social-icons i,
-body.home .social-icons iconify-icon{
-  font-size: 1.15rem;
-  line-height: 1;
-}
-
-body.home .social-icons iconify-icon{
-  position: relative;
-  top: 0.02em; /* corrige baseline */
-}
-
-body.home .home-hero__logo{
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-body.home .home-hero__logo img{
-  width: min(720px, 100%);
-  height: auto;
-  display: block;
-}
-
-@media (max-width: 900px){
-  body.home .home-hero{
-    grid-template-columns: 1fr;
-    margin-top: 2rem;
-  }
-  body.home .home-hero__text{ text-align: left; max-width: none; margin-left: 0; }
-  body.home .social-icons{ justify-content: flex-start; }
-  body.home .home-hero__logo{ justify-content: flex-start; }
-  body.home .home-hero__logo img{ width: min(520px, 100%); }
-}
-/* ==========================================================================
-   HOME: eliminar “margen enorme” (Quarto page-columns gutter)
-   ========================================================================== */
-
-/* Oculta title-block automático en HOME (ya tienes tu propio header) */
-body.home .quarto-title-block{ display: none !important; }
-
-/* 1) El margen enorme viene de la grid .page-columns (gutter lateral 1fr)
-      La redefinimos para que los gutters sean pequeños fijos. */
-body.home .page-columns{
-  grid-template-columns:
-    [screen-start] 1.5rem
-    [body-start] minmax(0, 1520px)
-    [body-end] 1.5rem
-    [screen-end] !important;
-}
-
-@media (min-width: 1200px){
-  body.home .page-columns{
-    grid-template-columns:
-      [screen-start] 2.25rem
-      [body-start] minmax(0, 1620px)
-      [body-end] 2.25rem
-      [screen-end] !important;
-  }
-}
-
-/* 2) Asegura que el contenido no esté limitado por max-width internos */
-body.home main.content,
-body.home .content,
-body.home .page-columns .content{
-  max-width: none !important;
-  width: 100% !important;
-}
-
-/* 3) Espacio bajo navbar (lo querías aprox el doble) */
-body.home #quarto-content{
-  padding-top: 5.2rem !important;     /* ↑ más aire bajo menú */
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-
-/* ==========================================================================
-   HOME HERO: texto a la derecha de su columna + reparto ancho + logo grande
-   ========================================================================== */
-
-body.home .home-hero{
-  display: grid;
-  grid-template-columns: 1.35fr 0.65fr; /* texto más ancho */
-  gap: 2.8rem;
-  align-items: center;
-  margin: 0; /* nada de centrados raros */
-}
-
-/* Texto alineado a la derecha, pero con más ancho real (para que “tire” a la izquierda) */
-body.home .home-hero__text{
-  text-align: right;
-  max-width: 1040px;     /* ← clave: más ancho para ocupar hacia la izquierda */
-  margin-left: auto;     /* se pega al lado derecho de su columna */
-  padding-left: 0;
-}
-
-/* Portafolio docente: grande, con aire arriba, pero sin despegarse del resto */
-body.home .home-kicker{
-  font-size: clamp(3.2rem, 5.0vw, 4.2rem);
-  line-height: 1.05;
-  font-weight: 700;
-  margin: 0 0 1.2rem 0;
-}
-
-/* Nombre: más pequeño que el kicker, pero mayor que keywords */
-body.home .home-name{
-  font-size: clamp(2.05rem, 2.8vw, 2.55rem);
-  line-height: 1.12;
-  font-weight: 650;
-  margin: 0 0 .6rem 0;
-}
-
-/* Keywords: ligeramente menores */
-body.home .home-keywords{
-  font-size: 1.06rem;
-  font-weight: 400;
-  margin: 0 0 1.35rem 0; /* aire hasta iconos */
-}
-
-/* Iconos: aire arriba/abajo y bien alineados */
-body.home .social-icons{
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 1rem;
-  margin: 0 0 1.35rem 0; /* mismo espacio hacia la descripción */
-}
-
-body.home .social-icons a{
-  border: 0 !important;
-  text-decoration: none !important;
-  color: var(--muted);
-  display: inline-flex;
-  align-items: center;
-  line-height: 1;
-}
-body.home .social-icons a:hover{ color: var(--accent); }
-
-/* Tamaño razonable y baseline estable */
-body.home .social-icons i,
-body.home .social-icons iconify-icon{
-  font-size: 1.12rem;     /* no gigantes */
-  line-height: 1;
-}
-body.home .social-icons iconify-icon{
-  position: relative;
-  top: 0.02em;
-}
-
-/* Descripción: mismo aire que keywords->iconos */
-body.home .home-intro{
-  margin: 0 0 1.35rem 0;
-  font-size: 1.05rem;
-  line-height: 1.7;
-}
-body.home .home-intro-muted{
-  margin: 0;
-  font-size: 1.0rem;
-  line-height: 1.7;
-  color: var(--muted);
-}
-
-/* Logo: más grande y equilibrado */
-body.home .home-hero__logo{
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-body.home .home-hero__logo img{
-  width: min(760px, 100%);
-  height: auto;
-  display: block;
-}
-
-/* Responsive */
-@media (max-width: 900px){
-  body.home #quarto-content{
-    padding-top: 3.2rem !important;
-    padding-left: 1.25rem !important;
-    padding-right: 1.25rem !important;
-  }
-  body.home .home-hero{
-    grid-template-columns: 1fr;
-    gap: 1.6rem;
-  }
-  body.home .home-hero__text{
-    text-align: left;
-    max-width: none;
-    margin-left: 0;
-  }
-  body.home .social-icons{ justify-content: flex-start; }
-  body.home .home-hero__logo{ justify-content: flex-start; }
-  body.home .home-hero__logo img{ width: min(520px, 100%); }
-}
-/* =========================================================
-   FIX REAL: el “margen” es el bloque de texto encajonado
-   ========================================================= */
-
-body.home .home-hero{
-  /* más ancho de verdad para el conjunto */
-  grid-template-columns: minmax(720px, 1fr) minmax(520px, 720px) !important;
-  gap: 2.6rem !important;
-}
-
-/* CLAVE: deja de encajonar el texto dentro de su columna */
-body.home .home-hero__text{
-  max-width: none !important;     /* antes lo hacía estrecho */
-  width: 100% !important;         /* ocupa toda la columna */
-  margin-left: 0 !important;      /* elimina el “empuje” a la derecha */
-  text-align: right !important;   /* sigue alineado a la derecha (como Ricardo) */
-  justify-self: end !important;   /* el bloque queda al final de la columna */
-}
-
-/* si quieres que el texto “tire” aún más a la izquierda, sube este ancho */
-body.home .page-columns{
-  max-width: 1600px !important;   /* antes 1200 */
-}
-
-/* logo grande pero sin reventar el layout */
-body.home .home-hero__logo img{
-  width: min(440px, 100%) !important;
-  height: auto !important;
-}
-
-/* iconos: tamaño sensato y alineados */
-body.home .social-icons i,
-body.home .social-icons iconify-icon{
-  font-size: 1.1rem !important;
-  line-height: 1 !important;
 }
