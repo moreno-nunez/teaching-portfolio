@@ -9,7 +9,7 @@
 :root{
   --bg: #f6f4ec;
   --text: #4a594a;
-  --muted: #5f705f;
+  --muted: #f6f4ec;
   --border: #f6f4ec;
 
   --accent: #f2d46b;
@@ -58,7 +58,7 @@ body{
 
 /* --- 4) Navbar minimal + a la derecha ----------------------------------- */
 .navbar{
-  background: #f4d3c3 !important;
+  background: #5f705f !important;
   border-bottom: 1px solid var(--border);
   box-shadow: none !important;
   min-height: var(--nav-h);
