@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "TEMU"
+  title: "TEMU-UAM"
   navbar:
     left:
       - href: index.qmd
