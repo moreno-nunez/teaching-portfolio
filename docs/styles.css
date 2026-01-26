@@ -12,7 +12,7 @@
   --muted: #5f705f;
   --border: #f6f4ec;
 
-  --accent: #f4d3c3;
+  --accent: #f2d46b;
   --accent-soft: #5f705f;
 
   --maxw: 820px;            /* internas */
@@ -58,7 +58,7 @@ body{
 
 /* --- 4) Navbar minimal + a la derecha ----------------------------------- */
 .navbar{
-  background: #f2d46b !important;
+  background: #f4d3c3 !important;
   border-bottom: 1px solid var(--border);
   box-shadow: none !important;
   min-height: var(--nav-h);
