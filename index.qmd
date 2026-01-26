@@ -5,34 +5,42 @@ body-classes: home
 format:
   html:
     toc: false
+editor: source
 ---
 
-```{=html}
-<div class="home-hero">
-  <div class="home-hero__text">
-    <div class="home-kicker">Portafolio docente</div>
-    <div class="home-name">Ana Moreno Núñez</div>
-    <div class="home-keywords">Profesora universitaria · Comunicación temprana · Educación infantil</div>
+::: {.home-hero}
+::: {.home-hero__text}
 
-    <div class="social-icons">
-      <a href="https://scholar.google.com/citations?user=N9SVyYwAAAAJ&hl=es&oi=ao" aria-label="Google Scholar">
-        <iconify-icon icon="academicons:google-scholar"></iconify-icon>
-      </a>
-      <a href="https://orcid.org/0000-0002-0397-2513" aria-label="ORCID">
-        <iconify-icon icon="academicons:orcid"></iconify-icon>
-      </a>
-      <a href="https://www.researchgate.net/profile/Ana_Moreno_Nunez" aria-label="ResearchGate">
-        <iconify-icon icon="academicons:researchgate"></iconify-icon>
-      </a>
-      <a href="https://github.com/moreno-nunez" aria-label="GitHub"><i class="bi bi-github"></i></a>
-      <a href="mailto:ana.moreno@uam.es" aria-label="Email"><i class="bi bi-envelope"></i></a>
-    </div>
+::: {.home-kicker}
+Portafolio docente
+:::
 
-    <p class="home-intro">Soy profesora de Psicología en la UAM. En este sitio recojo mi práctica docente: asignaturas, enfoque, evaluación e innovación.</p>
-    <p class="home-intro-muted">Aquí puedes escribir 2–3 frases sobre quién eres como docente: en qué enseñas, con qué tipo de estudiantes trabajas y qué te interesa especialmente de la docencia universitaria.</p>
-  </div>
+::: {.home-name}
+Ana Moreno Núñez
+:::
 
-  <div class="home-hero__logo">
-    <img src="images/logo.png" alt="Logo">
-  </div>
-</div>
+::: {.home-keywords}
+Profesora universitaria · Comunicación temprana · Educación infantil
+:::
+
+::: {.social-icons}
+<a href="https://scholar.google.com/citations?user=N9SVyYwAAAAJ&hl=es&oi=ao" aria-label="Google Scholar"><iconify-icon icon="academicons:google-scholar"></iconify-icon></a>
+<a href="https://orcid.org/0000-0002-0397-2513" aria-label="ORCID"><iconify-icon icon="academicons:orcid"></iconify-icon></a>
+<a href="https://www.researchgate.net/profile/Ana_Moreno_Nunez" aria-label="ResearchGate"><iconify-icon icon="academicons:researchgate"></iconify-icon></a>
+<a href="https://github.com/moreno-nunez" aria-label="GitHub"><i class="bi bi-github"></i></a>
+<a href="mailto:ana.moreno@uam.es" aria-label="Email"><i class="bi bi-envelope"></i></a>
+:::
+
+::: {.home-intro}
+Soy profesora de Psicología en la UAM. En este sitio recojo mi práctica docente: asignaturas, enfoque, evaluación e innovación.
+:::
+
+::: {.home-intro-muted}
+Aquí puedes escribir 2–3 frases sobre quién eres como docente: en qué enseñas, con qué tipo de estudiantes trabajas y qué te interesa especialmente de la docencia universitaria.
+:::
+
+:::
+::: {.home-hero__logo}
+![](images/logo.png){.home-logo alt="Logo"}
+:::
+:::

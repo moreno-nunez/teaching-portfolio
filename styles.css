@@ -292,3 +292,19 @@ body.home .home-logo{
   body.home .home-hero__logo{ justify-content: flex-start; }
   body.home .home-logo{ width: min(420px, 100%); }
 }
+/* Navbar: usar todo el ancho y empujar items a la derecha */
+.navbar .container,
+.navbar .container-lg,
+.navbar .container-xl,
+.navbar .container-xxl{
+  max-width: none !important;
+  width: 100% !important;
+}
+
+.navbar .navbar-collapse{
+  justify-content: flex-end !important;
+}
+
+.navbar-nav{
+  margin-left: auto !important;
+}
