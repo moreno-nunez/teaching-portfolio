@@ -9,10 +9,10 @@
 :root{
   --bg: #f6f4ec;
   --text: #5f705f;
-  --muted: #7c8e7c;
-  --border: #4a594a;
+  --muted: #f2d46b;
+  --border: #7a7892;
 
-  --accent: #5c5a78;
+  --accent: #4a594a;
   --accent-soft: #7a7892;
 
   --maxw: 820px;            /* internas */
