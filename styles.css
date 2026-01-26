@@ -224,85 +224,120 @@ pre{
   top: 0.02em;            /* corrige baseline */
 }
 
-/* ==========================================================================
-   HOME (tipo Ricardo)
-   ========================================================================== */
+/* ===========================
+   HOME HERO (versión limpia)
+   =========================== */
 
-/* 1) No queremos el title-block automático en HOME */
-body.home .quarto-title-block{ display: none !important; }
+/* quita el title-block automático en HOME si aparece */
+body.home .quarto-title-block{ display:none !important; }
 
-/* 2) El “margen enorme” viene de .page-columns (gutter lateral)
-      Re-definimos la grid para gutters pequeños y un body ancho */
+/* reduce el “gutter” enorme de Quarto en la home */
 body.home .page-columns{
   grid-template-columns:
-    [screen-start] var(--home-gutter-sm)
-    [body-start] minmax(0, var(--home-body-max))
-    [body-end] var(--home-gutter-sm)
+    [screen-start] 1.5rem
+    [body-start] minmax(0, 1500px)
+    [body-end] 1.5rem
     [screen-end] !important;
 }
 
 @media (min-width: 1200px){
   body.home .page-columns{
     grid-template-columns:
-      [screen-start] var(--home-gutter-lg)
-      [body-start] minmax(0, var(--home-body-max))
-      [body-end] var(--home-gutter-lg)
+      [screen-start] 2.25rem
+      [body-start] minmax(0, 1600px)
+      [body-end] 2.25rem
       [screen-end] !important;
   }
 }
 
-/* 3) Aire bajo navbar en HOME */
+/* aire bajo navbar en HOME */
 body.home #quarto-content{
-  padding-top: var(--home-top-gap) !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+  padding-top: 5rem !important;
 }
 
-/* 4) HOME HERO layout */
+/* layout 2 columnas */
 body.home .home-hero{
   display: grid;
-  grid-template-columns: 1.35fr 0.65fr; /* texto más ancho que logo */
-  gap: var(--hero-gap);
+  grid-template-columns: 1.35fr 0.65fr;
+  gap: 2.6rem;
   align-items: center;
-  margin: 0;
 }
 
-/* Texto: alineado a la derecha dentro de su columna (NO centrado en página) */
+/* texto alineado a la derecha (como Ricardo) */
 body.home .home-hero__text{
   text-align: right;
-  width: 100%;
-  max-width: none;          /* clave: que no “encajone” y genere aire raro */
-  justify-self: end;        /* el bloque queda al final de su columna */
-  font-weight: 400;
 }
 
-/* Tipos HOME */
+/* tipografías del hero */
 body.home .home-kicker{
-  font-size: clamp(3.1rem, 4.8vw, 4.05rem);
+  font-size: clamp(3.1rem, 4.8vw, 4.1rem);
   line-height: 1.05;
-  font-weight: 700;
   margin: 0 0 1.1rem 0;
 }
 
 body.home .home-name{
   font-size: clamp(2.0rem, 2.8vw, 2.45rem);
   line-height: 1.12;
-  font-weight: 650;
   margin: 0 0 .55rem 0;
+  font-weight: 650;
 }
 
 body.home .home-keywords{
   font-size: 1.08rem;
-  margin: 0 0 var(--gap-keywords-icons) 0;
+  margin: 0 0 1.25rem 0;
 }
 
-/* Iconos: alineados a la derecha + aire */
-body.home .home-hero__text .social-icons{
+/* iconos (CSS masks, sin scripts) */
+body.home .social-icons{
+  display: flex;
   justify-content: flex-end;
-  margin: 0 0 var(--gap-icons-intro) 0;
+  align-items: center;
+  gap: .95rem;
+  margin: 0 0 1.25rem 0;
 }
 
-/* Intro */
+body.home .social-icons a{
+  width: 1.15rem;
+  height: 1.15rem;
+  display: inline-block;
+  background-color: currentColor;
+  color: var(--muted);
+  border: 0 !important;
+  text-decoration: none !important;
+
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+
+body.home .social-icons a:hover{ color: var(--accent); }
+
+/* iconos concretos */
+body.home .icon-scholar{
+  -webkit-mask-image: url("https://api.iconify.design/academicons/google-scholar.svg");
+  mask-image: url("https://api.iconify.design/academicons/google-scholar.svg");
+}
+body.home .icon-orcid{
+  -webkit-mask-image: url("https://api.iconify.design/academicons/orcid.svg");
+  mask-image: url("https://api.iconify.design/academicons/orcid.svg");
+}
+body.home .icon-rg{
+  -webkit-mask-image: url("https://api.iconify.design/academicons/researchgate.svg");
+  mask-image: url("https://api.iconify.design/academicons/researchgate.svg");
+}
+body.home .icon-github{
+  -webkit-mask-image: url("https://api.iconify.design/mdi/github.svg");
+  mask-image: url("https://api.iconify.design/mdi/github.svg");
+}
+body.home .icon-mail{
+  -webkit-mask-image: url("https://api.iconify.design/mdi/email-outline.svg");
+  mask-image: url("https://api.iconify.design/mdi/email-outline.svg");
+}
+
+/* textos */
 body.home .home-intro{
   margin: 0 0 1.25rem 0;
   font-size: 1.05rem;
@@ -316,39 +351,35 @@ body.home .home-intro-muted{
   color: var(--muted);
 }
 
-/* Logo */
+/* logo */
 body.home .home-hero__logo{
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
-body.home .home-hero__logo img{
-  width: min(var(--logo-max), 100%); /* AJUSTA CON --logo-max */
+body.home .home-logo{
+  width: min(560px, 100%); /* <-- aquí ajustas tamaño */
   height: auto;
   display: block;
 }
 
-/* Responsive */
+/* móvil */
 @media (max-width: 900px){
-  body.home #quarto-content{
-    padding-top: 3.0rem !important;
-  }
   body.home .home-hero{
     grid-template-columns: 1fr;
     gap: 1.6rem;
   }
   body.home .home-hero__text{
     text-align: left;
-    justify-self: start;
   }
-  body.home .home-hero__text .social-icons{
+  body.home .social-icons{
     justify-content: flex-start;
   }
   body.home .home-hero__logo{
     justify-content: flex-start;
   }
-  body.home .home-hero__logo img{
-    width: min(520px, 100%);
+  body.home .home-logo{
+    width: min(420px, 100%);
   }
 }

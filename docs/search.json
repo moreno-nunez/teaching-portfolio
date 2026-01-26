@@ -16,9 +16,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Ana Moreno Núñez",
+    "title": "Portafolio docente",
     "section": "",
-    "text": "Portafolio docente\n    Ana Moreno Núñez\n    Profesora universitaria · Comunicación temprana · Educación infantil\n\n    \n      \n      \n      \n      \n      \n    \n\n    Soy profesora de Psicología en la UAM. En este sitio recojo mi práctica docente: asignaturas, enfoque, evaluación e innovación.\n    Aquí puedes escribir 2–3 frases sobre quién eres como docente: en qué enseñas, con qué tipo de estudiantes trabajas y qué te interesa especialmente de la docencia universitaria."
+    "text": "Profesora universitaria · Comunicación temprana · Educación infantil {.home-keywords}\n\n    \n\nSoy profesora de Psicología en la UAM. En este sitio recojo mi práctica docente: asignaturas, enfoque, evaluación e innovación. {.home-intro}\nAquí puedes escribir 2–3 frases sobre quién eres como docente: en qué enseñas, con qué tipo de estudiantes trabajas y qué te interesa especialmente de la docencia universitaria. {.home-intro-muted}"
+  },
+  {
+    "objectID": "index.html#ana-moreno-núñez",
+    "href": "index.html#ana-moreno-núñez",
+    "title": "Portafolio docente",
+    "section": "",
+    "text": "Profesora universitaria · Comunicación temprana · Educación infantil {.home-keywords}\n\n    \n\nSoy profesora de Psicología en la UAM. En este sitio recojo mi práctica docente: asignaturas, enfoque, evaluación e innovación. {.home-intro}\nAquí puedes escribir 2–3 frases sobre quién eres como docente: en qué enseñas, con qué tipo de estudiantes trabajas y qué te interesa especialmente de la docencia universitaria. {.home-intro-muted}"
   },
   {
     "objectID": "teaching.html",

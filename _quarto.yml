@@ -17,10 +17,4 @@ website:
 
 format:
   html:
-    theme: default
     css: styles.css
-    toc: false
-    include-in-header:
-      - text: |
-          <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
-
