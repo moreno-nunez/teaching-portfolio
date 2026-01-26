@@ -7,10 +7,10 @@
 
 /* --- 1) Variables -------------------------------------------------------- */
 :root{
-  --bg: #fffdf8;
-  --text: #5c5a78;
-  --muted: #7a7892;
-  --border: #fffdf8;
+  --bg: #f6f4ec;
+  --text: #5f705f;
+  --muted: #7c8e7c;
+  --border: #4a594a;
 
   --accent: #5c5a78;
   --accent-soft: #7a7892;
