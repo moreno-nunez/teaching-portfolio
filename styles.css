@@ -13,12 +13,12 @@
   --border: #f6f4ec;
 
   --accent: #f2d46b;
-  --accent-soft: #5f705f;
+  --accent-soft: #f4d3c3;
 
 :root{
   ...
-  --social-color: #5f705f;        /* color base iconos */
-  --social-hover: #f4d3c3;        /* hover */
+  --social-color: #f4d3c3;        /* color base iconos */
+  --social-hover: #5f705f;        /* hover */
 }
 
   --maxw: 820px;            /* internas */
