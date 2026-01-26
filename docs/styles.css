@@ -62,12 +62,13 @@ body{
 }
 
 /* --- 3) Layout: internas estrechas -------------------------------------- */
-.page-columns,
-.page-columns-container,
-.container,
-.container-lg,
-.container-xl,
-.container-xxl{
+/* SOLO contenido (no navbar): internas estrechas */
+#quarto-content .page-columns,
+#quarto-content .page-columns-container,
+#quarto-content .container,
+#quarto-content .container-lg,
+#quarto-content .container-xl,
+#quarto-content .container-xxl{
   max-width: var(--maxw);
   margin-left: auto;
   margin-right: auto;
@@ -117,7 +118,16 @@ body{
 .navbar .nav-link[aria-current="page"]{
   color: var(--accent) !important;
   background: var(--accent-soft);
+}/* NAVBAR: nunca debe heredar los max-width del contenido */
+.navbar .container,
+.navbar .container-lg,
+.navbar .container-xl,
+.navbar .container-xxl{
+  max-width: none !important;
+  width: 100% !important;
 }
+
+.navbar-nav{ margin-left: auto; } /* links a la derecha como lo tenías */
 
 /* --- 5) Tipografía general ---------------------------------------------- */
 h1, h2, h3, h4{
@@ -225,161 +235,60 @@ pre{
 }
 
 /* ===========================
-   HOME HERO (versión limpia)
+   HOME (único bloque válido)
    =========================== */
 
-/* quita el title-block automático en HOME si aparece */
-body.home .quarto-title-block{ display:none !important; }
+/* En HOME, el contenido NO va en columna estrecha */
+body.home #quarto-content .page-columns,
+body.home #quarto-content .page-columns-container,
+body.home #quarto-content main.content,
+body.home #quarto-content .content{
+  max-width: none !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
 
-/* reduce el “gutter” enorme de Quarto en la home */
-body.home .page-columns{
+/* Quita el gutter enorme de Quarto en HOME */
+body.home #quarto-content.page-columns{
   grid-template-columns:
-    [screen-start] 1.5rem
-    [body-start] minmax(0, 1500px)
-    [body-end] 1.5rem
+    [screen-start] 2rem
+    [body-start] minmax(0, 1600px)
+    [body-end] 2rem
     [screen-end] !important;
 }
 
-@media (min-width: 1200px){
-  body.home .page-columns{
-    grid-template-columns:
-      [screen-start] 2.25rem
-      [body-start] minmax(0, 1600px)
-      [body-end] 2.25rem
-      [screen-end] !important;
-  }
-}
-
-/* aire bajo navbar en HOME */
+/* Aire arriba bajo navbar */
 body.home #quarto-content{
   padding-top: 5rem !important;
 }
 
-/* layout 2 columnas */
+/* HERO layout */
 body.home .home-hero{
   display: grid;
-  grid-template-columns: 1.35fr 0.65fr;
+  grid-template-columns: minmax(680px, 1fr) minmax(420px, 560px);
   gap: 2.6rem;
   align-items: center;
 }
 
-/* texto alineado a la derecha (como Ricardo) */
+/* Columna izquierda: alineada a la derecha (como Ricardo) */
 body.home .home-hero__text{
   text-align: right;
 }
 
-/* tipografías del hero */
-body.home .home-kicker{
-  font-size: clamp(3.1rem, 4.8vw, 4.1rem);
-  line-height: 1.05;
-  margin: 0 0 1.1rem 0;
-}
-
-body.home .home-name{
-  font-size: clamp(2.0rem, 2.8vw, 2.45rem);
-  line-height: 1.12;
-  margin: 0 0 .55rem 0;
-  font-weight: 650;
-}
-
-body.home .home-keywords{
-  font-size: 1.08rem;
-  margin: 0 0 1.25rem 0;
-}
-
-/* iconos (CSS masks, sin scripts) */
-body.home .social-icons{
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: .95rem;
-  margin: 0 0 1.25rem 0;
-}
-
-body.home .social-icons a{
-  width: 1.15rem;
-  height: 1.15rem;
-  display: inline-block;
-  background-color: currentColor;
-  color: var(--muted);
-  border: 0 !important;
-  text-decoration: none !important;
-
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;
-  -webkit-mask-position: center;
-  mask-position: center;
-  -webkit-mask-size: contain;
-  mask-size: contain;
-}
-
-body.home .social-icons a:hover{ color: var(--accent); }
-
-/* iconos concretos */
-body.home .icon-scholar{
-  -webkit-mask-image: url("https://api.iconify.design/academicons/google-scholar.svg");
-  mask-image: url("https://api.iconify.design/academicons/google-scholar.svg");
-}
-body.home .icon-orcid{
-  -webkit-mask-image: url("https://api.iconify.design/academicons/orcid.svg");
-  mask-image: url("https://api.iconify.design/academicons/orcid.svg");
-}
-body.home .icon-rg{
-  -webkit-mask-image: url("https://api.iconify.design/academicons/researchgate.svg");
-  mask-image: url("https://api.iconify.design/academicons/researchgate.svg");
-}
-body.home .icon-github{
-  -webkit-mask-image: url("https://api.iconify.design/mdi/github.svg");
-  mask-image: url("https://api.iconify.design/mdi/github.svg");
-}
-body.home .icon-mail{
-  -webkit-mask-image: url("https://api.iconify.design/mdi/email-outline.svg");
-  mask-image: url("https://api.iconify.design/mdi/email-outline.svg");
-}
-
-/* textos */
-body.home .home-intro{
-  margin: 0 0 1.25rem 0;
-  font-size: 1.05rem;
-  line-height: 1.7;
-}
-
-body.home .home-intro-muted{
-  margin: 0;
-  font-size: 1.0rem;
-  line-height: 1.7;
-  color: var(--muted);
-}
-
-/* logo */
-body.home .home-hero__logo{
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
+/* Logo: control aquí (esto es lo que te interesa) */
+body.home .home-hero__logo img,
 body.home .home-logo{
-  width: min(560px, 100%); /* <-- aquí ajustas tamaño */
+  width: min(520px, 100%);
   height: auto;
   display: block;
 }
 
-/* móvil */
+/* Responsive */
 @media (max-width: 900px){
   body.home .home-hero{
     grid-template-columns: 1fr;
-    gap: 1.6rem;
   }
-  body.home .home-hero__text{
-    text-align: left;
-  }
-  body.home .social-icons{
-    justify-content: flex-start;
-  }
-  body.home .home-hero__logo{
-    justify-content: flex-start;
-  }
-  body.home .home-logo{
-    width: min(420px, 100%);
-  }
+  body.home .home-hero__text{ text-align: left; }
+  body.home .home-hero__logo{ justify-content: flex-start; }
+  body.home .home-logo{ width: min(420px, 100%); }
 }
