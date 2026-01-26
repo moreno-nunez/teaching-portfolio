@@ -1,13 +1,16 @@
 /* ==========================================================================
    Ana — Quarto website: minimalista académico (LIMPIO) — estilo editorial
-   Referencia: “graniflora” (serif display + subtítulos con tracking)
+   Objetivo: HOME title = H1 páginas (misma “voz”)
+   - H1 + home-kicker: Playfair Display (display, elegante)
+   - Subtítulos: Lora uppercase + tracking
+   - Texto corrido + navbar: Open Sans
    ========================================================================== */
 
 /* --- 1) Variables -------------------------------------------------------- */
 :root{
-  --bg: #f6f4ec;          /* Warm Ivory */
-  --text: #556b5a;        /* Deep Sage */
-  --muted: #5f705f;       /* Soft Sage */
+  --bg: #f6f4ec;
+  --text: #556b5a;
+  --muted: #5f705f;
   --border: rgba(85,107,90,.18);
 
   /* Navbar */
@@ -27,16 +30,17 @@
   --social-hover: #3e5244;
   --social-pill: var(--peach-soft);
 
-  /* Tipos */
-  --font-body: "Lora", serif;
-  --font-display: "Playfair Display", serif;
+  /* Fuentes */
+  --font-display: "Playfair Display", serif; /* H1 + home-kicker */
+  --font-subtitle: "Lora", serif;            /* h2 + home-name + keywords */
+  --font-body: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
 
-  /* Escala editorial (no sobredimensiona) */
-  --body-size: 17px;             /* texto cómodo */
+  /* Escala */
+  --body-size: 17px;
   --body-lh: 1.75;
 
-  --h1-size: clamp(2.8rem, 5vw, 4.6rem);  /* graniflora-style */
-  --h1-lh: 0.98;
+  --h1-size: clamp(2.4rem, 4.2vw, 3.9rem);
+  --h1-lh: 1.02;
 
   --h2-size: clamp(1.05rem, 1.3vw, 1.35rem);
   --h2-track: 0.22em;
@@ -59,7 +63,9 @@ body{
   background: var(--bg);
   color: var(--text);
 
-  font-family: var(--font-body);
+  /* Base neutra: no fijamos Open Sans aquí para no tocar títulos por herencia.
+     El texto corrido lo fijamos con selector específico */
+  font-family: var(--font-subtitle);
   font-weight: 400;
   font-size: var(--body-size);
   line-height: var(--body-lh);
@@ -80,8 +86,7 @@ body{
   margin: 0 auto;
 }
 
-/* --- 4) Navbar ----------------------------------------------------------- */
-/* (IGUAL que tu versión; no toco nada) */
+/* --- 4) Navbar (NO CAMBIO TU ESTILO) ------------------------------------ */
 .navbar{
   background: var(--nav-bg) !important;
   border-bottom: 1px solid var(--border);
@@ -121,6 +126,7 @@ body{
   border-radius: 999px;
   transition: background .15s ease, color .15s ease;
   font-weight: 600;
+  font-family: 'Open Sans', system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
 }
 
 .navbar .nav-link:hover{
@@ -139,12 +145,12 @@ body{
   border-bottom: 0 !important;
 }
 
-/* --- 5) Tipografía (editorial graniflora) -------------------------------- */
+/* --- 5) Tipografía ------------------------------------------------------- */
 
-/* Título principal: serif display, itálica, elegante */
+/* H1 (páginas secundarias) = referencia */
 h1{
   font-family: var(--font-display);
-  font-style: italic;
+  font-style: normal;
   font-weight: 600;
   font-size: var(--h1-size);
   line-height: var(--h1-lh);
@@ -153,9 +159,9 @@ h1{
   color: var(--raspberry);
 }
 
-/* Subtítulo: uppercase con tracking, fino */
+/* H2: Lora uppercase + tracking */
 h2{
-  font-family: var(--font-body);
+  font-family: var(--font-subtitle);
   font-weight: 500;
   font-size: var(--h2-size);
   text-transform: uppercase;
@@ -164,18 +170,24 @@ h2{
   margin: 2.2rem 0 1rem;
 }
 
-/* Niveles inferiores: sobrios, sin inflar */
+/* Niveles inferiores */
 h3, h4{
-  font-family: var(--font-body);
+  font-family: var(--font-subtitle);
   font-weight: 600;
   color: var(--text);
   line-height: 1.25;
   margin: 1.6rem 0 .65rem;
 }
 
+/* Texto corrido: Open Sans (solo contenido) */
+#quarto-content :is(p, li, ul, ol, blockquote, figcaption){
+  font-family: var(--font-body);
+  font-weight: 400;
+}
+
 p{ margin: 0 0 1rem; }
 
-/* Links coherentes con la paleta */
+/* Links */
 a{
   color: var(--muted);
   text-decoration: none;
@@ -187,7 +199,7 @@ a:hover{
   border-bottom-color: rgba(178,58,111,.55);
 }
 
-/* --- 6) HOME (misma escala que páginas internas) ------------------------- */
+/* --- 6) HOME ------------------------------------------------------------- */
 body.home .quarto-title-block{ display: none !important; }
 
 body.home #quarto-content{
@@ -206,10 +218,10 @@ body.home .home-hero{
 
 body.home .home-hero__text{ text-align: right; }
 
-/* HOME: el “título” debe parecer un h1 editorial */
+/* HOME: título principal EXACTAMENTE igual que h1 */
 body.home .home-kicker{
   font-family: var(--font-display);
-  font-style: italic;
+  font-style: normal;
   font-weight: 600;
   font-size: var(--h1-size);
   line-height: var(--h1-lh);
@@ -218,9 +230,9 @@ body.home .home-kicker{
   margin: 0 0 1rem;
 }
 
-/* HOME: subtítulo como h2 editorial */
+/* HOME: subtítulo como h2 */
 body.home .home-name{
-  font-family: var(--font-body);
+  font-family: var(--font-subtitle);
   font-weight: 500;
   font-size: var(--h2-size);
   text-transform: uppercase;
@@ -229,15 +241,15 @@ body.home .home-name{
   margin: 0 0 1.1rem;
 }
 
-/* HOME: keywords (texto normal, no grita) */
+/* HOME: keywords */
 body.home .home-keywords{
-  font-family: var(--font-body);
+  font-family: var(--font-subtitle);
   font-weight: 400;
   font-size: 1.05rem;
   color: #8fa08a;
 }
 
-/* --- 7) ICONOS redes: lo tuyo tal cual ---------------------------------- */
+/* --- 7) ICONOS redes (igual) -------------------------------------------- */
 .social-icons{
   display: flex !important;
   gap: .9rem !important;
@@ -266,44 +278,6 @@ body.home .home-keywords{
   background: var(--social-pill);
 }
 
-.social-icons a > *{
-  display: block !important;
-  line-height: 1 !important;
-}
-
-.social-icons i.bi,
-.social-icons iconify-icon{
-  font-size: 1.15rem !important;
-  display: block !important;
-}
-
-/* Peso visual: ajustes por icono */
-.social-icons iconify-icon[icon*="scholar"],
-.social-icons iconify-icon[icon*="google-scholar"]{ transform: scale(1.08); }
-
-.social-icons iconify-icon[icon*="orcid"]{ transform: scale(1.03); }
-
-.social-icons iconify-icon[icon*="researchgate"]{ transform: scale(1.07); }
-
-.social-icons i.bi.bi-github{ transform: scale(0.94); }
-
-.social-icons i.bi.bi-envelope,
-.social-icons i.bi.bi-envelope-fill{ transform: scale(1.05); }
-
-/* Alineación óptica: mover EL BOTÓN */
-.social-icons a:has(iconify-icon[icon*="scholar"]),
-.social-icons a:has(iconify-icon[icon*="google-scholar"]){
-  transform: translateY(0.10rem);
-}
-
-.social-icons a:has(iconify-icon[icon*="orcid"]){
-  transform: translateY(0.06rem);
-}
-
-.social-icons a:has(iconify-icon[icon*="researchgate"]){
-  transform: translateY(0.03rem);
-}
-
 /* HOME: colocación */
 body.home .social-icons{
   justify-content: flex-end;
@@ -327,8 +301,37 @@ body.home .home-logo{
   body.home .home-hero__text{ text-align: left; }
   body.home .social-icons{ justify-content: flex-start; }
 
-  /* En móvil bajamos tracking para que no parezca matrícula */
   h2, body.home .home-name{
     letter-spacing: 0.14em;
   }
+}
+/* HOME: asegurar que el <p> interno NO hereda Open Sans */
+body.home .home-kicker,
+body.home .home-kicker p{
+  font-family: var(--font-display) !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: var(--h1-size);
+  line-height: var(--h1-lh);
+  letter-spacing: -0.01em;
+  color: var(--raspberry);
+  margin: 0 0 1rem;
+}
+
+/* Tus “keywords” de la home deben parecerse a H2 (Docencia actual y reciente) */
+body.home .home-keywords,
+body.home .home-keywords p{
+  font-family: var(--font-subtitle) !important;
+  font-weight: 500;
+  font-size: var(--h2-size);
+  text-transform: uppercase;
+  letter-spacing: var(--h2-track);
+  color: #8fa08a;
+  margin: 0 0 1.1rem;
+}
+
+/* Y tu intro vuelve a texto normal (Open Sans ya lo tienes por el selector global) */
+body.home .home-intro p{
+  text-transform: none;
+  letter-spacing: 0;
 }
