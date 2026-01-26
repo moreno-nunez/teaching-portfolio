@@ -17,8 +17,8 @@
 
   /* Redes */
   --social-color: var(--text);
-  --social-hover: #f4d3c3;
-  --social-pill: #5f705f;
+  --social-hover: #5f705f;
+  --social-pill: #f4d3c3;
 
   --maxw: 820px;
   --home-body-max: 1520px;
