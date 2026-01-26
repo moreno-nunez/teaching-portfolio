@@ -14,13 +14,13 @@
 
   /* Colores clave */
   --nav-bg: #5f705f;
-  --nav-link: #f4d3c3;      /* menú navbar (normal) */
+  --nav-link: #f6f4ec;      /* menú navbar (normal) */
   --nav-active: #f2d46b;    /* menú navbar (activo) */
   --brand: #f6f4ec;         /* título web en navbar */
 
   /* Redes (independientes del menú) */
   --social-color: var(--text);  /* “color actual” de iconos */
-  --social-hover: #f4d3c3;
+  --social-hover: #f2d46b;
 
   --maxw: 820px;            /* internas */
   --home-body-max: 1520px;  /* ancho útil HOME */
