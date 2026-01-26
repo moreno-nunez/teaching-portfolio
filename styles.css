@@ -16,7 +16,7 @@
   --nav-bg: #5f705f;
   --nav-link: #f4d3c3;      /* menú navbar (normal) */
   --nav-active: #f2d46b;    /* menú navbar (activo) */
-  --brand: #f4d3c3;         /* título web en navbar */
+  --brand: #f6f4ec;         /* título web en navbar */
 
   /* Redes (independientes del menú) */
   --social-color: var(--text);  /* “color actual” de iconos */
