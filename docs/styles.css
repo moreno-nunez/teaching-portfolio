@@ -2,35 +2,35 @@
    Ana — Quarto website: minimalista académico (LIMPIO)
    - Internas: columna estrecha (~820px)
    - HOME: hero centrado tipo “Ricardo” (texto a la derecha + logo a la derecha)
-   - Navbar minimal (links a la derecha)
+   - Navbar: fondo con personalidad + menú a la derecha
    ========================================================================== */
 
 /* --- 1) Variables -------------------------------------------------------- */
 :root{
   --bg: #f6f4ec;
   --text: #4a594a;
-  --muted: #f2d46b;
+  --muted: #5f705f;
   --border: #f6f4ec;
 
-  --accent: #f2d46b;
-  --accent-soft: #5f705f;
+  /* Colores clave */
+  --nav-bg: #5f705f;
+  --nav-link: #f4d3c3;      /* menú navbar (normal) */
+  --nav-active: #f2d46b;    /* menú navbar (activo) */
+  --brand: #f4d3c3;         /* título web en navbar */
 
-:root{
-  ...
-  --social-color: #f4d3c3;        /* color base iconos */
-  --social-hover: #5f705f;        /* hover */
-}
+  /* Redes (independientes del menú) */
+  --social-color: var(--text);  /* “color actual” de iconos */
+  --social-hover: #f4d3c3;
 
   --maxw: 820px;            /* internas */
-  --home-body-max: 1520px;  /* ancho útil HOME (tu “ancho actual”) */
-
+  --home-body-max: 1520px;  /* ancho útil HOME */
   --nav-h: 64px;
 
   --home-top-gap: 4.8rem;   /* aire bajo navbar */
   --home-gutter: 2.25rem;   /* márgenes laterales HOME */
   --hero-gap: 2.6rem;
 
-  --logo-max: 560px;        /* AJUSTA AQUÍ el tamaño del logo */
+  --logo-max: 560px;        /* tamaño del logo */
 }
 
 /* --- 2) Base ------------------------------------------------------------- */
@@ -62,34 +62,67 @@ body{
   margin-right: auto;
 }
 
-/* --- 4) Navbar minimal + a la derecha ----------------------------------- */
+/* --- 4) Navbar (Quarto/Bootstrap) --------------------------------------- */
 .navbar{
-  background: #5f705f !important;
+  background: var(--nav-bg) !important;
   border-bottom: 1px solid var(--border);
   box-shadow: none !important;
   min-height: var(--nav-h);
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
-.navbar .container,
-.navbar .container-lg,
-.navbar .container-xl,
-.navbar .container-xxl{
+/* Quarto suele usar container-fluid y estructura propia */
+.navbar > .container-fluid,
+.navbar > .container,
+.navbar > .container-lg,
+.navbar > .container-xl,
+.navbar > .container-xxl,
+#quarto-header .navbar-container{
   max-width: none !important;
   width: 100% !important;
+  padding-left: 1.25rem !important;
+  padding-right: 1.25rem !important;
 }
 
+/* Marca (título de la web) */
 .navbar .navbar-brand{
   font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
   font-weight: 650;
   letter-spacing: .01em;
-  color: var(--text) !important;
+  color: var(--brand) !important;
+  white-space: nowrap !important;
+  margin-right: 1rem !important;
+  overflow: visible !important;
 }
 
-.navbar .navbar-collapse{ justify-content: flex-end !important; }
-.navbar-nav{ margin-left: auto !important; }
+/* Quarto a veces centra la marca con mx-auto -> fuera */
+#quarto-header .navbar-brand-container.mx-auto{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
 
+/* Menú pegado a la derecha */
+.navbar .navbar-collapse{
+  display: flex !important;
+  justify-content: flex-end !important;
+  flex-grow: 1 !important;
+}
+
+/* Bootstrap/Quarto puede meter me-auto: lo anulamos y empujamos a la derecha */
+#quarto-header .navbar-nav.me-auto{
+  margin-right: 0 !important;
+  margin-left: auto !important;
+}
+
+.navbar .navbar-nav{
+  margin-left: auto !important;
+  justify-content: flex-end !important;
+}
+
+/* Links del menú */
 .navbar .nav-link{
-  color: var(--muted) !important;
+  color: var(--nav-link) !important;
   font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
   font-size: .92rem;
   letter-spacing: .02em;
@@ -98,16 +131,21 @@ body{
   transition: background .15s ease, color .15s ease;
 }
 
+/* Hover: mantenemos el color del menú y damos un fondo suave */
 .navbar .nav-link:hover{
-  color: var(--text) !important;
-  background: rgba(0,0,0,.035);
+  color: var(--nav-link) !important;
+  background: rgba(255,255,255,.12);
 }
 
+/* Activo: color exacto pedido */
 .navbar .nav-link.active,
 .navbar .nav-link[aria-current="page"]{
-  color: var(--accent) !important;
-  background: var(--accent-soft);
+  color: var(--nav-active) !important;
+  background: transparent !important; /* marca por color, sin “pastilla” */
 }
+
+/* Quitar subrayados/bordes en navbar */
+.navbar a{ border-bottom: 0 !important; text-decoration: none !important; }
 
 /* --- 5) Tipografía general ---------------------------------------------- */
 h1, h2, h3, h4{
@@ -119,12 +157,11 @@ h1, h2, h3, h4{
 }
 
 a{
-  color: var(--accent);
+  color: var(--muted);
   text-decoration: none;
   border-bottom: 1px solid rgba(31,75,153,.25);
 }
 a:hover{ border-bottom-color: rgba(31,75,153,.55); }
-.navbar a{ border-bottom: 0; }
 
 /* --- 6) HOME (centrada, sin title-block duplicado) ---------------------- */
 body.home .quarto-title-block{ display: none !important; }
@@ -146,7 +183,7 @@ body.home #quarto-content{
   padding-right: var(--home-gutter) !important;
 }
 
-/* HERO: centrado en página con tu ancho útil actual */
+/* HERO */
 body.home .home-hero{
   max-width: var(--home-body-max);
   margin: 0 auto;
@@ -156,12 +193,8 @@ body.home .home-hero{
   align-items: center;
 }
 
-/* Columna texto: alineada a la derecha (tipo Ricardo) */
-body.home .home-hero__text{
-  text-align: right;
-}
+body.home .home-hero__text{ text-align: right; }
 
-/* Jerarquía dentro del hero */
 body.home .home-kicker{
   font-size: clamp(3.0rem, 4.6vw, 3.7rem);
   line-height: 1.05;
@@ -181,34 +214,52 @@ body.home .home-keywords{
   margin: 0 0 1.25rem 0;
 }
 
-/* Iconos: a la derecha, tamaño normal, bien alineados */
+/* --- 7) ICONOS redes (independientes del menú) -------------------------- */
+.social-icons{
+  display: flex !important;
+  gap: .9rem !important;
+  align-items: center !important;
+}
+
+/* caja fija para que iconify y bi queden alineados */
+.social-icons a{
+  width: 1.35rem;
+  height: 1.35rem;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  line-height: 1 !important;
+  border: 0 !important;
+
+  color: var(--social-color) !important; /* NORMAL */
+  text-decoration: none !important;
+}
+
+.social-icons a:hover{
+  color: var(--social-hover) !important; /* HOVER pedido */
+}
+
+/* Bootstrap icons */
+.social-icons i.bi{
+  font-size: 1.15rem !important;
+  line-height: 1 !important;
+  display: block !important;
+}
+
+/* Iconify */
+.social-icons iconify-icon{
+  font-size: 1.15rem !important;
+  line-height: 1 !important;
+  display: block !important;
+  position: relative;
+  top: 0.02em;
+}
+
+/* HOME: colocación de iconos como ya tenías */
 body.home .social-icons{
-  display: flex;
   justify-content: flex-end;
-  align-items: center;
-  gap: .9rem;
   margin: 0 0 1.25rem 0;
 }
-
-body.home .social-icons a{
-  color: var(--muted);
-  border: 0;
-  display: inline-flex;
-  align-items: center;
-  line-height: 1;
-}
-body.home .social-icons a:hover{
-  color: var(--social-hover);
-}
-
-body.home .social-icons i,
-body.home .social-icons iconify-icon{
-  font-size: 1.12rem;
-  line-height: 1;
-  color: currentColor;
-  vertical-align: middle;
-}
-body.home .social-icons iconify-icon{ position: relative; top: 0.02em; }
 
 /* Intro */
 body.home .home-intro{
@@ -224,7 +275,7 @@ body.home .home-intro-muted{
   color: var(--muted);
 }
 
-/* Logo: a la derecha y ajustable */
+/* Logo */
 body.home .home-hero__logo{
   display: flex;
   justify-content: flex-end;
@@ -243,189 +294,15 @@ body.home .home-logo{
     padding-right: 1.25rem !important;
     padding-top: 2.8rem !important;
   }
+
   body.home .home-hero{
     grid-template-columns: 1fr;
     gap: 1.6rem;
   }
+
   body.home .home-hero__text{ text-align: left; }
   body.home .social-icons{ justify-content: flex-start; }
+
   body.home .home-hero__logo{ justify-content: flex-start; }
   body.home .home-logo{ width: min(420px, 100%); }
-}
-/* --- FIX navbar: menú pegado a la derecha --- */
-.navbar .navbar-collapse{
-  width: 100% !important;
-  justify-content: flex-end !important;
-}
-
-.navbar .navbar-nav{
-  margin-left: auto !important;
-  justify-content: flex-end !important;
-}
-
-.navbar .navbar-nav:last-child{
-  margin-left: auto !important;
-}
-/* --- FIX iconos: alinear Iconify con Bootstrap Icons --- */
-body.home .social-icons a{
-  align-items: center !important;
-}
-
-body.home .social-icons i,
-body.home .social-icons iconify-icon{
-  vertical-align: middle !important;
-}
-
-/* Iconify suele quedar un pelín más alto: lo bajamos un toque */
-body.home .social-icons iconify-icon{
-  top: 0.08em !important;   /* antes 0.02em -> baja un poco más */
-}
-/* =========================
-   NAVBAR FIX (Quarto)
-   - Mantiene el título visible
-   - Menú pegado a la derecha
-   ========================= */
-
-/* Quarto suele usar container-fluid en el navbar */
-.navbar > .container-fluid,
-.navbar > .container,
-.navbar > .container-lg,
-.navbar > .container-xl,
-.navbar > .container-xxl{
-  max-width: none !important;
-  width: 100% !important;
-  padding-left: 1.25rem !important;
-  padding-right: 1.25rem !important;
-}
-
-/* Estructura: título a la izquierda, nav a la derecha */
-.navbar .navbar-brand{
-  white-space: nowrap !important;
-  margin-right: 1rem !important;
-  overflow: visible !important;
-}
-
-/* La clave: el collapse ocupa el espacio y se empuja a la derecha */
-.navbar .navbar-collapse{
-  display: flex !important;
-  justify-content: flex-end !important;
-  flex-grow: 1 !important;
-}
-
-/* Y la lista se pega al extremo derecho */
-.navbar .navbar-nav{
-  margin-left: auto !important;
-}
-
-/* Si algo te estaba “aplastando” el navbar, esto lo blinda */
-.navbar{
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-/* =========================
-   ICONOS HOME: alineación perfecta
-   ========================= */
-
-body.home .social-icons a{
-  width: 1.35rem;
-  height: 1.35rem;
-  display: inline-flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-}
-
-/* misma “caja” para ambos tipos */
-body.home .social-icons i.bi{
-  font-size: 1.15rem !important;
-  line-height: 1 !important;
-  display: block !important;
-}
-
-body.home .social-icons iconify-icon{
-  font-size: 1.15rem !important;
-  line-height: 1 !important;
-  display: block !important;
-  position: relative;
-  top: 0.02em; /* microajuste */
-}
-/* =========================================================
-   NAVBAR: fix real para estructura Quarto (mx-auto + me-auto)
-   - Marca a la izquierda
-   - Menú pegado a la derecha
-   ========================================================= */
-
-#quarto-header .navbar-container{
-  width: 100% !important;
-  max-width: none !important;
-  padding-left: 1.25rem !important;
-  padding-right: 1.25rem !important;
-}
-
-/* Quarto centra la marca con mx-auto -> lo anulamos */
-#quarto-header .navbar-brand-container.mx-auto{
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-}
-
-/* El UL trae me-auto (Bootstrap): lo quita de la izquierda */
-#quarto-header .navbar-nav.me-auto{
-  margin-right: 0 !important;  /* anula me-auto */
-  margin-left: auto !important;/* empuja a la derecha */
-}
-
-/* Por si el collapse no ocupa, lo hacemos flex */
-#quarto-header .navbar-collapse{
-  display: flex !important;
-  justify-content: flex-end !important;
-  flex-grow: 1 !important;
-}
-/* =========================================================
-   ICONOS: misma caja + misma línea (Iconify + Bootstrap Icons)
-   ========================================================= */
-
-.social-icons{
-  display: flex !important;
-  gap: .9rem !important;
-  align-items: center !important;
-}
-
-/* Cada enlace con caja fija */
-.social-icons a{
-  width: 1.35rem;
-  height: 1.35rem;
-  display: inline-flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  line-height: 1 !important;
-  border: 0 !important;
-}
-
-/* Bootstrap icons */
-.social-icons i.bi{
-  font-size: 1.15rem !important;
-  line-height: 1 !important;
-  display: block !important;
-}
-
-/* Iconify */
-.social-icons iconify-icon{
-  font-size: 1.15rem !important;
-  line-height: 1 !important;
-  display: block !important;
-  position: relative;
-  top: 0.02em;
-}
-/* =========================
-   ICONOS REDES – color independiente
-   ========================= */
-
-.social-icons a{
-  color: var(--social-color) !important;
-}
-
-.social-icons a:hover{
-  color: var(--social-hover) !important;
-}
-.navbar .social-icons a{
-  color: var(--social-color) !important;
 }
