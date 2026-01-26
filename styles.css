@@ -58,7 +58,7 @@ body{
 
 /* --- 4) Navbar minimal + a la derecha ----------------------------------- */
 .navbar{
-  background: #ffffff !important;
+  background: #f2d46b !important;
   border-bottom: 1px solid var(--border);
   box-shadow: none !important;
   min-height: var(--nav-h);
