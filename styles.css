@@ -244,3 +244,31 @@ body.home .home-logo{
   body.home .home-hero__logo{ justify-content: flex-start; }
   body.home .home-logo{ width: min(420px, 100%); }
 }
+/* --- FIX navbar: menú pegado a la derecha --- */
+.navbar .navbar-collapse{
+  width: 100% !important;
+  justify-content: flex-end !important;
+}
+
+.navbar .navbar-nav{
+  margin-left: auto !important;
+  justify-content: flex-end !important;
+}
+
+.navbar .navbar-nav:last-child{
+  margin-left: auto !important;
+}
+/* --- FIX iconos: alinear Iconify con Bootstrap Icons --- */
+body.home .social-icons a{
+  align-items: center !important;
+}
+
+body.home .social-icons i,
+body.home .social-icons iconify-icon{
+  vertical-align: middle !important;
+}
+
+/* Iconify suele quedar un pelín más alto: lo bajamos un toque */
+body.home .social-icons iconify-icon{
+  top: 0.08em !important;   /* antes 0.02em -> baja un poco más */
+}
