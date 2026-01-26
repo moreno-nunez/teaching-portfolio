@@ -15,6 +15,12 @@
   --accent: #f2d46b;
   --accent-soft: #5f705f;
 
+:root{
+  ...
+  --social-color: #5f705f;        /* color base iconos */
+  --social-hover: #f4d3c3;        /* hover */
+}
+
   --maxw: 820px;            /* internas */
   --home-body-max: 1520px;  /* ancho útil HOME (tu “ancho actual”) */
 
@@ -191,7 +197,9 @@ body.home .social-icons a{
   align-items: center;
   line-height: 1;
 }
-body.home .social-icons a:hover{ color: var(--accent); }
+body.home .social-icons a:hover{
+  color: var(--social-hover);
+}
 
 body.home .social-icons i,
 body.home .social-icons iconify-icon{
@@ -406,4 +414,18 @@ body.home .social-icons iconify-icon{
   display: block !important;
   position: relative;
   top: 0.02em;
+}
+/* =========================
+   ICONOS REDES – color independiente
+   ========================= */
+
+.social-icons a{
+  color: var(--social-color) !important;
+}
+
+.social-icons a:hover{
+  color: var(--social-hover) !important;
+}
+.navbar .social-icons a{
+  color: var(--social-color) !important;
 }
