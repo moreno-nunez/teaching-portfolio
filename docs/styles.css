@@ -238,6 +238,15 @@ body.home .home-keywords{
 .social-icons a:hover{
   color: var(--social-hover) !important; /* HOVER pedido */
 }
+/* Hover de iconos: mismo círculo suave que el navbar */
+.social-icons a{
+  border-radius: 999px;
+  transition: background .15s ease, color .15s ease;
+}
+
+.social-icons a:hover{
+  background: rgba(255,255,255,.12);
+}
 
 /* Bootstrap icons */
 .social-icons i.bi{
