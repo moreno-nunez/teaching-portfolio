@@ -19,8 +19,9 @@
   --brand: #f6f4ec;         /* título web en navbar */
 
   /* Redes (independientes del menú) */
-  --social-color: var(--text);  /* “color actual” de iconos */
-  --social-hover: #f2d46b;
+  --social-color: var(--text);  /* normal */
+  --social-hover: #f2d46b;      /* hover color */
+  --social-pill: rgba(0,0,0,.06); /* “círculo” hover (visible en fondo claro) */
 
   --maxw: 820px;            /* internas */
   --home-body-max: 1520px;  /* ancho útil HOME */
@@ -131,17 +132,17 @@ body{
   transition: background .15s ease, color .15s ease;
 }
 
-/* Hover: mantenemos el color del menú y damos un fondo suave */
+/* Hover */
 .navbar .nav-link:hover{
   color: var(--nav-link) !important;
   background: rgba(255,255,255,.12);
 }
 
-/* Activo: color exacto pedido */
+/* Activo */
 .navbar .nav-link.active,
 .navbar .nav-link[aria-current="page"]{
   color: var(--nav-active) !important;
-  background: transparent !important; /* marca por color, sin “pastilla” */
+  background: transparent !important;
 }
 
 /* Quitar subrayados/bordes en navbar */
@@ -214,45 +215,52 @@ body.home .home-keywords{
   margin: 0 0 1.25rem 0;
 }
 
-/* --- 7) ICONOS redes (independientes del menú) -------------------------- */
+/* --- 7) ICONOS redes: hover “pastilla” + alineación real ---------------- */
+
+/* Contenedor */
 .social-icons{
   display: flex !important;
   gap: .9rem !important;
   align-items: center !important;
 }
 
-/* caja fija para que iconify y bi queden alineados */
+/* Cada icono con “botón” circular real (no aplastado) */
 .social-icons a{
-  width: 1.35rem;
-  height: 1.35rem;
+  width: 2.05rem;
+  height: 2.05rem;
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
-  line-height: 1 !important;
-  border: 0 !important;
 
-  color: var(--social-color) !important; /* NORMAL */
-  text-decoration: none !important;
-}
-
-.social-icons a:hover{
-  color: var(--social-hover) !important; /* HOVER pedido */
-}
-/* Hover de iconos: mismo círculo suave que el navbar */
-.social-icons a{
   border-radius: 999px;
-  transition: background .15s ease, color .15s ease;
+  border: 0 !important;
+  text-decoration: none !important;
+  line-height: 1 !important;
+
+  color: var(--social-color) !important;
+  background: transparent;
+
+  transition: background .15s ease, color .15s ease, transform .15s ease;
 }
 
 .social-icons a:hover{
-  background: rgba(255,255,255,.12);
+  color: var(--social-hover) !important;
+  background: var(--social-pill);
 }
 
-/* Bootstrap icons */
+/* Truco: evita “saltitos” raros de línea/baseline */
+.social-icons a > *{
+  display: block;
+  line-height: 1;
+}
+
+/* Bootstrap Icons (i.bi) */
 .social-icons i.bi{
   font-size: 1.15rem !important;
   line-height: 1 !important;
   display: block !important;
+  position: relative;
+  top: 0.02em; /* microajuste */
 }
 
 /* Iconify */
@@ -261,10 +269,10 @@ body.home .home-keywords{
   line-height: 1 !important;
   display: block !important;
   position: relative;
-  top: 0.02em;
+  top: 0.06em; /* Iconify suele quedar más alto -> lo bajamos */
 }
 
-/* HOME: colocación de iconos como ya tenías */
+/* HOME: iconos a la derecha como ya tenías */
 body.home .social-icons{
   justify-content: flex-end;
   margin: 0 0 1.25rem 0;
