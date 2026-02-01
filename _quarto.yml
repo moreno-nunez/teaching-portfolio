@@ -9,12 +9,13 @@ website:
       - href: index.qmd
         text: home
       - href: teaching.qmd
-        text: docencia
+        text: comenzar
       - href: evaluation.qmd
-        text: evaluacion
+        text: comprender
       - href: innovation.qmd
-        text: innovacion
-
+        text: afinar
+      - href: innovation.qmd
+        text: acompañar
 format:
   html:
     theme: cosmo
