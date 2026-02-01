@@ -28,9 +28,7 @@ PORTAFOLIO DOCENTE
 :::
 
 ::: {.home-intro}
-Soy profesora de Psicología en la UAM. En este sitio recojo mi práctica docente: asignaturas, enfoque, evaluación e innovación.
-
-Aquí puedes escribir 2–3 frases sobre quién eres como docente: en qué enseñas, con qué tipo de estudiantes trabajas y qué te interesa especialmente de la docencia universitaria.
+Soy profesora de Psicología en la UAM. Este portafolio documenta un recorrido de reflexión y aprendizaje desarrollado en el marco del Título de Experto en Mentoría Universitaria.
 :::
 
 :::
