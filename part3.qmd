@@ -1,0 +1,9 @@
+---
+title: "acompañar procesos de cambio"
+format: html
+editor: visual
+---
+
+## Proyección como mentora universitaria
+
+Breve selección de las asignaturas en las que has impartido docencia en los últimos años.

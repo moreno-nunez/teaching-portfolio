@@ -8,13 +8,13 @@ website:
     left:
       - href: index.qmd
         text: home
-      - href: teaching.qmd
+      - href: part0.qmd
         text: comenzar
-      - href: evaluation.qmd
+      - href: part1.qmd
         text: comprender
-      - href: innovation.qmd
+      - href: part2.qmd
         text: afinar
-      - href: innovation.qmd
+      - href: part3.qmd
         text: acompañar
 format:
   html:

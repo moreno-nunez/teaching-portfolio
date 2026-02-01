@@ -1,0 +1,22 @@
+---
+title: "punto de partida"
+format: html
+editor: visual
+---
+
+## Desde dónde escribo este portafolio
+
+Breve selección de las asignaturas en las que has impartido docencia en los últimos años.
+
+- **[Asignatura 1]** — Grado en Psicología en [X] Curso, nº aproximado de estudiantes, tipo (obligatoria/optativa) y una línea sobre el enfoque que trabajas.
+- **[Asignatura 2]** — Máster en Desarrollo Comunicativo y Lingüístico. Papel de la asignatura en el plan de estudios y tu contribución principal.
+
+## Enfoque docente
+
+Describe tu forma de entender la enseñanza: qué esperas del alumnado, qué intentas que ocurra en tus clases, y cómo articulas teoría, práctica y reflexión.
+
+- Promover la participación activa y el análisis crítico de los contenidos.
+- Generar espacios seguros para la discusión y el intercambio de perspectivas.
+- Conectar la docencia con contextos profesionales y situaciones reales.
+- Conexión teoría–práctica.
+- Retroalimentación orientada a la mejora.
