@@ -28,7 +28,8 @@ PORTAFOLIO DOCENTE
 :::
 
 ::: {.home-intro}
-Soy profesora de Psicología en la UAM. 
+Soy profesora de Psicología en la UAM.
+
 Este portafolio documenta un recorrido de reflexión y aprendizaje desarrollado en el marco del Título de Experto en Mentoría Universitaria.
 :::
 
