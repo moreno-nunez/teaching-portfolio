@@ -1,20 +1,15 @@
 ---
-title: "innovation.qmd"
+title: "cuando la comprensión toma forma"
 format: html
 editor: visual
 ---
 
----
-title: "cuando la comprensión toma forma"
----
-
-Límites, posibilidades y decisiones emergentes
+## Límites, posibilidades y decisiones emergentes
 
 Proyectos, cambios metodológicos, formación docente, mentoría, etc. Espacio para proyectos de innovación, cambios metodológicos relevantes y formación relacionada con la docencia universitaria.
 
-[Proyecto / iniciativa] Objetivo, año y contexto (asignatura, titulación, etc.).
+\[Proyecto / iniciativa\] Objetivo, año y contexto (asignatura, titulación, etc.).
 
-[Formación o seminario] Qué has incorporado a tu práctica a partir de esa experiencia.
+\[Formación o seminario\] Qué has incorporado a tu práctica a partir de esa experiencia.
 
-[Mentoría / acompañamiento] Papel que desempeñas y tipo de apoyo que ofreces a otros docentes.
-
+\[Mentoría / acompañamiento\] Papel que desempeñas y tipo de apoyo que ofreces a otros docentes.

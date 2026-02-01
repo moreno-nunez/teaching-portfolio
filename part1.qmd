@@ -1,14 +1,10 @@
 ---
-title: "evaluation.qmd"
+title: "comprender antes de intervenir"
 format: html
 editor: visual
 ---
 
----
-title: "comprender antes de intervenir"
----
-
-Aprendizajes del primer año del TEMU
+## Aprendizajes del primer año del TEMU
 
 Describe aquí tu sistema de evaluación y cómo das retroalimentación. Resume cómo estructuras la evaluación (continua, pruebas finales, trabajos, proyectos) y cómo comunicas los criterios al alumnado.
 
