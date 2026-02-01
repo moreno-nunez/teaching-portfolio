@@ -6,7 +6,7 @@ editor: visual
 
 ## Desde dónde escribo este portafolio
 
-## Una trayectoria que no empieza aquí
+### Una trayectoria que no empieza aquí
 
 Este portafolio no nace de una primera aproximación a la docencia universitaria ni a la formación docente. Nace de una trayectoria larga, sostenida en el tiempo, en la que la reflexión sobre cómo se enseña y cómo se aprende ha estado siempre presente, aunque no siempre formulada de la misma manera.
 
@@ -14,7 +14,7 @@ Desde mis primeros años como docente en formación, mi mirada ha estado atraves
 
 Con el tiempo he aprendido que no todo lo que importa en un proceso de aprendizaje es inmediatamente visible.
 
-## Pensar el cambio docente en solitario
+### Pensar el cambio docente en solitario
 
 Durante mi etapa predoctoral cursé el Título de Experto en Docencia Universitaria (actualmente TEMDU), en un momento en el que el programa tenía una estructura menos definida que la actual. Aquella experiencia supuso mi primer acercamiento explícito a la docencia como objeto de análisis sistemático.
 
@@ -28,7 +28,7 @@ Esa manera de pensar los procesos de aprendizaje —atenta a lo que aún no se f
 
 Sin ser plenamente consciente de ello en aquel momento, esta lógica estaba ya presente en el modo en que concebí aquel primer proyecto de cambio docente. Mirado desde hoy, lo que faltaba entonces no era rigor ni compromiso, sino una red de contraste que permitiera sostener las preguntas en el tiempo. Esta ausencia no se hizo evidente hasta que la experiencia formativa dejó de vivirse en solitario y pasó a construirse en diálogo con otros.
 
-## Un proyecto que vuelve (y se deja leer de otra manera)
+### Un proyecto que vuelve (y se deja leer de otra manera)
 
 Volver a ese proyecto años después tiene algo de ejercicio retrospectivo. Muchas de las preocupaciones que lo atraviesan siguen siendo reconocibles: la motivación del alumnado, la necesidad de estructurar bien las tareas, el equilibrio entre guía y autonomía, el valor del feedback durante el proceso.
 
@@ -36,7 +36,7 @@ Sin embargo, también se hace visible el tipo de mirada que, como docente en for
 
 Ese desajuste —entre lo que está cuidadosamente diseñado y lo que después ocurre en la práctica— ha sido una fuente recurrente de preguntas en mi trayectoria docente.
 
-## DOCENTIA: consolidar una forma de mirar la docencia
+### DOCENTIA: consolidar una forma de mirar la docencia
 
 Años más tarde, mi participación en el programa DOCENTIA de la UAM supuso otro momento clave en este recorrido. El proceso de autoevaluación exigía revisar la docencia de forma sistemática, apoyándose en evidencias diversas y en un análisis riguroso de la coherencia entre objetivos, metodología, evaluación y resultados.
 
@@ -44,7 +44,7 @@ Participar en DOCENTIA reforzó una manera de trabajar muy atenta a la estructur
 
 Al mismo tiempo, situaba la reflexión en un marco claramente institucional, donde el énfasis estaba puesto principalmente en la calidad y la mejora continua. Hoy lo entiendo como un momento de cierre de etapa: necesario, valioso, pero también limitado en el tipo de preguntas que permitía formular.
 
-## Lo que no terminaba de encajar del todo
+### Lo que no terminaba de encajar del todo
 
 A pesar de esta trayectoria —formación docente, proyectos de cambio, evaluación institucional—, algunas incomodidades persistían.
 
@@ -54,7 +54,7 @@ Estas mismas tensiones empezaban a trasladarse a preguntas más amplias sobre el
 
 No era una falta de reflexión, sino una sensación más incómoda: no todo lo importante se deja cerrar bien, ni se ajusta fácilmente a los marcos con los que estaba acostumbrada a evaluar la práctica.
 
-## El TEMU como relectura acompañada
+### El TEMU como relectura acompañada
 
 Desde ahí llego al Título de Experto en Mentoría Universitaria (TEMU). No como un punto de partida, ni como una formación que inaugura mi relación con la mentoría, sino como un espacio que permite poner nombre, estructura y tiempo a preguntas que ya estaban presentes en mi práctica docente y en mi experiencia previa de acompañamiento. La incorporación al TEMU no supuso tanto el inicio de un nuevo proyecto como el desplazamiento hacia una forma distinta de pensar el cambio docente: una forma que ya no se construye en solitario y pasa a sostenerse en el contraste, el acompañamiento y la conversación con otros.
 
@@ -64,17 +64,17 @@ En este sentido, el TEMU no ha venido a ofrecer respuestas rápidas ni modelos c
 
 Este desplazamiento —de la acción a la lectura de la situación, del resultado visible al proceso de comprensión— es el que articula los aprendizajes que se desarrollan en la Parte I del portafolio.
 
-## Desde dónde empiezo este portafolio
+### Desde dónde empiezo este portafolio
 
 Este portafolio se escribe, por tanto, desde una identidad docente y mentora ya construida, pero abierta a revisión. Desde una práctica reflexiva que ha sido sistemática, evaluada y documentada, pero que necesitaba ser revisada con otras preguntas, otros tiempos y otros acompañamientos.
 
 Más que mostrar cambios espectaculares, lo que aquí se recoge son desplazamientos: en la manera de mirar, de evaluar, de intervenir y, en ocasiones, de decidir no hacerlo.
 
-## La pregunta que sostiene el recorrido
+### La pregunta que sostiene el recorrido
 
 ¿Qué implica acompañar procesos de cambio cuando el principal avance no es hacer algo distinto, sino entender algo de otra manera?
 
-## Una nota para el lector
+#### Una nota para el lector
 
 Este portafolio se organiza desde una lógica similar a la que atraviesa mi docencia en *Desarrollo Cognitivo y Lingüístico*: priorizar la lectura de los procesos antes de buscar cambios visibles. Esta lógica —procedente de mi especialización en desarrollo temprano— no funciona aquí como metáfora, sino como marco epistemológico desde el que leo también el desarrollo profesional docente.
 
