@@ -5,10 +5,10 @@ editor: visual
 ---
 
 ---
-title: "innovación"
+title: "cuando la comprensión toma forma"
 ---
 
-## Innovación y desarrollo profesional
+## Límites, posibilidades y decisiones emergentes
 
 Proyectos, cambios metodológicos, formación docente, mentoría, etc. Espacio para proyectos de innovación, cambios metodológicos relevantes y formación relacionada con la docencia universitaria.
 

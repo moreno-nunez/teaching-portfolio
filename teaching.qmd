@@ -1,10 +1,10 @@
 ---
-title: "docencia"
+title: "punto de partida"
 format: html
 editor: visual
 ---
 
-## Docencia actual y reciente
+## Desde dónde escribo este portafolio
 
 Breve selección de las asignaturas en las que has impartido docencia en los últimos años.
 
