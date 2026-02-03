@@ -1,0 +1,36 @@
+---
+title: "Empezar"
+page-layout: full
+---
+
+## Punto de partida
+
+Aquí sitúo desde dónde escribo este portafolio: una trayectoria docente ya consolidada y una incomodidad persistente sobre cómo se sostienen (o se bloquean) los procesos de cambio. El TEMU aparece como una relectura acompañada: menos orientada a “hacer” y más a comprender.
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-6}
+### Trayectoria
+TEMDU, proyecto de cambio y la relectura retrospectiva de lo que entonces quedaba fuera.
+[Entrar →](trayectoria.qmd)
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### DOCENTIA
+Qué consolidó en mi forma de mirar la docencia y qué límites tuvo para ciertas preguntas.
+[Entrar →](docentia.qmd)
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Tensiones persistentes
+Autorreflexión, trabajo en grupo, ritmos de avance: lo que no terminaba de encajar.
+[Entrar →](tensiones.qmd)
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### TEMU como relectura
+Del resultado visible al proceso: por qué comprender pasa a ser una forma de avanzar.
+[Entrar →](temu.qmd)
+:::
+:::
+
+[Pasar a Parte I →](../part1/index.qmd){.btn .btn-primary}
