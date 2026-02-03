@@ -9,11 +9,11 @@ website:
       - href: index.qmd
         text: home
       - href: part0.qmd
-        text: comenzar
+        text: empezar
       - href: part1.qmd
         text: comprender
       - href: part2.qmd
-        text: afinar
+        text: ajustar
       - href: part3.qmd
         text: acompañar
 format:
