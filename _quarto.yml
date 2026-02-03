@@ -4,69 +4,23 @@ project:
 
 website:
   title: "TEMU-UAM"
-
   navbar:
     left:
       - href: index.qmd
         text: home
-      - href: part0/index.qmd
+      - href: part0.qmd
         text: empezar
-      - href: part1/index.qmd
+      - href: part1.qmd
         text: comprender
-      - href: part2/index.qmd
+      - href: part2.qmd
         text: ajustar
-      - href: part3/index.qmd
+      - href: part3.qmd
         text: acompañar
-
-  sidebar:
-    - title: "Empezar"
-      style: "docked"
-      collapse-level: 1
-      contents:
-        - part0/index.qmd
-        - part0/trayectoria.qmd
-        - part0/docentia.qmd
-        - part0/tensiones.qmd
-        - part0/temu.qmd
-
-    - title: "Comprender"
-      style: "docked"
-      collapse-level: 1
-      contents:
-        - part1/index.qmd
-        - part1/metodologica.qmd
-        - part1/evaluativa.qmd
-        - part1/relacional.qmd
-
-    - title: "Ajustar"
-      style: "docked"
-      collapse-level: 1
-      contents:
-        - part2/index.qmd
-        - part2/decisiones.qmd
-        - part2/condiciones.qmd
-        - part2/limites.qmd
-
-    - title: "Acompañar"
-      style: "docked"
-      collapse-level: 1
-      contents:
-        - part3/index.qmd
-        - part3/vinculo.qmd
-        - part3/sin-dirigir.qmd
-        - part3/preguntas.qmd
-
 format:
   html:
     theme: cosmo
     css: styles.css
-    toc: true
-    toc-location: right
-    toc-depth: 3
-    smooth-scroll: true
-    anchor-sections: true
-    page-navigation: true
-    bread-crumbs: true
+    toc: false
     include-in-header:
       - text: |
           <script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
