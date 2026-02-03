@@ -1,8 +1,20 @@
 ---
-title: "punto de partida"
-format: html
+title: "Punto de partida"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    anchor-sections: true
+    smooth-scroll: true
 editor: visual
 ---
+
+::: {.callout-note}
+## Cómo leer esta parte
+
+Esta sección no presenta resultados ni “buenas prácticas”.  
+Sitúa **desde dónde escribo este portafolio**, qué preguntas lo sostienen y por qué *comprender* aparece aquí como condición previa a *intervenir*.
+:::
 
 ## Desde dónde escribo este portafolio
 
@@ -12,9 +24,14 @@ Este portafolio no nace de una primera aproximación a la docencia universitaria
 
 Desde mis primeros años como docente en formación, mi mirada ha estado atravesada por preguntas sobre los procesos de aprendizaje, el papel del docente y las condiciones que hacen posible que algo cambie (o no) en el aula. Algunas de esas preguntas se han ido afinando con la experiencia; otras han reaparecido, una y otra vez, bajo formas distintas.
 
-Con el tiempo he aprendido que no todo lo que importa en un proceso de aprendizaje es inmediatamente visible.
+::: {.callout-tip}
+## Una idea que atraviesa todo el portafolio
 
-### Pensar el cambio docente en solitario
+Con el tiempo he aprendido que **no todo lo que importa en un proceso de aprendizaje es inmediatamente visible**.
+:::
+
+::: {.callout-collapse}
+## Pensar el cambio docente en solitario
 
 Durante mi etapa predoctoral cursé el Título de Experto en Docencia Universitaria (actualmente TEMDU), en un momento en el que el programa tenía una estructura menos definida que la actual. Aquella experiencia supuso mi primer acercamiento explícito a la docencia como objeto de análisis sistemático.
 
@@ -24,9 +41,14 @@ Como parte de ese título elaboré un proyecto de cambio docente centrado en la 
 
 Trabajar durante años en esta asignatura ha tenido un efecto que solo con el tiempo he sido capaz de reconocer. Mi docencia y mi investigación se han centrado en el desarrollo cognitivo y lingüístico temprano: en cómo los niños empiezan a comprender el mundo, a coordinarse con otros y a construir significado mucho antes de que ese conocimiento se haga explícito en palabras o acciones reconocibles.
 
-Esa manera de pensar los procesos de aprendizaje —atenta a lo que aún no se formula, a los avances que no siempre se muestran y al papel constitutivo de la interacción— ha ido tomando forma a lo largo de los años. Con el tiempo, ha terminado influyendo en cómo observo y leo mi propia práctica docente. En el desarrollo temprano, comprender no equivale a producir; avanzar no implica necesariamente mostrar; y la interacción precede a la intervención.
+Esa manera de pensar los procesos de aprendizaje —atenta a lo que aún no se formula, a los avances que no siempre se muestran y al papel constitutivo de la interacción— ha ido tomando forma a lo largo de los años.
+
+::: {.callout-important}
+**En el desarrollo temprano, comprender no equivale a producir; avanzar no implica necesariamente mostrar; y la interacción precede a la intervención.**
+:::
 
 Sin ser plenamente consciente de ello en aquel momento, esta lógica estaba ya presente en el modo en que concebí aquel primer proyecto de cambio docente. Mirado desde hoy, lo que faltaba entonces no era rigor ni compromiso, sino una red de contraste que permitiera sostener las preguntas en el tiempo. Esta ausencia no se hizo evidente hasta que la experiencia formativa dejó de vivirse en solitario y pasó a construirse en diálogo con otros.
+:::
 
 ### Un proyecto que vuelve (y se deja leer de otra manera)
 
@@ -34,7 +56,9 @@ Volver a ese proyecto años después tiene algo de ejercicio retrospectivo. Much
 
 Sin embargo, también se hace visible el tipo de mirada que, como docente en formación, predominaba entonces. El foco estaba puesto, sobre todo, en el diseño: en ajustar metodologías, redefinir actividades, afinar sistemas de evaluación. Mucho menos en lo que ocurre cuando, aun con un diseño cuidado, los procesos no avanzan como se esperaba o cuando el cambio no es inmediatamente visible.
 
+::: {.callout-note}
 Ese desajuste —entre lo que está cuidadosamente diseñado y lo que después ocurre en la práctica— ha sido una fuente recurrente de preguntas en mi trayectoria docente.
+:::
 
 ### DOCENTIA: consolidar una forma de mirar la docencia
 
@@ -52,17 +76,22 @@ En el aula, seguía resultando difícil promover procesos de autorreflexión pro
 
 Estas mismas tensiones empezaban a trasladarse a preguntas más amplias sobre el acompañamiento docente —preguntas que ya estaban presentes en mi experiencia como mentora de estudiantes, doctorandas y compañeros más noveles, y que más adelante encontrarían un espacio formativo específico en la mentoría universitaria—: cómo acompañar sin dirigir, cómo no confundir avance con rapidez, cómo sostener procesos de comprensión sin la necesidad de cerrarlos demasiado pronto.
 
-No era una falta de reflexión, sino una sensación más incómoda: no todo lo importante se deja cerrar bien, ni se ajusta fácilmente a los marcos con los que estaba acostumbrada a evaluar la práctica.
+::: {.callout-note}
+No era una falta de reflexión, sino una sensación más incómoda: **no todo lo importante se deja cerrar bien**, ni se ajusta fácilmente a los marcos con los que estaba acostumbrada a evaluar la práctica.
+:::
 
 ### El TEMU como relectura acompañada
 
-Desde ahí llego al Título de Experto en Mentoría Universitaria (TEMU). No como un punto de partida, ni como una formación que inaugura mi relación con la mentoría, sino como un espacio que permite poner nombre, estructura y tiempo a preguntas que ya estaban presentes en mi práctica docente y en mi experiencia previa de acompañamiento. La incorporación al TEMU no supuso tanto el inicio de un nuevo proyecto como el desplazamiento hacia una forma distinta de pensar el cambio docente: una forma que ya no se construye en solitario y pasa a sostenerse en el contraste, el acompañamiento y la conversación con otros.
+Desde ahí llego al Título de Experto en Mentoría Universitaria (TEMU). No como un punto de partida, ni como una formación que inaugura mi relación con la mentoría, sino como un espacio que permite poner nombre, estructura y tiempo a preguntas que ya estaban presentes en mi práctica docente y en mi experiencia previa de acompañamiento.
+
+La incorporación al TEMU no supuso tanto el inicio de un nuevo proyecto como el desplazamiento hacia una forma distinta de pensar el cambio docente: una forma que ya no se construye en solitario y pasa a sostenerse en el contraste, el acompañamiento y la conversación con otros.
 
 La diferencia no ha estado tanto en los contenidos como en el tipo de experiencia formativa que propone el TEMU: una formación sostenida, con contraste continuado, feedback a lo largo del proceso y espacios explícitos para volver sobre las mismas situaciones desde distintas miradas. Frente a otros momentos formativos más centrados en el diseño, la evaluación o la coherencia interna de la práctica, aquí el foco se desplaza hacia la comprensión de los procesos que sostienen —o bloquean— el cambio.
 
-En este sentido, el TEMU no ha venido a ofrecer respuestas rápidas ni modelos cerrados de intervención. Ha introducido, más bien, una forma distinta de situarme ante las situaciones de acompañamiento: ralentizar la lectura, atender a lo que aún no se formula con claridad, y aceptar que, en muchos casos, comprender mejor es ya una forma de avanzar.
-
-Este desplazamiento —de la acción a la lectura de la situación, del resultado visible al proceso de comprensión— es el que articula los aprendizajes que se desarrollan en la Parte I del portafolio.
+::: {.callout-important}
+El TEMU no ha venido a ofrecer respuestas rápidas ni modelos cerrados de intervención.  
+Ha introducido una forma distinta de situarme ante las situaciones de acompañamiento: **ralentizar la lectura**, atender a lo que aún no se formula con claridad y aceptar que, en muchos casos, **comprender mejor es ya una forma de avanzar**.
+:::
 
 ### Desde dónde empiezo este portafolio
 
@@ -72,10 +101,16 @@ Más que mostrar cambios espectaculares, lo que aquí se recoge son desplazamien
 
 ### La pregunta que sostiene el recorrido
 
-¿Qué implica acompañar procesos de cambio cuando el principal avance no es hacer algo distinto, sino entender algo de otra manera?
+::: {.callout-tip}
+**¿Qué implica acompañar procesos de cambio cuando el principal avance no es hacer algo distinto, sino entender algo de otra manera?**
+:::
 
 #### Una nota para el lector
 
+::: {.callout-note}
 Este portafolio se organiza desde una lógica similar a la que atraviesa mi docencia en *Desarrollo Cognitivo y Lingüístico*: priorizar la lectura de los procesos antes de buscar cambios visibles. Esta lógica —procedente de mi especialización en desarrollo temprano— no funciona aquí como metáfora, sino como marco epistemológico desde el que leo también el desarrollo profesional docente.
+:::
 
-Desde ahí se leen las reflexiones que siguen.
+::: {.callout-note}
+Lo que sigue desarrolla ese desplazamiento —de la acción a la lectura de la situación, del resultado visible al proceso de comprensión— en la **Parte I** del portafolio.
+:::
