@@ -215,7 +215,8 @@ body.home .home-hero{
   display: grid;
   grid-template-columns: minmax(320px, .9fr) minmax(420px, 1.1fr);
   gap: clamp(3rem, 7vw, 7rem);
-  align-items: center;
+  align-items: start;
+  padding-top: 7.5rem;
 }
 
 body.home .home-hero__logo{
@@ -248,14 +249,15 @@ body.home .home-keywords p{
   margin: 0 0 1rem;
 }
 
-/* Redes debajo del logo */
+/* Redes bajo "PORTAFOLIO DOCENTE" */
 body.home .home-hero__logo .social-icons{
   justify-content: flex-start !important;
-  margin-top: -0.6rem !important;
-  margin-left: 5.4rem !important;
+  margin-top: -0.25rem !important;
+  margin-left: 2.15rem !important;
   padding-left: 0 !important;
   gap: 1.05rem !important;
 }
+
 /* Bloque derecho */
 body.home .home-hero__text{
   text-align: left;
