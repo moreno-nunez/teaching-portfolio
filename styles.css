@@ -224,14 +224,6 @@ body.home .home-hero__logo{
   align-items: flex-start;
   justify-content: center;
 }
-body.home .home-hero__logo .social-icons{
-  justify-content: flex-start !important;
-
-  margin-top: .35rem;
-  margin-left: 4.8rem;
-
-  gap: 1.05rem !important;
-}
 
 /* Logo */
 body.home .home-logo{
@@ -256,13 +248,13 @@ body.home .home-keywords p{
   margin: 0 0 1rem;
 }
 
-/* Redes debajo del texto PORTAFOLIO DOCENTE */
+/* Redes debajo del logo */
 body.home .home-hero__logo .social-icons{
   justify-content: flex-start !important;
-  margin: 0;
-}
- body.home .home-hero__logo .social-icons{
-  padding-left: .4rem;
+  margin-top: -0.6rem !important;
+  margin-left: 5.4rem !important;
+  padding-left: 0 !important;
+  gap: 1.05rem !important;
 }
 /* Bloque derecho */
 body.home .home-hero__text{
