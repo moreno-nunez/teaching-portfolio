@@ -224,7 +224,15 @@ body.home .home-hero__logo{
   align-items: flex-start;
   justify-content: center;
 }
-
+body.home .home-hero__logo .social-icons{
+  justify-content: flex-start !important;
+  margin-top: 1.4rem;
+  padding-left: .2rem;
+  gap: 1.15rem !important;
+}
+body.home .home-hero__logo{
+  padding-left: 1.4rem;
+}
 /* Logo */
 body.home .home-logo{
   width: min(560px, 100%);
@@ -321,8 +329,9 @@ body.home .home-kicker p{
 }
 
 .social-icons a{
-  width: 2.05rem;
-  height: 2.05rem;
+  width: 2.6rem;
+  height: 2.6rem;
+
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -334,6 +343,11 @@ body.home .home-kicker p{
 
   color: var(--social-color) !important;
   transition: background .15s ease, color .15s ease, transform .15s ease;
+}
+
+.social-icons iconify-icon,
+.social-icons i{
+  font-size: 1.35rem;
 }
 
 .social-icons a:hover{
