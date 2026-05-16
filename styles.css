@@ -200,22 +200,28 @@ a:hover{
 }
 
 /* --- 6) HOME ------------------------------------------------------------- */
-body.home .quarto-title-block{ display: none !important; }
+
+body.home .quarto-title-block{
+  display: none !important;
+}
 
 body.home #quarto-content{
   max-width: none !important;
-  padding: var(--home-top-gap) var(--home-gutter) 0;
+  padding: 0 var(--home-gutter) 0;
 }
 
 body.home .home-hero{
   max-width: var(--home-body-max);
   margin: 0 auto;
-  min-height: calc(100vh - var(--nav-h) - 6rem);
+
+  min-height: calc(100vh - var(--nav-h));
 
   display: grid;
-  grid-template-columns: minmax(320px, .9fr) minmax(420px, 1.1fr);
-  gap: clamp(3rem, 7vw, 7rem);
+  grid-template-columns: minmax(420px, 0.9fr) minmax(520px, 1.1fr);
+  gap: clamp(4rem, 7vw, 7rem);
   align-items: center;
+
+  transform: translateY(-3.2rem);
 }
 
 body.home .home-hero__logo{
@@ -223,44 +229,35 @@ body.home .home-hero__logo{
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+
+  max-width: 560px;
 }
 
-/* Logo */
 body.home .home-logo{
   width: min(560px, 100%);
   height: auto;
   object-fit: contain;
   display: block;
-  margin-bottom: 1.6rem;
-}
-body.home .home-hero__logo{
-  max-width: 560px;
-}
-/* HOME: título / etiqueta bajo logo */
-body.home .home-keywords,
-body.home .home-keywords p{
-  font-family: var(--font-subtitle) !important;
-  font-weight: 500;
-  font-size: var(--h2-size);
-  text-transform: uppercase;
-  letter-spacing: var(--h2-track);
-  color: #8fa08a;
-  margin: 0 0 1rem;
+  margin: 0;
 }
 
-/* Redes bajo "PORTAFOLIO DOCENTE" */
 body.home .home-hero__logo .social-icons{
+  display: flex !important;
   justify-content: flex-start !important;
-  margin-top: -0.25rem !important;
-  margin-left: 2.15rem !important;
+  align-items: center !important;
+
+  margin-top: -2.8rem !important;
+  margin-left: 2.2rem !important;
   padding-left: 0 !important;
-  gap: 1.05rem !important;
+
+  gap: 1rem !important;
 }
 
-/* Bloque derecho */
 body.home .home-hero__text{
-  text-align: left;
   max-width: 620px;
+  text-align: left;
+
+  transform: translateY(-0.7rem);
 }
 
 body.home .home-intro p{
@@ -272,47 +269,16 @@ body.home .home-intro p{
   letter-spacing: 0;
 }
 
-/* HOME: título principal EXACTAMENTE igual que h1, por si lo recuperas */
-body.home .home-kicker,
-body.home .home-kicker p{
-  font-family: var(--font-display) !important;
-  font-style: normal;
-  font-weight: 600;
-  font-size: var(--h1-size);
-  line-height: var(--h1-lh);
-  letter-spacing: -0.01em;
-  color: var(--raspberry);
-  margin: 0 0 1rem;
+/* Si mantienes home-keywords fuera del logo, queda oculto */
+body.home .home-keywords{
+  display: none;
 }
 
-/* Responsive */
-@media (max-width: 900px){
-  body.home .home-hero{
-    min-height: auto;
-    grid-template-columns: 1fr;
-    gap: 2.2rem;
-    padding-top: 2rem;
-  }
+/* --- 7) ICONOS redes ----------------------------------------------------- */
 
-  body.home .home-hero__logo{
-    align-items: center;
-    text-align: center;
-  }
-
-  body.home .home-hero__text{
-    text-align: center;
-    margin: 0 auto;
-  }
-
-  h2, body.home .home-name, body.home .home-keywords{
-    letter-spacing: 0.14em;
-  }
-}
-
-/* --- 7) ICONOS redes (igual) -------------------------------------------- */
 .social-icons{
   display: flex !important;
-  gap: .9rem !important;
+  gap: 1rem !important;
   align-items: center !important;
   line-height: 0 !important;
 }
@@ -344,47 +310,33 @@ body.home .home-kicker p{
   background: var(--social-pill);
 }
 
-/* Responsive */
+/* Responsive HOME */
 @media (max-width: 900px){
   body.home .home-hero{
+    min-height: auto;
     grid-template-columns: 1fr;
+    gap: 2.4rem;
+    transform: none;
+    padding-top: 2rem;
   }
-  body.home .home-hero__text{ text-align: left; }
-  body.home .social-icons{ justify-content: flex-start; }
 
-  h2, body.home .home-name{
-    letter-spacing: 0.14em;
+  body.home .home-hero__logo{
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
   }
-}
-/* HOME: asegurar que el <p> interno NO hereda Open Sans */
-body.home .home-kicker,
-body.home .home-kicker p{
-  font-family: var(--font-display) !important;
-  font-style: normal;
-  font-weight: 600;
-  font-size: var(--h1-size);
-  line-height: var(--h1-lh);
-  letter-spacing: -0.01em;
-  color: var(--raspberry);
-  margin: 0 0 1rem;
-}
 
-/* Tus “keywords” de la home deben parecerse a H2 (Docencia actual y reciente) */
-body.home .home-keywords,
-body.home .home-keywords p{
-  font-family: var(--font-subtitle) !important;
-  font-weight: 500;
-  font-size: var(--h2-size);
-  text-transform: uppercase;
-  letter-spacing: var(--h2-track);
-  color: #8fa08a;
-  margin: 0 0 1.1rem;
-}
+  body.home .home-hero__logo .social-icons{
+    justify-content: center !important;
+    margin-top: -2rem !important;
+    margin-left: 0 !important;
+  }
 
-/* Y tu intro vuelve a texto normal (Open Sans ya lo tienes por el selector global) */
-body.home .home-intro p{
-  text-transform: none;
-  letter-spacing: 0;
+  body.home .home-hero__text{
+    text-align: center;
+    margin: 0 auto;
+    transform: none;
+  }
 }
 /* ==========================================================================
    COMPONENTES NUEVOS — SOLO clases nuevas, sin tocar layout existente
