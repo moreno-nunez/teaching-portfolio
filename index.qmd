@@ -9,11 +9,9 @@ editor: source
 ---
 
 ::: {.home-hero}
-::: {.home-hero__text}
 
-::: {.home-kicker}
-
-:::
+::: {.home-hero__logo}
+![](images/logo-ana.svg){.home-logo alt="Logo Ana Moreno Núñez"}
 
 ::: {.home-keywords}
 PORTAFOLIO DOCENTE
@@ -26,15 +24,14 @@ PORTAFOLIO DOCENTE
 <a href="https://github.com/moreno-nunez" aria-label="GitHub"><i class="bi bi-github"></i></a>
 <a href="mailto:ana.moreno@uam.es" aria-label="Email"><i class="bi bi-envelope"></i></a>
 :::
+:::
 
+::: {.home-hero__text}
 ::: {.home-intro}
 Soy profesora de Psicología en la UAM.
 
 Este portafolio documenta un recorrido de reflexión y aprendizaje desarrollado en el marco del Título de Experto en Mentoría Universitaria.
 :::
+:::
 
-:::
-::: {.home-hero__logo}
-![](images/logo-ana.svg){.home-logo alt="Logo"}
-:::
 :::
