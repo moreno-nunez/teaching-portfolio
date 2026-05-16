@@ -8,26 +8,26 @@
 
 /* --- 1) Variables -------------------------------------------------------- */
 :root{
-  --bg: #faeed9;
-  --text: #38370d;
-  --muted: #8d7a02;
+  --bg: #fffcfc;
+  --text: #556b5a;
+  --muted: #5f705f;
   --border: rgba(85,107,90,.18);
 
   /* Navbar */
-  --nav-bg: #38370d;
-  --nav-link: #faeed9;
-  --nav-hover: #f2a7a0;
-  --nav-active: #e1a837;
-  --brand: #faeed9;
+  --nav-bg: #6b7f63;
+  --nav-link: #fffcfc;
+  --nav-hover: #f1bfae;
+  --nav-active: #f2d46b;
+  --brand: #fffcfc;
 
   /* Accents */
-  --raspberry: #8a5a3c;
+  --raspberry: #B23A6F;
   --raspberry-soft: #C45A86;
-  --peach-soft: #f2a7a0;
+  --peach-soft: #f4d3c3;
 
   /* Redes */
   --social-color: var(--raspberry-soft);
-  --social-hover: #38370d;
+  --social-hover: #3e5244;
   --social-pill: var(--peach-soft);
 
   /* Fuentes */
