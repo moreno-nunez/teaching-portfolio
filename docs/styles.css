@@ -226,13 +226,13 @@ body.home .home-hero__logo{
 }
 body.home .home-hero__logo .social-icons{
   justify-content: flex-start !important;
-  margin-top: 1.4rem;
-  padding-left: .2rem;
-  gap: 1.15rem !important;
+
+  margin-top: .35rem;
+  margin-left: 4.8rem;
+
+  gap: 1.05rem !important;
 }
-body.home .home-hero__logo{
-  padding-left: 1.4rem;
-}
+
 /* Logo */
 body.home .home-logo{
   width: min(560px, 100%);
