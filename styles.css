@@ -215,8 +215,7 @@ body.home .home-hero{
   display: grid;
   grid-template-columns: minmax(320px, .9fr) minmax(420px, 1.1fr);
   gap: clamp(3rem, 7vw, 7rem);
-  align-items: start;
-  padding-top: 7.5rem;
+  align-items: center;
 }
 
 body.home .home-hero__logo{
@@ -298,10 +297,6 @@ body.home .home-kicker p{
   body.home .home-hero__logo{
     align-items: center;
     text-align: center;
-  }
-
-  body.home .home-hero__logo .social-icons{
-    justify-content: center !important;
   }
 
   body.home .home-hero__text{
