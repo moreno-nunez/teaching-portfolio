@@ -334,21 +334,6 @@ body.home .home-kicker p{
   background: var(--social-pill);
 }
 
-/* HOME: colocación */
-body.home .social-icons{
-  justify-content: flex-end;
-  margin: 0 0 1.25rem 0;
-}
-
-/* Logo */
-body.home .home-hero__logo{
-  display: flex;
-  justify-content: flex-end;
-}
-body.home .home-logo{
-  width: min(var(--logo-max), 100%);
-}
-
 /* Responsive */
 @media (max-width: 900px){
   body.home .home-hero{
