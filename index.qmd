@@ -12,7 +12,7 @@ editor: source
 ::: {.home-hero__text}
 
 ::: {.home-kicker}
-ana moreno núñez
+
 :::
 
 ::: {.home-keywords}
