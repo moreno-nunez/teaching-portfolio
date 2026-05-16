@@ -35,6 +35,6 @@ Este portafolio documenta un recorrido de reflexión y aprendizaje desarrollado 
 
 :::
 ::: {.home-hero__logo}
-![](images/logo.png){.home-logo alt="Logo"}
+![](images/anamoreno.png){.home-logo alt="anamoreno"}
 :::
 :::
