@@ -227,10 +227,15 @@ body.home .home-hero__logo{
 
 /* Logo */
 body.home .home-logo{
-  width: min(430px, 100%);
-  margin-bottom: 1.4rem;
+  width: min(560px, 100%);
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin-bottom: 1.6rem;
 }
-
+body.home .home-hero__logo{
+  max-width: 560px;
+}
 /* HOME: título / etiqueta bajo logo */
 body.home .home-keywords,
 body.home .home-keywords p{
@@ -248,7 +253,9 @@ body.home .home-hero__logo .social-icons{
   justify-content: flex-start !important;
   margin: 0;
 }
-
+ body.home .home-hero__logo .social-icons{
+  padding-left: .4rem;
+}
 /* Bloque derecho */
 body.home .home-hero__text{
   text-align: left;
