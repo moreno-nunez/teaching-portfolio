@@ -488,14 +488,14 @@ body:has(.part0-page) #quarto-content .container-xxl{
   min-height: calc(100vh - var(--nav-h));
   padding: clamp(3rem, 6vw, 5rem) clamp(1.5rem, 7vw, 7rem);
   display: grid;
-  grid-template-columns: minmax(260px, 360px) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1.25fr) minmax(280px, .75fr);
   grid-template-areas:
     "kicker kicker"
     "title title"
-    "lead image"
-    "claim image";
+    "image lead"
+    "image claim";
   column-gap: clamp(2rem, 5vw, 5rem);
-  row-gap: 1.4rem;
+  row-gap: clamp(1rem, 2vw, 2rem);
   align-items: start;
 }
 
@@ -517,56 +517,54 @@ body:has(.part0-page) #quarto-content .container-xxl{
 .part0-hero h1{
   grid-area: title;
   width: 100%;
-  max-width: 1320px;
+  max-width: none;
   font-family: var(--font-display);
-  font-size: clamp(4rem, 10vw, 9.2rem);
-  line-height: .86;
-  letter-spacing: -.055em;
+  font-size: clamp(4.8rem, 11.5vw, 11rem);
+  line-height: .82;
+  letter-spacing: -.06em;
   text-transform: none;
   color: var(--raspberry);
-  margin: clamp(1.2rem, 3vw, 2.2rem) 0 clamp(1rem, 2vw, 2rem);
-  z-index: 2;
-}
-
-.part0-lead{
-  grid-area: lead;
-  align-self: end;
-  max-width: 340px;
-  font-family: var(--font-body) !important;
-  font-size: clamp(1rem, 1.15vw, 1.15rem);
-  line-height: 1.75;
-  color: var(--text);
-  margin: 0;
-  z-index: 3;
-}
-
-.part0-claim{
-  grid-area: claim;
-  max-width: 360px;
-  font-family: var(--font-body) !important;
-  font-size: clamp(.98rem, 1.1vw, 1.1rem);
-  line-height: 1.65;
-  color: var(--muted);
-  margin: 1rem 0 0;
-  z-index: 3;
+  margin: clamp(1rem, 2vw, 2rem) 0 clamp(1rem, 2vw, 2rem);
 }
 
 .part0-hero-image{
   grid-area: image;
-  align-self: end;
+  align-self: start;
   justify-self: stretch;
   min-width: 0;
-  z-index: 1;
 }
 
 .part0-hero-image img{
   width: 100%;
-  max-height: 44vh;
+  max-height: 48vh;
   object-fit: contain;
   object-position: center;
   display: block;
   border-radius: 2.2rem;
   box-shadow: 0 24px 60px rgba(85,107,90,.14);
+}
+
+.part0-lead{
+  grid-area: lead;
+  align-self: start;
+  max-width: 430px;
+  font-family: var(--font-body) !important;
+  font-size: clamp(1.05rem, 1.3vw, 1.25rem);
+  line-height: 1.75;
+  color: var(--text);
+  margin: 0;
+}
+
+.part0-claim{
+  grid-area: claim;
+  align-self: start;
+  max-width: 430px;
+  font-family: var(--font-display) !important;
+  font-size: clamp(1.5rem, 2.6vw, 2.6rem);
+  line-height: 1.05;
+  letter-spacing: -.02em;
+  color: var(--muted);
+  margin: 1.5rem 0 0;
 }
 
 /* NOTA */
