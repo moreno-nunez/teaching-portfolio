@@ -493,7 +493,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
 
 .part0-hero{
   min-height: calc(100vh - var(--nav-h)) !important;
-  padding: 4rem 8vw 5rem !important;
+  padding: 2.6rem 8vw 5rem !important;
 
   display: grid !important;
   grid-template-columns: 1fr !important;
@@ -524,7 +524,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
   color: var(--raspberry-soft);
 
   position: static !important;
-  margin: .2rem 0 .5rem !important;
+  margin: 0 !important;
 }
 
 .part0-title{
@@ -545,7 +545,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
 
   color: var(--raspberry) !important;
   text-transform: none !important;
-  margin: 0 !important;
+  margin: .75rem 0 !important;
 
   position: static !important;
 }
@@ -558,7 +558,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
   gap: clamp(3rem, 7vw, 7rem) !important;
 
   align-items: center !important;
-  margin-top: .5rem !important;
+  margin-top: 0 !important;
   position: static !important;
 }
 
