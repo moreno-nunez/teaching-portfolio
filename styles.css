@@ -518,7 +518,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
   width: 100%;
   max-width: none;
   font-family: var(--font-display);
-  font-size: clamp(4.8rem, 11.5vw, 11rem);
+  font-size: clamp(2.4rem, 4.2vw, 3.9rem);
   line-height: .82;
   letter-spacing: -.06em;
   text-transform: none;
