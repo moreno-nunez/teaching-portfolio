@@ -484,16 +484,24 @@ body:has(.part0-page) #quarto-content .container-xxl{
 
 /* HERO */
 .part0-hero{
+  position: relative;
+
   min-height: calc(100vh - var(--nav-h));
-  padding: clamp(3rem, 7vw, 6rem) clamp(1.4rem, 7vw, 7rem);
-  display: grid;
-  grid-template-columns: minmax(0, 1.05fr) minmax(320px, .95fr);
-  gap: clamp(2rem, 6vw, 6rem);
-  align-items: center;
+
+  padding:
+    clamp(3rem, 6vw, 5rem)
+    clamp(1.5rem, 7vw, 7rem)
+    clamp(2rem, 4vw, 4rem);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .part0-hero-copy{
-  max-width: 760px;
+  position: relative;
+  z-index: 3;
+  width: 100%;
 }
 
 .part0-kicker{
@@ -507,38 +515,51 @@ body:has(.part0-page) #quarto-content .container-xxl{
 }
 
 .part0-hero h1{
-  font-size: clamp(3.2rem, 8.5vw, 8.6rem);
-  line-height: .88;
-  letter-spacing: -.04em;
+  width: min(1400px, 100%);
+  margin:
+    clamp(2rem, 5vw, 4rem)
+    0
+    clamp(2rem, 4vw, 3rem);
+  font-family: var(--font-display);
+  font-size: clamp(5rem, 13vw, 11rem);
+  line-height: .84;
+  letter-spacing: -.07em;
   text-transform: none;
   color: var(--raspberry);
-  margin: 0 0 1.5rem;
 }
 
 .part0-lead{
-  max-width: 560px;
+  position: absolute;
+  left: clamp(1.5rem, 7vw, 7rem);
+  bottom: clamp(4rem, 6vw, 6rem);
+  width: min(420px, 32vw);
+  z-index: 4;
   font-family: var(--font-body) !important;
-  font-size: clamp(1.08rem, 1.5vw, 1.35rem);
-  line-height: 1.75;
+  font-size: clamp(1rem, 1.2vw, 1.2rem);
+  line-height: 1.8;
   color: var(--text);
 }
 
-.part0-claim{
-  margin-top: clamp(2rem, 5vw, 4rem);
-  max-width: 760px;
-  font-family: var(--font-display) !important;
-  font-size: clamp(1.9rem, 4.8vw, 5.2rem);
-  line-height: .95;
-  letter-spacing: -.03em;
-  color: var(--muted);
+.part0-hero-image{
+  position: absolute;
+
+  right: clamp(2rem, 8vw, 8rem);
+
+  bottom: clamp(2rem, 4vw, 4rem);
+
+  width: min(760px, 48vw);
+
+  z-index: 2;
 }
 
 .part0-hero-image img{
   width: 100%;
-  height: auto;
   display: block;
+
   border-radius: 2.2rem;
-  box-shadow: 0 24px 60px rgba(85,107,90,.16);
+
+  box-shadow:
+    0 24px 60px rgba(85,107,90,.14);
 }
 
 /* NOTA */
@@ -794,10 +815,6 @@ body:has(.part0-page) #quarto-content .container-xxl{
   .part0-hero h1{
     font-size: 36pt !important;
     line-height: 1 !important;
-  }
-
-  .part0-claim{
-    font-size: 22pt !important;
   }
 
   .part0-note{
