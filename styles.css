@@ -481,6 +481,10 @@ body:has(.part0-page) #quarto-content .container-xxl{
   padding: 0;
   overflow-x: hidden;
 }
+:root{
+  --part0-max: 1380px;
+  --part0-page-pad: clamp(1.4rem, 5vw, 6rem);
+}
 
 /* ==========================================================================
    PART 0 HERO — versión única estable
@@ -492,8 +496,9 @@ body:has(.part0-page) #quarto-content .container-xxl{
 }
 
 .part0-hero{
-  min-height: calc(100vh - var(--nav-h)) !important;
-  padding: 2rem 8vw 5rem !important;
+  width: min(var(--part0-max), calc(100% - 2 * var(--part0-page-pad)));
+  margin: 0 auto;
+  padding: 2rem 0 5rem !important;
 
   display: grid !important;
   grid-template-columns: 1fr !important;
@@ -537,7 +542,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
 .part0-title h1,
 .part0-hero h1{
   width: 100% !important;
-  max-width: 1280px !important;
+  max-width: none !important;
 
   font-family: var(--font-display) !important;
   font-size: clamp(2.4rem, 4.2vw, 3.9rem) !important;
@@ -646,7 +651,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
    ========================================================================== */
 
 .part0-note{
-  width: min(940px, calc(100% - 2.8rem));
+  width: min(var(--part0-max), calc(100% - 2 * var(--part0-page-pad)));
   margin: 0 auto clamp(4rem, 8vw, 7rem);
   padding: clamp(1.5rem, 4vw, 3rem);
   border-radius: 2rem;
@@ -670,7 +675,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
    ========================================================================== */
 
 .part0-lienzo{
-  width: min(1380px, calc(100% - 2.8rem));
+  width: min(var(--part0-max), calc(100% - 2 * var(--part0-page-pad)));
   min-height: 82vh;
   margin: 0 auto clamp(2rem, 5vw, 4rem);
   padding: clamp(2rem, 5vw, 5rem);
@@ -824,6 +829,11 @@ body:has(.part0-page) #quarto-content .container-xxl{
   flex-direction: column;
   justify-content: center;
   background: var(--bg);
+  width: min(var(--part0-max), calc(100% - 2 * var(--part0-page-pad)));
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+
 }
 
 .part0-question-label{
