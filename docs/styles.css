@@ -721,14 +721,14 @@ body:has(.part0-page) #quarto-content .container-xxl{
 }
 
 .part0-temu{
-  background: #3f3b17 !important;
-  color: #f7f3ea !important;
+  background: #efe7d8 !important;
+  color: #3e5244 !important;
 }
 
 .part0-temu::before{
   background:
-    radial-gradient(circle at 20% 20%, rgba(255,255,255,.14), transparent 30%),
-    radial-gradient(circle at 80% 78%, rgba(255,255,255,.08), transparent 30%);
+    radial-gradient(circle at 20% 20%, rgba(255,255,255,.32), transparent 30%),
+    radial-gradient(circle at 80% 78%, rgba(255,255,255,.18), transparent 30%);
 }
 
 .part0-lienzo-tag{
@@ -1047,35 +1047,28 @@ body:has(.part0-page) #quarto-content .container-xxl{
   max-width: 620px;
 }
 
-/* Tercer lienzo: título izquierdo en salmón del segundo */
+/* ==========================================================================
+   Ajustes finales coherentes lienzos
+   ========================================================================== */
+
+.part0-docentia .part0-bigword,
 .part0-temu .part0-bigword{
-  color: #e9a092 !important;
+  font-size: clamp(2.8rem, 5.4vw, 5.6rem) !important;
+  line-height: .9 !important;
+  letter-spacing: -.035em !important;
+  max-width: 620px;
 }
 
-.part0-temu .part0-lienzo-main,
-.part0-temu .part0-bigword,
-.part0-temu .part0-lienzo-main p{
-  color: #f7f3ea !important;
+.part0-temdu .part0-bigword{
+  color: #3e5244 !important;
 }
 
-/* Tercer lienzo: título izquierdo en salmón del segundo */
-.part0-temu .part0-bigword{
-  color: #e9a092 !important;
-}
-
-.part0-temu .part0-lienzo-tag{
-  color: rgba(247,243,234,.48) !important;
-}
-
-.part0-temu .part0-evidence-button{
-  background: var(--raspberry-soft) !important;
-  color: var(--bg) !important;
+.part0-docentia .part0-bigword{
+  color: #3e5244 !important;
 }
 
 .part0-temu .part0-bigword{
-  font-size: clamp(3.2rem, 6vw, 6.2rem) !important;
-  line-height: .86 !important;
-  max-width: 650px;
+  color: var(--raspberry) !important;
 }
 
 .part0-question{
