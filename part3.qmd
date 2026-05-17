@@ -28,7 +28,7 @@ Parte 0 · Punto de partida
 
 :::: part0-hero-side
 ::: part0-lead
-Una trayectoria docente y formativa desde la que releer la mentoría universitaria.
+### Una trayectoria docente y formativa desde la que releer la mentoría universitaria. {.part0-lead}
 :::
 ::::
 ::::::
@@ -37,9 +37,7 @@ Una trayectoria docente y formativa desde la que releer la mentoría universitar
 ::: part0-note
 ## Una nota para el lector
 
-Este portafolio se organiza desde una lógica similar a la que atraviesa mi docencia en Desarrollo Cognitivo y Lingüístico: priorizar la lectura de los procesos antes de buscar cambios visibles.
-
-Desde ahí se leen las reflexiones que siguen.
+Este portafolio se organiza desde una lógica similar a la que atraviesa mi docencia en Desarrollo Cognitivo y Lingüístico: priorizar la lectura de los procesos antes de buscar cambios visibles. Desde ahí se leen las reflexiones que siguen.
 :::
 
 :::::: {.part0-lienzo .part0-temdu}
