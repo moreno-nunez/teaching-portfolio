@@ -670,13 +670,14 @@ body:has(.part0-page) #quarto-content .container-xxl{
   line-height: 1.8;
 }
 
+
 /* ==========================================================================
    PART 0 — lienzos
    ========================================================================== */
 
 .part0-lienzo{
   width: min(var(--part0-max), calc(100% - 2 * var(--part0-page-pad)));
-  min-height: auto;
+  min-height: 68vh;
   margin: 0 auto clamp(2rem, 5vw, 4rem);
   padding: clamp(2.4rem, 5vw, 4.8rem);
   border-radius: clamp(2rem, 4vw, 4rem);
@@ -684,18 +685,19 @@ body:has(.part0-page) #quarto-content .container-xxl{
   overflow: hidden;
 
   display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(320px, .72fr);
+  grid-template-columns: minmax(0, 1fr) minmax(320px, .68fr);
   gap: clamp(2rem, 5vw, 4.5rem);
   align-items: center;
+
+  box-shadow: 0 28px 70px rgba(85,107,90,.12);
+  transform: translateY(0);
+  transition: transform .25s ease, box-shadow .25s ease;
 }
 
-/*ELIMINAR
-.part0-lienzo:hover,
-.part0-lienzo:focus-within{
-  grid-template-columns: minmax(0, 1fr) minmax(360px, 42%);
-  gap: clamp(1.5rem, 3vw, 3rem);
+.part0-lienzo:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 34px 80px rgba(85,107,90,.16);
 }
-/*ELIMINAR
 
 .part0-lienzo::before{
   content: "";
@@ -705,6 +707,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
     radial-gradient(circle at 20% 20%, rgba(255,255,255,.38), transparent 28%),
     radial-gradient(circle at 80% 78%, rgba(255,255,255,.22), transparent 28%);
   pointer-events: none;
+  z-index: 1;
 }
 
 .part0-temdu{
@@ -722,65 +725,88 @@ body:has(.part0-page) #quarto-content .container-xxl{
   color: #f7f3ea;
 }
 
+.part0-lienzo-tag{
+  position: absolute;
+  top: clamp(1.8rem, 3vw, 2.8rem);
+  left: clamp(2.4rem, 5vw, 4.8rem);
+  z-index: 4;
+
+  font-family: var(--font-body);
+  font-size: .72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .16em;
+  color: rgba(62,82,68,.55);
+}
+
 .part0-lienzo-main{
   position: relative;
   z-index: 2;
   align-self: center;
   max-width: 760px;
-  padding-top: 1.8rem;
+  padding-top: 2.4rem;
 }
 
 .part0-bigword{
+  display: block;
   font-family: var(--font-display) !important;
-  font-size: clamp(5rem, 17vw, 18rem);
+  font-size: clamp(5rem, 13vw, 13rem);
   font-weight: 700;
-  line-height: .72;
+  line-height: .75;
   letter-spacing: -.07em;
-  opacity: .30;
-  margin-bottom: clamp(1.2rem, 3vw, 2.4rem);
-}
-
-.part0-lienzo-main h2{
-  font-family: var(--font-display);
-  font-size: clamp(2.4rem, 6vw, 6.4rem);
-  line-height: .9;
-  letter-spacing: -.04em;
+  opacity: 1;
+  margin-bottom: clamp(1.2rem, 3vw, 2.2rem);
   text-transform: none;
   color: inherit;
-  margin: 0 0 1.3rem;
 }
 
 .part0-lienzo-main p{
-  max-width: 460px;
-  font-size: clamp(1rem, 1.35vw, 1.2rem);
+  max-width: 520px;
+  font-size: clamp(1rem, 1.25vw, 1.18rem);
   line-height: 1.7;
   color: inherit;
 }
 
-/* Panel lateral dentro del lienzo */
+.part0-evidence-button{
+  display: inline-block !important;
+  margin-top: 1.4rem !important;
+  padding: .65rem 1.1rem !important;
+  border-radius: 999px !important;
+
+  background: var(--raspberry) !important;
+  color: var(--bg) !important;
+  border-bottom: 0 !important;
+  text-decoration: none !important;
+
+  font-family: var(--font-body) !important;
+  font-size: .9rem !important;
+  font-weight: 700 !important;
+
+  transition: transform .18s ease, background .18s ease;
+}
+
+.part0-evidence-button:hover{
+  transform: translateY(-2px);
+  background: var(--raspberry-soft) !important;
+}
+
 .part0-lienzo-panel{
   position: relative;
   z-index: 3;
   align-self: center;
-  min-width: 0;
-  max-height: none;
-  overflow-y: visible;
 
-  opacity: 1;
-  transform: none;
-  pointer-events: auto;
+  opacity: 0;
+  transform: translateX(1.8rem);
+  pointer-events: none;
 
   padding: clamp(1.5rem, 3vw, 2.3rem);
   border-radius: 2rem;
-  background: rgba(255,252,252,.78);
+  background: rgba(255,252,252,.82);
   color: #314236;
-  box-shadow: 0 22px 55px rgba(85,107,90,.16);
+  box-shadow: 0 22px 55px rgba(85,107,90,.14);
   backdrop-filter: blur(12px);
-}
 
-.part0-temu .part0-lienzo-panel{
-  background: rgba(255,252,252,.92);
-  color: #314236;
+  transition: opacity .32s ease, transform .32s ease;
 }
 
 .part0-lienzo:hover .part0-lienzo-panel,
@@ -792,44 +818,19 @@ body:has(.part0-page) #quarto-content .container-xxl{
 
 .part0-lienzo-panel h3{
   margin-top: 0;
+  margin-bottom: 1.2rem;
+
   font-family: var(--font-display);
   font-size: clamp(1.55rem, 2.4vw, 2.35rem);
   line-height: 1.05;
   letter-spacing: -.025em;
   color: var(--raspberry);
-  margin-bottom: 1.2rem;
 }
 
 .part0-lienzo-panel p{
   font-size: .95rem;
   line-height: 1.7;
   margin-bottom: .9rem;
-}
-
-.part0-lienzo-panel a{
-  display: inline-block;
-  margin-top: .8rem;
-  padding: .62rem 1rem;
-  border-radius: 999px;
-  background: var(--raspberry);
-  color: var(--bg) !important;
-  border-bottom: 0 !important;
-  font-family: var(--font-body);
-  font-size: .88rem;
-  font-weight: 700;
-}
-.part0-lienzo-tag{
-  position: absolute !important;
-  top: clamp(1.8rem, 3vw, 2.8rem) !important;
-  left: clamp(2.4rem, 5vw, 4.8rem) !important;
-  z-index: 4 !important;
-
-  font-family: var(--font-body) !important;
-  font-size: .72rem !important;
-  font-weight: 700 !important;
-  text-transform: uppercase !important;
-  letter-spacing: .16em !important;
-  color: rgba(62,82,68,.55) !important;
 }
 
 /* ==========================================================================
@@ -1034,179 +1035,4 @@ body:has(.part0-page) #quarto-content .container-xxl{
     font-size: 24pt !important;
     line-height: 1.1 !important;
   }
-}
-
-/* RESCATE LIENZOS PART 0 */
-
-.part0-lienzo-main{
-  position: relative;
-  z-index: 2;
-  align-self: center;
-  max-width: 760px;
-  padding-top: 1.8rem;
-}
-
-.part0-bigword{
-  display: block;
-  font-family: var(--font-display) !important;
-  font-size: clamp(5rem, 13vw, 13rem) !important;
-  font-weight: 700 !important;
-  line-height: .75 !important;
-  letter-spacing: -.07em !important;
-  opacity: .28 !important;
-  margin-bottom: clamp(1.2rem, 3vw, 2.2rem) !important;
-  text-transform: none !important;
-}
-
-.part0-lienzo-main h2{
-  font-family: var(--font-display) !important;
-  font-size: clamp(2.8rem, 5.8vw, 5.8rem) !important;
-  line-height: .9 !important;
-  letter-spacing: -.045em !important;
-  text-transform: none !important;
-  color: inherit !important;
-  margin: 0 0 1.2rem !important;
-}
-
-.part0-lienzo-main p{
-  max-width: 520px !important;
-  font-size: clamp(1rem, 1.25vw, 1.18rem) !important;
-  line-height: 1.7 !important;
-  color: inherit !important;
-}
-
-/* RESCATE FONDO + ENTRADA LIENZOS PART 0 */
-
-.part0-lienzo{
-  background: #f4d99a !important;
-  color: #3e5244 !important;
-
-  min-height: 68vh !important;
-  border-radius: clamp(2rem, 4vw, 4rem) !important;
-  box-shadow: 0 28px 70px rgba(85,107,90,.12);
-
-  transform: translateY(0);
-  transition: transform .25s ease, box-shadow .25s ease;
-}
-
-.part0-lienzo:hover{
-  transform: translateY(-4px);
-  box-shadow: 0 34px 80px rgba(85,107,90,.16);
-}
-
-.part0-lienzo::before{
-  content: "";
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(circle at 20% 20%, rgba(255,255,255,.38), transparent 28%),
-    radial-gradient(circle at 80% 78%, rgba(255,255,255,.22), transparent 28%);
-  pointer-events: none;
-  z-index: 1;
-}
-
-.part0-temdu{
-  background: #f4d99a !important;
-  color: #3e5244 !important;
-}
-
-.part0-docentia{
-  background: #e9a092 !important;
-  color: #4a3b35 !important;
-}
-
-.part0-temu{
-  background: #234236 !important;
-  color: #f7f3ea !important;
-}
-
-.part0-lienzo-main,
-.part0-lienzo-panel,
-.part0-lienzo-tag{
-  position: relative;
-  z-index: 2;
-}
-
-.part0-lienzo-tag{
-  position: absolute;
-  top: clamp(1.8rem, 3vw, 2.8rem);
-  left: clamp(2.4rem, 5vw, 4.8rem);
-  z-index: 4;
-}
-
-.part0-lienzo-main{
-  padding-top: 2.4rem;
-}
-
-.part0-evidence-button{
-  display: inline-block;
-  margin-top: 1.4rem;
-  padding: .65rem 1.1rem;
-  border-radius: 999px;
-
-  background: var(--raspberry);
-  color: var(--bg) !important;
-  border-bottom: 0 !important;
-
-  font-family: var(--font-body);
-  font-size: .9rem;
-  font-weight: 700;
-  text-decoration: none !important;
-
-  transition: transform .18s ease, background .18s ease;
-}
-
-.part0-evidence-button:hover{
-  transform: translateY(-2px);
-  background: var(--raspberry-soft);
-}
-
-/* PART 0 — panel lateral oculto/aparece en hover */
-
-.part0-lienzo{
-  grid-template-columns: minmax(0, 1fr) minmax(320px, .68fr) !important;
-  gap: clamp(2rem, 5vw, 4.5rem) !important;
-}
-
-.part0-lienzo-panel{
-  position: relative;
-  z-index: 3;
-  align-self: center;
-
-  opacity: 0;
-  transform: translateX(1.8rem);
-  pointer-events: none;
-
-  padding: clamp(1.5rem, 3vw, 2.3rem);
-  border-radius: 2rem;
-  background: rgba(255,252,252,.82);
-  color: #314236;
-  box-shadow: 0 22px 55px rgba(85,107,90,.14);
-  backdrop-filter: blur(12px);
-
-  transition: opacity .32s ease, transform .32s ease;
-}
-
-.part0-lienzo:hover .part0-lienzo-panel,
-.part0-lienzo:focus-within .part0-lienzo-panel{
-  opacity: 1;
-  transform: translateX(0);
-  pointer-events: auto;
-}
-
-.part0-lienzo-main a.part0-evidence-button,
-.part0-evidence-button{
-  display: inline-block !important;
-  margin-top: 1.4rem !important;
-  padding: .65rem 1.1rem !important;
-  border-radius: 999px !important;
-
-  background: var(--raspberry) !important;
-  color: var(--bg) !important;
-  border-bottom: 0 !important;
-  text-decoration: none !important;
-
-  font-family: var(--font-body) !important;
-  font-size: .9rem !important;
-  font-weight: 700 !important;
 }
