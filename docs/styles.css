@@ -756,18 +756,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
   line-height: 1.7;
   color: inherit;
 }
-.part0-lienzo-main::after{
-  content: "Explorar evidencia →";
-  display: inline-block;
-  margin-top: 1.4rem;
 
-  font-family: var(--font-body);
-  font-size: .82rem;
-  font-weight: 700;
-  letter-spacing: .04em;
-  color: currentColor;
-  opacity: .68;
-}
 /* Panel lateral dentro del lienzo */
 .part0-lienzo-panel{
   position: relative;
@@ -1146,4 +1135,60 @@ body:has(.part0-page) #quarto-content .container-xxl{
 
 .part0-lienzo-main{
   padding-top: 2.4rem;
+}
+
+.part0-evidence-button{
+  display: inline-block;
+  margin-top: 1.4rem;
+  padding: .65rem 1.1rem;
+  border-radius: 999px;
+
+  background: var(--raspberry);
+  color: var(--bg) !important;
+  border-bottom: 0 !important;
+
+  font-family: var(--font-body);
+  font-size: .9rem;
+  font-weight: 700;
+  text-decoration: none !important;
+
+  transition: transform .18s ease, background .18s ease;
+}
+
+.part0-evidence-button:hover{
+  transform: translateY(-2px);
+  background: var(--raspberry-soft);
+}
+
+/* PART 0 — panel lateral oculto/aparece en hover */
+
+.part0-lienzo{
+  grid-template-columns: minmax(0, 1fr) minmax(320px, .68fr) !important;
+  gap: clamp(2rem, 5vw, 4.5rem) !important;
+}
+
+.part0-lienzo-panel{
+  position: relative;
+  z-index: 3;
+  align-self: center;
+
+  opacity: 0;
+  transform: translateX(1.8rem);
+  pointer-events: none;
+
+  padding: clamp(1.5rem, 3vw, 2.3rem);
+  border-radius: 2rem;
+  background: rgba(255,252,252,.82);
+  color: #314236;
+  box-shadow: 0 22px 55px rgba(85,107,90,.14);
+  backdrop-filter: blur(12px);
+
+  transition: opacity .32s ease, transform .32s ease;
+}
+
+.part0-lienzo:hover .part0-lienzo-panel,
+.part0-lienzo:focus-within .part0-lienzo-panel{
+  opacity: 1;
+  transform: translateX(0);
+  pointer-events: auto;
 }

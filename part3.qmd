@@ -45,14 +45,16 @@ Este portafolio se organiza desde una lógica similar a la que atraviesa mi doce
 :::
 
 :::::: {.part0-lienzo .part0-temdu}
-:::: part0-lienzo-main
 ::: part0-lienzo-tag
 TEMDU
-:::
-
+:::: part0-lienzo-main
+::: part0-bigword
 ## Diseñar cambios
+::: 
 
 Una primera forma de mirar la mejora desde el diseño, la planificación y la toma de decisiones fundamentadas.
+
+[Ver evidencia](assets/evidencias/evidencia-temdu.pdf)
 ::::
 
 ::: part0-lienzo-panel
@@ -62,7 +64,6 @@ Durante mi etapa predoctoral cursé el Título de Experto en Docencia Universita
 
 El proceso fue, en gran medida, autodirigido. Diseñar, justificar y defender un proyecto de cambio docente exigía tomar decisiones fundamentadas, pero dejaba poco espacio para el contraste sostenido o el acompañamiento a lo largo del proceso.
 
-[Ver evidencia](assets/evidencias/evidencia-temdu.pdf)
 :::
 ::::::
 
