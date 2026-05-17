@@ -889,6 +889,77 @@ body:has(.part0-page) #quarto-content .container-xxl{
     line-height: 1.1 !important;
   }
 }
+/* HERO PART 0 — versión estable */
+
+.part0-hero{
+  min-height: calc(100vh - var(--nav-h));
+  padding: clamp(3rem, 5vw, 5rem) clamp(2rem, 8vw, 8rem);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  row-gap: clamp(1.5rem, 3vw, 3rem);
+}
+
+.part0-title h1{
+  width: 100%;
+  max-width: 1500px;
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 4.2vw, 3.9rem);
+  line-height: .84;
+  letter-spacing: -.06em;
+  color: var(--raspberry);
+  text-transform: none;
+  margin: 0;
+}
+
+.part0-hero-bottom{
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(300px, .85fr);
+  gap: clamp(2rem, 6vw, 6rem);
+  align-items: center;
+}
+
+.part0-hero-image img{
+  width: 100%;
+  max-height: 48vh;
+  object-fit: contain;
+  display: block;
+  border-radius: 2.2rem;
+  box-shadow: 0 24px 60px rgba(85,107,90,.14);
+}
+
+.part0-hero-side{
+  max-width: 440px;
+}
+
+.part0-lead{
+  font-family: var(--font-body) !important;
+  font-size: clamp(1.15rem, 1.5vw, 1.35rem);
+  line-height: 1.75;
+  color: var(--text);
+}
+
+.part0-claim{
+  margin-top: 2rem;
+  font-family: var(--font-display) !important;
+  font-size: clamp(1.8rem, 3vw, 3.2rem);
+  line-height: 1.05;
+  color: var(--muted);
+}
+
+@media (max-width: 900px){
+  .part0-hero-bottom{
+    grid-template-columns: 1fr;
+  }
+
+  .part0-title h1{
+    font-size: clamp(2.4rem, 4.2vw, 3.9rem);
+  }
+
+  .part0-hero-side{
+    max-width: 100%;
+  }
+}
+
 /* ==========================================================================
    PART 0 HERO — versión única estable
    ========================================================================== */
@@ -899,17 +970,16 @@ body:has(.part0-page) #quarto-content .container-xxl{
 }
 
 .part0-hero{
-  min-height: calc(100vh - var(--nav-h)) !important;
-  padding: clamp(3rem, 5vw, 5rem) clamp(2rem, 8vw, 8rem) !important;
-
   display: grid !important;
-  grid-template-columns: minmax(0, 1fr) !important;
+  grid-template-columns: 1fr !important;
   grid-template-areas:
     "kicker"
     "title"
     "bottom" !important;
 
-  row-gap: clamp(1.5rem, 3vw, 3rem) !important;
+  gap: 1.8rem !important;
+  min-height: calc(100vh - var(--nav-h)) !important;
+  padding: 4rem 8vw 5rem !important;
 
   position: relative !important;
   overflow: visible !important;
@@ -928,42 +998,46 @@ body:has(.part0-page) #quarto-content .container-xxl{
 }
 
 .part0-title h1{
+  position: static !important;
   width: 100% !important;
-  max-width: 1500px !important;
+  max-width: 1280px !important;
 
-  font-family: var(--font-display) !important;
+  margin: 0 !important;
+
   font-size: clamp(2.4rem, 4.2vw, 3.9rem) !important;
   line-height: .84 !important;
-  letter-spacing: -.06em !important;
+  letter-spacing: -.055em !important;
 
-  color: var(--raspberry) !important;
   text-transform: none !important;
-  margin: 0 !important;
+  color: var(--raspberry) !important;
 }
 
 .part0-hero-bottom{
   grid-area: bottom !important;
 
   display: grid !important;
-  grid-template-columns: minmax(0, 1.15fr) minmax(300px, .85fr) !important;
+  grid-template-columns: minmax(0, 1.15fr) minmax(320px, .85fr) !important;
   gap: clamp(2rem, 6vw, 6rem) !important;
-  align-items: center !important;
 
+  align-items: center !important;
+  position: static !important;
   margin-top: -1.2rem !important;
 }
 
 .part0-hero-image{
-  grid-column: 1 !important;
   position: static !important;
+  grid-column: 1 !important;
   width: 100% !important;
   min-width: 0 !important;
+  align-self: start !important;
+  justify-self: stretch !important;
 }
 
 .part0-hero-image img{
   width: 100% !important;
-  max-height: 48vh !important;
+  max-height: 42vh !important;
   object-fit: contain !important;
-  object-position: center !important;
+  object-position: top left !important;
   display: block !important;
 
   border-radius: 2.2rem !important;
@@ -974,25 +1048,37 @@ body:has(.part0-page) #quarto-content .container-xxl{
   grid-column: 2 !important;
   position: static !important;
 
-  max-width: 440px !important;
+  max-width: 460px !important;
   align-self: center !important;
+  padding-top: .5rem !important;
+}
+
+.part0-lead,
+.part0-claim{
+  position: static !important;
+  width: auto !important;
+  max-width: 460px !important;
+
+  transform: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
 .part0-lead{
   font-family: var(--font-body) !important;
-  font-size: clamp(1.15rem, 1.5vw, 1.35rem) !important;
+  font-size: clamp(1.1rem, 1.45vw, 1.35rem) !important;
   line-height: 1.75 !important;
   color: var(--text) !important;
   margin: 0 0 2rem 0 !important;
 }
 
 .part0-claim{
-  margin: 0 !important;
-
   font-family: var(--font-display) !important;
-  font-size: clamp(1.8rem, 3vw, 3.2rem) !important;
+  font-size: clamp(1.8rem, 3vw, 3rem) !important;
   line-height: 1.05 !important;
+  letter-spacing: -.025em !important;
   color: var(--muted) !important;
+  margin: 0 !important;
 }
 
 @media (max-width: 900px){
@@ -1001,13 +1087,13 @@ body:has(.part0-page) #quarto-content .container-xxl{
     padding: 3rem 1.4rem !important;
   }
 
+  .part0-title h1{
+    font-size: clamp(2.4rem, 10vw, 4.2rem) !important;
+  }
+
   .part0-hero-bottom{
     grid-template-columns: 1fr !important;
     margin-top: 0 !important;
-  }
-
-  .part0-title h1{
-    font-size: clamp(2.4rem, 10vw, 4.2rem) !important;
   }
 
   .part0-hero-side{
