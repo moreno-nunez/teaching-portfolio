@@ -503,7 +503,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
     "bottom" !important;
   grid-template-rows: auto auto 1fr !important;
 
-  gap: 1.8rem !important;
+  gap: 1rem !important;
 
   position: relative !important;
   overflow: visible !important;
@@ -524,7 +524,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
   color: var(--raspberry-soft);
 
   position: static !important;
-  margin: 0 !important;
+  margin: .3rem 0 .6rem !important;
 }
 
 .part0-title{
@@ -558,7 +558,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
   gap: clamp(3rem, 7vw, 7rem) !important;
 
   align-items: center !important;
-  margin-top: 1.5rem !important;
+  margin-top: .5rem !important;
   position: static !important;
 }
 
