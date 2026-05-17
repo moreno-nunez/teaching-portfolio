@@ -721,8 +721,14 @@ body:has(.part0-page) #quarto-content .container-xxl{
 }
 
 .part0-temu{
-  background: #234236;
-  color: #f7f3ea;
+  background: #38370D !important;
+  color: #f7f3ea !important;
+}
+
+.part0-temu::before{
+  background:
+    radial-gradient(circle at 20% 20%, rgba(255,255,255,.14), transparent 30%),
+    radial-gradient(circle at 80% 78%, rgba(255,255,255,.08), transparent 30%);
 }
 
 .part0-lienzo-tag{
