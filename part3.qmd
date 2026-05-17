@@ -19,8 +19,10 @@ Parte 0 · empezar
 
 ::: part0-title
 # punto de partida {.part0-title}
+:::
 
-\- Desde dónde escribo este portafolio.
+::: part0-subtitle
+– Desde dónde escribo este portafolio
 :::
 
 :::::: part0-hero-bottom

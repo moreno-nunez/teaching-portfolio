@@ -500,8 +500,9 @@ body:has(.part0-page) #quarto-content .container-xxl{
   grid-template-areas:
     "kicker"
     "title"
+    "subtitle"
     "bottom" !important;
-  grid-template-rows: auto auto auto !important;
+  grid-template-rows: auto auto auto auto !important;
 
   row-gap: 0 !important;
   align-content: start !important;
@@ -545,9 +546,20 @@ body:has(.part0-page) #quarto-content .container-xxl{
 
   color: var(--raspberry) !important;
   text-transform: none !important;
-  margin: 0 0 1.6rem 0 !important;
+  margin: 0 !important;
 
   position: static !important;
+}
+
+.part0-subtitle{
+  grid-area: subtitle !important;
+
+  margin: 1.2rem 0 1.2rem 0 !important;
+
+  font-family: var(--font-body) !important;
+  font-size: 1rem !important;
+  line-height: 1.6 !important;
+  color: var(--text) !important;
 }
 
 .part0-hero-bottom{
