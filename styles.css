@@ -676,26 +676,26 @@ body:has(.part0-page) #quarto-content .container-xxl{
 
 .part0-lienzo{
   width: min(var(--part0-max), calc(100% - 2 * var(--part0-page-pad)));
-  min-height: 68vh;
-  margin: 0 auto clamp(2rem, 5vw, 4.6rem);
-  padding: clamp(2.4rem, 5vw, 5rem);
+  min-height: auto;
+  margin: 0 auto clamp(2rem, 5vw, 4rem);
+  padding: clamp(2.4rem, 5vw, 4.8rem);
   border-radius: clamp(2rem, 4vw, 4rem);
   position: relative;
   overflow: hidden;
 
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 0;
-  gap: 0;
+  grid-template-columns: minmax(0, 1.15fr) minmax(320px, .72fr);
+  gap: clamp(2rem, 5vw, 4.5rem);
   align-items: center;
-
-  transition: grid-template-columns .55s ease, gap .55s ease, transform .25s ease;
 }
 
+/*ELIMINAR
 .part0-lienzo:hover,
 .part0-lienzo:focus-within{
-  grid-template-columns: minmax(0, 1fr) minmax(340px, 36%);
-  gap: clamp(2rem, 4vw, 4rem);
+  grid-template-columns: minmax(0, 1fr) minmax(360px, 42%);
+  gap: clamp(1.5rem, 3vw, 3rem);
 }
+/*ELIMINAR
 
 .part0-lienzo::before{
   content: "";
@@ -727,6 +727,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
   z-index: 2;
   align-self: center;
   max-width: 760px;
+  padding-top: 1.8rem;
 }
 
 .part0-bigword{
@@ -776,13 +777,11 @@ body:has(.part0-page) #quarto-content .container-xxl{
   max-height: none;
   overflow-y: visible;
 
-  opacity: 0;
-  transform: translateX(2.5rem);
-  pointer-events: none;
+  opacity: 1;
+  transform: none;
+  pointer-events: auto;
 
-  transition: opacity .38s ease .12s, transform .38s ease .12s;
-
-  padding: clamp(1.6rem, 3vw, 2.4rem);
+  padding: clamp(1.5rem, 3vw, 2.3rem);
   border-radius: 2rem;
   background: rgba(255,252,252,.78);
   color: #314236;
@@ -832,8 +831,8 @@ body:has(.part0-page) #quarto-content .container-xxl{
 }
 .part0-lienzo-tag{
   position: absolute;
-  top: clamp(2rem, 4vw, 3.2rem);
-  left: clamp(2rem, 4vw, 3.2rem);
+  top: clamp(1.8rem, 3vw, 2.8rem);
+  left: clamp(2.4rem, 5vw, 4.8rem);
 
   font-family: var(--font-body);
   font-size: .72rem;
@@ -916,19 +915,28 @@ body:has(.part0-page) #quarto-content .container-xxl{
     max-height: none !important;
   }
 
-  .part0-lienzo,
-  .part0-lienzo:hover,
-  .part0-lienzo:focus-within{
+  .part0-lienzo{
     grid-template-columns: 1fr;
+    gap: 1.6rem;
+    padding: 2rem;
     min-height: auto;
   }
 
+  .part0-lienzo-tag{
+    position: static;
+    margin-bottom: 1rem;
+  }
+
+  .part0-lienzo-main{
+    padding-top: 0;
+  }
+  
   .part0-lienzo-panel{
     opacity: 1;
     transform: none;
     pointer-events: auto;
     max-height: none;
-    margin-top: 1.5rem;
+    margin-top: 0;
   }
 }
 
