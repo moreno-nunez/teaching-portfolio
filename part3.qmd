@@ -9,128 +9,103 @@ title: ""
 page-layout: full
 ---
 
-:::::::::::: part0-page
-<section class="part0-cover">
-
+::::::::::::::::: part0-page
+::::: part0-cover
 ::: part0-cover-text
-```         
-<p class="part0-kicker">Parte 0 · Punto de partida</p>
-<h1>Desde dónde escribo este portafolio</h1>
-<p class="part0-lead">Una trayectoria docente y formativa desde la que releer la mentoría universitaria.</p>
-<p class="part0-claim">Comprender mejor es ya una forma de avanzar.</p>
-```
+Parte 0 · Punto de partida {.part0-kicker}
+
+# Desde dónde escribo este portafolio
+
+Una trayectoria docente y formativa desde la que releer la mentoría universitaria. {.part0-lead}
+
+Comprender mejor es ya una forma de avanzar. {.part0-claim}
 :::
 
 ::: part0-cover-visual
-```         
-<img src="assets/img/part0-trayectoria.png" alt="Trayectoria TEMDU DOCENTIA TEMU">
-```
+![](assets/img/part0-trayectoria.png)
+:::
+:::::
+
+::: part0-path
+[**TEMDU**\
+Diseñar cambios](#temdu){.part0-path-item}
+
+[**DOCENTIA**\
+Mirar con evidencias](#docentia){.part0-path-item}
+
+[**TEMU**\
+Releer acompañadamente](#temu){.part0-path-item}
 :::
 
-</section>
+:::::: part0-scroll
+::: {#temdu .part0-panel}
+01 {.part0-panel-number}
 
-<section class="part0-path">
+TEMDU {.part0-panel-label}
 
-<a href="#temdu" class="part0-path-item"> TEMDU <strong>Diseñar cambios</strong> </a>
+## Pensar el cambio docente en solitario
 
-<a href="#docentia" class="part0-path-item"> DOCENTIA <strong>Mirar con evidencias</strong> </a>
+Durante mi etapa predoctoral cursé el Título de Experto en Docencia Universitaria, actualmente TEMDU. Aquella experiencia supuso mi primer acercamiento explícito a la docencia como objeto de análisis sistemático.
 
-<a href="#temu" class="part0-path-item"> TEMU <strong>Releer acompañadamente</strong> </a>
+El proceso fue, en gran medida, autodirigido: diseñar, justificar y defender un proyecto de cambio docente exigía tomar decisiones fundamentadas, pero dejaba poco espacio para el contraste sostenido.
 
-</section>
-
-<section class="part0-scroll">
-
-<article id="temdu" class="part0-panel">
-
-::: part0-panel-number
-01
+[Ver evidencia](assets/evidencias/evidencia-temdu.pdf){.part0-link}
 :::
 
-:::::::: {}
-```         
-  <p class="part0-panel-label">TEMDU</p>
-  <h2>Pensar el cambio docente en solitario</h2>
-  <p>Durante mi etapa predoctoral cursé el Título de Experto en Docencia Universitaria, actualmente TEMDU. Aquella experiencia supuso mi primer acercamiento explícito a la docencia como objeto de análisis sistemático.</p>
-  <p>El proceso fue, en gran medida, autodirigido: diseñar, justificar y defender un proyecto de cambio docente exigía tomar decisiones fundamentadas, pero dejaba poco espacio para el contraste sostenido.</p>
-  <a class="part0-link" href="assets/evidencias/evidencia-temdu.pdf">Ver evidencia</a>
-</div>
-```
+::: {#docentia .part0-panel}
+02 {.part0-panel-number}
 
-</article>
+DOCENTIA {.part0-panel-label}
 
-<article id="docentia" class="part0-panel">
+## Consolidar una forma de mirar la docencia
 
-::: part0-panel-number
-02
+DOCENTIA supuso otro momento clave: revisar la docencia de forma sistemática, apoyándome en evidencias diversas y en un análisis de la coherencia entre objetivos, metodología, evaluación y resultados.
+
+Aun así, algunas incomodidades persistían: promover autorreflexión profunda, sostener dinámicas colaborativas y acompañar procesos sin cerrarlos demasiado pronto.
+
+[Ver evidencia](assets/evidencias/evidencia-docentia.pdf){.part0-link}
 :::
 
-:::::: {}
-```         
-  <p class="part0-panel-label">DOCENTIA</p>
-  <h2>Consolidar una forma de mirar la docencia</h2>
-  <p>DOCENTIA supuso otro momento clave: revisar la docencia de forma sistemática, apoyándome en evidencias diversas y en un análisis de la coherencia entre objetivos, metodología, evaluación y resultados.</p>
-  <p>Aun así, algunas incomodidades persistían: promover autorreflexión profunda, sostener dinámicas colaborativas y acompañar procesos sin cerrarlos demasiado pronto.</p>
-  <a class="part0-link" href="assets/evidencias/evidencia-docentia.pdf">Ver evidencia</a>
-</div>
-```
+::: {#temu .part0-panel .part0-panel-dark}
+03 {.part0-panel-number}
 
-</article>
+TEMU {.part0-panel-label}
 
-<article id="temu" class="part0-panel part0-panel-dark">
+## El TEMU como relectura acompañada
 
-::: part0-panel-number
-03
+No llego al TEMU como punto de partida, sino como un espacio que permite poner nombre, estructura y tiempo a preguntas que ya estaban presentes en mi práctica.
+
+La diferencia está en el tipo de experiencia formativa: una formación sostenida, con contraste continuado, feedback y espacios para volver sobre las mismas situaciones desde distintas miradas.
 :::
-
-:::: {}
-```         
-  <p class="part0-panel-label">TEMU</p>
-  <h2>El TEMU como relectura acompañada</h2>
-  <p>No llego al TEMU como punto de partida, sino como un espacio que permite poner nombre, estructura y tiempo a preguntas que ya estaban presentes en mi práctica.</p>
-  <p>La diferencia está en el tipo de experiencia formativa: una formación sostenida, con contraste continuado, feedback y espacios para volver sobre las mismas situaciones desde distintas miradas.</p>
-</div>
-```
-
-</article>
-
-</section>
-
-<section class="part0-question">
-
-<p>Pregunta que abre el portafolio</p>
-
-<h2>¿Qué implica acompañar procesos de cambio cuando el principal avance no es hacer algo distinto, sino entender algo de otra manera?</h2>
-
-</section>
-
-<section class="part0-more">
-
-<h2>Lectura ampliada</h2>
-
-::: part0-more-grid
-```         
-<div>
-  <h3>Trayectoria previa</h3>
-  <p>Aquí irá el desarrollo completo sobre la trayectoria previa.</p>
-</div>
-
-<div>
-  <h3>Lo que no terminaba de encajar</h3>
-  <p>Aquí irá la ampliación sobre las tensiones persistentes.</p>
-</div>
-
-<div>
-  <h3>Desde dónde se lee este portafolio</h3>
-  <p>Aquí irá la nota final para el lector.</p>
-</div>
-```
-:::
-
-</section>
-
-:::
-::::
 ::::::
-::::::::
-::::::::::::
+
+::: part0-question
+Pregunta que abre el portafolio {.part0-panel-label}
+
+## ¿Qué implica acompañar procesos de cambio cuando el principal avance no es hacer algo distinto, sino entender algo de otra manera?
+:::
+
+::::::: part0-more
+## Lectura ampliada
+
+:::::: part0-more-grid
+::: part0-more-card
+### Trayectoria previa
+
+Aquí irá el desarrollo completo sobre la trayectoria previa.
+:::
+
+::: part0-more-card
+### Lo que no terminaba de encajar
+
+Aquí irá la ampliación sobre las tensiones persistentes.
+:::
+
+::: part0-more-card
+### Desde dónde se lee este portafolio
+
+Aquí irá la nota final para el lector.
+:::
+::::::
+:::::::
+:::::::::::::::::
