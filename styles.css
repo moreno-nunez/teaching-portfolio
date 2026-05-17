@@ -750,9 +750,9 @@ body:has(.part0-page) #quarto-content .container-xxl{
 .part0-bigword{
   display: block !important;
   font-family: var(--font-display) !important;
-  font-size: clamp(4rem, 8vw, 8.5rem) !important;
+  font-size: clamp(3.6rem, 7vw, 7.2rem) !important;
   font-weight: 700 !important;
-  line-height: .78 !important;
+  line-height: .82 !important;
   letter-spacing: -.06em !important;
   color: #3e5244 !important;
   opacity: 1 !important;
