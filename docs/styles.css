@@ -768,11 +768,6 @@ h2.part0-bigword{
   color: inherit;
 }
 
-.part0-lienzo-main h2.part0-bigword{
-  margin-top: 0 !important;
-  border: 0 !important;
-}
-
 .part0-evidence-button{
   display: inline-block !important;
   margin-top: 1.4rem !important;
