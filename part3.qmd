@@ -95,7 +95,6 @@ A pesar de esta trayectoria, algunas incomodidades persistían. En el aula, segu
 
 Estas tensiones empezaban a trasladarse también a preguntas sobre el acompañamiento docente: cómo acompañar sin dirigir, cómo no confundir avance con rapidez, cómo sostener procesos de comprensión sin cerrarlos demasiado pronto.
 
-[Ver evidencia](assets/evidencias/evidencia-docentia.pdf)
 :::
 ::::::
 
@@ -105,7 +104,6 @@ Estas tensiones empezaban a trasladarse también a preguntas sobre el acompañam
 TEMU
 :::
 
-:::: part0-lienzo-main
 ::: {.part0-lienzo-main}
 
 <div class="part0-bigword">Releer acompañadamente</div>
