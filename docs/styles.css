@@ -1059,16 +1059,16 @@ body:has(.part0-page) #quarto-content .container-xxl{
   max-width: 620px;
 }
 
-.part0-temdu .part0-bigword{
-  color: #3e5244 !important;
-}
-
-.part0-docentia .part0-bigword{
-  color: #3e5244 !important;
-}
-
+.part0-temdu .part0-bigword,
+.part0-docentia .part0-bigword,
 .part0-temu .part0-bigword{
-  color: var(--raspberry) !important;
+  color: #3e5244 !important;
+
+  font-size: clamp(2.8rem, 5.4vw, 5.6rem) !important;
+  line-height: .9 !important;
+  letter-spacing: -.035em !important;
+
+  max-width: 620px;
 }
 
 .part0-question{
