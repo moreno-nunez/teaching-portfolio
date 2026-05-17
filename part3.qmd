@@ -18,7 +18,7 @@ Parte 0 · empezar
 :::
 
 ::: part0-title
-punto de partida
+# punto de partida {.part0-title}
 :::
 
 :::::: part0-hero-bottom
