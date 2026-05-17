@@ -721,7 +721,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
 }
 
 .part0-temu{
-  background: #38370D !important;
+  background: #3f3b17 !important;
   color: #f7f3ea !important;
 }
 
@@ -1047,10 +1047,20 @@ body:has(.part0-page) #quarto-content .container-xxl{
   max-width: 620px;
 }
 
+/* Tercer lienzo: título izquierdo en salmón del segundo */
+.part0-temu .part0-bigword{
+  color: #e9a092 !important;
+}
+
 .part0-temu .part0-lienzo-main,
 .part0-temu .part0-bigword,
 .part0-temu .part0-lienzo-main p{
   color: #f7f3ea !important;
+}
+
+/* Tercer lienzo: título izquierdo en salmón del segundo */
+.part0-temu .part0-bigword{
+  color: #e9a092 !important;
 }
 
 .part0-temu .part0-lienzo-tag{
