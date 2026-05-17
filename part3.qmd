@@ -50,14 +50,13 @@ Este portafolio se organiza desde una lógica similar a la que atraviesa mi doce
 TEMDU
 :::
 
-::: part0-lienzo-main
 ::: {.part0-lienzo-main}
 
-## Diseñar cambios {.part0-bigword}
+<div class="part0-bigword">Diseñar cambios</div>
 
-Una primera forma de mirar la mejora desde el diseño, la planificación y la toma de decisiones fundamentadas.
+<p>Una primera forma de mirar la mejora desde el diseño, la planificación y la toma de decisiones fundamentadas.</p>
 
-[Ver evidencia](ruta/a/tu/evidencia.pdf){.part0-evidence-button}
+<a class="part0-evidence-button" href="ruta/a/tu/evidencia.pdf">Ver evidencia</a>
 
 :::
 
