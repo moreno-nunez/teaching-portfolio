@@ -1055,3 +1055,14 @@ body:has(.part0-page) #quarto-content .container-xxl{
   background: var(--raspberry-soft) !important;
   color: var(--bg) !important;
 }
+
+.part0-temu .part0-bigword{
+  font-size: clamp(3.2rem, 6vw, 6.2rem) !important;
+  line-height: .86 !important;
+  max-width: 650px;
+}
+
+.part0-question{
+  margin-top: clamp(3rem, 7vw, 6rem);
+  clear: both;
+}
