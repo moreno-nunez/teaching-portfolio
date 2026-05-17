@@ -611,3 +611,117 @@ body.home .home-keywords{
     grid-template-columns: 1fr;
   }
 }
+.part0-page {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 5rem 1.5rem;
+}
+
+.part0-hero {
+  min-height: 75vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.part0-kicker {
+  text-transform: uppercase;
+  letter-spacing: .14em;
+  font-size: .8rem;
+}
+
+.part0-hero h1 {
+  font-size: clamp(3.5rem, 8vw, 7rem);
+  line-height: .9;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.part0-lead {
+  font-size: 1.25rem;
+  max-width: 34rem;
+}
+
+.part0-claim {
+  margin-top: 3rem;
+  font-size: clamp(1.8rem, 4vw, 3.8rem);
+  line-height: 1;
+}
+
+.part0-hero-image img {
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.part0-note {
+  margin: 3rem 0 5rem;
+  max-width: 720px;
+  padding: 2rem;
+  border-left: 3px solid currentColor;
+}
+
+.part0-canvas-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.part0-canvas-card {
+  min-height: 360px;
+  padding: 2rem;
+  border-radius: 2rem;
+  background: rgba(255,255,255,.65);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.part0-canvas-card h2,
+.part0-question h2,
+.part0-overlay-content h2 {
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.part0-question {
+  margin-top: 6rem;
+  min-height: 55vh;
+  display: flex;
+  align-items: center;
+}
+
+.part0-question h2 {
+  font-size: clamp(2.4rem, 6vw, 6rem);
+  line-height: .95;
+}
+
+.part0-overlay {
+  display: none;
+}
+
+.part0-overlay:target {
+  display: block;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0,0,0,.35);
+}
+
+.part0-overlay-content {
+  width: min(720px, 92vw);
+  max-height: 90vh;
+  overflow-y: auto;
+  margin-left: auto;
+  height: 100%;
+  background: #f7f3ea;
+  padding: 4rem;
+  border-radius: 2rem 0 0 2rem;
+}
+
+@media (max-width: 850px) {
+  .part0-hero,
+  .part0-canvas-grid {
+    grid-template-columns: 1fr;
+  }
+}
