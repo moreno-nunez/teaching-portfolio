@@ -484,169 +484,130 @@ body.home .home-keywords{
   .path-grid{
     grid-template-columns: 1fr;
   }
-}
-.part0-page {
-  max-width: 1180px;
-  margin: 0 auto;
-  padding: 4rem 1.5rem 6rem;
+
+/* ==========================================================================
+   PART 0 — mayo 2026
+   ========================================================================== */
+   
+## 2. Crea `styles/part0.css`
+
+```css
+.part0 {
+  max-width: none;
 }
 
-.part0-cover {
-  min-height: 72vh;
+.part0 .canvas {
+  min-height: 88vh;
+  padding: 6rem 8vw;
   display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
-  gap: 3rem;
   align-items: center;
+  position: relative;
+  overflow: hidden;
 }
 
-.part0-kicker,
-.part0-panel-label,
-.part0-question p {
-  text-transform: uppercase;
-  letter-spacing: .12em;
-  font-size: .75rem;
-  opacity: .7;
+.part0 .hero {
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
 }
 
-.part0-cover h1 {
-  font-size: clamp(3rem, 7vw, 6.8rem);
-  line-height: .9;
-  margin: 0;
+.part0 h1,
+.part0 h2 {
   text-transform: none;
   letter-spacing: normal;
+  line-height: .95;
 }
 
-.part0-lead {
-  font-size: 1.25rem;
-  max-width: 34rem;
-  margin-top: 1.5rem;
+.part0 h1 {
+  font-size: clamp(4rem, 9vw, 8rem);
 }
 
-.part0-claim {
-  margin-top: 3rem;
-  font-size: clamp(1.6rem, 3vw, 3rem);
-  line-height: 1.05;
+.part0 h2 {
+  font-size: clamp(2.8rem, 6vw, 6rem);
 }
 
-.part0-cover-visual img {
+.part0 .eyebrow {
+  text-transform: uppercase;
+  letter-spacing: .14em;
+  font-size: .8rem;
+}
+
+.part0 .hero img {
   width: 100%;
   border-radius: 2rem;
 }
 
-.part0-path {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  margin: 2rem 0 6rem;
+.part0 .stage {
+  grid-template-columns: 1fr 460px;
 }
 
-.part0-path-item {
-  padding: 1.4rem;
-  border: 1px solid var(--border-color, #ddd);
-  border-radius: 1.5rem;
-  text-decoration: none;
+.part0 .temdu {
+  background: #f4d99a;
 }
 
-.part0-path-item span {
-  display: block;
-  font-size: .75rem;
-  letter-spacing: .12em;
-  opacity: .65;
+.part0 .docentia {
+  background: #e9a092;
 }
 
-.part0-path-item strong {
-  display: block;
-  margin-top: .6rem;
-  font-size: 1.35rem;
-}
-
-.part0-scroll {
-  display: grid;
-  gap: 2rem;
-}
-
-.part0-panel {
-  min-height: 70vh;
-  display: grid;
-  grid-template-columns: 160px minmax(0, 680px);
-  gap: 3rem;
-  align-items: center;
-  padding: 4rem;
-  border-radius: 2rem;
-  background: rgba(255,255,255,.65);
-  border: 1px solid var(--border-color, #ddd);
-}
-
-.part0-panel-number {
-  font-size: clamp(4rem, 10vw, 9rem);
-  line-height: 1;
+.part0 .bigword {
+  font-size: clamp(5rem, 16vw, 16rem);
+  font-weight: 700;
   opacity: .18;
+  line-height: .8;
 }
 
-.part0-panel h2 {
-  font-size: clamp(2.2rem, 5vw, 4.6rem);
-  line-height: .95;
-  margin: .5rem 0 1.5rem;
-  text-transform: none;
-  letter-spacing: normal;
+.part0 .stage-card {
+  background: rgba(255,255,255,.78);
+  padding: 2rem;
+  border-radius: 2rem;
+  backdrop-filter: blur(10px);
 }
 
-.part0-panel p {
-  font-size: 1.08rem;
-  line-height: 1.65;
+.part0 button,
+.part0 a {
+  display: inline-block;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  padding: .7rem 1rem;
+  background: transparent;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.part0-panel-dark {
+.part0 .question {
   background: #234236;
   color: #f7f3ea;
 }
 
-.part0-link {
-  display: inline-block;
-  margin-top: 1rem;
-  text-decoration: none;
-  border-bottom: 1px solid currentColor;
+.part0 .question h2 {
+  max-width: 1000px;
 }
 
-.part0-question {
-  margin: 7rem 0;
-  max-width: 900px;
+.side-panel {
+  width: min(680px, 92vw);
+  max-height: 92vh;
+  margin-left: auto;
+  margin-right: 0;
+  padding: 3rem;
+  border: 0;
+  border-radius: 2rem 0 0 2rem;
 }
 
-.part0-question h2 {
-  font-size: clamp(2.2rem, 5vw, 5rem);
-  line-height: .98;
-  text-transform: none;
-  letter-spacing: normal;
+.side-panel::backdrop {
+  background: rgba(0,0,0,.35);
 }
 
-.part0-more {
-  border-top: 1px solid var(--border-color, #ddd);
-  padding-top: 3rem;
+.side-panel .close {
+  float: right;
+  font-size: 2rem;
+  border: 0;
 }
 
-.part0-more-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-}
-
-.part0-more-grid > div {
-  padding: 1.5rem;
-  border-radius: 1.2rem;
-  background: rgba(255,255,255,.55);
-}
-
-@media (max-width: 800px) {
-  .part0-cover,
-  .part0-panel,
-  .part0-path,
-  .part0-more-grid {
+@media (max-width: 850px) {
+  .part0 .hero,
+  .part0 .stage {
     grid-template-columns: 1fr;
-  }
-
-  .part0-panel {
-    padding: 2rem;
-    min-height: auto;
   }
 }
