@@ -747,10 +747,11 @@ body:has(.part0-page) #quarto-content .container-xxl{
   padding-top: 2.4rem;
 }
 
-.part0-bigword{
-  display: block;
+.part0-bigword,
+h2.part0-bigword{
+  display: block !important;
   font-family: var(--font-display) !important;
-  font-size: clamp(4.8rem, 11vw, 11rem) !important;
+  font-size: clamp(5rem, 11vw, 11rem) !important;
   font-weight: 700 !important;
   line-height: .76 !important;
   letter-spacing: -.065em !important;
@@ -765,6 +766,11 @@ body:has(.part0-page) #quarto-content .container-xxl{
   font-size: clamp(1rem, 1.25vw, 1.18rem);
   line-height: 1.7;
   color: inherit;
+}
+
+.part0-lienzo-main h2.part0-bigword{
+  margin-top: 0 !important;
+  border: 0 !important;
 }
 
 .part0-evidence-button{
