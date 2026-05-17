@@ -9,177 +9,128 @@ title: ""
 page-layout: full
 ---
 
-::::::::::::::::::::::::::: part0-page
-::::::::: part0-bento
-::: {.part0-card .part0-card-main}
-<p class="part0-label">
+:::::::::::: part0-page
+<section class="part0-cover">
 
-Parte 0 · Punto de partida
-
-</p>
-
-# Desde dónde escribo este portafolio
-
-<p class="part0-lead">
-
-Una trayectoria docente y formativa desde la que releer la mentoría universitaria.
-
-</p>
+::: part0-cover-text
+```         
+<p class="part0-kicker">Parte 0 · Punto de partida</p>
+<h1>Desde dónde escribo este portafolio</h1>
+<p class="part0-lead">Una trayectoria docente y formativa desde la que releer la mentoría universitaria.</p>
+<p class="part0-claim">Comprender mejor es ya una forma de avanzar.</p>
+```
 :::
 
-::: {.part0-card .part0-card-image}
-![](assets/img/part0-trayectoria.png)
+::: part0-cover-visual
+```         
+<img src="assets/img/part0-trayectoria.png" alt="Trayectoria TEMDU DOCENTIA TEMU">
+```
 :::
 
-::: {.part0-card .part0-card-claim}
-Comprender mejor es ya una forma de avanzar.
-:::
+</section>
 
-::: {.part0-card .part0-card-link}
-### TEMDU
+<section class="part0-path">
 
-Diseñar cambios\
-[Ver evidencia](assets/evidencias/evidencia-temdu.pdf)
-:::
+<a href="#temdu" class="part0-path-item"> TEMDU <strong>Diseñar cambios</strong> </a>
 
-::: {.part0-card .part0-card-link}
-### DOCENTIA
+<a href="#docentia" class="part0-path-item"> DOCENTIA <strong>Mirar con evidencias</strong> </a>
 
-Mirar con evidencias\
-[Ver evidencia](assets/evidencias/evidencia-docentia.pdf)
-:::
+<a href="#temu" class="part0-path-item"> TEMU <strong>Releer acompañadamente</strong> </a>
 
-::: {.part0-card .part0-card-link}
-### TEMU
+</section>
 
-Releer acompañadamente\
-[Bajar al cierre](#pregunta)
-:::
-:::::::::
+<section class="part0-scroll">
 
-::: part0-strip
-TEMDU → DOCENTIA → TEMU
-:::
+<article id="temdu" class="part0-panel">
 
-::::::: part0-story-grid
-::: part0-story-card
-<p class="part0-number">
-
+::: part0-panel-number
 01
-
-</p>
-
-## No empiezo de cero
-
-Este portafolio no nace de una primera aproximación a la docencia universitaria, sino de una trayectoria larga en la que la reflexión sobre cómo se enseña y cómo se aprende ya estaba presente.
-
-<a href="#ampliacion-trayectoria">Leer más</a>
 :::
 
-::: part0-story-card
-<p class="part0-number">
+:::::::: {}
+```         
+  <p class="part0-panel-label">TEMDU</p>
+  <h2>Pensar el cambio docente en solitario</h2>
+  <p>Durante mi etapa predoctoral cursé el Título de Experto en Docencia Universitaria, actualmente TEMDU. Aquella experiencia supuso mi primer acercamiento explícito a la docencia como objeto de análisis sistemático.</p>
+  <p>El proceso fue, en gran medida, autodirigido: diseñar, justificar y defender un proyecto de cambio docente exigía tomar decisiones fundamentadas, pero dejaba poco espacio para el contraste sostenido.</p>
+  <a class="part0-link" href="assets/evidencias/evidencia-temdu.pdf">Ver evidencia</a>
+</div>
+```
 
+</article>
+
+<article id="docentia" class="part0-panel">
+
+::: part0-panel-number
 02
-
-</p>
-
-## Primero pensé el cambio desde el diseño
-
-El TEMDU fue mi primer acercamiento explícito a la docencia como objeto de análisis sistemático, aunque todavía desde un proceso muy autodirigido.
-
-<a href="#ampliacion-temdu">Leer más</a>
 :::
 
-::: part0-story-card
-<p class="part0-number">
+:::::: {}
+```         
+  <p class="part0-panel-label">DOCENTIA</p>
+  <h2>Consolidar una forma de mirar la docencia</h2>
+  <p>DOCENTIA supuso otro momento clave: revisar la docencia de forma sistemática, apoyándome en evidencias diversas y en un análisis de la coherencia entre objetivos, metodología, evaluación y resultados.</p>
+  <p>Aun así, algunas incomodidades persistían: promover autorreflexión profunda, sostener dinámicas colaborativas y acompañar procesos sin cerrarlos demasiado pronto.</p>
+  <a class="part0-link" href="assets/evidencias/evidencia-docentia.pdf">Ver evidencia</a>
+</div>
+```
 
+</article>
+
+<article id="temu" class="part0-panel part0-panel-dark">
+
+::: part0-panel-number
 03
-
-</p>
-
-## Después aprendí a mirar con evidencias
-
-DOCENTIA consolidó una forma de revisar la práctica docente desde materiales, coherencia, resultados y análisis sistemático.
-
-<a href="#ampliacion-docentia">Leer más</a>
 :::
 
-::: {.part0-story-card .part0-story-card-dark}
-<p class="part0-number">
+:::: {}
+```         
+  <p class="part0-panel-label">TEMU</p>
+  <h2>El TEMU como relectura acompañada</h2>
+  <p>No llego al TEMU como punto de partida, sino como un espacio que permite poner nombre, estructura y tiempo a preguntas que ya estaban presentes en mi práctica.</p>
+  <p>La diferencia está en el tipo de experiencia formativa: una formación sostenida, con contraste continuado, feedback y espacios para volver sobre las mismas situaciones desde distintas miradas.</p>
+</div>
+```
 
-04
+</article>
 
-</p>
+</section>
 
-## El TEMU reordena la pregunta
+<section class="part0-question">
 
-No aparece como comienzo, sino como espacio para volver sobre preguntas ya presentes desde el contraste, el feedback y el acompañamiento.
-
-<a href="#pregunta">Ir a la pregunta final</a>
-:::
-:::::::
-
-::: part0-visual-break
-![](assets/img/part0-desplazamiento.png)
-:::
-
-:::::: part0-evidence-band
-::: part0-evidence-intro
-## Evidencias para profundizar
-
-No son anexos decorativos: funcionan como materiales desde los que releer la trayectoria.
-:::
-
-::: part0-evidence-card
-<p>Evidencia 01</p>
-
-### Proyecto de Cambio Docente · TEMDU
-
-Muestra preocupaciones metodológicas, evaluativas y motivacionales ya presentes.
-
-[Ver documento](assets/evidencias/evidencia-temdu.pdf)
-:::
-
-::: part0-evidence-card
-<p>Evidencia 02</p>
-
-### Informe DOCENTIA
-
-Muestra una práctica reflexiva basada en evidencias y una forma sistemática de mirar la docencia.
-
-[Ver documento](assets/evidencias/evidencia-docentia.pdf)
-:::
-::::::
-
-:::::: part0-deep-reading
-## Lectura ampliada
-
-::: {#ampliacion-trayectoria .part0-deep-block}
-### Una trayectoria que no empieza aquí
-
-Aquí irá el desarrollo completo de la trayectoria previa.
-:::
-
-::: {#ampliacion-temdu .part0-deep-block}
-### Pensar el cambio docente en solitario
-
-Aquí irá el desarrollo ampliado del TEMDU.
-:::
-
-::: {#ampliacion-docentia .part0-deep-block}
-### DOCENTIA: consolidar una forma de mirar la docencia
-
-Aquí irá el desarrollo ampliado de DOCENTIA.
-:::
-::::::
-
-::: {#pregunta .part0-question}
 <p>Pregunta que abre el portafolio</p>
 
-## ¿Qué implica acompañar procesos de cambio cuando el principal avance no es hacer algo distinto, sino entender algo de otra manera?
+<h2>¿Qué implica acompañar procesos de cambio cuando el principal avance no es hacer algo distinto, sino entender algo de otra manera?</h2>
+
+</section>
+
+<section class="part0-more">
+
+<h2>Lectura ampliada</h2>
+
+::: part0-more-grid
+```         
+<div>
+  <h3>Trayectoria previa</h3>
+  <p>Aquí irá el desarrollo completo sobre la trayectoria previa.</p>
+</div>
+
+<div>
+  <h3>Lo que no terminaba de encajar</h3>
+  <p>Aquí irá la ampliación sobre las tensiones persistentes.</p>
+</div>
+
+<div>
+  <h3>Desde dónde se lee este portafolio</h3>
+  <p>Aquí irá la nota final para el lector.</p>
+</div>
+```
 :::
 
-::: part0-note
-**Una nota para el lector.** Este portafolio prioriza la lectura de los procesos antes de buscar cambios visibles. Desde ahí se leen las reflexiones que siguen.
+</section>
+
 :::
-:::::::::::::::::::::::::::
+::::
+::::::
+::::::::
+::::::::::::
