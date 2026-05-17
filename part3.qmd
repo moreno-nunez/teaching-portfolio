@@ -28,7 +28,7 @@ Comprender mejor es ya una forma de avanzar.
 ::::::
 
 ::: part0-hero-image
-![](assets/img/part0-trayectoria.png)
+![](images/part0-trayectoria.png)
 :::
 ::::::::
 

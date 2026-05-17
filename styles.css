@@ -760,3 +760,111 @@ body:has(.part0-page) #quarto-content .container-xxl{
     font-size: clamp(4.5rem, 22vw, 8rem);
   }
 }
+/* ==========================================================================
+   PRINT — PART 0
+   Evita que los lienzos interactivos se rompan al imprimir/exportar PDF
+   ========================================================================== */
+
+@media print {
+
+  body:has(.part0-page) #quarto-content{
+    padding: 1.5cm !important;
+  }
+
+  .navbar,
+  #quarto-header,
+  .quarto-title-block{
+    display: none !important;
+  }
+
+  .part0-page{
+    overflow: visible !important;
+  }
+
+  .part0-hero{
+    display: block !important;
+    min-height: auto !important;
+    padding: 0 0 1.5cm !important;
+  }
+
+  .part0-hero-image{
+    display: none !important;
+  }
+
+  .part0-hero h1{
+    font-size: 36pt !important;
+    line-height: 1 !important;
+  }
+
+  .part0-claim{
+    font-size: 22pt !important;
+  }
+
+  .part0-note{
+    page-break-inside: avoid;
+    margin: 0 0 1cm !important;
+    padding: .7cm !important;
+  }
+
+  .part0-lienzo,
+  .part0-lienzo:hover,
+  .part0-lienzo:focus-within{
+    display: block !important;
+    min-height: auto !important;
+    width: 100% !important;
+    margin: 0 0 1.2cm !important;
+    padding: .8cm !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    color: var(--text) !important;
+    page-break-inside: avoid;
+  }
+
+  .part0-lienzo::before{
+    display: none !important;
+  }
+
+  .part0-bigword{
+    font-size: 24pt !important;
+    opacity: 1 !important;
+    letter-spacing: normal !important;
+    line-height: 1 !important;
+    margin-bottom: .3cm !important;
+  }
+
+  .part0-lienzo-main h2{
+    font-size: 20pt !important;
+    line-height: 1.1 !important;
+    margin-bottom: .4cm !important;
+  }
+
+  .part0-lienzo-panel{
+    display: block !important;
+    opacity: 1 !important;
+    transform: none !important;
+    pointer-events: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    color: var(--text) !important;
+    padding: .3cm 0 0 !important;
+    border-radius: 0 !important;
+  }
+
+  .part0-lienzo-panel h3{
+    font-size: 16pt !important;
+    color: var(--raspberry) !important;
+  }
+
+  .part0-question{
+    min-height: auto !important;
+    padding: 1cm 0 0 !important;
+    page-break-inside: avoid;
+  }
+
+  .part0-question h2{
+    font-size: 24pt !important;
+    line-height: 1.1 !important;
+  }
+}
