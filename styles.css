@@ -524,7 +524,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
   color: var(--raspberry-soft);
 
   position: static !important;
-  margin: .3rem 0 .6rem !important;
+  margin: .2rem 0 .5rem !important;
 }
 
 .part0-title{
