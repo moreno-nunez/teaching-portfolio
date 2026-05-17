@@ -952,7 +952,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
   }
 
   .part0-title h1{
-    font-size: clamp(3.6rem, 17vw, 6rem);
+    font-size: clamp(2.4rem, 4.2vw, 3.9rem);
   }
 
   .part0-hero-side{
@@ -1084,7 +1084,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
   }
 
   .part0-title h1{
-    font-size: clamp(3.4rem, 17vw, 6rem) !important;
+    font-size: clamp(2.4rem, 4.2vw, 3.9rem) !important;
   }
 
   .part0-hero-bottom{
@@ -1113,7 +1113,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
 }
 
 .part0-title h1{
-  font-size: clamp(4.8rem, 9vw, 9.5rem) !important;
+  font-size: clamp(2.4rem, 4.2vw, 3.9rem) !important;
   line-height: .84 !important;
   margin: 0 !important;
   max-width: 1280px !important;
