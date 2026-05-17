@@ -557,7 +557,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
   grid-template-columns: minmax(420px, 1.1fr) minmax(340px, .75fr) !important;
   gap: clamp(3rem, 7vw, 7rem) !important;
 
-  align-items: start !important;
+  align-items: center !important;
   margin-top: 2rem !important;
   position: static !important;
 }
@@ -590,7 +590,9 @@ body:has(.part0-page) #quarto-content .container-xxl{
   grid-column: 2 !important;
   grid-row: 1 !important;
 
-  align-self: start !important;
+  align-self: center !important;
+  justify-self: start !important;
+  
   padding-top: .5rem !important;
 
   position: static !important;
