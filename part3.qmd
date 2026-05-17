@@ -11,8 +11,8 @@ format: html
 editor: visual
 ---
 
-:::::::::::::::::::::::::: part0-page
-:::::::::: part0-hero
+::::::::::::::::::::::::: part0-page
+::::::::: part0-hero
 ::: part0-kicker
 Parte 0 · Punto de partida
 :::
@@ -21,22 +21,18 @@ Parte 0 · Punto de partida
 # desde dónde escribo este portafolio
 :::
 
-::::::: part0-hero-bottom
+:::::: part0-hero-bottom
 ::: part0-hero-image
 ![](images/part0-trayectoria.png)
 :::
 
-::::: part0-hero-side
+:::: part0-hero-side
 ::: part0-lead
 Una trayectoria docente y formativa desde la que releer la mentoría universitaria.
 :::
-
-::: part0-claim
-Comprender mejor es ya una forma de avanzar.
-:::
-:::::
-:::::::
-::::::::::
+::::
+::::::
+:::::::::
 
 ::: part0-note
 ## Una nota para el lector
@@ -121,4 +117,4 @@ Pregunta que abre el portafolio
 
 ## ¿Qué implica acompañar procesos de cambio cuando el principal avance no es hacer algo distinto, sino entender algo de otra manera?
 ::::
-::::::::::::::::::::::::::
+:::::::::::::::::::::::::
