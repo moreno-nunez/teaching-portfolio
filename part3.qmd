@@ -45,12 +45,12 @@ Este portafolio se organiza desde una lógica similar a la que atraviesa mi doce
 :::
 
 :::::: {.part0-lienzo .part0-temdu}
+:::: part0-lienzo-main
 ::: part0-lienzo-tag
 TEMDU
-:::: part0-lienzo-main
-::: part0-bigword
+:::
+
 ## Diseñar cambios
-::: 
 
 Una primera forma de mirar la mejora desde el diseño, la planificación y la toma de decisiones fundamentadas.
 
