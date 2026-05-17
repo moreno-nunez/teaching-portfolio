@@ -1100,3 +1100,59 @@ body:has(.part0-page) #quarto-content .container-xxl{
     max-height: none !important;
   }
 }
+
+/* PART 0 HERO — imagen izquierda + texto derecha */
+
+.part0-hero{
+  min-height: calc(100vh - var(--nav-h)) !important;
+  padding: 4rem 8vw 5rem !important;
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  grid-template-rows: auto auto 1fr !important;
+  gap: 1.8rem !important;
+}
+
+.part0-title h1{
+  font-size: clamp(4.8rem, 9vw, 9.5rem) !important;
+  line-height: .84 !important;
+  margin: 0 !important;
+  max-width: 1280px !important;
+}
+
+.part0-hero-bottom{
+  display: grid !important;
+  grid-template-columns: minmax(420px, 1.1fr) minmax(340px, .75fr) !important;
+  gap: clamp(3rem, 7vw, 7rem) !important;
+  align-items: start !important;
+  margin-top: -1.2rem !important;
+}
+
+.part0-hero-image{
+  grid-column: 1 !important;
+  grid-row: 1 !important;
+  align-self: start !important;
+  justify-self: stretch !important;
+}
+
+.part0-hero-image img{
+  width: 100% !important;
+  max-height: 42vh !important;
+  object-fit: contain !important;
+  object-position: top left !important;
+  display: block !important;
+}
+
+.part0-hero-side{
+  grid-column: 2 !important;
+  grid-row: 1 !important;
+  align-self: start !important;
+  padding-top: .5rem !important;
+}
+
+.part0-lead{
+  margin: 0 0 2rem 0 !important;
+}
+
+.part0-claim{
+  margin: 0 !important;
+}
