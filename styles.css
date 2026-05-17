@@ -493,7 +493,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
 
 .part0-hero{
   min-height: calc(100vh - var(--nav-h)) !important;
-  padding: 2.6rem 8vw 5rem !important;
+  padding: 2rem 8vw 5rem !important;
 
   display: grid !important;
   grid-template-columns: 1fr !important;
@@ -501,14 +501,14 @@ body:has(.part0-page) #quarto-content .container-xxl{
     "kicker"
     "title"
     "bottom" !important;
-  grid-template-rows: auto auto 1fr !important;
+  grid-template-rows: auto auto auto !important;
 
-  gap: 1rem !important;
+  row-gap: 1.15rem !important;
+  align-content: start !important;
 
   position: relative !important;
   overflow: visible !important;
 }
-
 .part0-hero-copy{
   display: contents;
 }
@@ -545,7 +545,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
 
   color: var(--raspberry) !important;
   text-transform: none !important;
-  margin: .75rem 0 !important;
+  margin: 0 !important;
 
   position: static !important;
 }
