@@ -819,16 +819,17 @@ body:has(.part0-page) #quarto-content .container-xxl{
   font-weight: 700;
 }
 .part0-lienzo-tag{
-  position: absolute;
-  top: clamp(1.8rem, 3vw, 2.8rem);
-  left: clamp(2.4rem, 5vw, 4.8rem);
+  position: absolute !important;
+  top: clamp(1.8rem, 3vw, 2.8rem) !important;
+  left: clamp(2.4rem, 5vw, 4.8rem) !important;
+  z-index: 4 !important;
 
-  font-family: var(--font-body);
-  font-size: .72rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: .16em;
-  color: rgba(62,82,68,.55);
+  font-family: var(--font-body) !important;
+  font-size: .72rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: .16em !important;
+  color: rgba(62,82,68,.55) !important;
 }
 
 /* ==========================================================================
@@ -1191,4 +1192,21 @@ body:has(.part0-page) #quarto-content .container-xxl{
   opacity: 1;
   transform: translateX(0);
   pointer-events: auto;
+}
+
+.part0-lienzo-main a.part0-evidence-button,
+.part0-evidence-button{
+  display: inline-block !important;
+  margin-top: 1.4rem !important;
+  padding: .65rem 1.1rem !important;
+  border-radius: 999px !important;
+
+  background: var(--raspberry) !important;
+  color: var(--bg) !important;
+  border-bottom: 0 !important;
+  text-decoration: none !important;
+
+  font-family: var(--font-body) !important;
+  font-size: .9rem !important;
+  font-weight: 700 !important;
 }
