@@ -558,7 +558,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
   gap: clamp(3rem, 7vw, 7rem) !important;
 
   align-items: center !important;
-  margin-top: 2rem !important;
+  margin-top: 1.5rem !important;
   position: static !important;
 }
 
