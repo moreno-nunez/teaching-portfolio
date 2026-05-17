@@ -9,148 +9,248 @@ title: ""
 page-layout: full
 ---
 
+::::::::::::::::::::::: part0-page
 ::::: part0-hero
-## Parte 0 · Punto de partida {.part0-kicker}
+::: part0-hero-text
+<p class="part0-eyebrow">
+
+Parte 0 · Punto de partida
+
+</p>
 
 # Desde dónde escribo este portafolio
 
-::: part0-intro
+<p class="part0-lead">
+
 Una trayectoria docente y formativa desde la que releer la mentoría universitaria.
+
+</p>
+
+<p class="part0-claim">
+
+Comprender mejor es ya una forma de avanzar.
+
+</p>
 :::
 
-![](assets/img/part0-trayectoria.png){.part0-trajectory-img}
-
-::: part0-opening-statement
-Comprender mejor es ya una forma de avanzar.
+::: part0-hero-visual
+![Trayectoria TEMDU · DOCENTIA · TEMU](assets/img/part0-trayectoria.png)
 :::
 :::::
 
-## Lectura rápida {.part0-section-label}
+::::: part0-orientation
+::: part0-orientation-main
+## Esta parte no presenta un inicio, sino una relectura.
 
-::::::: part0-quick-grid
-::: part0-quick-card
-### No empiezo de cero
-
-Breve idea clave.
+No llego al TEMU desde cero. Llego desde una trayectoria previa en la que la docencia ya había sido objeto de análisis, revisión y mejora, aunque no siempre desde una lógica de acompañamiento.
 :::
 
-::: part0-quick-card
-### El cambio apareció primero como diseño
+::: part0-orientation-links
+[Ver trayectoria](#trayectoria)\
+[Ver evidencias](#evidencias)\
+[Ir a la pregunta final](#pregunta)
+:::
+:::::
 
-Breve idea clave.
+:::::: part0-map
+::: part0-map-item
+<p class="part0-map-label">
+
+TEMDU
+
+</p>
+
+### Diseñar cambios
+
+Una primera forma de pensar la mejora docente desde el proyecto, la planificación y la toma de decisiones fundamentadas.
+
+[Leer fragmento](#temdu)
 :::
 
-::: part0-quick-card
-### DOCENTIA consolidó una forma de mirar
+::: part0-map-item
+<p class="part0-map-label">
 
-Breve idea clave.
+DOCENTIA
+
+</p>
+
+### Mirar con evidencias
+
+Una práctica más sistemática de análisis de la docencia, apoyada en materiales, resultados y coherencia interna.
+
+[Leer fragmento](#docentia)
 :::
 
-::: part0-quick-card
-### TEMU permitió releer lo anterior
+::: part0-map-item
+<p class="part0-map-label">
 
-Breve idea clave.
+TEMU
+
+</p>
+
+### Releer acompañadamente
+
+Un espacio para volver sobre preguntas ya presentes, pero desde el contraste, el feedback y la reflexión compartida.
+
+[Leer fragmento](#temu)
 :::
-:::::::
+::::::
 
-## Trayectoria {#trayectoria .part0-section-label}
-
-:::: part0-editorial-section
-::: part0-section-meta
+::::: part0-feature
+::: part0-feature-number
 01
 :::
 
-### Una trayectoria que no empieza aquí
+::: {#trayectoria .part0-feature-text}
+## Una trayectoria que no empieza aquí
 
-Texto principal breve.
+Este portafolio no nace de una primera aproximación a la docencia universitaria ni a la formación docente. Nace de una trayectoria larga, sostenida en el tiempo, en la que la reflexión sobre cómo se enseña y cómo se aprende ha estado siempre presente, aunque no siempre formulada de la misma manera.
 
-Texto principal breve.
-::::
-
-## Del diseño a la reflexión sistemática {#temdu .part0-section-label}
-
-:::: part0-editorial-section
-::: part0-section-meta
-02
-:::
-
-### Pensar el cambio docente en solitario
-
-Texto principal.
-
-> Frase destacada o mini pull quote.
-
-Texto principal.
-::::
-
-:::: part0-editorial-section
-::: part0-section-meta
-03
-:::
-
-### DOCENTIA: consolidar una forma de mirar la docencia
-
-Texto principal.
-
-Texto principal.
-::::
-
-## Evidencias desde las que releer esta trayectoria {.part0-section-label}
-
-::::: part0-evidence-grid
-::: part0-evidence-card
-#### Evidencia 01
-
-### Proyecto de Cambio Docente · TEMDU
-
-##### Qué muestra
-
-Texto breve.
-
-##### Cómo se lee ahora
-
-Texto breve.
-
-[Ver evidencia](assets/evidencias/evidencia-temdu.pdf)
-:::
-
-::: part0-evidence-card
-#### Evidencia 02
-
-### Informe DOCENTIA
-
-##### Qué muestra
-
-Texto breve.
-
-##### Cómo se lee ahora
-
-Texto breve.
-
-[Ver evidencia](assets/evidencias/evidencia-docentia.pdf)
+[Ampliar esta idea](#ampliacion-trayectoria)
 :::
 :::::
 
-## El TEMU como relectura acompañada {#temu .part0-section-label}
+::: part0-shift
+<p>De pensar la docencia como algo que se diseña mejor...</p>
 
-:::: part0-editorial-section
-::: part0-section-meta
+<p>...a entenderla como un proceso que necesita ser leído, contrastado y acompañado.</p>
+:::
+
+::::: {#temdu .part0-split}
+::: part0-split-main
+<p class="part0-section-tag">
+
+02 · TEMDU
+
+</p>
+
+## Pensar el cambio docente en solitario
+
+Durante mi etapa predoctoral cursé el Título de Experto en Docencia Universitaria, actualmente TEMDU. Aquella experiencia supuso mi primer acercamiento explícito a la docencia como objeto de análisis sistemático.
+
+El proceso fue, en gran medida, autodirigido. Diseñar, justificar y defender un proyecto de cambio docente exigía tomar decisiones fundamentadas, pero dejaba poco espacio para el contraste sostenido o el acompañamiento a lo largo del proceso.
+:::
+
+::: part0-archive-card
+<p class="part0-archive-label">
+
+Evidencia 01
+
+</p>
+
+### Proyecto de Cambio Docente · TEMDU
+
+**Qué muestra**\
+Preocupaciones metodológicas, evaluativas y motivacionales que ya estaban presentes.
+
+**Cómo se lee ahora**\
+Como una primera forma de entender el cambio docente, todavía muy centrada en el diseño.
+
+[Ver evidencia](assets/evidencias/evidencia-temdu.pdf)
+:::
+:::::
+
+::: part0-pullquote
+Volver a ese proyecto años después permite ver no solo lo que ya estaba, sino también lo que todavía no podía formular del todo.
+:::
+
+::: {.part0-split part0-split-reverse #docentia}
+
+::: part0-split-main
+<p class="part0-section-tag">
+
+03 · DOCENTIA
+
+</p>
+
+## Consolidar una forma de mirar la docencia
+
+Años más tarde, mi participación en el programa DOCENTIA de la UAM supuso otro momento clave. El proceso exigía revisar la docencia de forma sistemática, apoyándose en evidencias diversas y en un análisis riguroso de la coherencia entre objetivos, metodología, evaluación y resultados.
+
+A pesar de esta trayectoria, algunas incomodidades persistían: promover autorreflexión profunda, sostener dinámicas colaborativas y acompañar procesos sin cerrarlos demasiado pronto.
+:::
+
+::: part0-archive-card
+<p class="part0-archive-label">
+
+Evidencia 02
+
+</p>
+
+### Informe DOCENTIA
+
+**Qué muestra**\
+Una forma de reflexión sistemática basada en evidencias.
+
+**Cómo se lee ahora**\
+No como validación de resultados, sino como marco desde el que analizaba mi práctica.
+
+[Ver evidencia](assets/evidencias/evidencia-docentia.pdf)
+:::
+:::::::::::::::::::::::
+
+::: part0-visual-break
+![Desplazamiento conceptual: diseñar, mirar, acompañar](assets/img/part0-desplazamiento.png)
+:::
+
+::: {.part0-feature part0-feature-large #temu}
+
+::: part0-feature-number
 04
 :::
 
-### Una relectura acompañada de preguntas ya presentes
+::: part0-feature-text
+## El TEMU como relectura acompañada
 
-Texto principal.
+Desde ahí llego al Título de Experto en Mentoría Universitaria. No como un punto de partida, sino como un espacio que permite poner nombre, estructura y tiempo a preguntas que ya estaban presentes en mi práctica.
 
-Texto principal.
-::::
+La diferencia no ha estado tanto en los contenidos como en el tipo de experiencia formativa: una formación sostenida, con contraste continuado, feedback y espacios para volver sobre las mismas situaciones desde distintas miradas.
 
-::: part0-question-block
-¿Qué implica acompañar procesos de cambio cuando el principal avance no es hacer algo distinto, sino entender algo de otra manera?
+[Leer ampliación](#ampliacion-temu)
+:::
+
+:::
+
+::::::: part0-deepening
+## Para profundizar
+
+:::::: part0-deepening-grid
+::: {#ampliacion-trayectoria .part0-deepening-card}
+### Trayectoria previa
+
+Aquí puedes añadir más adelante el desarrollo completo sobre tus primeros años como docente, las preguntas recurrentes y la relación con tu identidad docente.
+:::
+
+::: part0-deepening-card
+### Lo que no terminaba de encajar
+
+Aquí puedes desarrollar las incomodidades: autorreflexión superficial, trabajo en grupo poco colaborativo, límites de pensar la mejora solo como diseño.
+:::
+
+::: {#ampliacion-temu .part0-deepening-card}
+### Relectura desde el TEMU
+
+Aquí puedes ampliar cómo el TEMU permite reinterpretar evidencias previas, no como logros cerrados, sino como materiales para comprender procesos.
+:::
+::::::
+:::::::
+
+::: {#pregunta .part0-question-block}
+<p class="part0-question-label">
+
+Pregunta que abre el portafolio
+
+</p>
+
+## ¿Qué implica acompañar procesos de cambio cuando el principal avance no es hacer algo distinto, sino entender algo de otra manera?
 :::
 
 ::: part0-reader-note
-### Una nota para el lector
+## Una nota para el lector
 
-Texto breve final.
+Este portafolio se organiza desde una lógica similar a la que atraviesa mi docencia en Desarrollo Cognitivo y Lingüístico: priorizar la lectura de los procesos antes de buscar cambios visibles.
+
+Desde ahí se leen las reflexiones que siguen.
+:::
+
 :::
