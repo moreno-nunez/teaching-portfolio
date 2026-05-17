@@ -482,20 +482,31 @@ body:has(.part0-page) #quarto-content .container-xxl{
   overflow-x: hidden;
 }
 
-/* HERO */
+/* ==========================================================================
+   PART 0 HERO — versión única estable
+   ========================================================================== */
+
+.part0-hero,
+.part0-hero *{
+  box-sizing: border-box;
+}
+
 .part0-hero{
-  min-height: calc(100vh - var(--nav-h));
-  padding: clamp(3rem, 6vw, 5rem) clamp(1.5rem, 7vw, 7rem);
-  display: grid;
-  grid-template-columns: minmax(0, 1.25fr) minmax(280px, .75fr);
+  min-height: calc(100vh - var(--nav-h)) !important;
+  padding: 4rem 8vw 5rem !important;
+
+  display: grid !important;
+  grid-template-columns: 1fr !important;
   grid-template-areas:
-    "kicker kicker"
-    "title title"
-    "image lead"
-    "image claim";
-  column-gap: clamp(2rem, 5vw, 5rem);
-  row-gap: clamp(1rem, 2vw, 2rem);
-  align-items: start;
+    "kicker"
+    "title"
+    "bottom" !important;
+  grid-template-rows: auto auto 1fr !important;
+
+  gap: 1.8rem !important;
+
+  position: relative !important;
+  overflow: visible !important;
 }
 
 .part0-hero-copy{
@@ -503,70 +514,123 @@ body:has(.part0-page) #quarto-content .container-xxl{
 }
 
 .part0-kicker{
-  grid-area: kicker;
+  grid-area: kicker !important;
+
   font-family: var(--font-body) !important;
   font-size: .78rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .16em;
   color: var(--raspberry-soft);
-  margin: 0;
+
+  position: static !important;
+  margin: 0 !important;
 }
 
+.part0-title{
+  grid-area: title !important;
+  position: static !important;
+  width: 100% !important;
+}
+
+.part0-title h1,
 .part0-hero h1{
-  grid-area: title;
-  width: 100%;
-  max-width: none;
-  font-family: var(--font-display);
-  font-size: clamp(2.4rem, 4.2vw, 3.9rem);
-  line-height: .82;
-  letter-spacing: -.06em;
-  text-transform: none;
-  color: var(--raspberry);
-  margin: clamp(1rem, 2vw, 2rem) 0 clamp(1rem, 2vw, 2rem);
+  width: 100% !important;
+  max-width: 1280px !important;
+
+  font-family: var(--font-display) !important;
+  font-size: clamp(2.4rem, 4.2vw, 3.9rem) !important;
+  line-height: .84 !important;
+  letter-spacing: -.06em !important;
+
+  color: var(--raspberry) !important;
+  text-transform: none !important;
+  margin: 0 !important;
+
+  position: static !important;
+}
+
+.part0-hero-bottom{
+  grid-area: bottom !important;
+
+  display: grid !important;
+  grid-template-columns: minmax(420px, 1.1fr) minmax(340px, .75fr) !important;
+  gap: clamp(3rem, 7vw, 7rem) !important;
+
+  align-items: start !important;
+  margin-top: -1.2rem !important;
+  position: static !important;
 }
 
 .part0-hero-image{
-  grid-area: image;
-  align-self: start;
-  justify-self: stretch;
-  min-width: 0;
+  grid-column: 1 !important;
+  grid-row: 1 !important;
+
+  align-self: start !important;
+  justify-self: stretch !important;
+
+  position: static !important;
+  width: 100% !important;
+  min-width: 0 !important;
 }
 
 .part0-hero-image img{
-  width: 100%;
-  max-height: 48vh;
-  object-fit: contain;
-  object-position: center;
-  display: block;
-  border-radius: 2.2rem;
-  box-shadow: 0 24px 60px rgba(85,107,90,.14);
+  width: 100% !important;
+  max-height: 42vh !important;
+
+  object-fit: contain !important;
+  object-position: top left !important;
+
+  display: block !important;
+  border-radius: 2.2rem !important;
+  box-shadow: 0 24px 60px rgba(85,107,90,.14) !important;
+}
+
+.part0-hero-side{
+  grid-column: 2 !important;
+  grid-row: 1 !important;
+
+  align-self: start !important;
+  padding-top: .5rem !important;
+
+  position: static !important;
+  max-width: 460px !important;
+}
+
+.part0-lead,
+.part0-claim{
+  position: static !important;
+  width: auto !important;
+  max-width: 460px !important;
+
+  transform: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
 .part0-lead{
-  grid-area: lead;
-  align-self: start;
-  max-width: 430px;
   font-family: var(--font-body) !important;
-  font-size: clamp(1.05rem, 1.3vw, 1.25rem);
-  line-height: 1.75;
-  color: var(--text);
-  margin: 0;
+  font-size: clamp(1.1rem, 1.45vw, 1.35rem) !important;
+  line-height: 1.75 !important;
+  color: var(--text) !important;
+
+  margin: 0 0 2rem 0 !important;
 }
 
 .part0-claim{
-  grid-area: claim;
-  align-self: start;
-  max-width: 430px;
   font-family: var(--font-display) !important;
-  font-size: clamp(1.5rem, 2.6vw, 2.6rem);
-  line-height: 1.05;
-  letter-spacing: -.02em;
-  color: var(--muted);
-  margin: 1.5rem 0 0;
+  font-size: clamp(1.8rem, 3vw, 3rem) !important;
+  line-height: 1.05 !important;
+  letter-spacing: -.025em !important;
+  color: var(--muted) !important;
+
+  margin: 0 !important;
 }
 
-/* NOTA */
+/* ==========================================================================
+   PART 0 — nota introductoria
+   ========================================================================== */
+
 .part0-note{
   width: min(940px, calc(100% - 2.8rem));
   margin: 0 auto clamp(4rem, 8vw, 7rem);
@@ -587,7 +651,10 @@ body:has(.part0-page) #quarto-content .container-xxl{
   line-height: 1.8;
 }
 
-/* LIENZOS */
+/* ==========================================================================
+   PART 0 — lienzos
+   ========================================================================== */
+
 .part0-lienzo{
   width: min(1380px, calc(100% - 2.8rem));
   min-height: 82vh;
@@ -596,10 +663,12 @@ body:has(.part0-page) #quarto-content .container-xxl{
   border-radius: clamp(2rem, 4vw, 4rem);
   position: relative;
   overflow: hidden;
+
   display: grid;
   grid-template-columns: minmax(0, 1fr) 0;
   gap: 0;
   align-items: stretch;
+
   transition: grid-template-columns .55s ease, gap .55s ease, transform .25s ease;
 }
 
@@ -668,7 +737,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
   color: inherit;
 }
 
-/* PANEL LATERAL DENTRO DEL LIENZO */
+/* Panel lateral dentro del lienzo */
 .part0-lienzo-panel{
   position: relative;
   z-index: 3;
@@ -676,10 +745,13 @@ body:has(.part0-page) #quarto-content .container-xxl{
   min-width: 0;
   max-height: calc(82vh - 2 * clamp(2rem, 5vw, 5rem));
   overflow-y: auto;
+
   opacity: 0;
   transform: translateX(2.5rem);
   pointer-events: none;
+
   transition: opacity .38s ease .12s, transform .38s ease .12s;
+
   padding: clamp(1.4rem, 3vw, 2.2rem);
   border-radius: 2rem;
   background: rgba(255,255,255,.82);
@@ -727,7 +799,10 @@ body:has(.part0-page) #quarto-content .container-xxl{
   font-weight: 700;
 }
 
-/* PREGUNTA FINAL */
+/* ==========================================================================
+   PART 0 — pregunta final
+   ========================================================================== */
+
 .part0-question{
   min-height: 78vh;
   padding: clamp(4rem, 8vw, 8rem) clamp(1.4rem, 8vw, 8rem);
@@ -758,33 +833,56 @@ body:has(.part0-page) #quarto-content .container-xxl{
   margin: 0;
 }
 
-/* Responsive PART 0 */
+/* ==========================================================================
+   PART 0 — responsive
+   ========================================================================== */
+
 @media (max-width: 900px){
   .part0-hero{
-    grid-template-columns: 1fr;
+    min-height: auto !important;
+    padding: 3rem 1.4rem !important;
+
     grid-template-areas:
       "kicker"
       "title"
-      "image"
-      "lead"
-      "claim";
-    min-height: auto;
-    padding-top: 3rem;
+      "bottom" !important;
   }
 
+  .part0-title h1,
   .part0-hero h1{
-    font-size: clamp(2.5rem, 7vw, 7.6rem);
+    font-size: clamp(2.4rem, 10vw, 4.2rem) !important;
+  }
+
+  .part0-hero-bottom{
+    grid-template-columns: 1fr !important;
+    margin-top: 0 !important;
+  }
+
+  .part0-hero-side{
+    grid-column: 1 !important;
+    max-width: 100% !important;
   }
 
   .part0-hero-image img{
-    max-height: none;
+    max-height: none !important;
   }
 
-  .part0-lead,
-  .part0-claim{
-    max-width: 100%;
+  .part0-lienzo,
+  .part0-lienzo:hover,
+  .part0-lienzo:focus-within{
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+
+  .part0-lienzo-panel{
+    opacity: 1;
+    transform: none;
+    pointer-events: auto;
+    max-height: none;
+    margin-top: 1.5rem;
   }
 }
+
 /* ==========================================================================
    PRINT — PART 0
    Evita que los lienzos interactivos se rompan al imprimir/exportar PDF
@@ -816,7 +914,8 @@ body:has(.part0-page) #quarto-content .container-xxl{
     display: none !important;
   }
 
-  .part0-hero h1{
+  .part0-hero h1,
+  .part0-title h1{
     font-size: 36pt !important;
     line-height: 1 !important;
   }
@@ -888,271 +987,4 @@ body:has(.part0-page) #quarto-content .container-xxl{
     font-size: 24pt !important;
     line-height: 1.1 !important;
   }
-}
-/* HERO PART 0 — versión estable */
-
-.part0-hero{
-  min-height: calc(100vh - var(--nav-h));
-  padding: clamp(3rem, 5vw, 5rem) clamp(2rem, 8vw, 8rem);
-  display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  row-gap: clamp(1.5rem, 3vw, 3rem);
-}
-
-.part0-title h1{
-  width: 100%;
-  max-width: 1500px;
-  font-family: var(--font-display);
-  font-size: clamp(2.4rem, 4.2vw, 3.9rem);
-  line-height: .84;
-  letter-spacing: -.06em;
-  color: var(--raspberry);
-  text-transform: none;
-  margin: 0;
-}
-
-.part0-hero-bottom{
-  display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(300px, .85fr);
-  gap: clamp(2rem, 6vw, 6rem);
-  align-items: center;
-}
-
-.part0-hero-image img{
-  width: 100%;
-  max-height: 48vh;
-  object-fit: contain;
-  display: block;
-  border-radius: 2.2rem;
-  box-shadow: 0 24px 60px rgba(85,107,90,.14);
-}
-
-.part0-hero-side{
-  max-width: 440px;
-}
-
-.part0-lead{
-  font-family: var(--font-body) !important;
-  font-size: clamp(1.15rem, 1.5vw, 1.35rem);
-  line-height: 1.75;
-  color: var(--text);
-}
-
-.part0-claim{
-  margin-top: 2rem;
-  font-family: var(--font-display) !important;
-  font-size: clamp(1.8rem, 3vw, 3.2rem);
-  line-height: 1.05;
-  color: var(--muted);
-}
-
-@media (max-width: 900px){
-  .part0-hero-bottom{
-    grid-template-columns: 1fr;
-  }
-
-  .part0-title h1{
-    font-size: clamp(2.4rem, 4.2vw, 3.9rem);
-  }
-
-  .part0-hero-side{
-    max-width: 100%;
-  }
-}
-
-/* ==========================================================================
-   PART 0 HERO — RESET FINAL ESTABLE
-   Pegar al final del CSS
-   ========================================================================== */
-
-.part0-hero,
-.part0-hero *{
-  box-sizing: border-box;
-}
-
-.part0-hero{
-  display: grid !important;
-  grid-template-columns: 1fr !important;
-  grid-template-areas:
-    "kicker"
-    "title"
-    "bottom" !important;
-  gap: 2rem !important;
-
-  min-height: calc(100vh - var(--nav-h)) !important;
-  padding: clamp(4rem, 6vw, 6rem) clamp(2rem, 8vw, 8rem) !important;
-
-  position: relative !important;
-  overflow: visible !important;
-}
-
-.part0-kicker{
-  grid-area: kicker !important;
-  position: static !important;
-  margin: 0 !important;
-}
-
-.part0-title{
-  grid-area: title !important;
-  position: static !important;
-  width: 100% !important;
-}
-
-.part0-title h1{
-  position: static !important;
-  width: 100% !important;
-  max-width: none !important;
-
-  margin: 0 !important;
-
-  font-size: clamp(4.5rem, 10vw, 10rem) !important;
-  line-height: .86 !important;
-  letter-spacing: -.055em !important;
-
-  text-transform: none !important;
-  color: var(--raspberry) !important;
-}
-
-.part0-hero-bottom{
-  grid-area: bottom !important;
-
-  display: grid !important;
-  grid-template-columns: minmax(0, 1.15fr) minmax(320px, .85fr) !important;
-  gap: clamp(2rem, 6vw, 6rem) !important;
-
-  align-items: center !important;
-  position: static !important;
-}
-
-.part0-hero-image{
-  position: static !important;
-  grid-column: 1 !important;
-  width: 100% !important;
-  min-width: 0 !important;
-}
-
-.part0-hero-image img{
-  width: 100% !important;
-  max-height: 48vh !important;
-  object-fit: contain !important;
-  display: block !important;
-
-  border-radius: 2.2rem !important;
-  box-shadow: 0 24px 60px rgba(85,107,90,.14) !important;
-}
-
-.part0-hero-side{
-  grid-column: 2 !important;
-  position: static !important;
-
-  max-width: 460px !important;
-  align-self: center !important;
-}
-
-.part0-lead,
-.part0-claim{
-  position: static !important;
-  width: auto !important;
-  max-width: 460px !important;
-
-  transform: none !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-}
-
-.part0-lead{
-  font-family: var(--font-body) !important;
-  font-size: clamp(1.1rem, 1.45vw, 1.35rem) !important;
-  line-height: 1.75 !important;
-  color: var(--text) !important;
-  margin-bottom: 2rem !important;
-}
-
-.part0-claim{
-  font-family: var(--font-display) !important;
-  font-size: clamp(1.8rem, 3vw, 3rem) !important;
-  line-height: 1.05 !important;
-  letter-spacing: -.025em !important;
-  color: var(--muted) !important;
-  margin-top: 0 !important;
-}
-
-@media (max-width: 900px){
-  .part0-hero{
-    min-height: auto !important;
-    padding: 3rem 1.4rem !important;
-  }
-
-  .part0-title h1{
-    font-size: clamp(2.4rem, 4.2vw, 3.9rem) !important;
-  }
-
-  .part0-hero-bottom{
-    grid-template-columns: 1fr !important;
-  }
-
-  .part0-hero-side{
-    grid-column: 1 !important;
-    max-width: 100% !important;
-  }
-
-  .part0-hero-image img{
-    max-height: none !important;
-  }
-}
-
-/* PART 0 HERO — imagen izquierda + texto derecha */
-
-.part0-hero{
-  min-height: calc(100vh - var(--nav-h)) !important;
-  padding: 4rem 8vw 5rem !important;
-  display: grid !important;
-  grid-template-columns: 1fr !important;
-  grid-template-rows: auto auto 1fr !important;
-  gap: 1.8rem !important;
-}
-
-.part0-title h1{
-  font-size: clamp(2.4rem, 4.2vw, 3.9rem) !important;
-  line-height: .84 !important;
-  margin: 0 !important;
-  max-width: 1280px !important;
-}
-
-.part0-hero-bottom{
-  display: grid !important;
-  grid-template-columns: minmax(420px, 1.1fr) minmax(340px, .75fr) !important;
-  gap: clamp(3rem, 7vw, 7rem) !important;
-  align-items: start !important;
-  margin-top: -1.2rem !important;
-}
-
-.part0-hero-image{
-  grid-column: 1 !important;
-  grid-row: 1 !important;
-  align-self: start !important;
-  justify-self: stretch !important;
-}
-
-.part0-hero-image img{
-  width: 100% !important;
-  max-height: 42vh !important;
-  object-fit: contain !important;
-  object-position: top left !important;
-  display: block !important;
-}
-
-.part0-hero-side{
-  grid-column: 2 !important;
-  grid-row: 1 !important;
-  align-self: start !important;
-  padding-top: .5rem !important;
-}
-
-.part0-lead{
-  margin: 0 0 2rem 0 !important;
-}
-
-.part0-claim{
-  margin: 0 !important;
 }
