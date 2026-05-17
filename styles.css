@@ -425,3 +425,63 @@ body.home .home-keywords{
   font-family: var(--font-display) !important;
   margin: 0;
 }
+.path-grid{
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 2.6rem 0 3rem;
+}
+
+.path-card{
+  display: block;
+  padding: 1.25rem 1.15rem;
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  background: rgba(244,211,195,.18);
+  border-bottom: 0 !important;
+}
+
+.path-card:hover{
+  background: rgba(244,211,195,.28);
+  transform: translateY(-2px);
+}
+
+.path-number,
+.section-number{
+  display: block;
+  font-family: var(--font-body);
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  color: var(--raspberry-soft);
+  margin-bottom: .7rem;
+}
+
+.path-card h3{
+  margin: 0 0 .5rem;
+}
+
+.path-card p{
+  margin: 0;
+  font-size: .92rem;
+  line-height: 1.55;
+}
+
+.section-block{
+  margin: 3.5rem 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.reader-note{
+  margin: 3rem 0 1rem;
+  padding: 1.6rem 1.8rem;
+  border-radius: 24px;
+  background: rgba(107,127,99,.08);
+}
+
+@media (max-width: 900px){
+  .path-grid{
+    grid-template-columns: 1fr;
+  }
+}
