@@ -32,7 +32,7 @@ Parte 0 · empezar
 
 :::: part0-hero-side
 ::: part0-lead
-### Desde dónde escribo este portafolio. {.part0-lead}
+### Una trayectoria académica y formativa desde la que releer la docencia universitaria {.part0-lead}
 :::
 ::::
 ::::::
