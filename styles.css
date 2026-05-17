@@ -750,14 +750,14 @@ body:has(.part0-page) #quarto-content .container-xxl{
 .part0-bigword{
   display: block;
   font-family: var(--font-display) !important;
-  font-size: clamp(5rem, 13vw, 13rem);
-  font-weight: 700;
-  line-height: .75;
-  letter-spacing: -.07em;
-  opacity: 1;
-  margin-bottom: clamp(1.2rem, 3vw, 2.2rem);
-  text-transform: none;
-  color: inherit;
+  font-size: clamp(4.8rem, 11vw, 11rem) !important;
+  font-weight: 700 !important;
+  line-height: .76 !important;
+  letter-spacing: -.065em !important;
+  text-transform: none !important;
+  color: #3e5244 !important;
+  opacity: 1 !important;
+  margin: 0 0 clamp(1.2rem, 3vw, 2.2rem) !important;
 }
 
 .part0-lienzo-main p{

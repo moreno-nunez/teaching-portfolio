@@ -51,13 +51,15 @@ TEMDU
 :::
 
 ::: part0-lienzo-main
+
 ::: part0-bigword
-## Diseñar cambios
+Diseñar cambios
 :::
 
 Una primera forma de mirar la mejora desde el diseño, la planificación y la toma de decisiones fundamentadas.
 
 [Ver evidencia](ruta/a/tu/evidencia.pdf){.part0-evidence-button}
+
 :::
 
 ::: part0-lienzo-panel
