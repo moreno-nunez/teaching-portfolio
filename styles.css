@@ -747,18 +747,16 @@ body:has(.part0-page) #quarto-content .container-xxl{
   padding-top: 2.4rem;
 }
 
-.part0-bigword,
-h2.part0-bigword{
+.part0-bigword{
   display: block !important;
   font-family: var(--font-display) !important;
-  font-size: clamp(5rem, 11vw, 11rem) !important;
+  font-size: clamp(4rem, 8vw, 8.5rem) !important;
   font-weight: 700 !important;
-  line-height: .76 !important;
-  letter-spacing: -.065em !important;
-  text-transform: none !important;
+  line-height: .78 !important;
+  letter-spacing: -.06em !important;
   color: #3e5244 !important;
   opacity: 1 !important;
-  margin: 0 0 clamp(1.2rem, 3vw, 2.2rem) !important;
+  margin: 0 0 1.4rem !important;
 }
 
 .part0-lienzo-main p{
@@ -773,17 +771,13 @@ h2.part0-bigword{
   margin-top: 1.4rem !important;
   padding: .65rem 1.1rem !important;
   border-radius: 999px !important;
-
   background: var(--raspberry) !important;
   color: var(--bg) !important;
   border-bottom: 0 !important;
   text-decoration: none !important;
-
   font-family: var(--font-body) !important;
   font-size: .9rem !important;
   font-weight: 700 !important;
-
-  transition: transform .18s ease, background .18s ease;
 }
 
 .part0-evidence-button:hover{
