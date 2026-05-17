@@ -71,15 +71,20 @@ El proceso fue, en gran medida, autodirigido. Diseñar, justificar y defender un
 ::::::
 
 :::::: {.part0-lienzo .part0-docentia}
-:::: part0-lienzo-main
-::: part0-bigword
+
+::: part0-lienzo-tag
 DOCENTIA
 :::
 
-## Mirar con evidencias
+::: {.part0-lienzo-main}
 
-Una práctica reflexiva basada en materiales, coherencia, resultados y análisis sistemático de la docencia.
-::::
+<div class="part0-bigword">Mirar con evidencias</div>
+
+<p>Una práctica reflexiva basada en materiales, coherencia, resultados y análisis sistemático de la docencia.</p>
+
+<a class="part0-evidence-button" href="ruta/a/tu/evidencia.pdf">Ver evidencia</a>
+
+:::
 
 ::: part0-lienzo-panel
 ### DOCENTIA: consolidar una forma de mirar la docencia
@@ -95,15 +100,21 @@ Estas tensiones empezaban a trasladarse también a preguntas sobre el acompañam
 ::::::
 
 :::::: {.part0-lienzo .part0-temu}
-:::: part0-lienzo-main
-::: part0-bigword
+
+::: part0-lienzo-tag
 TEMU
 :::
 
-## Releer acompañadamente
+:::: part0-lienzo-main
+::: {.part0-lienzo-main}
 
-Un espacio para volver sobre preguntas ya presentes desde el contraste, el feedback y la reflexión compartida.
-::::
+<div class="part0-bigword">Releer acompañadamente</div>
+
+<p>Un espacio para volver sobre preguntas ya presentes desde el contraste, el feedback y la reflexión compartida.</p>
+
+<a class="part0-evidence-button" href="ruta/a/tu/evidencia.pdf">Ver evidencia</a>
+
+:::
 
 ::: part0-lienzo-panel
 ### El TEMU como relectura acompañada

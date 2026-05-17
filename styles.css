@@ -1032,3 +1032,26 @@ body:has(.part0-page) #quarto-content .container-xxl{
     line-height: 1.1 !important;
   }
 }
+
+.part0-docentia .part0-bigword,
+.part0-temu .part0-bigword{
+  font-size: clamp(2.8rem, 5.4vw, 5.6rem) !important;
+  line-height: .9 !important;
+  letter-spacing: -.035em !important;
+  max-width: 620px;
+}
+
+.part0-temu .part0-lienzo-main,
+.part0-temu .part0-bigword,
+.part0-temu .part0-lienzo-main p{
+  color: #f7f3ea !important;
+}
+
+.part0-temu .part0-lienzo-tag{
+  color: rgba(247,243,234,.48) !important;
+}
+
+.part0-temu .part0-evidence-button{
+  background: var(--raspberry-soft) !important;
+  color: var(--bg) !important;
+}
