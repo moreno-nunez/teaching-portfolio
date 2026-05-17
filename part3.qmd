@@ -78,7 +78,7 @@ DOCENTIA
 
 ::: {.part0-lienzo-main}
 
-<div class="part0-bigword">Mirar con evidencias</div>
+<div class="part0-bigword">Revisar evidencias</div>
 
 <p>Una práctica reflexiva basada en materiales, coherencia, resultados y análisis sistemático de la docencia.</p>
 
@@ -106,7 +106,7 @@ TEMU
 
 ::: {.part0-lienzo-main}
 
-<div class="part0-bigword">Releer acompañadamente</div>
+<div class="part0-bigword">Reflexionar acompañando</div>
 
 <p>Un espacio para volver sobre preguntas ya presentes desde el contraste, el feedback y la reflexión compartida.</p>
 
