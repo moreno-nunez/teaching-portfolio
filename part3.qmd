@@ -46,7 +46,7 @@ Este portafolio se organiza desde una lógica similar a la que atraviesa mi doce
 
 :::::: {.part0-lienzo .part0-temdu}
 :::: part0-lienzo-main
-::: part0-bigword
+::: part0-lienzo-tag
 TEMDU
 :::
 

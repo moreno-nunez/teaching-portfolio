@@ -676,9 +676,9 @@ body:has(.part0-page) #quarto-content .container-xxl{
 
 .part0-lienzo{
   width: min(var(--part0-max), calc(100% - 2 * var(--part0-page-pad)));
-  min-height: 82vh;
-  margin: 0 auto clamp(2rem, 5vw, 4rem);
-  padding: clamp(2rem, 5vw, 5rem);
+  min-height: 68vh;
+  margin: 0 auto clamp(2rem, 5vw, 4.6rem);
+  padding: clamp(2.4rem, 5vw, 5rem);
   border-radius: clamp(2rem, 4vw, 4rem);
   position: relative;
   overflow: hidden;
@@ -686,15 +686,15 @@ body:has(.part0-page) #quarto-content .container-xxl{
   display: grid;
   grid-template-columns: minmax(0, 1fr) 0;
   gap: 0;
-  align-items: stretch;
+  align-items: center;
 
   transition: grid-template-columns .55s ease, gap .55s ease, transform .25s ease;
 }
 
 .part0-lienzo:hover,
 .part0-lienzo:focus-within{
-  grid-template-columns: minmax(0, 1fr) minmax(360px, 42%);
-  gap: clamp(1.5rem, 3vw, 3rem);
+  grid-template-columns: minmax(0, 1fr) minmax(340px, 36%);
+  gap: clamp(2rem, 4vw, 4rem);
 }
 
 .part0-lienzo::before{
@@ -755,15 +755,26 @@ body:has(.part0-page) #quarto-content .container-xxl{
   line-height: 1.7;
   color: inherit;
 }
+.part0-lienzo-main::after{
+  content: "Explorar evidencia →";
+  display: inline-block;
+  margin-top: 1.4rem;
 
+  font-family: var(--font-body);
+  font-size: .82rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  color: currentColor;
+  opacity: .68;
+}
 /* Panel lateral dentro del lienzo */
 .part0-lienzo-panel{
   position: relative;
   z-index: 3;
-  align-self: stretch;
+  align-self: center;
   min-width: 0;
-  max-height: calc(82vh - 2 * clamp(2rem, 5vw, 5rem));
-  overflow-y: auto;
+  max-height: none;
+  overflow-y: visible;
 
   opacity: 0;
   transform: translateX(2.5rem);
@@ -771,12 +782,12 @@ body:has(.part0-page) #quarto-content .container-xxl{
 
   transition: opacity .38s ease .12s, transform .38s ease .12s;
 
-  padding: clamp(1.4rem, 3vw, 2.2rem);
+  padding: clamp(1.6rem, 3vw, 2.4rem);
   border-radius: 2rem;
-  background: rgba(255,255,255,.82);
+  background: rgba(255,252,252,.78);
   color: #314236;
-  box-shadow: 0 28px 70px rgba(0,0,0,.14);
-  backdrop-filter: blur(14px);
+  box-shadow: 0 22px 55px rgba(85,107,90,.16);
+  backdrop-filter: blur(12px);
 }
 
 .part0-temu .part0-lienzo-panel{
@@ -794,15 +805,17 @@ body:has(.part0-page) #quarto-content .container-xxl{
 .part0-lienzo-panel h3{
   margin-top: 0;
   font-family: var(--font-display);
-  font-size: clamp(1.8rem, 3vw, 3rem);
-  line-height: 1;
-  letter-spacing: -.03em;
+  font-size: clamp(1.55rem, 2.4vw, 2.35rem);
+  line-height: 1.05;
+  letter-spacing: -.025em;
   color: var(--raspberry);
+  margin-bottom: 1.2rem;
 }
 
 .part0-lienzo-panel p{
-  font-size: .98rem;
-  line-height: 1.72;
+  font-size: .95rem;
+  line-height: 1.7;
+  margin-bottom: .9rem;
 }
 
 .part0-lienzo-panel a{
@@ -816,6 +829,18 @@ body:has(.part0-page) #quarto-content .container-xxl{
   font-family: var(--font-body);
   font-size: .88rem;
   font-weight: 700;
+}
+.part0-lienzo-tag{
+  position: absolute;
+  top: clamp(2rem, 4vw, 3.2rem);
+  left: clamp(2rem, 4vw, 3.2rem);
+
+  font-family: var(--font-body);
+  font-size: .72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .16em;
+  color: rgba(62,82,68,.55);
 }
 
 /* ==========================================================================
