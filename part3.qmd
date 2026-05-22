@@ -61,10 +61,11 @@ TEMDU
 :::
 
 ::: part0-lienzo-panel
-### Empezar a pensar el cambio docente
+### Comprender no equivale a producir. Avanzar no implica necesariamente mostrar.
 
 Este portafolio no nace de una primera aproximación a la docencia universitaria ni a la formación docente. Se escribe desde una trayectoria construida durante años, en la que las preguntas sobre cómo se aprende, cómo se enseña y cómo cambian las personas han estado siempre presentes.
-Mi docencia y mi investigación se han desarrollado en torno al estudio del desarrollo cognitivo y lingüístico temprano. Con el tiempo, esa forma de pensar los procesos de aprendizaje ha terminado influyendo también en cómo leo mi propia práctica docente.
+
+Mi docencia y mi investigación se han desarrollado en torno al estudio del desarrollo cognitivo y lingüístico temprano. Con el tiempo, he aprendido que no todo lo importante en un proceso de aprendizaje es inmediatamente visible, y esa forma de pensar los procesos de aprendizaje ha terminado influyendo también en cómo leo mi propia práctica docente.
 
 :::
 ::::::
@@ -86,9 +87,10 @@ DOCENTIA
 :::
 
 ::: part0-lienzo-panel
-### DOCENTIA: consolidar una forma de mirar la docencia
+### Diseñar, justificar y evaluar cambios docentes exigía tomar decisiones fundamentadas, pero dejaba poco espacio para sostener las preguntas en el tiempo.
 
 Durante años aprendí a revisar la docencia desde el diseño, la planificación y la evaluación. Tanto el proyecto desarrollado en el antiguo TEMDU como mi participación posterior en DOCENTIA reforzaron una manera de trabajar centrada en la coherencia entre objetivos, metodología, evaluación y resultados.
+
 Fue una etapa importante para consolidar una práctica reflexiva basada en evidencias y en la toma de decisiones fundamentadas.
 
 :::
@@ -111,10 +113,11 @@ REFLEXION
 :::
 
 ::: part0-lienzo-panel
-### El TEMU como relectura acompañada
+### No todo lo importante se deja cerrar bien, ni se ajusta fácilmente a los marcos con los que estaba acostumbrada a evaluar la práctica.
 
 A pesar de la formación recibida y de los procesos de evaluación desarrollados, algunas dificultades seguían reapareciendo. Resultaba complicado promover procesos de autorreflexión profundos, sostener dinámicas de trabajo verdaderamente colaborativas o comprender por qué ciertos cambios no llegaban a producirse aun cuando las propuestas estaban cuidadosamente diseñadas.
-Más que una falta de herramientas, empezaba a percibir una dificultad para comprender algunos procesos que no se dejaban observar fácilmente.
+
+Más que una falta de herramientas, las preguntas empezaban a desplazarse desde el diseño del cambio hacia la comprensión de los procesos que lo hacen posible o lo dificultan.
 :::
 ::::::
 
@@ -135,10 +138,11 @@ TEMU
 :::
 
 ::: part0-lienzo-panel
-### El TEMU como relectura acompañada
+### Comprender mejor como forma de avanzar.
 
-Llego al TEMU no como quien inicia un recorrido, sino como quien vuelve sobre preguntas ya presentes en su práctica. La diferencia no ha estado tanto en los contenidos como en el tipo de experiencia formativa: una formación sostenida en el tiempo, basada en el contraste, el feedback y la conversación continuada con otros docentes.
-Desde aquí el foco comienza a desplazarse desde el diseño del cambio hacia la comprensión de los procesos que lo hacen posible o lo dificultan.
+Llego al TEMU no como quien inicia un recorrido nuevo, sino como quien vuelve sobre preguntas ya presentes en su práctica. 
+
+La diferencia no ha estado tanto en los contenidos como en el tipo de experiencia formativa: una formación sostenida en el tiempo, basada en el contraste, el feedback y la posibilidad de volver sobre las mismas situaciones desde distintas miradas.
 :::
 ::::::
 
