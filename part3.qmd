@@ -54,7 +54,7 @@ TEMDU
 
 <div class="part0-bigword">Diseñar cambios</div>
 
-<p>Una primera forma de mirar la mejora desde el diseño, la planificación y la toma de decisiones fundamentadas.</p>
+<p>Una trayectoria que no empieza aquí.</p>
 
 <a class="part0-evidence-button" href="ruta/a/tu/evidencia.pdf">Ver evidencia</a>
 
@@ -63,9 +63,8 @@ TEMDU
 ::: part0-lienzo-panel
 ### Empezar a pensar el cambio docente
 
-Durante mi etapa predoctoral cursé el Título de Experto en Docencia Universitaria, actualmente TEMDU. Aquella experiencia supuso mi primer acercamiento explícito a la docencia como objeto de análisis sistemático.
-
-El proceso fue, en gran medida, autodirigido. Diseñar, justificar y defender un proyecto de cambio docente exigía tomar decisiones fundamentadas, pero dejaba poco espacio para el contraste sostenido o el acompañamiento a lo largo del proceso.
+Este portafolio no nace de una primera aproximación a la docencia universitaria ni a la formación docente. Se escribe desde una trayectoria construida durante años, en la que las preguntas sobre cómo se aprende, cómo se enseña y cómo cambian las personas han estado siempre presentes.
+Mi docencia y mi investigación se han desarrollado en torno al estudio del desarrollo cognitivo y lingüístico temprano. Con el tiempo, esa forma de pensar los procesos de aprendizaje ha terminado influyendo también en cómo leo mi propia práctica docente.
 
 :::
 ::::::
@@ -80,7 +79,7 @@ DOCENTIA
 
 <div class="part0-bigword">Revisar evidencias</div>
 
-<p>Una práctica reflexiva basada en materiales, coherencia, resultados y análisis sistemático de la docencia.</p>
+<p>La docencia como objeto de análisis.</p>
 
 <a class="part0-evidence-button" href="ruta/a/tu/evidencia.pdf">Ver evidencia</a>
 
@@ -89,12 +88,33 @@ DOCENTIA
 ::: part0-lienzo-panel
 ### DOCENTIA: consolidar una forma de mirar la docencia
 
-Años más tarde, mi participación en DOCENTIA supuso otro momento clave. El proceso exigía revisar la docencia de forma sistemática, apoyándose en evidencias diversas y en un análisis riguroso de la coherencia entre objetivos, metodología, evaluación y resultados.
+Durante años aprendí a revisar la docencia desde el diseño, la planificación y la evaluación. Tanto el proyecto desarrollado en el antiguo TEMDU como mi participación posterior en DOCENTIA reforzaron una manera de trabajar centrada en la coherencia entre objetivos, metodología, evaluación y resultados.
+Fue una etapa importante para consolidar una práctica reflexiva basada en evidencias y en la toma de decisiones fundamentadas.
 
-A pesar de esta trayectoria, algunas incomodidades persistían. En el aula, seguía resultando difícil promover procesos de autorreflexión profundos o sostener dinámicas de trabajo verdaderamente colaborativas.
+:::
+::::::
 
-Estas tensiones empezaban a trasladarse también a preguntas sobre el acompañamiento docente: cómo acompañar sin dirigir, cómo no confundir avance con rapidez, cómo sostener procesos de comprensión sin cerrarlos demasiado pronto.
+:::::: {.part0-lienzo .part0-temu}
 
+::: part0-lienzo-tag
+REFLEXION
+:::
+
+::: {.part0-lienzo-main}
+
+<div class="part0-bigword">Encajar piezas</div>
+
+<p>Las preguntas que seguían abiertas.</p>
+
+<a class="part0-evidence-button" href="ruta/a/tu/evidencia.pdf">Ver evidencia</a>
+
+:::
+
+::: part0-lienzo-panel
+### El TEMU como relectura acompañada
+
+A pesar de la formación recibida y de los procesos de evaluación desarrollados, algunas dificultades seguían reapareciendo. Resultaba complicado promover procesos de autorreflexión profundos, sostener dinámicas de trabajo verdaderamente colaborativas o comprender por qué ciertos cambios no llegaban a producirse aun cuando las propuestas estaban cuidadosamente diseñadas.
+Más que una falta de herramientas, empezaba a percibir una dificultad para comprender algunos procesos que no se dejaban observar fácilmente.
 :::
 ::::::
 
@@ -108,7 +128,7 @@ TEMU
 
 <div class="part0-bigword">Volver sobre ello</div>
 
-<p>Un espacio para volver sobre preguntas ya presentes desde el contraste, el feedback y la reflexión compartida.</p>
+<p>El TEMU como relectura acompañada.</p>
 
 <a class="part0-evidence-button" href="ruta/a/tu/evidencia.pdf">Ver evidencia</a>
 
@@ -117,11 +137,8 @@ TEMU
 ::: part0-lienzo-panel
 ### El TEMU como relectura acompañada
 
-Desde ahí llego al Título de Experto en Mentoría Universitaria. No como un punto de partida, sino como un espacio que permite poner nombre, estructura y tiempo a preguntas que ya estaban presentes en mi práctica.
-
-La diferencia no ha estado tanto en los contenidos como en el tipo de experiencia formativa: una formación sostenida, con contraste continuado, feedback y espacios para volver sobre las mismas situaciones desde distintas miradas.
-
-Este portafolio se escribe desde una identidad docente y mentora ya construida, pero abierta a revisión. Más que mostrar cambios espectaculares, recoge desplazamientos en la manera de mirar, evaluar e intervenir.
+Llego al TEMU no como quien inicia un recorrido, sino como quien vuelve sobre preguntas ya presentes en su práctica. La diferencia no ha estado tanto en los contenidos como en el tipo de experiencia formativa: una formación sostenida en el tiempo, basada en el contraste, el feedback y la conversación continuada con otros docentes.
+Desde aquí el foco comienza a desplazarse desde el diseño del cambio hacia la comprensión de los procesos que lo hacen posible o lo dificultan.
 :::
 ::::::
 
