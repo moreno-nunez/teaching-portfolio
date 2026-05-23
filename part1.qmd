@@ -12,7 +12,7 @@ Parte I · comprender
 :::
 
 ::: part0-title
-comprender antes de intervenir
+# comprender antes de intervenir {.part0-title}
 :::
 
 ::: part0-subtitle
@@ -32,73 +32,83 @@ Aprendizajes del primer año del TEMU
 ::::::
 ::::::::::
 
-::::::: part0-note
+::: part0-note
 ## Una nota para el lector
 
 Al igual que en los procesos de desarrollo cognitivo, comprender precede a actuar. Esta parte del portafolio no se centra en aplicaciones concretas ni en resultados visibles, sino en los desplazamientos que han ido transformando mi manera de interpretar la docencia y la mentoría. Más que reconstruir actividades o herramientas, busca identificar cómo han cambiado las preguntas desde las que observo, evalúo y acompaño procesos de cambio docente.
 
 Las reflexiones que siguen se articulan en torno a tres miradas —metodológica, evaluativa y relacional— desde las que releo los procesos de enseñanza, aprendizaje y acompañamiento docente.
+::: 
+
+:::::: {.part0-lienzo .part0-temdu}
 
 ::: part0-lienzo-tag
 LECTURA
 :::
 
-:::: part0-lienzo-main
-::: part0-bigword
-leer situaciones
-:::
+::: {.part0-lienzo-main}
+
+<div class="part0-bigword">leer situaciones</div>
 
 <p>La intervención empieza antes de actuar.</p>
 
 <a class="part0-evidence-button" href="ruta/a/tu/evidencia.pdf">Ver evidencia</a>
-::::
+
+:::
 
 ::: part0-lienzo-panel
+
 Con el tiempo, la metodología ha dejado de aparecer como un conjunto de estrategias para convertirse en una forma de interpretar situaciones complejas. La cuestión central ya no es qué herramienta utilizar, sino cómo comprender lo que está ocurriendo antes de decidir si intervenir, cómo hacerlo o incluso si conviene hacerlo. Más que aplicar procedimientos, implica sostener decisiones situadas, sensibles al contexto, a las personas implicadas y a aquello que todavía está emergiendo.
 :::
 :::::::
 
 ::::::: {.part0-lienzo .part0-docentia}
+
 ::: part0-lienzo-tag
 TIEMPOS
 :::
 
 :::: part0-lienzo-main
-::: part0-bigword
-procesos abiertos
-:::
+
+<div class="part0-bigword">procesos abiertos</div>
 
 <p>Evaluar también implica esperar.</p>
 
 <a class="part0-evidence-button" href="ruta/a/tu/evidencia.pdf">Ver evidencia</a>
-::::
+
+:::
 
 ::: part0-lienzo-panel
+
 La evaluación ha ido dejando de funcionar como un mecanismo para verificar resultados y pasando a convertirse en una herramienta para comprender procesos en curso. Su valor no reside únicamente en producir evidencias, sino en ayudar a interpretar qué está ocurriendo mientras todavía es posible ajustar decisiones. Esta mirada integra perspectivas diversas y asume que no todo lo relevante puede reducirse a indicadores inmediatos. Evaluar implica, también, resistir la tentación de cerrar demasiado pronto aquello que todavía se está construyendo.
+
 :::
 :::::::
 
 ::::::: {.part0-lienzo .part0-temu}
+
 ::: part0-lienzo-tag
 VÍNCULO
 :::
 
 :::: part0-lienzo-main
-::: part0-bigword
-pensar juntos
-:::
+
+<div class="part0-bigword">pensar juntos</div>
 
 <p>Ningún proceso se sostiene completamente en solitario.</p>
 
 <a class="part0-evidence-button" href="ruta/a/tu/evidencia.pdf">Ver evidencia</a>
-::::
+
+:::
 
 ::: part0-lienzo-panel
+
 La dimensión relacional ha ido dejando de entenderse como un contexto que acompaña los procesos de aprendizaje para convertirse en una condición que los hace posibles. El vínculo no solo sostiene la confianza o la colaboración; también influye en cómo se interpretan las situaciones, cómo se recibe el feedback y qué transformaciones pueden llegar a producirse. Desde esta perspectiva, acompañar implica atender a una tensión permanente: crear espacios suficientemente seguros para favorecer la revisión de la práctica sin renunciar al desafío que el aprendizaje exige.
+
 :::
 :::::::
 
-:::::: part0-question
+:::: part0-question
 ::: part0-question-label
 Pregunta que atraviesa esta parte
 :::
@@ -108,7 +118,8 @@ Durante este primer año del TEMU no han cambiado únicamente las herramientas d
 :::
 
 ::: part0-question-main
-Comprender mejor los procesos es parte del propio proceso de cambio.
+Comprender mejor los procesos es parte del propio proceso de cambio
 :::
-::::::
-::::::::::::::::::::::::::::::
+::::
+
+:::::::::::::::::::::::::
