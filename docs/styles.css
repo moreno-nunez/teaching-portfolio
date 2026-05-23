@@ -703,8 +703,8 @@ body:has(.part0-page) #quarto-content .container-xxl{
   overflow: hidden;
 
   display: grid;
-  grid-template-columns: minmax(0, .95fr) minmax(560px, .85fr);
-  gap: clamp(2rem, 5vw, 4.5rem);
+  grid-template-columns: minmax(360px, .85fr) minmax(560px, 1.05fr);
+  gap: clamp(3rem, 5vw, 5rem);
   align-items: center;
 
   box-shadow: 0 28px 70px rgba(85,107,90,.12);
@@ -767,7 +767,9 @@ body:has(.part0-page) #quarto-content .container-xxl{
   position: relative;
   z-index: 2;
   align-self: center;
-  max-width: 760px;
+  max-width: 760px;  
+  min-width: 0;
+  overflow: hidden;
   padding-top: 2.4rem;
 }
 
@@ -817,6 +819,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
   z-index: 3;
   align-self: center;
   max-width: 620px;
+  justify-self: end;
 
   opacity: 0;
   transform: translateX(1.8rem);
@@ -1072,5 +1075,5 @@ body:has(.part0-page) #quarto-content .container-xxl{
   font-weight: 600 !important;
   line-height: var(--h1-lh) !important;
   letter-spacing: -0.01em !important;
-  max-width: 620px !important;
+  max-width: 100% !important;
 }
