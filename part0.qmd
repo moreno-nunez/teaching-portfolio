@@ -23,7 +23,7 @@ Parte 0 · empezar
 :::
 
 ::: part0-subtitle
- –  DESDE DÓNDE ESCRIBO ESTE PORTAFOLIO
+Desde dónde escribo este portafolio
 :::
 
 :::::: part0-hero-bottom
