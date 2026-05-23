@@ -693,6 +693,11 @@ body:has(.part0-page) #quarto-content .container-xxl{
    PART 0 — lienzos
    ========================================================================== */
 
+.part0-lienzo,
+.part0-lienzo *{
+  box-sizing: border-box;
+}
+
 .part0-lienzo{
   width: min(var(--part0-max), calc(100% - 2 * var(--part0-page-pad)));
   min-height: 68vh;
@@ -703,7 +708,10 @@ body:has(.part0-page) #quarto-content .container-xxl{
   overflow: hidden;
 
   display: grid;
-  grid-template-columns: minmax(300px, .82fr) minmax(560px, 1.18fr) clamp(2rem, 4vw, 4rem);
+  grid-template-columns: 
+  minmax(300px, .82fr) 
+  minmax(560px, 1.18fr) 
+  clamp(2rem, 4vw, 4rem);
   gap: clamp(2.5rem, 4vw, 4rem);
   align-items: center;
 
