@@ -773,11 +773,14 @@ body:has(.part0-page) #quarto-content .container-xxl{
 
 .part0-bigword{
   display: block !important;
+  
   font-family: var(--font-display) !important;
-  font-size: clamp(3.6rem, 7vw, 7.2rem) !important;
-  font-weight: 700 !important;
-  line-height: .82 !important;
-  letter-spacing: -.06em !important;
+  font-size: var(--h1-size) !important;
+  font-weight: 600 !important;
+
+  line-height: var(--h1-lh) !important;
+  letter-spacing: -0.01em !important;
+
   color: #3e5244 !important;
   opacity: 1 !important;
   margin: 0 0 1.4rem !important;
@@ -1057,14 +1060,6 @@ body:has(.part0-page) #quarto-content .container-xxl{
   }
 }
 
-.part0-docentia .part0-bigword,
-.part0-temu .part0-bigword{
-  font-size: clamp(2.4rem, 5.4vw, 5.6rem) !important;
-  line-height: .9 !important;
-  letter-spacing: -.035em !important;
-  max-width: 620px;
-}
-
 /* ==========================================================================
    Ajustes finales coherentes lienzos
    ========================================================================== */
@@ -1074,18 +1069,6 @@ body:has(.part0-page) #quarto-content .container-xxl{
   font-size: clamp(2.8rem, 5.4vw, 5.6rem) !important;
   line-height: .9 !important;
   letter-spacing: -.035em !important;
-  max-width: 620px;
-}
-
-.part0-temdu .part0-bigword,
-.part0-docentia .part0-bigword,
-.part0-temu .part0-bigword{
-  color: #3e5244 !important;
-
-  font-size: clamp(2.8rem, 5.4vw, 5.6rem) !important;
-  line-height: .9 !important;
-  letter-spacing: -.035em !important;
-
   max-width: 620px;
 }
 
