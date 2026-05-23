@@ -703,7 +703,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
   overflow: hidden;
 
   display: grid;
-  grid-template-columns: minmax(0, .9fr) minmax(520px, 1fr);
+  grid-template-columns: minmax(0, .95fr) minmax(560px, .85fr);
   gap: clamp(2rem, 5vw, 4.5rem);
   align-items: center;
 
