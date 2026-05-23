@@ -1,6 +1,6 @@
 
 ---
-title: "punto de partida"
+title: ""
 page-layout: full
 format: html
 editor: visual
