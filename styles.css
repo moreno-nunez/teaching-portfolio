@@ -703,7 +703,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
   overflow: hidden;
 
   display: grid;
-  grid-template-columns: minmax(300px, .82fr) minmax(560px, 1.18fr);
+  grid-template-columns: minmax(300px, .82fr) minmax(560px, 1.18fr) clamp(1.5rem, 3vw, 3rem);
   gap: clamp(2.5rem, 4vw, 4rem);
   align-items: center;
 
@@ -816,13 +816,13 @@ body:has(.part0-page) #quarto-content .container-xxl{
 }
 
 .part0-lienzo-panel{
-  position: relative;
+  grid-column: 2;
   z-index: 3;
   align-self: center;
-  width: min(100%, 580px);
-  max-width: 580px;
+  width: min(100%, 600px);
+  max-width: 600px;
   justify-self: end;
-  margin-right: clamp(1.2rem, 2vw, 2rem);
+  margin-right: 0;
 
   opacity: 0;
   transform: translateX(1.8rem);
