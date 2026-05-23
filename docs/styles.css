@@ -703,7 +703,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
   overflow: hidden;
 
   display: grid;
-  grid-template-columns: minmax(300px, .82fr) minmax(560px, 1.18fr) clamp(1.5rem, 3vw, 3rem);
+  grid-template-columns: minmax(300px, .82fr) minmax(560px, 1.18fr) clamp(2rem, 4vw, 4rem);
   gap: clamp(2.5rem, 4vw, 4rem);
   align-items: center;
 
@@ -764,6 +764,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
 }
 
 .part0-lienzo-main{
+  grid-column: 1;
   position: relative;
   z-index: 2;
   align-self: center;
