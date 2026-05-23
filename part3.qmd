@@ -41,7 +41,7 @@ Parte 0 · empezar
 ::: part0-note
 ## Una nota para el lector
 
-Este portafolio se organiza desde una lógica similar a la que atraviesa mi docencia en Desarrollo Cognitivo y Lingüístico: priorizar la lectura de los procesos antes de buscar cambios visibles. Desde ahí se leen las reflexiones que siguen.
+Este portafolio se organiza desde una lógica presente también en mi trabajo sobre desarrollo cognitivo y lingüístico: leer los procesos antes de buscar cambios visibles. No como una metáfora, sino como una forma de interpretar también los procesos de desarrollo profesional docente.
 :::
 
 :::::: {.part0-lienzo .part0-temdu}
@@ -149,6 +149,12 @@ La diferencia no ha estado tanto en los contenidos como en el tipo de experienci
 :::: part0-question
 ::: part0-question-label
 Pregunta que abre el portafolio
+:::
+
+::: part0-note
+## Una nota para el lector
+
+Este portafolio recoge principalmente desplazamientos en la manera de mirar, evaluar, intervenir y acompañar en la docencia. Más que registrar cambios concretos, reconstruye cómo han cambiado las preguntas desde las que interpreto mi propia práctica.
 :::
 
 ## El principal avance no es hacer algo distinto, sino entender lo que hago de otra manera
