@@ -47,7 +47,7 @@ RELACIONES
 
 :::: part0-lienzo-main
 ::: part0-bigword
-desde la relación
+<div class="part0-bigword">desde la relación</div>
 :::
 
 <p>El acompañamiento empieza antes que las propuestas.</p>
@@ -67,7 +67,7 @@ CONDICIONES
 
 :::: part0-lienzo-main
 ::: part0-bigword
-diseñar condiciones
+<div class="part0-bigword">diseñar condiciones</div>
 :::
 
 <p>Ayudar no siempre consiste en ofrecer respuestas.</p>
@@ -87,7 +87,7 @@ PREGUNTAS
 
 :::: part0-lienzo-main
 ::: part0-bigword
-nuevas preguntas
+<div class="part0-bigword">nuevas preguntas</div>
 :::
 
 <p>No todo lo que se comprende puede transformarse.</p>
@@ -111,7 +111,7 @@ A medida que la comprensión de los procesos de cambio se vuelve más compleja, 
 :::
 
 ::: part0-question-main
-A veces el cambio más importante no está en intervenir de otra manera, sino en ocupar de otro modo el lugar desde el que se acompaña.
+A veces el cambio más importante no está en intervenir de otra manera, sino en ocupar de otro modo el lugar desde el que se acompaña
 :::
 ::::::
 
