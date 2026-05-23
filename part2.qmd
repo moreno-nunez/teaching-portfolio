@@ -44,9 +44,7 @@ DECIDIR
 :::
 
 :::: part0-lienzo-main
-::: part0-bigword
-antes de intervenir
-:::
+<div class="part0-bigword">antes de intervenir</div>
 
 <p>Comprender también es una forma de decidir.</p>
 
@@ -64,9 +62,7 @@ RECONOCER
 :::
 
 :::: part0-lienzo-main
-::: part0-bigword
-lo que sostiene
-:::
+<div class="part0-bigword">lo que sostiene</div>
 
 <p>No todo lo que hace posible el cambio es inmediatamente visible.</p>
 
@@ -84,9 +80,7 @@ SOSTENER
 :::
 
 :::: part0-lienzo-main
-::: part0-bigword
-tensiones abiertas
-:::
+<div class="part0-bigword">tensiones abiertas</div>
 
 <p>Comprender mejor no elimina necesariamente los límites del proceso.</p>
 
