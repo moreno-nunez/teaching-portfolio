@@ -819,8 +819,8 @@ body:has(.part0-page) #quarto-content .container-xxl{
   position: relative;
   z-index: 3;
   align-self: center;
-  width: min(100%, 590px);
-  max-width: 590px;
+  width: min(100%, 600px);
+  max-width: 600px;
   justify-self: end;
   margin-right: 0;
 
