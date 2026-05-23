@@ -888,8 +888,8 @@ body:has(.part0-page) #quarto-content .container-xxl{
 
 .part0-question{
   min-height: auto;
-  padding-top: 3rem;
-  padding-bottom: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -908,7 +908,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
   text-transform: uppercase;
   letter-spacing: .16em;
   color: var(--raspberry-soft);
-  margin-bottom: 1.6rem;
+  margin-bottom: 1rem;
 }
 
 .part0-question p{
@@ -924,6 +924,9 @@ body:has(.part0-page) #quarto-content .container-xxl{
   text-transform: none;
   color: var(--raspberry);
   margin-bottom: 0;
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid var(--border);
+
 }
 
 /* ==========================================================================
