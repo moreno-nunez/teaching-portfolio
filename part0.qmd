@@ -1,16 +1,24 @@
 
+---
+title: "punto de partida"
+format: html
+editor: visual
+---
+
+
 ::::::::::::::::::::::::: part0-page
 ::::::::: part0-hero
 ::: part0-kicker
 Parte 0 · empezar
 :::
 
----
-title: "punto de partida"
-format: html
-editor: visual
----
-## Desde dónde escribo este portafolio
+::: part0-title
+# punto de partida {.part0-title}
+:::
+
+::: part0-subtitle
+ –  DESDE DÓNDE ESCRIBO ESTE PORTAFOLIO
+:::
 
 :::::: part0-hero-bottom
 ::: part0-hero-image
@@ -19,7 +27,7 @@ editor: visual
 
 :::: part0-hero-side
 ::: part0-lead
-## Una trayectoria docente larga, pero constantemente abierta a revisión {.part0-lead}
+### Una trayectoria docente larga, pero constantemente abierta a revisión {.part0-lead}
 :::
 ::::
 ::::::
