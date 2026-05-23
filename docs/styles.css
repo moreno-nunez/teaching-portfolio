@@ -1041,7 +1041,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
 
 .part0-docentia .part0-bigword,
 .part0-temu .part0-bigword{
-  font-size: clamp(2.8rem, 5.4vw, 5.6rem) !important;
+  font-size: clamp(2.4rem, 5.4vw, 5.6rem) !important;
   line-height: .9 !important;
   letter-spacing: -.035em !important;
   max-width: 620px;
