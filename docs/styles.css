@@ -196,7 +196,7 @@ body.home .home-hero{
   grid-template-columns: minmax(420px, 0.9fr) minmax(520px, 1.1fr);
   gap: clamp(4rem, 7vw, 7rem);
   align-items: center;
-  transform: translateY(-3.2rem);
+  transform: translateY(-1.5rem);
 }
 
 body.home .home-hero__logo{
