@@ -5,6 +5,12 @@ format: html
 editor: visual
 ---
 
+---
+title: ""
+page-layout: full
+format: html
+editor: visual
+---
 
 ::::::::::::::::::::::::: part0-page
 ::::::::: part0-hero
