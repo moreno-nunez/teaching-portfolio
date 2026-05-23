@@ -137,9 +137,13 @@ El valor principal de esta experiencia no ha estado en incorporar nuevas herrami
 Pregunta que abre el portafolio
 :::
 
-### Este portafolio recoge principalmente desplazamientos en la manera de mirar, evaluar, intervenir y acompañar en la docencia. Más que registrar cambios concretos, reconstruye cómo han cambiado las preguntas desde las que interpreto mi propia práctica.
+::: part0-question-intro
+Este portafolio recoge principalmente desplazamientos en la manera de mirar, evaluar, intervenir y acompañar en la docencia. Más que registrar cambios concretos, reconstruye cómo han cambiado las preguntas desde las que interpreto mi propia práctica.
+:::
 
-
-## El principal avance no es hacer algo distinto, sino entender lo que hago de otra manera
+::: part0-question-main
+El principal avance no es hacer algo distinto, sino entender lo que hago de otra manera
+:::
 ::::
+
 :::::::::::::::::::::::::

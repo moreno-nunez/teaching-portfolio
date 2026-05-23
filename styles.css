@@ -898,7 +898,6 @@ body:has(.part0-page) #quarto-content .container-xxl{
   margin: 0 auto;
   padding-left: 0;
   padding-right: 0;
-
 }
 
 .part0-question-label{
@@ -908,25 +907,41 @@ body:has(.part0-page) #quarto-content .container-xxl{
   text-transform: uppercase;
   letter-spacing: .16em;
   color: var(--raspberry-soft);
-  margin-bottom: 1rem;
+  margin-bottom: 1.4rem;
+}
+
+.part0-question-intro{
+  max-width: 980px;
+  margin: 0 0 3rem 0;
+
+  font-family: var(--font-subtitle);
+  font-size: clamp(1.25rem, 1.8vw, 1.7rem);
+  line-height: 1.35;
+  font-weight: 600;
+  color: var(--text);
 }
 
 .part0-question p{
-  margin-bottom: 3rem;
+  margin: 0;
+  font-family: inherit !important;
 }
 
-.part0-question h2{
+.part0-question-main{
   max-width: 900px;
+  padding-bottom: 1.8rem;
+  border-bottom: 1px solid var(--border);
+
   font-family: var(--font-display);
   font-size: var(--h1-size);
   line-height: var(--h1-lh);
   letter-spacing: -0.01em;
-  text-transform: none;
+  font-weight: 600;
   color: var(--raspberry);
-  margin-bottom: 0;
-  padding-bottom: 1.2rem;
-  border-bottom: 1px solid var(--border);
+}
 
+.part0-question-main p{
+  margin: 0;
+  font-family: inherit !important;
 }
 
 /* ==========================================================================
