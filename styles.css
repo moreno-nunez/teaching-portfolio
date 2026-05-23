@@ -709,10 +709,10 @@ body:has(.part0-page) #quarto-content .container-xxl{
 
   display: grid;
   grid-template-columns: 
-  minmax(300px, .82fr) 
-  minmax(560px, 1.18fr) 
-  clamp(2rem, 4vw, 4rem);
-  gap: clamp(2.5rem, 4vw, 4rem);
+  minmax(300px, .78fr) 
+  minmax(0, 600px) 
+  clamp(2.5rem, 5, 5rem);
+  column-gap: clamp(2.5rem, 4vw, 4rem);
   align-items: center;
 
   box-shadow: 0 28px 70px rgba(85,107,90,.12);
@@ -828,9 +828,9 @@ body:has(.part0-page) #quarto-content .container-xxl{
   grid-column: 2;
   z-index: 3;
   align-self: center;
-  width: min(100%, 600px);
+  width: 100%;
   max-width: 600px;
-  justify-self: end;
+  justify-self: stretch;
   margin-right: 0;
 
   opacity: 0;
