@@ -560,28 +560,28 @@ body:has(.part0-page) #quarto-content .container-xxl{
   grid-area: subtitle !important;
 
   font-family: var(--font-subtitle) !important;
-  font-size: var(--h2-size) !important;
   font-weight: 500 !important;
+  font-size: var(--h2-size) !important;
+  line-height: 1.2 !important;
+
   text-transform: uppercase !important;
-  letter-spacing: .14em !important;
+  letter-spacing: var(--h2-track) !important;
   color: var(--text) !important;
   
-  margin: 1.05rem 0 2.2rem 0 !important;
-  padding-bottom: .75rem !important;
+  margin: .06rem 0 0 0 !important;
+  padding: 0 0 .55rem 0 !important;
   border-bottom: 1px solid var(--border) !important;
-  
-  line-height: 1.25 !important;
 }
 
 .part0-hero-bottom{
   grid-area: bottom !important;
+  margin-top: 2.1rem !important;
 
   display: grid !important;
   grid-template-columns: minmax(420px, 1.1fr) minmax(340px, .75fr) !important;
   gap: clamp(3rem, 7vw, 7rem) !important;
 
   align-items: center !important;
-  margin-top: 2rem !important;
   position: static !important;
 }
 
