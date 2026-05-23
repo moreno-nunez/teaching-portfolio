@@ -5,7 +5,7 @@ format: html
 editor: visual
 ---
 
-:::::::::::::::::::::::::::::: part0-page
+::::::::::::::::::::::::::::::: part0-page
 :::::::::: part0-hero
 ::: part0-kicker
 Parte II · revisar
@@ -36,78 +36,69 @@ Límites, posibilidades y decisiones emergentes
 ## Clave de lectura
 
 Los bloques que siguen no describen resultados ni buenas prácticas. Recogen desplazamientos en la manera de interpretar situaciones de docencia y acompañamiento cuya complejidad se vuelve más visible a medida que avanza la comprensión.
-::: 
+:::
 
-:::::: {.part0-lienzo .part0-temdu}
-
+::::::: {.part0-lienzo .part0-temdu}
 ::: part0-lienzo-tag
 DECIDIR
 :::
 
-::: {.part0-lienzo-main}
-
-<div class="part0-bigword">antes de intervenir</div>
+:::: part0-lienzo-main
+::: part0-bigword
+antes de intervenir
+:::
 
 <p>Comprender también es una forma de decidir.</p>
 
 <a class="part0-evidence-button" href="ruta/a/tu/evidencia.pdf">Ver evidencia</a>
-
-:::
+::::
 
 ::: part0-lienzo-panel
-
 Algunas decisiones han dejado de organizarse alrededor de la rapidez de la respuesta para desplazarse hacia la calidad de la comprensión. Empiezo a reconocer que intervenir no siempre es el primer paso más pertinente y que, en ocasiones, actuar demasiado pronto puede fijar lecturas todavía incompletas de la situación. La atención se desplaza así desde la búsqueda inmediata de soluciones hacia las condiciones que permiten entender mejor qué está ocurriendo, cómo se está formulando el problema y qué posibilidades quedan todavía sin explorar. Esta forma de mirar no elimina la necesidad de actuar, pero introduce una pregunta que permanece abierta: cuándo una situación necesita una intervención y cuándo requiere, todavía, seguir siendo observada.
-
 :::
 :::::::
 
 ::::::: {.part0-lienzo .part0-docentia}
-
 ::: part0-lienzo-tag
 RECONOCER
 :::
 
 :::: part0-lienzo-main
-
-<div class="part0-bigword">lo que sostiene</div>
+::: part0-bigword
+lo que sostiene
+:::
 
 <p>No todo lo que hace posible el cambio es inmediatamente visible.</p>
 
 <a class="part0-evidence-button" href="ruta/a/tu/evidencia.pdf">Ver evidencia</a>
-
-:::
+::::
 
 ::: part0-lienzo-panel
-
 Durante mucho tiempo tendí a situar la atención en las decisiones, las propuestas o las acciones que podían impulsar una transformación. Poco a poco, sin embargo, algunas situaciones empezaron a mostrar que el cambio no depende únicamente de lo que se hace, sino también de aquello que permite que determinadas acciones lleguen a tener sentido, continuidad o impacto. El vínculo, los tiempos disponibles, las oportunidades para revisar el proceso o las condiciones institucionales dejan de aparecer como elementos de contexto para ocupar un lugar más central en la lectura de las situaciones. Esta comprensión amplía el foco de análisis, pero mantiene abierta una tensión importante: muchas de las condiciones que sostienen o limitan el cambio pueden reconocerse con claridad sin que necesariamente sea posible modificarlas.
-
 :::
 :::::::
 
 ::::::: {.part0-lienzo .part0-temu}
-
 ::: part0-lienzo-tag
 SOSTENER
 :::
 
 :::: part0-lienzo-main
-
-<div class="part0-bigword">tensiones abiertas</div>
+::: part0-bigword
+tensiones abiertas
+:::
 
 <p>Comprender mejor no elimina necesariamente los límites del proceso.</p>
 
 <a class="part0-evidence-button" href="ruta/a/tu/evidencia.pdf">Ver evidencia</a>
-
-:::
+::::
 
 ::: part0-lienzo-panel
-
 A medida que algunas situaciones empiezan a leerse con mayor complejidad, también se vuelve más visible aquello que no depende por completo de la calidad de las decisiones tomadas. Determinados obstáculos dejan de interpretarse como errores corregibles o como problemas atribuibles únicamente a las personas implicadas para aparecer como parte constitutiva de los propios procesos de acompañamiento. Algunos remiten a las condiciones institucionales en las que se trabaja; otros emergen en la propia práctica profesional; otros aparecen precisamente allí donde dos prioridades igualmente valiosas entran en tensión. Entre ellas, una pregunta adquiere un peso creciente: cómo introducir el desafío necesario para que algo pueda cambiar sin poner en riesgo el vínculo que hace posible sostener ese cambio. No es una cuestión resuelta, sino una tensión que sigue orientando la mirada.
-
 :::
 :::::::
 
-:::: part0-question
+:::::: part0-question
 ::: part0-question-label
 Pregunta que atraviesa esta parte
 :::
@@ -119,6 +110,5 @@ Comprender mejor una situación no garantiza poder transformarla. Sin embargo, m
 ::: part0-question-main
 Las tensiones no desaparecen cuando se comprenden mejor. Lo que cambia es la forma de acompañarlas
 :::
-::::
-
-:::::::::::::::::::::::::
+::::::
+:::::::::::::::::::::::::::::::
