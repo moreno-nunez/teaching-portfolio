@@ -32,7 +32,7 @@ Parte 0 · empezar
 
 :::: part0-hero-side
 ::: part0-lead
-### Una trayectoria académica y formativa desde la que releer la docencia universitaria {.part0-lead}
+### Una trayectoria docente larga, pero constantemente abierta a revisión {.part0-lead}
 :::
 ::::
 ::::::
