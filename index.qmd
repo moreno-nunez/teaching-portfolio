@@ -27,9 +27,10 @@ editor: source
 
 ::: {.home-hero__text}
 ::: {.home-intro}
-Soy profesora de Psicología en la UAM.
+Soy profesora de Psicología en la Universidad Autónoma de Madrid.
 
-Este portafolio documenta un recorrido de reflexión y aprendizaje desarrollado en el marco del Título de Experto en Mentoría Universitaria.
+Este portafolio documenta un recorrido de reflexión y aprendizaje desarrollado en el marco del Título de Experto en Mentoría Universitaria (TEMU). Reúne algunos de los aprendizajes más significativos construidos durante la formación, las evidencias que ilustran su impacto en mi práctica docente y la reflexión sobre cómo estos orientan mi desarrollo como mentora.
+
 :::
 :::
 
