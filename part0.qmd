@@ -91,7 +91,7 @@ Durante años entendí la mejora docente principalmente como una cuestión de di
 :::
 ::::::
 
-:::::: {.part0-lienzo .part0-temu}
+:::::: {.part0-lienzo .part0-preguntas}
 
 ::: part0-lienzo-tag
 ESTRATEGIAS
