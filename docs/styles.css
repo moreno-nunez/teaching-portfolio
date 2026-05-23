@@ -228,7 +228,7 @@ body.home .home-hero__logo .social-icons{
 body.home .home-hero__text{
   max-width: 620px;
   text-align: left;
-  transform: translateY(-0.7rem);
+  transform: none;
 }
 
 body.home .home-intro p{
