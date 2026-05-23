@@ -47,7 +47,7 @@ Este portafolio se organiza desde una lógica presente también en mi trabajo so
 :::::: {.part0-lienzo .part0-temdu}
 
 ::: part0-lienzo-tag
-TEMDU
+INICIOS
 :::
 
 ::: {.part0-lienzo-main}
@@ -70,7 +70,7 @@ Mucho antes de participar en programas de formación docente, ya me interesaba u
 :::::: {.part0-lienzo .part0-docentia}
 
 ::: part0-lienzo-tag
-DOCENTIA
+APRENDIZAJES
 :::
 
 ::: {.part0-lienzo-main}
@@ -93,7 +93,7 @@ Durante años entendí la mejora docente principalmente como una cuestión de di
 :::::: {.part0-lienzo .part0-temu}
 
 ::: part0-lienzo-tag
-REFLEXION
+REFLEXIONES
 :::
 
 ::: {.part0-lienzo-main}
@@ -116,7 +116,7 @@ Con el tiempo he ido comprobando que algunas de las cuestiones más importantes 
 :::::: {.part0-lienzo .part0-temu}
 
 ::: part0-lienzo-tag
-TEMU
+REDES
 :::
 
 ::: {.part0-lienzo-main}
