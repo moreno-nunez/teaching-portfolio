@@ -1064,15 +1064,13 @@ body:has(.part0-page) #quarto-content .container-xxl{
    Ajustes finales coherentes lienzos
    ========================================================================== */
 
+.part0-temdu .part0-bigword,
 .part0-docentia .part0-bigword,
-.part0-temu .part0-bigword{
-  font-size: clamp(2.8rem, 5.4vw, 5.6rem) !important;
-  line-height: .9 !important;
-  letter-spacing: -.035em !important;
-  max-width: 620px;
-}
-
-.part0-question{
-  margin-top: clamp(3rem, 7vw, 6rem);
-  clear: both;
+.part0-temu .part0-bigword,
+.part0-bigword{
+  font-size: var(--h1-size) !important;
+  font-weight: 600 !important;
+  line-height: var(--h1-lh) !important;
+  letter-spacing: -0.01em !important;
+  max-width: 620px !important;
 }
