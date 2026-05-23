@@ -545,9 +545,9 @@ body:has(.part0-page) #quarto-content .container-xxl{
   max-width: none !important;
 
   font-family: var(--font-display) !important;
-  font-size: clamp(2.4rem, 4.2vw, 3.9rem) !important;
-  line-height: .84 !important;
-  letter-spacing: -.06em !important;
+  font-size: var(--h1-size);
+  line-height: var(--h1-lh);
+  letter-spacing: -0.01em;
 
   color: var(--raspberry) !important;
   text-transform: none !important;
@@ -561,10 +561,15 @@ body:has(.part0-page) #quarto-content .container-xxl{
 
   margin: 1.2rem 0 1.2rem 0 !important;
 
-  font-family: var(--font-body) !important;
-  font-size: 1rem !important;
-  line-height: 1.6 !important;
+  font-family: var(--font-subtitle);
+  font-size: var(--h2-size);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: var(--h2-track);
   color: var(--text) !important;
+  
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .part0-hero-bottom{
@@ -575,7 +580,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
   gap: clamp(3rem, 7vw, 7rem) !important;
 
   align-items: center !important;
-  margin-top: 0 !important;
+  margin-top: 2rem !important;
   position: static !important;
 }
 
