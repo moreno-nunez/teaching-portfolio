@@ -33,7 +33,7 @@ Aprendizajes del primer año del TEMU
 ::::::::::
 
 ::: part0-note
-## Una nota para el lector
+## Clave de lectura
 
 Al igual que en los procesos de desarrollo cognitivo, comprender precede a actuar. Esta parte del portafolio no se centra en aplicaciones concretas ni en resultados visibles, sino en los desplazamientos que han ido transformando mi manera de interpretar la docencia y la mentoría. Más que reconstruir actividades o herramientas, busca identificar cómo han cambiado las preguntas desde las que observo, evalúo y acompaño procesos de cambio docente.
 

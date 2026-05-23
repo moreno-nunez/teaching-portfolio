@@ -35,7 +35,7 @@ Desde dónde escribo este portafolio
 :::::::::
 
 ::: part0-note
-## Una nota para el lector
+## Clave de lectura
 
 Este portafolio se organiza desde una lógica presente también en mi trabajo sobre desarrollo cognitivo y lingüístico: leer los procesos antes de buscar cambios visibles. No como una metáfora, sino como una forma de interpretar también los procesos de desarrollo profesional docente.
 :::
