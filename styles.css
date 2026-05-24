@@ -260,7 +260,7 @@ body.home .home-hero__text{
 }
 
 body.home .home-heading{
-  font-family: var(--font-display);
+  font-family: var(--font-display) !important;
   font-size: clamp(2rem, 3vw, 3rem);
   line-height: 1.05;
   font-weight: 600;
@@ -269,9 +269,9 @@ body.home .home-heading{
 }
 
 body.home .home-program{
-  font-family: var(--font-subtitle);
+  font-family: var(--font-body);
   font-size: .82rem;
-  font-weight: 500;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .14em;
   color: var(--raspberry-soft);
@@ -605,12 +605,12 @@ body:has(.part0-page) #quarto-content .container-xxl{
   padding: 0 0 .45rem 0 !important;
   border-bottom: 1px solid var(--border) !important;
   
-  font-family: var(--font-subtitle) !important;
-  font-weight: 500 !important;
-  font-size: var(--h2-size) !important;
-  line-height: 1.2 !important;
+  font-family: var(--font-body) !important;
+  font-weight: 700 !important;
+  font-size: .82rem !important;
+  line-height: 1.35 !important;
   text-transform: uppercase !important;
-  letter-spacing: var(--h2-track) !important;
+  letter-spacing: .14em !important;
   color: var(--text) !important;
 }
 
