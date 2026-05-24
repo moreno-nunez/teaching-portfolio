@@ -208,7 +208,7 @@ body.home .home-hero{
   align-items: center;
   padding-top: clamp(4rem, 8vh, 6rem);
   padding-bottom: clamp(3rem, 6vh, 5rem);
-  transform: translateY(-1rem);
+  transform: translateY(-0.5rem);
 }
 
 body.home .home-hero__logo{
