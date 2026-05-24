@@ -271,7 +271,7 @@ body.home .home-heading{
 body.home .home-program{
   font-family: var(--font-body);
   font-size: .82rem;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: .14em;
   color: var(--raspberry-soft);
@@ -602,15 +602,15 @@ body:has(.part0-page) #quarto-content .container-xxl{
   grid-area: subtitle !important;
 
   margin: .55rem 0 0 0 !important;
-  padding: 0 0 .45rem 0 !important;
+  padding: 0 0 .55rem 0 !important;
   border-bottom: 1px solid var(--border) !important;
   
   font-family: var(--font-body) !important;
-  font-weight: 700 !important;
-  font-size: .82rem !important;
+  font-weight: 500 !important;
+  font-size: clamp(.95rem, 1.15vw, 1.15rem) !important;
   line-height: 1.35 !important;
   text-transform: uppercase !important;
-  letter-spacing: .14em !important;
+  letter-spacing: .16em !important;
   color: var(--text) !important;
 }
 
