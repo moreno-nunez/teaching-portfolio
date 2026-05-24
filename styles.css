@@ -323,8 +323,8 @@ body.home .home-keywords{
 @media (max-width: 1150px){
   body.home .home-hero{
     min-height: auto;
-    grid-template-columns: 0.85fr 1.15fr;
-    gap: 2.4rem;
+    grid-template-columns: minmax(560px, 1.15fr) minmax(420px, .85fr);
+    gap: clamp(3rem, 5vw, 5rem);
     transform: none;
     padding-top: 3rem;
   }
@@ -333,6 +333,7 @@ body.home .home-keywords{
     align-items: center;
     text-align: center;
     margin: 0 auto;
+    max-width: 520px;
   }
 
   body.home .home-hero__logo .social-icons{
@@ -345,6 +346,7 @@ body.home .home-keywords{
     text-align: center;
     margin: 0 auto;
     transform: none;
+    max-width: 640px;
   }
 }
 
