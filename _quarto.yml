@@ -5,6 +5,7 @@ project:
 website:
   title: "TEMU-UAM"
   navbar:
+    collapse: false
     left:
       - href: index.qmd
         text: home
