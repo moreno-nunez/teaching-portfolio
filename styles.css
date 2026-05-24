@@ -201,12 +201,13 @@ body.home #quarto-content{
 body.home .home-hero{
   max-width: var(--home-body-max);
   margin: 0 auto;
-  min-height: calc(100vh - var(--nav-h));
+  min-height: auto;
   display: grid;
   grid-template-columns: minmax(420px, 0.9fr) minmax(520px, 1.1fr);
   gap: clamp(2.5rem, 5vw, 5rem);
   align-items: center;
-  padding-top: clamp(4rem, 8vh, 6rem);
+  padding-top: clamp(3rem, 6vh, 5rem);
+  padding-bottom: clamp(3rem, 6vh, 5rem);
   transform: translateY(-1rem);
 }
 
