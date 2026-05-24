@@ -269,7 +269,8 @@ body.home .home-heading p{
   margin: 0 0 .65rem 0;
 }
 
-body.home .home-program{
+body.home .home-program,
+body.home .home-program p{
   font-family: var(--font-body);
   font-size: .82rem;
   font-weight: 600;
@@ -322,7 +323,7 @@ body.home .home-keywords{
 @media (max-width: 1150px){
   body.home .home-hero{
     min-height: auto;
-    grid-template-columns: 1fr;
+    grid-template-columns: 0.85fr 1.15fr;
     gap: 2.4rem;
     transform: none;
     padding-top: 3rem;
