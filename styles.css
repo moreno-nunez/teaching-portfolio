@@ -74,7 +74,7 @@ body{
 .navbar{
   background: var(--nav-bg) !important;
   border-bottom: 1px solid var(--border);
-  min-height: var(--nav-h);
+  min-height: 72px;
 }
 
 .navbar > .container-fluid,
@@ -92,10 +92,11 @@ body{
   white-space: nowrap;
   display: flex !important;
   align-items: center !important;
+  margin-left: 1rem;
 }
 
   .navbar-brand img{
-  height: 42px !important;
+  height: 52px !important;
   width: auto !important;
   max-height: none !important;
   display: block !important;
@@ -1139,13 +1140,4 @@ body:has(.part0-page) #quarto-content .container-xxl{
   line-height: var(--h1-lh) !important;
   letter-spacing: -0.01em !important;
   max-width: 100% !important;
-}
-
-.navbar-brand{
-  outline: 1px solid red;
-}
-
-.navbar-brand img{
-  outline: 1px solid blue;
-  height: 56px !important;
 }
