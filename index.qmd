@@ -29,7 +29,7 @@ editor: source
 ::: {.home-hero__text}
 
 ::: home-heading
-Comprender el cambio
+comprender el cambio
 :::
 
 ::: home-program
