@@ -276,13 +276,13 @@ body.home .home-keywords{
   background: var(--social-pill);
 }
 
-@media (max-width: 900px){
+@media (max-width: 1150px){
   body.home .home-hero{
     min-height: auto;
     grid-template-columns: 1fr;
     gap: 2.4rem;
     transform: none;
-    padding-top: 2rem;
+    padding-top: 3rem;
   }
 
   body.home .home-hero__logo{
