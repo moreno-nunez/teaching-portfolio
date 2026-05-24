@@ -226,14 +226,14 @@ body.home .home-hero__logo .social-icons{
 }
 
 body.home .home-hero__text{
-  max-width: 620px;
+  max-width: 560px;
   text-align: left;
   transform: none;
 }
 
 body.home .home-intro p{
   font-family: var(--font-body) !important;
-  font-size: clamp(1.15rem, 1.5vw, 1.45rem);
+  font-size: clamp(1.05rem, 1.25vw, 1.3rem);
   line-height: 1.85;
   color: var(--text);
   text-transform: none;
