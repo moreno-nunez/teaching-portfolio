@@ -90,6 +90,8 @@ body{
   letter-spacing: .01em;
   color: var(--brand) !important;
   white-space: nowrap;
+  display: flex !important;
+  align-items: center !important;
 }
 
   .navbar-brand img{
@@ -1137,4 +1139,13 @@ body:has(.part0-page) #quarto-content .container-xxl{
   line-height: var(--h1-lh) !important;
   letter-spacing: -0.01em !important;
   max-width: 100% !important;
+}
+
+.navbar-brand{
+  outline: 1px solid red;
+}
+
+.navbar-brand img{
+  outline: 1px solid blue;
+  height: 56px !important;
 }
