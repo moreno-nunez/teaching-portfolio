@@ -259,14 +259,17 @@ body.home .home-hero__text{
   transform: none;
 }
 
-body.home .home-heading{
+body.home .home-heading,
+body.home .home-heading p{
   font-family: var(--font-display) !important;
+  font-weight: 600 !important;
   font-size: clamp(2rem, 3vw, 3rem);
   line-height: 1.05;
-  font-weight: 600;
   color: var(--raspberry);
   margin: 0 0 .65rem 0;
 }
+
+body.home .home-heading p
 
 body.home .home-program{
   font-family: var(--font-body);

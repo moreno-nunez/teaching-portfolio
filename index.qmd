@@ -26,7 +26,6 @@ editor: source
 :::
 
 ::: {.home-hero__text}
-::: {.home-hero__text}
 
 ::: home-heading
 comprender el cambio
