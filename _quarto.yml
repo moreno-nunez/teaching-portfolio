@@ -3,7 +3,6 @@ project:
   output-dir: docs
 
 website:
-  title: "TEMU-UAM"
   navbar:
     logo: images/logo-navbar.svg
     collapse: false
