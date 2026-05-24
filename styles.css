@@ -92,6 +92,13 @@ body{
   white-space: nowrap;
 }
 
+  .navbar-brand img{
+  height: 42px !important;
+  width: auto !important;
+  max-height: none !important;
+  display: block !important;
+}
+
 .navbar .navbar-collapse{
   display: flex !important;
   justify-content: flex-end !important;
