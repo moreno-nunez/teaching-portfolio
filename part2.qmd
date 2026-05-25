@@ -12,7 +12,7 @@ Parte II · acompañar
 :::
 
 ::: part0-title
-# cuando la comprensión toma forma {.part0-title}
+# cuando las decisiones toman forma {.part0-title}
 :::
 
 ::: part0-subtitle
