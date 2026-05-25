@@ -238,6 +238,7 @@ body.home .home-hero__logo .social-icons{
 }
 
 body.home .home-hero__text{
+  color: #545454;
   max-width: 680px;
   text-align: left;
   transform: none;
