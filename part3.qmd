@@ -8,7 +8,7 @@ editor: visual
 ::::::::::::::::::::::::::::::: part0-page
 :::::::::: part0-hero
 ::: part0-kicker
-Parte III · acompañar
+Parte III · sostener
 :::
 
 ::: part0-title

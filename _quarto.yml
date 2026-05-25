@@ -14,9 +14,9 @@ website:
       - href: part1.qmd
         text: comprender
       - href: part2.qmd
-        text: revisar
-      - href: part3.qmd
         text: acompañar
+      - href: part3.qmd
+        text: sostener
 format:
   html:
     theme: cosmo
