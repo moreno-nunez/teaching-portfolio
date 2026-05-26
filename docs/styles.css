@@ -27,8 +27,8 @@
   --font-subtitle: "Lora", serif;
   --font-body: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
 
-  --body-size: 17px;
-  --body-lh: 1.75;
+  --body-size: 15.5px;
+  --body-lh: 1.9;
 
   --h1-size: clamp(2.4rem, 4.2vw, 3.9rem);
   --h1-lh: 1.02;
@@ -351,7 +351,7 @@ body.home .home-keywords{
    ========================================================================== */
 
 .part-hero{
-  margin: 3.2rem 0 3rem;
+  margin: 4.5rem 0 4rem;
   padding: 0 0 2rem;
   border-bottom: 1px solid var(--border);
 }
@@ -477,7 +477,7 @@ body.home .home-keywords{
 }
 
 .section-block{
-  margin: 3.5rem 0;
+  margin: 5rem 0;
   padding-top: 1rem;
   border-top: 1px solid var(--border);
 }
