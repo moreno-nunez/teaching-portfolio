@@ -500,12 +500,9 @@ body.home .home-keywords{
    ========================================================================== */
 
 /* La Parte 0 necesita salir del ancho estrecho general */
-body:has(.part0-page) .part0-lienzo #quarto-content{
+body:has(.part0-page) #quarto-content{
   max-width: none !important;
-  width: min(1280px, calc(100% - 2 * clamp(2rem, 6vw, 7rem)));
-  min-height: 72vh;
-  padding: clamp(3rem, 5.5vw, 5.5rem);
-  margin-bottom: clamp(4rem, 7vw, 6rem);
+  padding: 0 !important;
 }
 
 body:has(.part0-page) .part0-lienzo-panel{
@@ -1193,4 +1190,38 @@ body:has(.part0-page) #quarto-content .container-xxl{
   line-height: var(--h1-lh) !important;
   letter-spacing: -0.01em !important;
   max-width: 100% !important;
+}
+
+/* ==========================================================================
+   Ajuste editorial PART 0 / PART III
+   ========================================================================== */
+
+body:has(.part0-page) .part0-lienzo{
+  width: min(1380px, calc(100% - 2 * clamp(2rem, 5vw, 6rem))) !important;
+  min-height: 72vh !important;
+  margin: 0 auto clamp(5.5rem, 8vw, 8rem) !important;
+  padding: clamp(3rem, 5.5vw, 5.5rem) !important;
+}
+
+body:has(.part0-page) .part0-lienzo-panel{
+  padding: clamp(2rem, 3vw, 2.8rem) !important;
+}
+
+body:has(.part0-page) .part0-lienzo-panel p{
+  font-size: .88rem !important;
+  line-height: 1.95 !important;
+  margin-bottom: 1rem !important;
+}
+
+body:has(.part0-page) .part0-lienzo-main p{
+  font-size: .95rem !important;
+  line-height: 1.9 !important;
+}
+
+body:has(.part0-page) .part0-note{
+  margin-bottom: clamp(5.5rem, 8vw, 8rem) !important;
+}
+
+body:has(.part0-page) .part0-question{
+  padding-top: 5rem !important;
 }
