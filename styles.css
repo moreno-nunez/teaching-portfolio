@@ -500,9 +500,30 @@ body.home .home-keywords{
    ========================================================================== */
 
 /* La Parte 0 necesita salir del ancho estrecho general */
-body:has(.part0-page) #quarto-content{
+body:has(.part0-page) .part0-lienzo #quarto-content{
   max-width: none !important;
-  padding: 0 !important;
+  width: min(1280px, calc(100% - 2 * clamp(2rem, 6vw, 7rem)));
+  min-height: 72vh;
+  padding: clamp(3rem, 5.5vw, 5.5rem);
+  margin-bottom: clamp(4rem, 7vw, 6rem);
+}
+
+body:has(.part0-page) .part0-lienzo-panel{
+  padding: clamp(2rem, 2.8vw, 2.6rem);
+}
+
+body:has(.part0-page) .part0-lienzo-panel p{
+  font-size: .92rem;
+  line-height: 1.85;
+}
+
+body:has(.part0-page) .part0-lienzo-main p{
+  font-size: clamp(.95rem, 1.05vw, 1.08rem);
+  line-height: 1.85;
+}
+
+body:has(.part0-page) .part0-question{
+  padding-top: 5rem;
 }
 
 body:has(.part0-page) #quarto-content .page-columns,
