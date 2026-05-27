@@ -731,21 +731,27 @@ body:has(.part0-page) #quarto-content .container-xxl{
 .part0-note{
   width: min(var(--part0-max), calc(100% - 2 * var(--part0-page-pad)));
   margin: 0 auto clamp(4rem, 8vw, 7rem);
-  padding: clamp(1.5rem, 4vw, 3rem);
-  border-radius: 2rem;
-  background: rgba(244,211,195,.28);
-  border: 1px solid rgba(178,58,111,.12);
+  background: transparent;
+  border: 0;
+  border-top: 1px solid rgba(178,58,111,.18);
+  border-bottom: 1px solid rgba(178,58,111,.18);
+  border-radius: 0;
+  padding: clamp(2rem, 4vw, 3rem) 0;
 }
 
 .part0-note h2{
   margin-top: 0;
   color: var(--raspberry);
+  font-size: .82rem;
+  letter-spacing: .22em;
+  margin-bottom: 1.6rem;
 }
 
 .part0-note p{
-  max-width: 760px;
-  font-size: 1.02rem;
-  line-height: 1.8;
+  max-width: 940px;
+  font-family: var(--font-subtitle) !important;
+  font-size: clamp(1.15rem, 1.45vw, 1.45rem);
+  line-height: 1.75;
 }
 
 
