@@ -902,8 +902,8 @@ body:has(.part0-page) #quarto-content .container-xxl{
   grid-column: 2;
   z-index: 3;
   align-self: center;
-  width: 100%;
-  max-width: 620px;
+  width: calc(100% - 3rem);
+  max-width: 600px;
   justify-self: stretch;
 
   opacity: 0;
