@@ -72,9 +72,15 @@ body{
 
 /* --- 4) Navbar ----------------------------------------------------------- */
 .navbar{
-  background: var(--nav-bg) !important;
-  border-bottom: 1px solid var(--border);
+  background: rgba(107,127,99,.86) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255,255,255,.16);
   min-height: 72px;
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .navbar > .container-fluid,
