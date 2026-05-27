@@ -1465,29 +1465,65 @@ body:has(.part0-page) #quarto-content .container-xxl{
   }
 }
 
-@media (max-width: 768px){
+/* =========================================================
+   NAVBAR TABLET/MÓVIL — Quarto/Bootstrap real
+   ========================================================= */
+
+@media (max-width: 991.98px){
 
   .navbar{
     position: static !important;
-    min-height: 64px !important;
-    overflow-x: auto !important;
+    min-height: auto !important;
+    padding: .9rem 0 !important;
+    overflow: visible !important;
   }
 
-  .navbar .navbar-collapse{
+  .navbar > .container-fluid,
+  #quarto-header .navbar-container{
+    display: block !important;
+    padding: 0 .9rem !important;
+  }
+
+  .navbar .navbar-brand{
+    display: none !important;
+  }
+
+  .navbar .navbar-collapse,
+  .navbar-expand-lg .navbar-collapse{
+    display: block !important;
+    width: 100% !important;
+    overflow: visible !important;
+  }
+
+  #quarto-header .navbar-nav,
+  #quarto-header .navbar-nav.me-auto,
+  .navbar-expand-lg .navbar-nav{
     display: flex !important;
-    flex-wrap: nowrap !important;
-    overflow-x: auto !important;
-    justify-content: flex-start !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: .25rem .7rem !important;
+    width: 100% !important;
+    margin: 0 !important;
+    min-width: 0 !important;
+    white-space: normal !important;
   }
 
-  .navbar-nav{
-    flex-direction: row !important;
-    flex-wrap: nowrap !important;
-    white-space: nowrap !important;
+  .navbar .nav-item{
+    flex: 0 1 auto !important;
   }
 
   .navbar .nav-link{
-    font-size: .9rem !important;
-    padding: .35rem .65rem !important;
+    font-size: .82rem !important;
+    line-height: 1.2 !important;
+    padding: .28rem .35rem !important;
+    white-space: nowrap !important;
+  }
+
+  .navbar .aa-DetachedSearchButton,
+  .navbar .quarto-search-button,
+  #quarto-search{
+    display: none !important;
   }
 }
