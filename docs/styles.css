@@ -907,7 +907,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
   justify-self: end;
 
   opacity: 0;
-  transform: translateX(1.8rem);
+  transform: translateX(2.4rem);
   pointer-events: none;
 
   padding: clamp(1.8rem, 2.6vw, 2.5rem);
