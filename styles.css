@@ -76,7 +76,7 @@ html{
 
 /* --- 4) Navbar ----------------------------------------------------------- */
 .navbar{
-  background: rgba(107,127,99,.68) !important;
+  background: rgba(107,127,99,.86) !important;
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border-bottom: 1px solid rgba(255,255,255,.12);
