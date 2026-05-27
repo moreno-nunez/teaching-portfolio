@@ -775,15 +775,19 @@ body:has(.part0-page) #quarto-content .container-xxl{
 
   display: grid;
   grid-template-columns: minmax(300px, .78fr)
-  minmax(0, 600px)
+  minmax(480, 600px)
   clamp(2.5rem, 5vw, 5rem);
-  column-gap: clamp(2.5rem, 4vw, 4rem);
+  column-gap: clamp(2.5rem, 5vw, 5rem);
   align-items: center;
 
   box-shadow: 0 18px 45px rgba(85,107,90,.07);
   border: 1px solid rgba(85,107,90,.05);
   transform: translateY(0);
   transition: transform .25s ease, box-shadow .25s ease;
+}
+
+.part0-lienzo-panel{
+  min-width: 480px;
 }
 
 .part0-lienzo:hover{
@@ -1021,6 +1025,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
   .part0-hero{
     min-height: auto !important;
     padding: 3rem 1.4rem !important;
+    min-width: 0;
 
     grid-template-areas:
       "kicker"
