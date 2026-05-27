@@ -775,7 +775,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
   column-gap: clamp(2.5rem, 4vw, 4rem);
   align-items: center;
 
-  box-shadow: 0 28px 70px rgba(85,107,90,.12);
+  box-shadow: 0 18px 45px rgba(85,107,90,.08) !important;
   transform: translateY(0);
   transition: transform .25s ease, box-shadow .25s ease;
 }
@@ -797,22 +797,22 @@ body:has(.part0-page) #quarto-content .container-xxl{
 }
 
 .part0-temdu{
-  background: #f4d99a;
+  background: rgba(244,217,154,.72) !important;
   color: #3e5244;
 }
 
 .part0-docentia{
-  background: #e9a092;
+  background: rgba(233,160,146,.68) !important;
   color: #3e5244;
 }
 
 .part0-preguntas{
-  background: #d8e1cf;
+  background: rgba(216,225,207,.72) !important;
   color: #3e5244;
 }
 
 .part0-temu{
-  background: #efe7d8 !important;
+  background: rgba(239,231,216,.78) !important;
   color: #3e5244 !important;
 }
 
@@ -879,10 +879,11 @@ body:has(.part0-page) #quarto-content .container-xxl{
 .part0-evidence-button{
   display: inline-block !important;
   margin-top: 1.4rem !important;
-  padding: .65rem 1.1rem !important;
+  border: 1px solid rgba(178,58,111,.35) !important;
+  padding: .55rem 1rem !important;
   border-radius: 999px !important;
-  background: var(--raspberry) !important;
-  color: var(--bg) !important;
+  background: transparent !important;
+  color: var(--raspberry) !important;
   border-bottom: 0 !important;
   text-decoration: none !important;
   font-family: var(--font-body) !important;
@@ -910,10 +911,11 @@ body:has(.part0-page) #quarto-content .container-xxl{
 
   padding: clamp(1.6rem, 2.4vw, 2.2rem);
   border-radius: 1.6rem;
-  background: rgba(255,252,252,.82);
+  background: rgba(255,252,252,.55) !important;
   color: #314236;
-  box-shadow: 0 22px 55px rgba(85,107,90,.14);
-  backdrop-filter: blur(12px);
+  box-shadow: none !important;
+  backdrop-filter: blur(6px) !important;
+  border: 1px solid rgba(255,252,252,.45) !important;
 
   transition: opacity .32s ease, transform .32s ease;
 }
