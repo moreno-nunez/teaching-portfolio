@@ -797,22 +797,22 @@ body:has(.part0-page) #quarto-content .container-xxl{
 }
 
 .part0-temdu{
-  background: rgba(244,217,154,.72) !important;
+  background: rgba(244,217,154,.32) !important;
   color: #3e5244;
 }
 
 .part0-docentia{
-  background: rgba(233,160,146,.68) !important;
+  background: rgba(233,160,146,.28) !important;
   color: #3e5244;
 }
 
 .part0-preguntas{
-  background: rgba(216,225,207,.72) !important;
+  background: rgba(216,225,207,.32) !important;
   color: #3e5244;
 }
 
 .part0-temu{
-  background: rgba(239,231,216,.78) !important;
+  background: rgba(239,231,216,.36) !important;
   color: #3e5244 !important;
 }
 
