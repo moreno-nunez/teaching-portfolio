@@ -247,7 +247,7 @@ body.home .home-hero__text{
 
 body.home .home-intro p{
   font-family: var(--font-body) !important;
-  font-size: clamp(1rem, 1.12vw, 1.18rem);
+  font-size: clamp(1rem, 1.12vw, 1rem);
   line-height: 1.8;
   color: inherit;
   text-transform: none;
@@ -256,7 +256,7 @@ body.home .home-intro p{
 }
 
 body.home .home-intro > p + p{
-  margin-top: 1.7rem !important;
+  margin-top: 1rem !important;
   color: #666666 !important;
   font-size: .96em !important;
 }
