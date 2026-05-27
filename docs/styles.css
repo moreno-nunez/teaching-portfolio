@@ -1342,3 +1342,152 @@ body:has(.part0-page) #quarto-content .container-xxl{
     font-size: clamp(2.2rem, 11vw, 3.2rem) !important;
   }
 }
+
+/* =========================================================
+   HERO PÁGINAS PART — ajuste móvil real
+   ========================================================= */
+
+@media (max-width: 768px){
+
+  .part0-hero{
+    display: block !important;
+    width: calc(100% - 2rem) !important;
+    padding: 3rem 0 3.5rem !important;
+  }
+
+  .part0-kicker{
+    margin-bottom: 2rem !important;
+  }
+
+  .part0-title,
+  .part0-title h1,
+  .part0-hero h1{
+    width: 100% !important;
+    max-width: 100% !important;
+    text-align: left !important;
+  }
+
+  .part0-title h1,
+  .part0-hero h1{
+    font-size: clamp(3.2rem, 15vw, 4.7rem) !important;
+    line-height: .92 !important;
+    margin-bottom: 2rem !important;
+  }
+
+  .part0-hero-bottom{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 1.6rem !important;
+    margin-top: 0 !important;
+  }
+
+  .part0-hero-image{
+    order: 2 !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  .part0-hero-image img{
+    width: min(100%, 430px) !important;
+    max-height: 32vh !important;
+    object-fit: contain !important;
+    object-position: left center !important;
+    border-radius: 1.8rem !important;
+  }
+
+  .part0-hero-side{
+    order: 3 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .part0-lead{
+    font-size: 1.15rem !important;
+    line-height: 1.65 !important;
+    margin: 0 !important;
+    max-width: 22rem !important;
+  }
+
+  .part0-claim{
+    margin-top: 2.2rem !important;
+    max-width: 18rem !important;
+    font-size: .95rem !important;
+    line-height: 1.45 !important;
+    letter-spacing: .18em !important;
+    text-transform: uppercase !important;
+    border-bottom: 1px solid var(--border) !important;
+    padding-bottom: .8rem !important;
+  }
+}
+
+@media (max-width: 900px) and (orientation: landscape){
+
+  .part0-hero{
+    padding-top: 2rem !important;
+  }
+
+  .part0-title h1,
+  .part0-hero h1{
+    font-size: clamp(2.6rem, 9vw, 4rem) !important;
+    margin-bottom: 1.4rem !important;
+  }
+
+  .part0-hero-bottom{
+    display: grid !important;
+    grid-template-columns: minmax(220px, .8fr) minmax(260px, 1fr) !important;
+    gap: 1.5rem !important;
+    align-items: center !important;
+  }
+
+  .part0-hero-image{
+    grid-column: 1 !important;
+    order: initial !important;
+  }
+
+  .part0-hero-image img{
+    max-height: 42vh !important;
+    width: 100% !important;
+  }
+
+  .part0-hero-side{
+    grid-column: 2 !important;
+    order: initial !important;
+  }
+
+  .part0-lead{
+    font-size: 1rem !important;
+    line-height: 1.55 !important;
+  }
+
+  .part0-claim{
+    margin-top: 1.4rem !important;
+  }
+}
+
+@media (max-width: 768px){
+
+  .navbar{
+    position: static !important;
+    min-height: 64px !important;
+    overflow-x: auto !important;
+  }
+
+  .navbar .navbar-collapse{
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    justify-content: flex-start !important;
+  }
+
+  .navbar-nav{
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    white-space: nowrap !important;
+  }
+
+  .navbar .nav-link{
+    font-size: .9rem !important;
+    padding: .35rem .65rem !important;
+  }
+}
