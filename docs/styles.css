@@ -70,12 +70,16 @@ body{
   margin: 0 auto;
 }
 
+html{
+  scroll-padding-top: 90px;
+}
+
 /* --- 4) Navbar ----------------------------------------------------------- */
 .navbar{
-  background: rgba(107,127,99,.86) !important;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(255,255,255,.16);
+  background: rgba(107,127,99,.68) !important;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(255,255,255,.12);
   min-height: 72px;
 
   position: sticky;
