@@ -870,11 +870,13 @@ body:has(.part0-page) #quarto-content .container-xxl{
 .part0-evidence-button{
   display: inline-block !important;
   margin-top: 1.4rem !important;
-  padding: .58rem 1.05rem !important;
   border-radius: 999px !important;
+  position: relative;
   background: transparent !important;
   color: var(--raspberry) !important;
-  border: 1px solid rgba(178,58,111,.40) !important;
+  border: 0 !important;
+  padding: .35rem 0rem !important;
+  border-radius: 0 !important;
   text-decoration: none !important;
   font-family: var(--font-body) !important;
   font-size: .9rem !important;
@@ -882,12 +884,22 @@ body:has(.part0-page) #quarto-content .container-xxl{
   line-height: 1.2 !important;
 }
 
+.part0-evidence-button::after{
+  content: " →";
+  transition: transform .18s ease;
+}
+
 .part0-evidence-button:hover{
-  background: var(--raspberry) !important;
-  color: var(--bg) !important;
+  background: transparent !important;
+  color: var(--raspberry) !important;
   border-color: var(--raspberry) !important;
   border-radius: 999px !important;
-  transform: translateY(-1px) !important;
+  transform: none !important;
+}
+
+.part0-evidence-button:hover::after{
+  display: inline-block;
+  transform: translateX(4px);
 }
 
 /* Panel lateral: visible en hover, pero sin efecto ventana dura */
