@@ -257,8 +257,6 @@ body.home .home-intro p{
 
 body.home .home-intro > p + p{
   margin-top: 1rem !important;
-  color: #666666 !important;
-  font-size: .96em !important;
 }
 
 body.home .home-heading,
