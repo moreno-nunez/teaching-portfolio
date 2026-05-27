@@ -220,6 +220,15 @@ body.home .home-hero__logo{
   max-width: 560px;
 }
 
+.home-hero__logo::after{
+  content:"";
+  display:block;
+  width:120px;
+  height:1px;
+  background:rgba(85,107,90,.18);
+  margin-top:2rem;
+}
+
 body.home .home-logo{
   width: min(560px, 100%);
   height: auto;
@@ -280,6 +289,15 @@ body.home .home-intro{
   max-width: 540px;
 }
 
+.home-intro::after{
+  content:"";
+  display:block;
+  width:80px;
+  height:1px;
+  background:rgba(178,58,111,.25);
+  margin-top:2rem;
+}
+
 body.home .home-keywords{
   display: none;
 }
@@ -309,11 +327,14 @@ body.home .home-keywords{
 .social-icons iconify-icon,
 .social-icons i{
   font-size: 1.35rem;
+  gap:.75rem;
+  opacity:.75;
 }
 
 .social-icons a:hover{
   color: var(--social-hover) !important;
   background: var(--social-pill);
+  transform:translateY(-1px);
 }
 
 @media (max-width: 1150px){
