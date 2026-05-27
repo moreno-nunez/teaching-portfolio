@@ -201,11 +201,11 @@ body.home .quarto-title-block{
 
 body.home #quarto-content{
   max-width: none !important;
-  padding: 0 var(--home-gutter) 0;
+  padding: 0 1.25rem 0;
 }
 
 body.home .home-hero{
-  max-width: 1300px;
+  max-width: 1450px;
   margin: 0 auto;
   min-height: auto;
   display: grid;
@@ -556,7 +556,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
 }
 :root{
   --part0-max: 1380px;
-  --part0-page-pad: clamp(1.4rem, 5vw, 6rem);
+  --part0-page-pad: clamp(1.2rem, 3vw, 3.5rem);
 }
 
 /* ==========================================================================
