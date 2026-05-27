@@ -1208,77 +1208,60 @@ body:has(.part0-page) #quarto-content .container-xxl{
 }
 
 /* ==========================================================================
-   PART 0 — versión editorial sin fondo
+   PART 0 — lienzos suavizados, manteniendo capas
    ========================================================================== */
 
 body:has(.part0-page) .part0-lienzo{
-  width: min(1180px, calc(100% - 2 * clamp(2rem, 6vw, 7rem))) !important;
-  min-height: auto !important;
-  margin: 0 auto 2.8rem !important;
-  padding: 3.2rem 0 3.6rem !important;
-
-  background: transparent !important;
-  box-shadow: none !important;
-  border: 0 !important;
-  border-radius: 0 !important;
-
-  display: grid !important;
-  grid-template-columns: minmax(260px, .72fr) minmax(360px, .9fr) !important;
-  column-gap: clamp(3rem, 7vw, 6rem) !important;
-  align-items: start !important;
+  width: min(1380px, calc(100% - 2 * clamp(2rem, 5vw, 6rem))) !important;
+  min-height: 68vh !important;
+  margin: 0 auto clamp(3.5rem, 6vw, 5.5rem) !important;
+  padding: clamp(3rem, 5vw, 5rem) !important;
+  border-radius: clamp(2rem, 4vw, 4rem) !important;
+  box-shadow: 0 18px 45px rgba(85,107,90,.07) !important;
+  border: 1px solid rgba(85,107,90,.05) !important;
 }
 
-body:has(.part0-page) .part0-lienzo::before{
-  display: none !important;
+body:has(.part0-page) .part0-temdu{
+  background: rgba(244,217,154,.46) !important;
 }
 
-body:has(.part0-page) .part0-lienzo-tag{
-  position: static !important;
-  grid-column: 1 / -1 !important;
-  margin: 0 0 2.2rem 0 !important;
+body:has(.part0-page) .part0-docentia{
+  background: rgba(233,160,146,.42) !important;
 }
 
-body:has(.part0-page) .part0-lienzo-main{
-  grid-column: 1 !important;
-  padding-top: 0 !important;
+body:has(.part0-page) .part0-preguntas{
+  background: rgba(216,225,207,.46) !important;
+}
+
+body:has(.part0-page) .part0-temu{
+  background: rgba(239,231,216,.50) !important;
 }
 
 body:has(.part0-page) .part0-lienzo-panel{
-  grid-column: 2 !important;
-  opacity: 1 !important;
-  transform: none !important;
-  pointer-events: auto !important;
-
-  background: transparent !important;
-  border: 0 !important;
-  box-shadow: none !important;
-  backdrop-filter: none !important;
-
-  padding: 0 !important;
-  max-width: 560px !important;
+  background: rgba(255,252,252,.58) !important;
+  border: 1px solid rgba(255,252,252,.62) !important;
+  box-shadow: 0 14px 36px rgba(85,107,90,.06) !important;
+  backdrop-filter: blur(8px) !important;
+  border-radius: 1.6rem !important;
+  padding: clamp(2rem, 3vw, 2.8rem) !important;
 }
 
-/* Botón de evidencias — reset completo */
+/* Botón legible y estable */
 body:has(.part0-page) .part0-evidence-button{
   display: inline-block !important;
   width: auto !important;
   height: auto !important;
-  min-width: 0 !important;
-  min-height: 0 !important;
-
-  margin-top: 1.6rem !important;
+  margin-top: 1.4rem !important;
   padding: .58rem 1.05rem !important;
-
-  border: 1px solid rgba(178,58,111,.38) !important;
   border-radius: 999px !important;
   background: transparent !important;
-
   color: var(--raspberry) !important;
+  border: 1px solid rgba(178,58,111,.38) !important;
+  text-decoration: none !important;
   font-family: var(--font-body) !important;
   font-size: .9rem !important;
   font-weight: 700 !important;
   line-height: 1.2 !important;
-  text-decoration: none !important;
 }
 
 body:has(.part0-page) .part0-evidence-button:hover{
@@ -1286,5 +1269,5 @@ body:has(.part0-page) .part0-evidence-button:hover{
   color: var(--bg) !important;
   border-color: var(--raspberry) !important;
   border-radius: 999px !important;
-  transform: none !important;
+  transform: translateY(-1px) !important;
 }
