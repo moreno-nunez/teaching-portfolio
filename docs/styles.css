@@ -774,10 +774,10 @@ body:has(.part0-page) #quarto-content .container-xxl{
   overflow: hidden;
 
   display: grid;
-  grid-template-columns: minmax(300px, .68fr)
-  minmax(560px, 700px)
-  clamp(2.5rem, 5vw, 5rem);
-  column-gap: clamp(2rem, 3.5vw, 3.5rem);
+  grid-template-columns: minmax(300px, .70fr)
+  minmax(0, 640px)
+  minmax(clamp(4.5rem, 6vw, 6rem), clamp(4.5rem, 6vw, 6rem));
+  column-gap: clamp(2rem, 3vw, 3rem);
   align-items: center;
 
   box-shadow: 0 18px 45px rgba(85,107,90,.07);
