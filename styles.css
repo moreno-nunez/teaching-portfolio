@@ -897,11 +897,6 @@ body:has(.part0-page) #quarto-content .container-xxl{
   transform: none !important;
 }
 
-.part0-evidence-button:hover::after{
-  display: inline-block;
-  transform: translateX(4px);
-}
-
 /* Panel lateral: visible en hover, pero sin efecto ventana dura */
 .part0-lienzo-panel{
   grid-column: 2;
