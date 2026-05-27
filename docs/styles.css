@@ -904,7 +904,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
   align-self: center;
   width: calc(100% - 3rem);
   max-width: 600px;
-  justify-self: stretch;
+  justify-self: end;
 
   opacity: 0;
   transform: translateX(1.8rem);
