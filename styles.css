@@ -883,13 +883,15 @@ body:has(.part0-page) #quarto-content .container-xxl{
 
 .part0-evidence-button{
   display: inline-block !important;
+  align-items: center !important;
+  justify-content: center !important;
   margin-top: 1.4rem !important;
-  border: 1px solid rgba(178,58,111,.35) !important;
   padding: .55rem 1rem !important;
   border-radius: 999px !important;
   background: transparent !important;
   color: var(--raspberry) !important;
-  border-bottom: 0 !important;
+  border: 1px solid rgba(178,58,111,.35) !important;
+  border-bottom: 1px solid rgba(178,58,111,.35) !important;
   text-decoration: none !important;
   font-family: var(--font-body) !important;
   font-size: .9rem !important;
@@ -898,9 +900,11 @@ body:has(.part0-page) #quarto-content .container-xxl{
 
 .part0-evidence-button:hover{
   transform: translateY(-2px);
-  background: transparent !important;
+  background: var(--raspberry) !important;
   box-shadow: none !important;
-  border-radius: 0 !important;
+  color: var(--bg) !important;
+  border: 1px solid var(--raspberry) !important;
+  border-radius: 999px !important;
   border-top: 1px solid rgba(85,107,90,.10) !important;
   padding-top: clamp(4rem, 7vw, 6rem) !important;
 }
@@ -1209,9 +1213,9 @@ body:has(.part0-page) #quarto-content .container-xxl{
 
 body:has(.part0-page) .part0-lienzo{
   width: min(1380px, calc(100% - 2 * clamp(2rem, 5vw, 6rem))) !important;
-  min-height: 72vh !important;
-  margin: 0 auto clamp(5.5rem, 8vw, 8rem) !important;
-  padding: clamp(3rem, 5.5vw, 5.5rem) !important;
+  min-height: auto !important;
+  margin: 0 auto clamp(3.2rem, 5vw, 5rem) !important;
+  padding: clamp(3rem, 4.5vw, 4.8rem) !important;
 }
 
 body:has(.part0-page) .part0-lienzo-panel{
