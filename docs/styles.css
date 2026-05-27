@@ -923,7 +923,9 @@ body:has(.part0-page) #quarto-content .container-xxl{
   backdrop-filter: blur(8px);
   border: 1px solid rgba(255,252,252,.65);
 
-  transition: opacity .32s ease, transform .32s ease;
+  transition: opacity .38s ease, 
+  transform .38s ease,
+  box-shadow .38s ease;
 }
 
 .part0-lienzo:hover .part0-lienzo-panel,
@@ -931,6 +933,15 @@ body:has(.part0-page) #quarto-content .container-xxl{
   opacity: 1;
   transform: translateX(0);
   pointer-events: auto;
+}
+
+.part0-lienzo:hover .part0-lienzo-tag{
+  color: rgba(62,82,68,.72);
+  letter-spacing: .19em;
+}
+
+.part0-lienzo-tag{
+  transition: color .25s ease, letter-spacing .25s ease;
 }
 
 .part0-lienzo-panel h3{
