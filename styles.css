@@ -1466,64 +1466,71 @@ body:has(.part0-page) #quarto-content .container-xxl{
 }
 
 /* =========================================================
-   NAVBAR TABLET/MÓVIL — Quarto/Bootstrap real
+   NAVBAR MÓVIL — logo + menú en dos líneas
    ========================================================= */
 
 @media (max-width: 991.98px){
 
-  .navbar{
+  #quarto-header .navbar{
     position: static !important;
     min-height: auto !important;
-    padding: .9rem 0 !important;
+    padding: .65rem .75rem .8rem !important;
     overflow: visible !important;
   }
 
-  .navbar > .container-fluid,
+  #quarto-header .navbar > .container-fluid,
   #quarto-header .navbar-container{
-    display: block !important;
-    padding: 0 .9rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    width: 100% !important;
+    max-width: none !important;
+    padding: 0 !important;
   }
 
-  .navbar .navbar-brand{
-    display: none !important;
+  #quarto-header .navbar-brand{
+    display: flex !important;
+    margin: 0 0 .45rem 0 !important;
+    align-items: center !important;
   }
 
-  .navbar .navbar-collapse,
-  .navbar-expand-lg .navbar-collapse{
+  #quarto-header .navbar-brand img{
+    height: 48px !important;
+    width: auto !important;
+  }
+
+  #quarto-header .navbar-collapse,
+  #quarto-header .navbar-collapse.collapse,
+  #quarto-header .navbar-collapse.show{
     display: block !important;
     width: 100% !important;
     overflow: visible !important;
   }
 
   #quarto-header .navbar-nav,
-  #quarto-header .navbar-nav.me-auto,
-  .navbar-expand-lg .navbar-nav{
+  #quarto-header .navbar-nav.me-auto{
     display: flex !important;
     flex-direction: row !important;
     flex-wrap: wrap !important;
-    justify-content: center !important;
-    align-items: center !important;
-    gap: .25rem .7rem !important;
+    justify-content: flex-start !important;
+    gap: .25rem .75rem !important;
     width: 100% !important;
     margin: 0 !important;
-    min-width: 0 !important;
+    padding: 0 !important;
     white-space: normal !important;
   }
 
-  .navbar .nav-item{
-    flex: 0 1 auto !important;
-  }
-
-  .navbar .nav-link{
-    font-size: .82rem !important;
+  #quarto-header .nav-link{
+    font-size: .78rem !important;
     line-height: 1.2 !important;
-    padding: .28rem .35rem !important;
+    padding: .2rem 0 !important;
     white-space: nowrap !important;
   }
 
-  .navbar .aa-DetachedSearchButton,
-  .navbar .quarto-search-button,
-  #quarto-search{
+  #quarto-search,
+  .quarto-search-button,
+  .aa-DetachedSearchButton,
+  .navbar .quarto-navbar-tools{
     display: none !important;
   }
 }
