@@ -844,10 +844,10 @@ body:has(.part0-page) .page-columns{
 
   display: grid;
   grid-template-columns:
-    minmax(300px, .68fr)
-    minmax(520px, 720px)
-    clamp(2.5rem, 3.5vw, 4rem);
-  column-gap: clamp(2rem, 3vw, 3rem);
+    minmax(330px, .95fr)
+    minmax(500px, 680px)
+    clamp(4.5rem, 3.5vw, 4rem);
+  column-gap: clamp(4rem, 6vw, 6.25rem);
   align-items: center;
 
   box-shadow: 0 18px 45px rgba(85,107,90,.07);
