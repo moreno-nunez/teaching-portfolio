@@ -1486,7 +1486,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
 @media (max-width: 991.98px){
 
   #quarto-header .navbar{
-    position: sticky !important;
+    position: relative !important;
     top: 0 !important;
     z-index: 9999 !important;
     min-height: auto !important;
@@ -1553,4 +1553,23 @@ body:has(.part0-page) #quarto-content .container-xxl{
   body{
     padding-top: 118px;
   }
+}
+
+/* NAVBAR FIJA DEFINITIVA */
+#quarto-header,
+#quarto-header.headroom,
+#quarto-header.headroom--pinned,
+#quarto-header.headroom--unpinned{
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  transform: none !important;
+  z-index: 99999 !important;
+}
+
+#quarto-header .navbar{
+  position: relative !important;
+  top: auto !important;
 }
