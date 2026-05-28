@@ -77,9 +77,9 @@ html{
 
 /* --- 4) Navbar ----------------------------------------------------------- */
 .navbar{
-  background: rgba(107,127,99,.82) !important;
-  backdrop-filter: blur(12px) saturate(140%);
-  -webkit-backdrop-filter: blur(12px) saturate(140%);
+  background: rgba(82, 103, 77, .74) !important;
+  backdrop-filter: blur(16px) saturate(155%);
+  -webkit-backdrop-filter: blur(16px) saturate(155%);
   border-bottom: 1px solid rgba(255,255,255,.12);
   min-height: 72px;
   position: relative !important;
@@ -1485,14 +1485,23 @@ body:has(.part0-page) #quarto-content .container-xxl{
 
 @media (max-width: 991.98px){
 
-  #quarto-header .navbar{
-    position: relative !important;
+  #quarto-header{
+    position: fixed !important;
     top: 0 !important;
-    z-index: 9999 !important;
-    min-height: auto !important;
-    padding: .65rem .75rem .8rem !important;
-    overflow: visible !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    transform: none !important;
+    z-index: 99999 !important;
   }
+
+#quarto-header .navbar{
+  position: relative !important;
+  top: auto !important;
+  min-height: auto !important;
+  padding: .65rem .75rem .8rem !important;
+  overflow: visible !important;
+}
 
   #quarto-header .navbar > .container-fluid,
   #quarto-header .navbar-container{
