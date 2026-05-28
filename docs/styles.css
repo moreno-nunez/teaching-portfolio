@@ -596,7 +596,7 @@ body:has(.part0-page) .page-columns{
 .part0-hero{
   width: min(var(--part0-max), calc(100% - 2 * var(--part0-page-pad))) !important;
   margin: 0 auto;
-  padding: 2rem 0 5rem !important;
+  padding: 2rem 0 2.5rem !important;
 
   display: grid !important;
   grid-template-columns: 1fr !important;
@@ -768,7 +768,7 @@ body:has(.part0-page) .page-columns{
 
 .part0-note{
   width: min(var(--part0-max), calc(100% - 2 * var(--part0-page-pad))) !important;
-  margin: 0 auto clamp(4rem, 8vw, 7rem);
+  margin: 0 auto clamp(1.8rem, 4vw, 3rem);
 
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -777,7 +777,7 @@ body:has(.part0-page) .page-columns{
   background: transparent;
   border: 0 !important;
   border-radius: 0;
-  padding: clamp(2rem, 4vw, 3rem) 0;
+  padding: clamp(.8rem, 2vw, 1.4rem) 0;
 }
 
 .part0-note h2{
