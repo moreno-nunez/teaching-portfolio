@@ -1734,6 +1734,9 @@ body:has(.part0-page) .page-columns{
     z-index: 4 !important;
   }
 }
+
+}
+
 .site-footer{
   width: min(var(--part0-max), calc(100% - 2 * var(--part0-page-pad)));
   margin: 4rem auto 1.5rem;
