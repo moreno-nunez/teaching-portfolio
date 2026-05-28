@@ -8,7 +8,8 @@ website:
     collapse: false
     left:
       - href: index.qmd
-        text: '<iconify-icon icon="lucide:house" aria-label="Inicio"></iconify-icon>'      - href: part0.qmd
+        text: '<iconify-icon icon="lucide:house" aria-label="Inicio"></iconify-icon>'      
+      - href: part0.qmd
         text: empezar
       - href: part1.qmd
         text: comprender
