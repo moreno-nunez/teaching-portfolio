@@ -786,10 +786,14 @@ body:has(.part0-page) .page-columns{
 }
 
 .part0-note p{
-  max-width: 940px;
-  font-family: var(--font-subtitle) !important;
-  font-size: clamp(1.15rem, 1.45vw, 1.45rem);
+  max-width: 920px;
+  font-family: var(--font-body) !important;
+  font-size: clamp(1.02rem, 1.25vw, 1.22rem);
   line-height: 1.75;
+  font-weight: 500;
+  color: var(--text);
+  padding-left: 1.2rem;
+  border-left: 3px solid rgba(178,58,111,.35);
 }
 
 
