@@ -557,6 +557,16 @@ body:has(.part0-page) #quarto-content .container-xxl{
   margin: 0 !important;
 }
 
+body:has(.part0-page) main.content,
+body:has(.part0-page) .content,
+body:has(.part0-page) #quarto-document-content{
+  max-width: none !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
 .part0-page{
   width: 100%;
   max-width: none;
@@ -579,7 +589,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
 }
 
 .part0-hero{
-  width: min(var(--part0-max), calc(100% - 2 * var(--part0-page-pad)));
+  width: min(var(--part0-max), calc(100vw - 2 * var(--part0-page-pad))) !important;
   margin: 0 auto;
   padding: 2rem 0 5rem !important;
 
@@ -752,7 +762,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
    ========================================================================== */
 
 .part0-note{
-  width: min(var(--part0-max), calc(100% - 2 * var(--part0-page-pad)));
+  width: min(var(--part0-max), calc(100vw - 2 * var(--part0-page-pad))) !important;
   margin: 0 auto clamp(4rem, 8vw, 7rem);
   background: transparent;
   border: 0;
@@ -788,7 +798,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
 }
 
 .part0-lienzo{
-  width: min(var(--part0-max), calc(100% - 2 * var(--part0-page-pad)));
+  width: min(var(--part0-max), calc(100vw - 2 * var(--part0-page-pad))) !important;
   min-height: 68vh;
   margin: 0 auto clamp(3.5rem, 6vw, 5.5rem);
   padding: clamp(2.8rem, 5vw, 4.8rem);
@@ -980,7 +990,7 @@ body:has(.part0-page) #quarto-content .container-xxl{
   flex-direction: column;
   justify-content: center;
   background: var(--bg);
-  width: min(var(--part0-max), calc(100% - 2 * var(--part0-page-pad)));
+  width: min(var(--part0-max), calc(100vw - 2 * var(--part0-page-pad))) !important;
   margin: 0 auto;
   padding-left: 0;
   padding-right: 0;
