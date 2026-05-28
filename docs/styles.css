@@ -845,9 +845,9 @@ body:has(.part0-page) .page-columns{
   display: grid;
   grid-template-columns:
     minmax(330px, .95fr)
-    minmax(500px, 680px)
-    clamp(4.5rem, 3.5vw, 4rem);
-  column-gap: clamp(4rem, 6vw, 6.25rem);
+    minmax(0, 680px)
+    clamp(3rem, 4vw, 4.8rem);
+  column-gap: clamp(3.2rem, 4vw, 4.8rem);
   align-items: center;
 
   box-shadow: 0 18px 45px rgba(85,107,90,.07);
@@ -969,11 +969,12 @@ body:has(.part0-page) .page-columns{
 
 /* Panel lateral: visible en hover, pero sin efecto ventana dura */
 .part0-lienzo-panel{
-  grid-column: 2;
+  grid-column: 2 / 4;
   z-index: 3;
   align-self: center;
   width: 100%;
   max-width: none;
+  min-width: 0;
   justify-self: stretch;
 
   opacity: 0;
