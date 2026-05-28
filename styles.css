@@ -1512,7 +1512,6 @@ body:has(.part0-page) .page-columns{
   }
 
 #quarto-header .navbar{
-  background: transparent !important;
   backdrop-filter: none !important;
   -webkit-backdrop-filter: none !important;
   position: relative !important;
@@ -1600,4 +1599,16 @@ body:has(.part0-page) .page-columns{
 #quarto-header .navbar{
   position: relative !important;
   top: auto !important;
+}
+
+@media (max-width: 991.98px){
+  html,
+  body{
+    background-color: #fffcfc !important;
+  }
+
+  #quarto-header,
+  #quarto-header .navbar{
+    background: rgba(82, 103, 77, .82) !important;
+  }
 }
