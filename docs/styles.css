@@ -318,33 +318,42 @@ body.home .home-keywords{
 /* --- 7) Iconos redes ----------------------------------------------------- */
 .social-icons{
   display: flex !important;
-  justify-content:center !important;
-  gap:1rem !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  gap: 1rem !important;
+  line-height: 0 !important;
 }
 
 .social-icons a{
   width: 2.6rem;
   height: 2.6rem;
-  display: flex !important;
+  display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
-  padding:0 !important;
+  padding: 0 !important;
+
+  border: 0 !important;
+  border-bottom: 0 !important;
+  text-decoration: none !important;
+  background: transparent !important;
+
   color: var(--social-color) !important;
   transition: background .15s ease, color .15s ease, transform .15s ease;
 }
 
 .social-icons iconify-icon,
 .social-icons i{
+  display: block !important;
   font-size: 1.25rem;
-  line-height:1 !important;
-  vertical-align:middle !important;
-  opacity:.75;
+  line-height: 1 !important;
+  opacity: .75;
 }
 
 .social-icons a:hover{
   color: var(--social-hover) !important;
-  background: var(--social-pill);
-  transform:translateY(-1px);
+  background: var(--social-pill) !important;
+  transform: translateY(-1px);
 }
 
 @media (max-width: 1150px){
