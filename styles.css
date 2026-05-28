@@ -139,6 +139,17 @@ html{
   font-family: var(--font-body);
 }
 
+.navbar .nav-link iconify-icon{
+  font-size: 1.05rem;
+  vertical-align: -0.12em;
+}
+
+.navbar .nav-link:has(iconify-icon){
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .navbar .nav-link:hover{
   color: var(--nav-hover) !important;
   background: rgba(255,255,255,.12);
