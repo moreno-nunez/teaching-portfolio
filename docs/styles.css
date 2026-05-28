@@ -1841,3 +1841,50 @@ body:has(.part0-page) .page-columns{
   justify-content: center !important;
   gap: .42rem !important;
 }
+
+.site-footer{
+  width: min(1160px, calc(100% - 4rem)) !important;
+  margin: 4rem auto 1.2rem !important;
+  position: relative !important;
+  display: block !important;
+}
+
+.site-footer-message{
+  position: absolute !important;
+  left: 0 !important;
+  bottom: .15rem !important;
+
+  font-family: var(--font-body) !important;
+  font-size: .78rem !important;
+  color: var(--muted) !important;
+  opacity: .8 !important;
+}
+
+.site-footer .back-to-top{
+  display: block !important;
+  width: max-content !important;
+  margin: 0 auto .35rem auto !important;
+
+  padding: .42rem .75rem !important;
+  border-radius: 8px !important;
+  background: rgba(255,252,252,.92) !important;
+  box-shadow: 0 6px 18px rgba(85,107,90,.14) !important;
+  border: 1px solid rgba(85,107,90,.12) !important;
+  text-decoration: none !important;
+}
+
+.site-footer .footer-social{
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: .42rem !important;
+
+  width: max-content !important;
+  margin: 0 auto !important;
+}
+
+.site-footer .footer-social a{
+  width: 1.35rem !important;
+  height: 1.35rem !important;
+}
