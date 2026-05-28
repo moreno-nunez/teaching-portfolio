@@ -367,7 +367,7 @@ body.home .home-keywords{
 
 /* ajuste óptico por icono */
 .social-icons a:nth-child(1) iconify-icon{
-  transform: translateY(-1px);
+  transform: translateY(1px);
 }
 
 .social-icons a:nth-child(2) iconify-icon{
