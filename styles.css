@@ -811,6 +811,8 @@ body:has(.part0-page) .page-columns{
 .part0-note p{
   grid-column: 2;
   max-wifth: 760px
+  border-bottom: 0 !important;
+
 }
 
 /* ==========================================================================
