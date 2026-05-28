@@ -780,9 +780,12 @@ body:has(.part0-page) .page-columns{
 .part0-note h2{
   margin-top: 0;
   color: var(--raspberry);
-  font-size: .82rem;
-  letter-spacing: .22em;
-  margin-bottom: 1.6rem;
+  font-family: var(--font-body) !important;
+  font-size: .78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .16em;
+  margin-bottom: 1.4rem;
 }
 
 .part0-note p{
