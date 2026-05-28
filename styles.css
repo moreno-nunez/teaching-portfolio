@@ -386,6 +386,11 @@ body.home .home-keywords{
   transform: translateY(1px);
 }
 
+.social-icons a:nth-child(2) iconify-icon,
+.social-icons a:nth-child(4) iconify-icon{
+  transform: scale(.92);
+}
+
 @media (max-width: 1150px){
   body.home .home-hero{
     min-height: auto;
