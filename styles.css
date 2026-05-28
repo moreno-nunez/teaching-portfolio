@@ -768,18 +768,28 @@ body:has(.part0-page) .page-columns{
 
 .part0-note{
   width: min(var(--part0-max), calc(100% - 2 * var(--part0-page-pad))) !important;
+
   margin: 0 auto clamp(4rem, 8vw, 7rem);
+
+  display: grid;
+  grid-template-columns:
+    minmax(0, .9fr)
+    minmax(520px, 820px);
+
+  justify-content: end;
+
   background: transparent;
   border: 0;
   border-top: 1px solid rgba(178,58,111,.18);
   border-bottom: 1px solid rgba(178,58,111,.18);
   border-radius: 0;
+
   padding: clamp(2rem, 4vw, 3rem) 0;
 }
 
 .part0-note h2{
   margin-top: 0;
-  color: var(--raspberry);
+  color: var(--raspberry-soft);
   font-family: var(--font-body) !important;
   font-size: .78rem;
   font-weight: 700;
