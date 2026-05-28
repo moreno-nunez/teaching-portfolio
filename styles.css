@@ -580,8 +580,8 @@ body:has(.part0-page) .page-columns{
   overflow-x: hidden;
 }
 :root{
-  --part0-max: 1240px;
-  --part0-page-pad: clamp(3rem, 9vw, 10rem);
+  --part0-max: 1160px;
+  --part0-page-pad: clamp(4rem, 10vw, 11rem);
 }
 
 /* ==========================================================================
