@@ -637,6 +637,24 @@ Comprender mejor no elimina necesariamente los límites del proceso.
   </div>
 </footer>
 
+          <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const footer = document.querySelector(".site-footer");
+    if (!footer) return;
+
+    function toggleFooter() {
+      const nearBottom =
+        window.innerHeight + window.scrollY >= document.body.offsetHeight - 80;
+
+      footer.classList.toggle("is-visible", nearBottom);
+    }
+
+    window.addEventListener("scroll", toggleFooter, { passive: true });
+    window.addEventListener("resize", toggleFooter);
+    toggleFooter();
+  });
+</script>
+
 
 
 
