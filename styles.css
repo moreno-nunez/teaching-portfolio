@@ -809,6 +809,10 @@ body:has(.part0-page) .page-columns{
   border-left: 3px solid rgba(178,58,111,.35);
 }
 
+.part0-note h2,
+.part0-note p{
+  grid-column: 2;
+}
 
 /* ==========================================================================
    PART 0 — lienzos
