@@ -768,13 +768,11 @@ body:has(.part0-page) .page-columns{
 
 .part0-note{
   width: min(var(--part0-max), calc(100% - 2 * var(--part0-page-pad))) !important;
-
   margin: 0 auto clamp(4rem, 8vw, 7rem);
 
   display: grid;
-  grid-template-columns:
-    minmax(0, .9fr)
-    minmax(520px, 820px);
+  grid-template-columns: 1fr 1fr;
+  column-gap: clam(2rem, 5vw, 5rem);
 
   justify-content: end;
 
@@ -812,6 +810,7 @@ body:has(.part0-page) .page-columns{
 .part0-note h2,
 .part0-note p{
   grid-column: 2;
+  max-wifth: 760px
 }
 
 /* ==========================================================================
