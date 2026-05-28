@@ -1734,3 +1734,33 @@ body:has(.part0-page) .page-columns{
     z-index: 4 !important;
   }
 }
+.site-footer{
+  width: min(var(--part0-max), calc(100% - 2 * var(--part0-page-pad)));
+  margin: 4rem auto 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .55rem;
+}
+
+.back-to-top{
+  padding: .45rem .8rem;
+  border-radius: 8px;
+  background: rgba(255,252,252,.88);
+  box-shadow: 0 6px 18px rgba(85,107,90,.14);
+  border: 1px solid rgba(85,107,90,.12) !important;
+  color: var(--muted) !important;
+  font-family: var(--font-body);
+  font-size: .85rem;
+  text-decoration: none !important;
+}
+
+.footer-social{
+  justify-content: center !important;
+  gap: .55rem !important;
+}
+
+.footer-social a{
+  width: 1.4rem;
+  height: 1.4rem;
+}
