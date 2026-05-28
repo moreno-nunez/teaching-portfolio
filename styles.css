@@ -581,7 +581,7 @@ body:has(.part0-page) .page-columns{
 }
 :root{
   --part0-max: 1160px;
-  --part0-page-pad: clamp(4rem, 10vw, 11rem);
+  --part0-page-pad: clamp(4.5rem, 11vw, 12rem);
 }
 
 /* ==========================================================================
