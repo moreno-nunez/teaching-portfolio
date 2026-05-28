@@ -580,8 +580,8 @@ body:has(.part0-page) .page-columns{
   overflow-x: hidden;
 }
 :root{
-  --part0-max: 1760px;
-  --part0-page-pad: clamp(1rem, 1.8vw, 2.5rem);
+  --part0-max: 1440px;
+  --part0-page-pad: clamp(2rem, 6vw, 7rem);
 }
 
 /* ==========================================================================
@@ -688,8 +688,8 @@ body:has(.part0-page) .page-columns{
   margin-top: 2rem !important;
 
   display: grid !important;
-  grid-template-columns: minmax(420px, 1.1fr) minmax(340px, .75fr) !important;
-  gap: clamp(3rem, 7vw, 7rem) !important;
+  grid-template-columns: minmax(480px, .95fr) minmax(360px, .65fr) !important;
+  gap: clamp(3rem, 5vw, 5.5rem) !important;
 
   align-items: center !important;
   position: static !important;
@@ -729,7 +729,7 @@ body:has(.part0-page) .page-columns{
   padding-top: .5rem !important;
 
   position: static !important;
-  max-width: 620px !important;
+  max-width: 520px !important;
 }
 
 .part0-lead,
