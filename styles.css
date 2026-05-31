@@ -595,7 +595,7 @@ body:has(.part0-page) .part0-lienzo-main p{
 }
 
 body:has(.part0-page) .part0-question{
-  padding-top: 8rem;
+  padding-top: 5rem;
 }
 
 body:has(.part0-page) #quarto-content .page-columns,
