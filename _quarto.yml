@@ -4,7 +4,7 @@ project:
 
 website:
   navbar:
-    logo: images/logo-navbar.svg
+    logo: images/logo-navbar.png
     collapse: false
     left:
       - href: index.qmd
