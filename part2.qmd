@@ -23,12 +23,6 @@ Límites, posibilidades y decisiones emergentes
 ::: part0-hero-image
 ![](images/part0-trayectoria.png)
 :::
-
-:::: part0-hero-side
-::: part0-lead
-### La comprensión no elimina las tensiones del cambio, permite leerlas desde otro lugar {.part0-lead}
-:::
-::::
 ::::::
 ::::::::::
 

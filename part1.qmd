@@ -23,12 +23,6 @@ Aprendizajes del primer año del TEMU
 ::: part0-hero-image
 ![](images/part0-trayectoria.png)
 :::
-
-:::: part0-hero-side
-::: part0-lead
-### Una forma distinta de leer los procesos de cambio docente {.part0-lead}
-:::
-::::
 ::::::
 ::::::::::
 

@@ -23,12 +23,6 @@ Proyección en la mentoría universitaria
 ::: part0-hero-image
 ![](images/part0-trayectoria.png)
 :::
-
-:::: part0-hero-side
-::: part0-lead
-### Cómo esta forma de comprender la docencia transforma mi manera de situarme como mentora {.part0-lead}
-:::
-::::
 ::::::
 ::::::::::
 
