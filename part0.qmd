@@ -1,4 +1,3 @@
-
 ---
 title: ""
 page-layout: full
@@ -6,9 +5,8 @@ format: html
 editor: visual
 ---
 
-
-::::::::::::::::::::::::: part0-page
-::::::::: part0-hero
+:::::::::::::::::::::::::::::::::::: part0-page
+:::::::::: part0-hero
 ::: part0-kicker
 Parte 0 · empezar
 :::
@@ -25,14 +23,8 @@ Desde dónde escribo este portafolio
 ::: part0-hero-image
 ![](images/part0-trayectoria.png)
 :::
-
-:::: part0-hero-side
-::: part0-lead
-### Una trayectoria docente larga, pero constantemente abierta a revisión {.part0-lead}
-:::
-::::
 ::::::
-:::::::::
+::::::::::
 
 ::: part0-note
 ## Clave de lectura
@@ -40,99 +32,87 @@ Desde dónde escribo este portafolio
 Este portafolio se organiza desde una lógica presente también en mi trabajo sobre desarrollo cognitivo y lingüístico: leer los procesos antes de buscar cambios visibles. No como una metáfora, sino como una forma de interpretar también los procesos de desarrollo profesional docente.
 :::
 
-:::::: {.part0-lienzo .part0-temdu}
-
+::::::: {.part0-lienzo .part0-temdu}
 ::: part0-lienzo-tag
 INICIOS
 :::
 
-::: {.part0-lienzo-main}
-
-<div class="part0-bigword">trayectoria previa</div>
+:::: part0-lienzo-main
+::: part0-bigword
+trayectoria previa
+:::
 
 <p>Una forma de entender el aprendizaje.</p>
 
 <a class="part0-evidence-button" href="ruta/a/tu/evidencia.pdf">Ver evidencia</a>
-
-:::
+::::
 
 ::: part0-lienzo-panel
-
 Mucho antes de participar en programas de formación docente, ya me interesaba una misma pregunta: qué hace posible que algo cambie cuando aprendemos. Con el tiempo, esa pregunta me ha llevado a prestar más atención a los procesos que a los resultados inmediatos. No todo aprendizaje se hace visible de forma rápida, ni todo cambio aparece cuando se espera. Esta manera de mirar, construida entre la investigación y la docencia, sigue orientando cómo interpreto hoy la enseñanza, la mejora y el desarrollo profesional.
-
 :::
-::::::
+:::::::
 
-:::::: {.part0-lienzo .part0-docentia}
-
+::::::: {.part0-lienzo .part0-docentia}
 ::: part0-lienzo-tag
 HERRAMIENTAS
 :::
 
-::: {.part0-lienzo-main}
-
-<div class="part0-bigword">diseñar cambios</div>
+:::: part0-lienzo-main
+::: part0-bigword
+diseñar cambios
+:::
 
 <p>Lo que ocurre más allá de la planificación.</p>
 
 <a class="part0-evidence-button" href="ruta/a/tu/evidencia.pdf">Ver evidencia</a>
-
-:::
+::::
 
 ::: part0-lienzo-panel
-
 Durante años entendí la mejora docente principalmente como una cuestión de diseño: ajustar actividades, afinar metodologías y construir mejores sistemas de evaluación. Revisar experiencias pasadas me ha permitido reconocer tanto el valor como los límites de esa mirada. No siempre existe una relación directa entre lo que se planifica y lo que finalmente ocurre en el aula. Parte de las preguntas que hoy orientan mi trabajo nacen precisamente de ese espacio de incertidumbre entre las decisiones docentes y los procesos reales de aprendizaje.
-
 :::
-::::::
+:::::::
 
-:::::: {.part0-lienzo .part0-preguntas}
-
+::::::: {.part0-lienzo .part0-preguntas}
 ::: part0-lienzo-tag
 ESTRATEGIAS
 :::
 
-::: {.part0-lienzo-main}
-
-<div class="part0-bigword">preguntas abiertas</div>
+:::: part0-lienzo-main
+::: part0-bigword
+preguntas abiertas
+:::
 
 <p>Cuando comprender no significa resolver.</p>
 
 <a class="part0-evidence-button" href="ruta/a/tu/evidencia.pdf">Ver evidencia</a>
-
-:::
+::::
 
 ::: part0-lienzo-panel
-
 Con el tiempo he ido comprobando que algunas de las cuestiones más importantes de la práctica docente no desaparecen con más experiencia, más formación o mejores herramientas. Algunas reaparecen una y otra vez bajo formas distintas: cómo favorecer reflexiones genuinas, cómo acompañar procesos complejos o cómo interpretar avances que no siempre son visibles. Más que señalar problemas pendientes, estas preguntas han ido desplazando mi atención hacia aquello que resulta difícil de medir, anticipar o cerrar, pero que sigue siendo central para comprender lo que ocurre cuando enseñamos y aprendemos.
-
 :::
-::::::
+:::::::
 
-:::::: {.part0-lienzo .part0-temu}
-
+::::::: {.part0-lienzo .part0-temu}
 ::: part0-lienzo-tag
 REDES
 :::
 
-::: {.part0-lienzo-main}
-
-<div class="part0-bigword">acompañar procesos</div>
+:::: part0-lienzo-main
+::: part0-bigword
+acompañar procesos
+:::
 
 <p>Una comprensión construida en diálogo.</p>
 
 <a class="part0-evidence-button" href="ruta/a/tu/evidencia.pdf">Ver evidencia</a>
-
-:::
+::::
 
 ::: part0-lienzo-panel
-
 El valor principal de esta experiencia no ha estado en incorporar nuevas herramientas, sino en cambiar la forma de acercarme a los procesos de cambio. El contraste continuado con otras personas, la conversación sostenida y la posibilidad de volver sobre una misma situación desde distintas perspectivas han desplazado el foco desde la búsqueda de soluciones hacia una comprensión más cuidada de lo que está ocurriendo. Acompañar deja de ser intervenir rápidamente para convertirse, en primer lugar, en aprender a leer mejor los procesos que tenemos delante.
-
 :::
-::::::
+:::::::
 
-:::: part0-question
+:::::: part0-question
 ::: part0-question-label
 Pregunta que abre el portafolio
 :::
@@ -144,6 +124,5 @@ Este portafolio recoge principalmente desplazamientos en la manera de mirar, eva
 ::: part0-question-main
 El principal avance no es hacer algo distinto, sino entender lo que hago de otra manera
 :::
-::::
-
-:::::::::::::::::::::::::
+::::::
+::::::::::::::::::::::::::::::::::::
