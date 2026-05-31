@@ -638,23 +638,29 @@ Comprender mejor no elimina necesariamente los límites del proceso.
   <div class="site-footer-message">© 2026 Ana Moreno Núñez · Portafolio docente</div>
 </footer>
 
-          <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const footer = document.querySelector(".site-footer");
-    if (!footer) return;
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+     const footer = document.querySelector(".site-footer");
+     if (!footer) return;
 
-    function toggleFooter() {
-      const nearBottom =
-        window.innerHeight + window.scrollY >= document.body.offsetHeight - 80;
+     let lastScrollY = window.scrollY;
 
-      footer.classList.toggle("is-visible", nearBottom);
+      function toggleFooter() {
+       const currentScrollY = window.scrollY;
+       const scrollingDown = currentScrollY > lastScrollY;
+       const nearBottom =
+        window.innerHeight + currentScrollY >= document.documentElement.scrollHeight - 80;
+
+      footer.classList.toggle("is-visible", nearBottom && scrollingDown);
+
+      lastScrollY = currentScrollY;
     }
 
     window.addEventListener("scroll", toggleFooter, { passive: true });
     window.addEventListener("resize", toggleFooter);
     toggleFooter();
-  });
-</script>
+    });
+  </script>
 
 
 
