@@ -46,26 +46,26 @@ format:
             <div class="site-footer-message">© 2026 Ana Moreno Núñez · Portafolio docente</div>
           </footer>
           
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const footer = document.querySelector(".site-footer");
-    if (!footer) return;
+            <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          const footer = document.querySelector(".site-footer");
+          if (!footer) return;
 
-    let lastScrollY = window.scrollY;
+          let lastScrollY = window.scrollY;
 
-    function toggleFooter() {
-      const currentScrollY = window.scrollY;
-      const scrollingDown = currentScrollY > lastScrollY;
-      const nearBottom =
-        window.innerHeight + currentScrollY >= document.documentElement.scrollHeight - 80;
+          function toggleFooter() {
+            const currentScrollY = window.scrollY;
+            const scrollingDown = currentScrollY > lastScrollY;
+            const nearBottom =
+              window.innerHeight + currentScrollY >= document.documentElement.scrollHeight - 80;
 
-      footer.classList.toggle("is-visible", nearBottom && scrollingDown);
+           footer.classList.toggle("is-visible", nearBottom && scrollingDown);
 
-      lastScrollY = currentScrollY;
-    }
+          lastScrollY = currentScrollY;
+        }
 
-    window.addEventListener("scroll", toggleFooter, { passive: true });
-    window.addEventListener("resize", toggleFooter);
-    toggleFooter();
-  });
-</script>
+        window.addEventListener("scroll", toggleFooter, { passive: true });
+        window.addEventListener("resize", toggleFooter);
+        toggleFooter();
+        });
+        </script>
