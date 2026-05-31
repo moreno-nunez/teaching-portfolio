@@ -1814,5 +1814,5 @@ body:has(.part0-page) .page-columns{
 
 body:not(.home) main.content,
 body:not(.home) #quarto-document-content{
-  padding-bottom: 7rem !important;
+  padding-bottom: 5rem !important;
 }
