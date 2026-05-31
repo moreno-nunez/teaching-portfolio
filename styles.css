@@ -595,7 +595,7 @@ body:has(.part0-page) .part0-lienzo-main p{
 }
 
 body:has(.part0-page) .part0-question{
-  padding-top: 5rem;
+  padding-top: 8rem;
 }
 
 body:has(.part0-page) #quarto-content .page-columns,
@@ -1810,4 +1810,9 @@ body:has(.part0-page) .page-columns{
   height: 1.8rem !important;
   padding: 0 !important;
   color: rgba(196,90,134,.85) !important;
+}
+
+body:not(.home) main.content,
+body:not(.home) #quarto-document-content{
+  padding-bottom: 7rem !important;
 }
