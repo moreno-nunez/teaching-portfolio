@@ -1741,7 +1741,7 @@ body:has(.part0-page) .page-columns{
   position: fixed !important;
   left: 0 !important;
   right: 0 !important;
-  bottom: 1.8rem !important;
+  bottom: 2.4rem !important;
   width: min(1160px, calc(100% - 4rem)) !important;
   margin: 0 auto !important;
 
@@ -1770,7 +1770,7 @@ body:has(.part0-page) .page-columns{
   flex-direction: row !important;
   align-items: center !important;
   justify-content: flex-start !important;
-  gap: .42rem !important;
+  gap: .15rem !important;
   margin: 0 !important;
 }
 
@@ -1788,9 +1788,9 @@ body:has(.part0-page) .page-columns{
   justify-self: end;
 
   font-family: var(--font-body) !important;
-  font-size: .78rem !important;
+  font-size: .72rem !important;
   color: var(--muted) !important;
-  opacity: .8 !important;
+  opacity: .65 !important;
 }
 
 .site-footer .back-to-top{
@@ -1806,7 +1806,8 @@ body:has(.part0-page) .page-columns{
 }
 
 .site-footer .footer-social a{
-  width: 1.35rem !important;
-  height: 1.35rem !important;
-  color: var(--muted) !important;
+  width: 1.8rem !important;
+  height: 1.8rem !important;
+  padding: 0 !important;
+  color: rgba(196,90,134,.85) !important;
 }
