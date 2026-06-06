@@ -29,7 +29,8 @@ Límites, posibilidades y decisiones emergentes
 ::: part0-note
 ## Clave de lectura
 
-Los bloques que siguen no describen resultados ni buenas prácticas. Recogen desplazamientos en la manera de interpretar situaciones de docencia y acompañamiento cuya complejidad se vuelve más visible a medida que avanza la comprensión.
+Durante el segundo año del TEMU, la atención se desplaza desde la comprensión de los procesos hacia las decisiones que empiezan a derivarse de ella.
+Esta parte no recoge transformaciones consolidadas, sino cambios en la forma de decidir, reconocer condiciones necesarias para el cambio e identificar límites que antes pasaban más desapercibidos.
 :::
 
 ::::::: {.part0-lienzo .part0-temdu}
@@ -46,7 +47,9 @@ DECIDIR
 ::::
 
 ::: part0-lienzo-panel
-Algunas decisiones han dejado de organizarse alrededor de la rapidez de la respuesta para desplazarse hacia la calidad de la comprensión. Empiezo a reconocer que intervenir no siempre es el primer paso más pertinente y que, en ocasiones, actuar demasiado pronto puede fijar lecturas todavía incompletas de la situación. La atención se desplaza así desde la búsqueda inmediata de soluciones hacia las condiciones que permiten entender mejor qué está ocurriendo, cómo se está formulando el problema y qué posibilidades quedan todavía sin explorar. Esta forma de mirar no elimina la necesidad de actuar, pero introduce una pregunta que permanece abierta: cuándo una situación necesita una intervención y cuándo requiere, todavía, seguir siendo observada.
+<p>Algunas decisiones han dejado de organizarse alrededor de la rapidez de la respuesta para desplazarse hacia la calidad de la comprensión.</p>
+<p>Cada vez resulta más evidente que acompañar no consiste únicamente en proponer soluciones, sino también en decidir cuándo detenerse, reformular una demanda, introducir una pregunta o esperar antes de intervenir.</p>
+<p>La atención se desplaza así desde la búsqueda inmediata de respuestas hacia la construcción de una lectura más precisa de la situación.</p>
 :::
 :::::::
 
@@ -64,7 +67,9 @@ RECONOCER
 ::::
 
 ::: part0-lienzo-panel
-Durante mucho tiempo tendí a situar la atención en las decisiones, las propuestas o las acciones que podían impulsar una transformación. Poco a poco, sin embargo, algunas situaciones empezaron a mostrar que el cambio no depende únicamente de lo que se hace, sino también de aquello que permite que determinadas acciones lleguen a tener sentido, continuidad o impacto. El vínculo, los tiempos disponibles, las oportunidades para revisar el proceso o las condiciones institucionales dejan de aparecer como elementos de contexto para ocupar un lugar más central en la lectura de las situaciones. Esta comprensión amplía el foco de análisis, pero mantiene abierta una tensión importante: muchas de las condiciones que sostienen o limitan el cambio pueden reconocerse con claridad sin que necesariamente sea posible modificarlas.
+<p>Durante mucho tiempo tendí a fijarme sobre todo en las decisiones, las propuestas o las acciones que podían impulsar una transformación.</p>
+<p>Poco a poco, algunas situaciones empezaron a mostrar que el cambio depende también de aquello que permite sostenenerlo.</p>
+<p>El vínculo, el tiempo disponible, las oportunidades para revisar el proceso o las condiciones institucionales dejan de aparecer como elementos de contexto para ocupar un lugar central en la lectura de las situaciones.</p>
 :::
 :::::::
 
@@ -82,7 +87,9 @@ SOSTENER
 ::::
 
 ::: part0-lienzo-panel
-A medida que algunas situaciones empiezan a leerse con mayor complejidad, también se vuelve más visible aquello que no depende por completo de la calidad de las decisiones tomadas. Determinados obstáculos dejan de interpretarse como errores corregibles o como problemas atribuibles únicamente a las personas implicadas para aparecer como parte constitutiva de los propios procesos de acompañamiento. Algunos remiten a las condiciones institucionales en las que se trabaja; otros emergen en la propia práctica profesional; otros aparecen precisamente allí donde dos prioridades igualmente valiosas entran en tensión. Entre ellas, una pregunta adquiere un peso creciente: cómo introducir el desafío necesario para que algo pueda cambiar sin poner en riesgo el vínculo que hace posible sostener ese cambio. No es una cuestión resuelta, sino una tensión que sigue orientando la mirada.
+<p>A medida que algunas situaciones empiezan a leerse con mayor complejidad, también se vuelve más visible aquello que no depende por completo de la calidad de las decisiones tomadas.</p>
+<p>Algunos obstáculos remiten a las condiciones institucionales en las que trabajamos, otros aparecen en la propia práctica profesional, otros surgen allí donde dos prioridades igualmente valiosas entran en tensión.</p>
+<p>Entre ellas, una pregunta adquiere un peso creciente: cómo introducir el desafío necesario para que algo pueda cambiar sin poner en riesgo el vínculo que hace posible sostener ese cambio.</p>
 :::
 :::::::
 
@@ -96,7 +103,7 @@ Comprender mejor una situación no garantiza poder transformarla. Sin embargo, m
 :::
 
 ::: part0-question-main
-Hay tensiones que no pueden resolverse, se sostienen como parte de los procesos que acompañamos
+Algunas de las decisiones más importantes no consisten en intervenir, sino en comprender mejor qué hace posible —o imposible— el cambio
 :::
 ::::::
 :::::::::::::::::::::::::::::::
