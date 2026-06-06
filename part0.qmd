@@ -46,9 +46,9 @@ INICIOS
 ::::
 
 ::: part0-lienzo-panel
-Mucho antes de participar en programas de formación docente, mi trabajo ya giraba en torno a una pregunta recurrente: cómo se producen los procesos de aprendizaje y qué hace posible ese cambio. 
-Estudiar el desarrollo temprano me enseñó a observar procesos que no siempre son inmediatos ni visibles.
-Con el tiempo, esa forma de mirar, construida entre la investigación y la docencia, terminó orientando también cómo interpreto la enseñanza y el desarrollo profesional docente.
+<p>Mucho antes de participar en programas de formación docente, mi trabajo ya giraba en torno a una pregunta recurrente: cómo se producen los procesos de aprendizaje y qué hace posible ese cambio.</p>
+<p>Estudiar el desarrollo temprano me enseñó a observar procesos que no siempre son inmediatos ni visibles.</p>
+<p>Con el tiempo, esa forma de mirar, construida entre la investigación y la docencia, terminó orientando también cómo interpreto la enseñanza y el desarrollo profesional docente.</p>
 :::
 :::::::
 
