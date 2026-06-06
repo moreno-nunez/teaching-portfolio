@@ -1817,8 +1817,8 @@ body:not(.home) #quarto-document-content{
   padding-bottom: 5rem !important;
 }
 
-body.home .site-footer{
-  opacity: 1 !important;
-  pointer-events: auto !important;
-  transform: translateY(0) !important;
+body.home #quarto-content::after{
+  content: "";
+  display: block;
+  height: 15vh;
 }
