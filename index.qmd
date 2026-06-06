@@ -13,8 +13,12 @@ editor: source
 
 ::: {.home-hero__text}
 
-::: home-program
+::: home-heading
 Título de Experto en Mentoría Universitaria · TEMU-UAM
+:::
+
+::: home-program
+Portafolio reflexivo sobre desarrollo profesional docente
 :::
 
 ::: home-intro
