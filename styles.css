@@ -748,11 +748,11 @@ body:has(.part0-page) .page-columns{
 }
 
 .part0-hero-image{
-  grid-column: 1 !important;
+  grid-column: 1 / -1 !important;
   grid-row: 1 !important;
 
   align-self: start !important;
-  justify-self: center !important;
+  justify-self: stretch !important;
 
   position: static !important;
   width: 100% !important;
