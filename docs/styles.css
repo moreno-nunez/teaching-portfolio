@@ -1184,6 +1184,10 @@ body:has(.part0-page) .page-columns{
     max-height: none;
     margin-top: 0;
   }
+  
+  .part0-lienzo-panel p:last-child{
+  margin-bottom: 0;
+  }
 }
 /* ==========================================================================
    PRINT — PART 0
