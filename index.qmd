@@ -14,11 +14,11 @@ editor: source
 ::: {.home-hero__text}
 
 ::: home-heading
-Título de Experto en Mentoría Universitaria · TEMU-UAM
+Trabajo Fin de Título
 :::
 
 ::: home-program
-Portafolio reflexivo sobre desarrollo profesional docente
+Título de Experto en Mentoría Universitaria · TEMU-UAM
 :::
 
 ::: home-intro
