@@ -1820,5 +1820,5 @@ body:not(.home) #quarto-document-content{
 body.home::after{
   content: "";
   display: block;
-  height: 40px;
+  height: 20px;
 }
