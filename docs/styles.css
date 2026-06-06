@@ -581,7 +581,7 @@ body:has(.part0-page) #quarto-content{
 }
 
 body:has(.part0-page) .part0-lienzo-panel{
-  padding: clamp(2rem, 2.8vw, 2.6rem);
+  padding: 1.25rem 2rem;
 }
 
 body:has(.part0-page) .part0-lienzo-panel p{
@@ -1057,6 +1057,10 @@ body:has(.part0-page) .page-columns{
   margin-bottom: .95rem;
 }
 
+  .part0-lienzo-panel p:last-child{
+  margin-bottom: 0;
+}
+  
 /* ==========================================================================
    PART 0 — pregunta final
    ========================================================================== */
@@ -1183,10 +1187,6 @@ body:has(.part0-page) .page-columns{
     pointer-events: auto;
     max-height: none;
     margin-top: 0;
-  }
-  
-  .part0-lienzo-panel p:last-child{
-  margin-bottom: 0;
   }
 }
 /* ==========================================================================
