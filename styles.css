@@ -1820,5 +1820,5 @@ body:not(.home) #quarto-document-content{
 body.home #quarto-content::after{
   content: "";
   display: block;
-  height: 15vh;
+  height: 18vh;
 }
