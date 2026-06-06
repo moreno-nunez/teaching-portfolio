@@ -752,7 +752,7 @@ body:has(.part0-page) .page-columns{
   grid-row: 1 !important;
 
   align-self: start !important;
-  justify-self: stretch !important;
+  justify-self: center !important;
 
   position: static !important;
   width: 100% !important;
@@ -764,7 +764,8 @@ body:has(.part0-page) .page-columns{
   max-height: 42vh !important;
 
   object-fit: contain !important;
-  object-position: top left !important;
+  object-position: center center !important;
+  margin: 0 auto !important;
 
   display: block !important;
   border-radius: 2.2rem !important;
