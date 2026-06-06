@@ -1023,7 +1023,7 @@ body:has(.part0-page) .page-columns{
   transform: translateX(1.8rem);
   pointer-events: none;
 
-  padding: clamp(1.25rem, 1.75rem);
+  padding: 1.25rem 2rem;
   border-radius: 12px;
   background: rgba(255,252,252,.62);
   color: #314236;
