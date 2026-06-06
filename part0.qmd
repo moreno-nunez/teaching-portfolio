@@ -66,9 +66,9 @@ HERRAMIENTAS
 ::::
 
 ::: part0-lienzo-panel
-Mi primer acercamiento sistemático a la innovación docente se desarrolló durante mi participación en el TEMDU, donde desarrollé un proyecto de cambio centrado en la asignatura Desarrollo Cognitivo y Lingüístico, del Grado en Psicología.
-Más adelante, otras experiencias reforzaron una manera de trabajar basada en la planificación, la coherencia y el uso de evidencias para mejorar la práctica.
-Pero durante años entendí el cambio docente principalmente desde esa lógica de diseño y evaluación. Revisar experiencias pasadas me ha permitido reconocer tanto el valor como los límites de esa mirada.
+<p>Mi primer acercamiento sistemático a la innovación docente se desarrolló durante mi participación en el TEMDU, donde desarrollé un proyecto de cambio centrado en la asignatura Desarrollo Cognitivo y Lingüístico, del Grado en Psicología.</p>
+<p>Más adelante, otras experiencias reforzaron una manera de trabajar basada en la planificación, la coherencia y el uso de evidencias para mejorar la práctica.</p>
+<p>Pero durante años entendí el cambio docente principalmente desde esa lógica de diseño y evaluación. Revisar experiencias pasadas me ha permitido reconocer tanto el valor como los límites de esa mirada.</p>
 :::
 :::::::
 
@@ -86,8 +86,9 @@ ESTRATEGIAS
 ::::
 
 ::: part0-lienzo-panel
-A pesar de esa trayectoria, algunas preguntas persistían. Con el tiempo he ido comprobando que algunas de las cuestiones más importantes de la práctica docente no desaparecen con más experiencia, más formación o mejores herramientas. Algunas reaparecen una y otra vez bajo formas distintas, ¿Por qué determinadas propuestas no producían los efectos esperados? ¿Cómo interpretar avances que no siempre resultan visibles? ¿Cómo acompañar procesos complejos sin reducirlos a indicadores o resultados inmediatos?
-Estas cuestiones han ido desplazando mi atención desde las soluciones hacia la comprensión de aquello que ocurre entre las decisiones docentes y sus efectos.
+<p>A pesar de esa trayectoria, algunas preguntas persistían. Con el tiempo he ido comprobando que algunas de las cuestiones más importantes de la práctica docente no desaparecen con más experiencia, más formación o mejores herramientas.</p>
+<p>Algunas reaparecen una y otra vez bajo formas distintas, ¿Por qué determinadas propuestas no producían los efectos esperados? ¿Cómo interpretar avances que no siempre resultan visibles? ¿Cómo acompañar procesos complejos sin reducirlos a indicadores o resultados inmediatos?</p>
+<p>Estas cuestiones han ido desplazando mi atención desde las soluciones hacia la comprensión de aquello que ocurre entre las decisiones docentes y sus efectos.</p>
 :::
 :::::::
 
@@ -105,9 +106,9 @@ REDES
 ::::
 
 ::: part0-lienzo-panel
-Llegué al TEMU con experiencias previas, pero también con la sensación de que algunas preguntas necesitaban otros espacios para ser pensadas.
-El principal valor de esta experiencia no ha estado en incorporar nuevas herramientas, sino en disponer de tiempo, contraste y conversación para volver sobre las mismas situaciones desde perspectivas diferentes.
-Más que ofrecer respuestas, el proceso ha ampliado mi forma de leer el cambio docente y los procesos de enseñanza y aprendizaje.
+<p>Llegué al TEMU con experiencias previas, pero también con la sensación de que algunas preguntas necesitaban otros espacios para ser pensadas.</p>
+<p>El principal valor de esta experiencia no ha estado en incorporar nuevas herramientas, sino en disponer de tiempo, contraste y conversación para volver sobre las mismas situaciones desde perspectivas diferentes.</p>
+<p>Más que ofrecer respuestas, el proceso ha ampliado mi forma de leer el cambio docente y los procesos de enseñanza y aprendizaje.</p>
 :::
 :::::::
 
@@ -117,7 +118,8 @@ Pregunta que abre el portafolio
 :::
 
 ::: part0-question-intro
-Este portafolio recoge principalmente desplazamientos en la manera de mirar, evaluar, intervenir y acompañar en la docencia. Más que registrar cambios concretos, reconstruye cómo han cambiado las preguntas desde las que interpreto mi propia práctica.
+<p>Este portafolio recoge principalmente desplazamientos en la manera de mirar, evaluar, intervenir y acompañar en la docencia.</p>
+<p>Más que registrar cambios concretos, reconstruye cómo han cambiado las preguntas desde las que interpreto mi propia práctica.</p>
 :::
 
 ::: part0-question-main

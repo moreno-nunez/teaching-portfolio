@@ -876,7 +876,7 @@ body:has(.part0-page) .page-columns{
 
 .part0-lienzo{
   width: min(var(--part0-max), calc(100% - 2 * var(--part0-page-pad))) !important;
-  min-height: 68vh;
+  min-height: 54vh;
   margin: 0 auto clamp(3.5rem, 6vw, 5.5rem);
   padding: clamp(2.8rem, 5vw, 4.8rem);
   border-radius: 6px;
@@ -1022,7 +1022,7 @@ body:has(.part0-page) .page-columns{
   transform: translateX(1.8rem);
   pointer-events: none;
 
-  padding: clamp(1.8rem, 2.6vw, 2.5rem);
+  padding: clamp(1.6rem, 2.6vw, 2rem);
   border-radius: 12px;
   background: rgba(255,252,252,.62);
   color: #314236;
