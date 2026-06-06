@@ -1817,8 +1817,8 @@ body:not(.home) #quarto-document-content{
   padding-bottom: 5rem !important;
 }
 
-body.home #quarto-content::after{
+body.home::after{
   content: "";
   display: block;
-  height: 20vh;
+  height: 180px;
 }
