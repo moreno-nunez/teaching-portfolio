@@ -12,7 +12,7 @@ Parte I · comprender
 :::
 
 ::: part0-title
-# comprender antes de intervenir {.part0-title}
+# cambio de mirada {.part0-title}
 :::
 
 ::: part0-subtitle
@@ -29,7 +29,8 @@ Aprendizajes del primer año del TEMU
 ::: part0-note
 ## Clave de lectura
 
-Al igual que en el desarrollo cognitivo comprender precede a actuar, durante el primer curso del TEMU no incorporé únicamente nuevas herramientas de acompañamiento. Cambiaron también las preguntas desde las que interpreto la docencia, la evaluación y los procesos de cambio. Esta parte reconstruye esos desplazamientos a través de tres miradas: metodológica, evaluativa y relacional. 
+Al igual que en el desarrollo cognitivo comprender precede a actuar, durante el primer curso del TEMU no incorporé únicamente nuevas herramientas de acompañamiento.
+Cambiaron también las preguntas desde las que interpreto la docencia, la evaluación y los procesos de cambio. Esta parte reconstruye esos desplazamientos a través de tres miradas: metodológica, evaluativa y relacional.
 :::
 
 ::::::: {.part0-lienzo .part0-temdu}
