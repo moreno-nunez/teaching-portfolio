@@ -2067,7 +2067,7 @@ body:has(.evidence-page) #quarto-document-content{
 
 body:has(.evidence-page) .evidence-main section.level3 > h3{
   font-family: var(--font-body) !important;
-  font-weight: 500 !important;
+  font-weight: 600 !important;
   font-size: clamp(1.35rem, 1.75vw, 1.85rem) !important;
   line-height: 1.18 !important;
   letter-spacing: -0.02em !important;
