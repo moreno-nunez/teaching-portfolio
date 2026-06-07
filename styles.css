@@ -1951,13 +1951,14 @@ body:has(.evidence-page) #quarto-document-content{
 
 .evidence-main h3{
   font-family: var(--font-display);
-  text-transform: none;
-  letter-spacing: -.01em;
-  font-size: clamp(1.8rem, 2.3vw, 2.4rem);
-  color: var(--text);
-  line-height: 1.12;
-  margin-top: 3.6rem;
-  margin-bottom: .45rem;
+  font-weight: 600 !important;
+  text-transform: none !important;
+  letter-spacing: -.01em !important;
+  font-size: clamp(2rem, 2.45vw, 2.55rem) !important;
+  color: var(--text) !important;
+  line-height: 1.06 !important;
+  margin-top: 3.6rem !important;
+  margin-bottom: .45rem !important;
 }
 
 .evidence-main > h3:first-of-type{
