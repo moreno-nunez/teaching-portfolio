@@ -27,15 +27,15 @@ Título de Experto en Docencia Universitaria (2015)
 ::: evidence-aside
 
 ::: evidence-cover
-![](../images/evidence/temdu-portada.png)
+![](../images/evidence/temdu-cover.png)
 :::
 
 ::: evidence-meta
-**Documento:** Proyecto de cambio docente  
-**Programa:** Título de Experto en Docencia Universitaria  
+**Documento:** Proyecto de Cambio Docente  
+**Programa:** Título de Experto en Docencia Universitaria (UAM) 
 **Año:** 2015  
 **Situación profesional:** Personal Docente e Investigador en Formación  
-**Asignatura:** Psicología del Desarrollo Cognitivo y Lingüístico
+**Asignatura:** Desarrollo Cognitivo y Lingüístico (Grado en Psicología)
 :::
 
 :::
