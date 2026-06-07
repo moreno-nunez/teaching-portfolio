@@ -79,7 +79,7 @@ PREGUNTAS
 :::
 
 :::: part0-lienzo-main
-<div class="part0-bigword">límites del acompañamiento</div>
+<div class="part0-bigword">preguntas por abrir</div>
 
 <p>No todo lo que se comprende puede transformarse.</p>
 
