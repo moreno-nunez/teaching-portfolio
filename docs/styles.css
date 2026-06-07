@@ -1958,7 +1958,9 @@ body:has(.evidence-page) #quarto-document-content{
   letter-spacing: -.01em;
   font-size: clamp(1.8rem, 2.3vw, 2.4rem);
   color: var(--text);
-  margin: 4.5rem 0 .75rem;
+  
+  margin-top: 4.5rem;
+  margin-bottom: .35rem;
 }
 
 .evidence-main > h2:first-of-type{
@@ -1991,7 +1993,7 @@ body:has(.evidence-page) #quarto-document-content{
 }
 
 .evidence-reflection{
-  margin-top: .75rem;
+  margin-top: 3rem;
   padding-left: 1.2rem;
   border-left: 3px solid rgba(178,58,111,.35);
 }
