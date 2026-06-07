@@ -38,9 +38,7 @@ INICIOS
 :::
 
 :::: part0-lienzo-main
-::: part0-bigword
-trayectoria previa
-:::
+<div class="part0-bigword">trayectoria previa</div>
 
 <p>Una forma de entender el aprendizaje.</p>
 
@@ -62,9 +60,7 @@ HERRAMIENTAS
 :::
 
 :::: part0-lienzo-main
-::: part0-bigword
-diseñar cambios
-:::
+<div class="part0-bigword">diseñar cambios</div>
 
 <p>La mejora docente como objeto de análisis</p>
 
@@ -86,9 +82,7 @@ ESTRATEGIAS
 :::
 
 :::: part0-lienzo-main
-::: part0-bigword
-preguntas abiertas
-:::
+<div class="part0-bigword">preguntas abiertas</div>
 
 <p>Lo que seguía sin encajar del todo.</p>
 
@@ -110,9 +104,7 @@ REDES
 :::
 
 :::: part0-lienzo-main
-::: part0-bigword
-acompañar procesos
-:::
+<div class="part0-bigword">acompañar procesos</div>
 
 <p>Una comprensión construida en diálogo.</p>
 

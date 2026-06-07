@@ -38,9 +38,7 @@ LECTURA
 :::
 
 :::: part0-lienzo-main
-::: part0-bigword
-leer situaciones
-:::
+<div class="part0-bigword">leer situaciones</div>
 
 <p>La intervención empieza antes de actuar.</p>
 
@@ -62,9 +60,7 @@ TIEMPOS
 :::
 
 :::: part0-lienzo-main
-::: part0-bigword
-procesos abiertos
-:::
+<div class="part0-bigword">procesos abiertos</div>
 
 <p>Evaluar también implica esperar.</p>
 
@@ -86,9 +82,7 @@ VÍNCULO
 :::
 
 :::: part0-lienzo-main
-::: part0-bigword
-pensar juntos
-:::
+<div class="part0-bigword">pensar juntos</div>
 
 <p>Ningún proceso se sostiene completamente en solitario.</p>
 
