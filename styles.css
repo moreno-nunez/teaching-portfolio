@@ -1910,9 +1910,6 @@ body:has(.evidence-page) #quarto-document-content{
 .evidence-aside{
   position: sticky;
   top: 120px;
-  max-height: calc(100vh - 150px);
-  overflow-y: auto;
-  padding-right: .4rem;
 }
 
 .evidence-cover{
