@@ -1,13 +1,37 @@
 ---
 title: "project-tedu"
-format: html
----
-
----
 title: "Evidencia · Trayectoria previa"
 page-layout: full
 format: html
 ---
+
+::: evidence-page
+
+::: evidence-kicker
+Evidencia · Parte 0
+:::
+
+# Diseñar cambios
+
+::: evidence-subtitle
+Una primera formulación del cambio docente en los inicios de mi experiencia universitaria.
+:::
+
+::: evidence-intro
+Esta evidencia recoge el proyecto de cambio docente desarrollado en 2015 como trabajo final del entonces Título de Experto en Docencia Universitaria. En aquel momento era Personal Docente e Investigador en Formación y me encontraba en los primeros años de experiencia docente.
+:::
+
+## Qué muestra
+
+Texto breve.
+
+## Por qué es relevante en este portafolio
+
+Texto breve.
+
+[← Volver a Parte 0](../part0.html){.evidence-back-button}
+
+:::
 
 ## Trayectoria previa
 
