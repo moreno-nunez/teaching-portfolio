@@ -2073,10 +2073,10 @@ body:has(.evidence-page) .evidence-main section.level3 > h3{
   letter-spacing: -0.03em !important;
   color: var(--text) !important;
   margin-top: 0 !important;
-  margin-bottom: .45rem !important;
+  margin-bottom: .8rem !important;
   text-transform: none !important;
-  padding-bottom: .5rem;
-  border-bottom: 1px solid rgba(85,107,90,.12);
+  padding-bottom: .55rem;
+  border-bottom: 1px solid rgba(85,107,90,.10);
 }
 
 body:has(.evidence-page) .evidence-main section.level3{
