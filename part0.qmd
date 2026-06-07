@@ -5,8 +5,8 @@ format: html
 editor: visual
 ---
 
-:::::::::::::::::::::::::::::::::::: part0-page
-:::::::::: part0-hero
+:::::::::::::::::::::::::::::::::: part0-page
+:::::::: part0-hero
 ::: part0-kicker
 Parte 0 · empezar
 :::
@@ -19,12 +19,12 @@ Parte 0 · empezar
 Desde dónde escribo este portafolio
 :::
 
-:::::: part0-hero-bottom
+:::: part0-hero-bottom
 ::: part0-hero-image
 ![](images/part0-trayectoria.png)
 :::
-::::::
-::::::::::
+::::
+::::::::
 
 ::: part0-note
 ## Clave de lectura
@@ -38,7 +38,9 @@ INICIOS
 :::
 
 :::: part0-lienzo-main
-<div class="part0-bigword">trayectoria previa</div>
+::: part0-bigword
+trayectoria previa
+:::
 
 <p>Una forma de entender el aprendizaje.</p>
 
@@ -47,7 +49,9 @@ INICIOS
 
 ::: part0-lienzo-panel
 <p>Mucho antes de participar en programas de formación docente, mi trabajo ya giraba en torno a una pregunta recurrente: cómo se producen los procesos de aprendizaje y qué hace posible ese cambio.</p>
+
 <p>Estudiar el desarrollo temprano me enseñó a observar procesos que no siempre son inmediatos ni visibles.</p>
+
 <p>Con el tiempo, esa forma de mirar, construida entre la investigación y la docencia, terminó orientando también cómo interpreto la enseñanza y el desarrollo profesional docente.</p>
 :::
 :::::::
@@ -58,7 +62,9 @@ HERRAMIENTAS
 :::
 
 :::: part0-lienzo-main
-<div class="part0-bigword">diseñar cambios</div>
+::: part0-bigword
+diseñar cambios
+:::
 
 <p>La mejora docente como objeto de análisis</p>
 
@@ -67,7 +73,9 @@ HERRAMIENTAS
 
 ::: part0-lienzo-panel
 <p>Mi primer acercamiento sistemático a la innovación docente se desarrolló durante mi participación en el TEMDU, donde desarrollé un proyecto de cambio centrado en la asignatura Desarrollo Cognitivo y Lingüístico, del Grado en Psicología.</p>
+
 <p>Más adelante, otras experiencias reforzaron una manera de trabajar basada en la planificación, la coherencia y el uso de evidencias para mejorar la práctica.</p>
+
 <p>Pero durante años entendí el cambio docente principalmente desde esa lógica de diseño y evaluación. Revisar experiencias pasadas me ha permitido reconocer tanto el valor como los límites de esa mirada.</p>
 :::
 :::::::
@@ -78,7 +86,9 @@ ESTRATEGIAS
 :::
 
 :::: part0-lienzo-main
-<div class="part0-bigword">preguntas abiertas</div>
+::: part0-bigword
+preguntas abiertas
+:::
 
 <p>Lo que seguía sin encajar del todo.</p>
 
@@ -87,7 +97,9 @@ ESTRATEGIAS
 
 ::: part0-lienzo-panel
 <p>A pesar de esa trayectoria, algunas preguntas persistían. Con el tiempo he ido comprobando que ciertas cuestiones centrales de la práctica docente no desaparecen con más experiencia, formación o herramientas.</p>
+
 <p>Más que resolverse, reaparecen bajo formas distintas y obligan a volver sobre los mismos problemas desde nuevas perspectivas.</p>
+
 <p>Esa persistencia ha ido desplazando mi atención desde la búsqueda de soluciones hacia la comprensión de aquello que ocurre entre las decisiones docentes y sus efectos.</p>
 :::
 :::::::
@@ -98,7 +110,9 @@ REDES
 :::
 
 :::: part0-lienzo-main
-<div class="part0-bigword">acompañar procesos</div>
+::: part0-bigword
+acompañar procesos
+:::
 
 <p>Una comprensión construida en diálogo.</p>
 
@@ -107,7 +121,9 @@ REDES
 
 ::: part0-lienzo-panel
 <p>Llegué al TEMU con experiencias previas, pero también con la sensación de que algunas preguntas necesitaban otros espacios para ser pensadas.</p>
+
 <p>El principal valor de esta experiencia no ha estado en incorporar nuevas herramientas, sino en disponer de tiempo, contraste y conversación para volver sobre las mismas situaciones desde perspectivas diferentes.</p>
+
 <p>Más que ofrecer respuestas, el proceso ha ampliado mi forma de leer el cambio docente y los procesos de enseñanza y aprendizaje.</p>
 :::
 :::::::
@@ -119,6 +135,7 @@ Pregunta que abre el portafolio
 
 ::: part0-question-intro
 <p>Este portafolio recoge principalmente desplazamientos en la manera de mirar, evaluar, intervenir y acompañar en la docencia.</p>
+
 <p>Más que registrar cambios concretos, reconstruye cómo han cambiado las preguntas desde las que interpreto mi propia práctica.</p>
 :::
 
@@ -126,4 +143,4 @@ Pregunta que abre el portafolio
 El principal avance no es hacer algo distinto, sino entender lo que hago de otra manera
 :::
 ::::::
-::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::

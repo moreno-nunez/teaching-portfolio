@@ -5,8 +5,8 @@ format: html
 editor: visual
 ---
 
-::::::::::::::::::::::::::::::: part0-page
-:::::::::: part0-hero
+::::::::::::::::::::::::::::: part0-page
+:::::::: part0-hero
 ::: part0-kicker
 Parte I · comprender
 :::
@@ -19,18 +19,17 @@ Parte I · comprender
 Aprendizajes del primer año del TEMU
 :::
 
-:::::: part0-hero-bottom
+:::: part0-hero-bottom
 ::: part0-hero-image
 ![](images/part0-trayectoria.png)
 :::
-::::::
-::::::::::
+::::
+::::::::
 
 ::: part0-note
 ## Clave de lectura
 
-Al igual que en el desarrollo cognitivo comprender precede a actuar, durante el primer curso del TEMU no incorporé únicamente nuevas herramientas de acompañamiento.
-Cambiaron también las preguntas desde las que interpreto la docencia, la evaluación y los procesos de cambio. Esta parte reconstruye esos desplazamientos a través de tres miradas: metodológica, evaluativa y relacional.
+Al igual que en el desarrollo cognitivo comprender precede a actuar, durante el primer curso del TEMU no incorporé únicamente nuevas herramientas de acompañamiento. Cambiaron también las preguntas desde las que interpreto la docencia, la evaluación y los procesos de cambio. Esta parte reconstruye esos desplazamientos a través de tres miradas: metodológica, evaluativa y relacional.
 :::
 
 ::::::: {.part0-lienzo .part0-temdu}
@@ -39,16 +38,20 @@ LECTURA
 :::
 
 :::: part0-lienzo-main
-<div class="part0-bigword">leer situaciones</div>
+::: part0-bigword
+leer situaciones
+:::
 
 <p>La intervención empieza antes de actuar.</p>
 
-<a class="part0-evidence-button" href="ruta/a/tu/evidencia.pdf">Ver evidencia</a>
+<a class="part0-evidence-button" href="evidence/temu-methodology.html">Abrir evidencia</a>
 ::::
 
 ::: part0-lienzo-panel
 <p>La metodología ha dejado de aparecer como un repertorio de estrategias para convertirse en una forma de leer situaciones complejas.</p>
-<p>La cuestión ya no es qué herramienta utilizar, sino cómo interpretar lo que está ocurriendo antes de decidir si intervenir, cómo hacerlo o incluso si conviene hacerlo.</p> 
+
+<p>La cuestión ya no es qué herramienta utilizar, sino cómo interpretar lo que está ocurriendo antes de decidir si intervenir, cómo hacerlo o incluso si conviene hacerlo.</p>
+
 <p>Más que aplicar procedimientos, implica tomar decisiones situadas y sensibles al contexto, a las personas implicadas y al momento del proceso.</p>
 :::
 :::::::
@@ -59,7 +62,9 @@ TIEMPOS
 :::
 
 :::: part0-lienzo-main
-<div class="part0-bigword">procesos abiertos</div>
+::: part0-bigword
+procesos abiertos
+:::
 
 <p>Evaluar también implica esperar.</p>
 
@@ -68,7 +73,9 @@ TIEMPOS
 
 ::: part0-lienzo-panel
 <p>La evaluación ha ido dejando de funcionar como un mecanismo para verificar resultados y pasando a convertirse en una herramienta para comprender procesos en curso.</p>
+
 <p>Su valor no reside únicamente en producir evidencias, sino en ayudar a interpretar qué está ocurriendo mientras todavía es posible ajustar decisiones.</p>
+
 <p>Esta mirada incorpora datos, observaciones y feedback, pero asume que no todo lo relevante puede reducirse a indicadores inmediatos.</p>
 :::
 :::::::
@@ -79,7 +86,9 @@ VÍNCULO
 :::
 
 :::: part0-lienzo-main
-<div class="part0-bigword">pensar juntos</div>
+::: part0-bigword
+pensar juntos
+:::
 
 <p>Ningún proceso se sostiene completamente en solitario.</p>
 
@@ -88,7 +97,9 @@ VÍNCULO
 
 ::: part0-lienzo-panel
 <p>La dimensión relacional ha dejado de entenderse como un contexto que acompaña el aprendizaje para convertirse en una condición que lo hace posible.</p>
+
 <p>El vínculo no solo favorece la confianza o la colaboración, también influye en cómo se interpretan las situaciones, cómo se recibe el feedback y qué transformaciones pueden llegar a producirse.</p>
+
 <p>Acompañar implica, por tanto, sostener una tensión constante entre el cuidado de la relación y el desafío que el aprendizaje exige.</p>
 :::
 :::::::
@@ -100,6 +111,7 @@ Pregunta que atraviesa esta parte
 
 ::: part0-question-intro
 <p>Durante este primer año no cambiaron únicamente las herramientas disponibles para acompañar a otros docentes.</p>
+
 <p>Cambió, sobre todo, la manera de leer las situaciones antes de decidir cómo actuar sobre ellas.</p>
 :::
 
@@ -107,4 +119,4 @@ Pregunta que atraviesa esta parte
 Antes de cambiar lo que hacemos, cambia la forma en que interpretamos lo que ocurre
 :::
 ::::::
-:::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::
