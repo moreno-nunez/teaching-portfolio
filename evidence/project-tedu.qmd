@@ -1,12 +1,14 @@
 ---
-title: "project-tedu"
+title: ""
 page-layout: full
 format: html
 ---
 
 ::: evidence-page
 
-## Evidencia · Parte 0 
+::: evidence-kicker
+Evidencia · Parte 0
+:::
 
 ::: evidence-subtitle
 Una primera formulación del cambio docente en los inicios de mi experiencia universitaria.
