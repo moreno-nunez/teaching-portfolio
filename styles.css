@@ -2070,7 +2070,7 @@ body:has(.evidence-page) .evidence-main section.level3 > h3{
   font-weight: 600 !important;
   font-size: clamp(1.35rem, 1.75vw, 1.85rem) !important;
   line-height: 1.18 !important;
-  letter-spacing: -0.01em !important;
+  letter-spacing: -0.02em !important;
   color: var(--text) !important;
   margin-top: 0 !important;
   margin-bottom: .45rem !important;
