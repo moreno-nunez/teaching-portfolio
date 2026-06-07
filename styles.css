@@ -1854,7 +1854,7 @@ body:has(.evidence-page) #quarto-document-content{
 }
 
 .evidence-page{
-  width: min(var(--part0-max), calc(100% - 2 * var(--part0-page-pad)));
+  width: min(var(--part0-max), calc(100% - 2 * var(--part0-page-pad))) !important;
   margin: 0 auto;
   padding: 4.5rem 0 7rem;
 }
@@ -1896,8 +1896,8 @@ body:has(.evidence-page) #quarto-document-content{
 
 .evidence-layout{
   display: grid;
-  grid-template-columns: 320px minmax(0, 1fr);
-  gap: clamp(2.2rem, 4vw, 4rem);
+  grid-template-columns: 300px minmax(0, 1fr);
+  gap: clamp(2rem, 3.5vw, 4rem);
   align-items: start;
 }
 
@@ -2036,7 +2036,6 @@ body:has(.evidence-page) #quarto-document-content{
   font-size: 1rem;
   line-height: 1.8;
   color: var(--text);
-  max-width: none;
 }
 
 .evidence-source{

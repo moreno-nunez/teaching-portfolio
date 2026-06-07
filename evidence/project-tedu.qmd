@@ -52,35 +52,15 @@ Revisar este proyecto me ha permitido identificar algunas de las preocupaciones 
 
 ### Qué me preocupaba entonces
 
-::: evidence-fragment
-![](../images/temdu-1a.png)
-
-::: evidence-caption
-Una de las preocupaciones iniciales era cómo el diseño de las actividades podía influir en la motivación y la implicación del alumnado.
-:::
+::: evidence-reading
+Ya en la primera propuesta aparecen cuestiones que siguen presentes en mi práctica docente actual: la necesidad de que las actividades tengan sentido para el alumnado, la importancia de hacer explícitas las expectativas de aprendizaje y el papel de la retroalimentación para acompañar el trabajo realizado.
 :::
 
 ::: evidence-fragment
-![](../images/temdu-1b.png)
+![](../images/temdu-1.png)
 
 ::: evidence-caption
-La propuesta insistía en hacer visibles los objetivos, la utilidad de las actividades y los criterios de evaluación para reducir la incertidumbre del alumnado.
-:::
-:::
-
-::: evidence-fragment
-![](../images/temdu-1c.png)
-
-::: evidence-caption
-El cambio se concretaba mediante cronogramas, orientaciones explícitas y mecanismos de seguimiento y retroalimentación.
-:::
-:::
-
-::: evidence-fragment
-![](../images/temdu-1d.png)
-
-::: evidence-caption
-La ausencia de orientaciones claras se identificaba como una fuente de inseguridad para el alumnado.
+Extractos de la propuesta previa al Proyecto de Cambio Docente.
 :::
 :::
 
@@ -112,7 +92,7 @@ El cambio se concretaba mediante una secuencia estructurada de actividades, entr
 ![](../images/temdu-4.png)
 
 ::: evidence-source
-Extractos de las propuestas de cambio.
+Ejemplos de las propuestas de cambio.
 :::
 :::
 
