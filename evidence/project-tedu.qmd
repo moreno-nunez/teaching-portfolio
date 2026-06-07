@@ -42,17 +42,34 @@ Título de Experto en Docencia Universitaria (2015)
 
 ::: evidence-main
 
-Esta evidencia recoge extractos del Proyecto de Cambio Docente desarrollado en 2015 como trabajo final del entonces Título de Experto en Docencia Universitaria. En aquel momento era Personal Docente e Investigador en Formación y me encontraba en los primeros años de mi trayectoria docente. Revisar este proyecto permite identificar algunas de las preocupaciones que ya orientaban mi práctica, así como la forma en que entendía entonces los procesos de mejora docente.
+Esta evidencia recoge extractos del Proyecto de Cambio Docente desarrollado en 2015 como trabajo final del entonces Título de Experto en Docencia Universitaria. 
+En aquel momento era Personal Docente e Investigador en Formación y me encontraba en los primeros años de mi trayectoria docente. 
+Revisar este proyecto me ha permitido identificar algunas de las preocupaciones que ya orientaban mi práctica, así como la forma en que entendía entonces los procesos de mejora docente.
 
 ### Qué me preocupaba entonces
 
 ::: evidence-fragment
-![](../images/temdu-1.png)
+![](../images/temdu-1a.png)
 
 ::: evidence-caption
 Una de las preocupaciones iniciales era cómo el diseño de las actividades podía influir en la motivación y la implicación del alumnado.
+
+::: evidence-fragment
+![](../images/temdu-1b.png)
+
+::: evidence-caption
 La propuesta insistía en hacer visibles los objetivos, la utilidad de las actividades y los criterios de evaluación para reducir la incertidumbre del alumnado.
+
+::: evidence-fragment
+![](../images/temdu-1c.png)
+
+::: evidence-caption
 El cambio se concretaba mediante cronogramas, orientaciones explícitas y mecanismos de seguimiento y retroalimentación.
+
+::: evidence-fragment
+![](../images/temdu-1d.png)
+
+::: evidence-caption
 La ausencia de orientaciones claras se identificaba como una fuente de inseguridad para el alumnado.
 :::
 :::
