@@ -1,6 +1,5 @@
 ---
 title: "project-tedu"
-title: "Evidencia · Trayectoria previa"
 page-layout: full
 format: html
 ---
