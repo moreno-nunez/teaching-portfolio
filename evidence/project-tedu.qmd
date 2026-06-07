@@ -34,7 +34,7 @@ Título de Experto en Docencia Universitaria (2015)
 **Documento:** Proyecto de Cambio Docente  
 **Programa:** Título de Experto en Docencia Universitaria (UAM) 
 **Año:** 2015  
-**Situación profesional:** Personal Docente e Investigador en Formación  
+**Figura:** Personal Docente e Investigador en Formación  
 **Asignatura:** Desarrollo Cognitivo y Lingüístico (Grado en Psicología)
 :::
 
@@ -42,24 +42,28 @@ Título de Experto en Docencia Universitaria (2015)
 
 ::: evidence-main
 
-Esta evidencia recoge extractos del proyecto de cambio docente desarrollado en 2015 como trabajo final del entonces Título de Experto en Docencia Universitaria. En aquel momento era Personal Docente e Investigador en Formación y me encontraba en los primeros años de mi trayectoria docente. Revisar este proyecto permite identificar algunas de las preocupaciones que ya orientaban mi práctica, así como la forma en que entendía entonces los procesos de mejora docente.
+Esta evidencia recoge extractos del Proyecto de Cambio Docente desarrollado en 2015 como trabajo final del entonces Título de Experto en Docencia Universitaria. En aquel momento era Personal Docente e Investigador en Formación y me encontraba en los primeros años de mi trayectoria docente. Revisar este proyecto permite identificar algunas de las preocupaciones que ya orientaban mi práctica, así como la forma en que entendía entonces los procesos de mejora docente.
 
 ### Qué me preocupaba entonces
 
 ::: evidence-fragment
-![](../images/evidence/temdu1.png)
+![](../images/temdu-1.png)
 
 ::: evidence-caption
-Las preocupaciones que articulaban la propuesta estaban relacionadas con la motivación del alumnado, la claridad de las tareas, la participación activa y la mejora de los procesos de evaluación.
+Una de las preocupaciones iniciales era cómo el diseño de las actividades podía influir en la motivación y la implicación del alumnado.
+La propuesta insistía en hacer visibles los objetivos, la utilidad de las actividades y los criterios de evaluación para reducir la incertidumbre del alumnado.
+El cambio se concretaba mediante cronogramas, orientaciones explícitas y mecanismos de seguimiento y retroalimentación.
+La ausencia de orientaciones claras se identificaba como una fuente de inseguridad para el alumnado.
 :::
 :::
 
 ### Cómo entendía el cambio docente
 
 ::: evidence-fragment
-![](../images/evidence/temdu2.png)
+![](../images/temdu-2.png)
 
 ::: evidence-caption
+La propuesta se articulaba en torno a seis ejes de mejora relacionados con la motivación, las metodologías activas y la evaluación del aprendizaje. 
 La mejora se concebía principalmente como un problema de diseño: seleccionar metodologías adecuadas, secuenciar actividades, definir competencias y planificar procedimientos de evaluación coherentes.
 :::
 :::
@@ -67,18 +71,18 @@ La mejora se concebía principalmente como un problema de diseño: seleccionar m
 ### Cómo intentaba materializar ese cambio
 
 ::: evidence-fragment
-![](../images/evidence/temdu3.png)
+![](../images/temdu-3.png)
 
 ::: evidence-caption
-El esquema de trabajo proponía organizar el aprendizaje a partir de una necesidad profesional, la adquisición de competencias y su ejercitación en nuevos casos.
+El esquema de trabajo proponía organizar el aprendizaje como una secuencia estructurada que vinculaba motivación, adquisición de competencias, retroalimentación y aplicación a nuevas situaciones.
 :::
 :::
 
 ::: evidence-fragment
-![](../images/evidence/temdu4.png)
+![](../images/temdu-4.png)
 
 ::: evidence-caption
-Buena parte de la propuesta se centraba en estructurar cuidadosamente los procesos de aprendizaje mediante secuencias de actividades, cronogramas, entregas intermedias y mecanismos de retroalimentación.
+El cambio se concretaba mediante una secuencia estructurada de actividades, entregas intermedias y espacios de seguimiento orientados a acompañar el trabajo del alumnado.
 :::
 :::
 
