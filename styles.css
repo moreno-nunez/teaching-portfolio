@@ -1882,10 +1882,11 @@ body:has(.evidence-page) #quarto-document-content{
 }
 
 .evidence-title{
-  font-family: var(--font-display);
-  font-weight: 600;
+  font-family: var(--font-body) !important;
+  font-weight: 400;
   font-size: clamp(1.85rem, 2.6vw, 2.7rem);
-  line-height: 1.05;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
   color: var(--raspberry);
   margin: 0 0 .7rem;
 }
@@ -2065,14 +2066,15 @@ body:has(.evidence-page) #quarto-document-content{
 }
 
 body:has(.evidence-page) .evidence-main section.level3 > h3{
-  font-family: var(--font-display) !important;
+  font-family: var(--font-body) !important;
   font-weight: 600 !important;
-  font-size: clamp(1.65rem, 2.1vw, 2.25rem) !important;
-  line-height: 1.08 !important;
+  font-size: clamp(1.35rem, 1.75vw, 1.85rem) !important;
+  line-height: 1.18 !important;
   letter-spacing: -0.01em !important;
   color: var(--text) !important;
   margin-top: 0 !important;
   margin-bottom: .45rem !important;
+  text-transform: none !important;
 }
 
 body:has(.evidence-page) .evidence-main section.level3{
