@@ -108,9 +108,7 @@ El cambio se concretaba mediante una secuencia estructurada de actividades, entr
 
 ::: evidence-fragment
 ![](../images/temdu-3.png)
-:::
 
-::: evidence-fragment
 ![](../images/temdu-4.png)
 
 ::: evidence-source

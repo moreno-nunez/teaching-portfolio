@@ -1896,8 +1896,8 @@ body:has(.evidence-page) #quarto-document-content{
 
 .evidence-layout{
   display: grid;
-  grid-template-columns: 360px minmax(0, 1fr);
-  gap: clamp(3rem, 5vw, 5.5rem);
+  grid-template-columns: 320px minmax(0, 1fr);
+  gap: clamp(2.2rem, 4vw, 4rem);
   align-items: start;
 }
 
@@ -1956,10 +1956,10 @@ body:has(.evidence-page) #quarto-document-content{
 }
 
 .evidence-fragment{
-  margin: 2rem 0 2.8rem;
-  padding: 1.2rem;
+  margin: 1.2rem 0 1.4rem;
+  padding: 1.1rem;
   background: white;
-  box-shadow: 0 18px 45px rgba(85,107,90,.08);
+  box-shadow: 0 14px 34px rgba(85,107,90,.06);
   border: 1px solid rgba(85,107,90,.08);
 }
 
@@ -2029,13 +2029,14 @@ body:has(.evidence-page) #quarto-document-content{
   }
 }
 .evidence-reading{
-  margin: 0 0 1.3rem;
-  padding-left: 1rem;
-  border-left: 3px solid rgba(178,58,111,.28);
+  margin: 0 0 1.4rem;
+  padding: 0;
+  border-left: 0;
   font-family: var(--font-body);
   font-size: 1rem;
-  line-height: 1.75;
+  line-height: 1.8;
   color: var(--text);
+  max-width: none;
 }
 
 .evidence-source{
