@@ -47,7 +47,7 @@ LECTURA
 ::::
 
 ::: part0-lienzo-panel
-<p>La metodología ha dejado de aparecer como un reertorio de estrategias para convertirse en una forma de leer situaciones complejas.</p>
+<p>La metodología ha dejado de aparecer como un repertorio de estrategias para convertirse en una forma de leer situaciones complejas.</p>
 <p>La cuestión ya no es qué herramienta utilizar, sino cómo interpretar lo que está ocurriendo antes de decidir si intervenir, cómo hacerlo o incluso si conviene hacerlo.</p> 
 <p>Más que aplicar procedimientos, implica tomar decisiones situadas y sensibles al contexto, a las personas implicadas y al momento del proceso.</p>
 :::

@@ -62,7 +62,7 @@ HERRAMIENTAS
 
 <p>La mejora docente como objeto de análisis</p>
 
-<a class="part0-evidence-button" href="ruta/a/tu/evidencia.pdf">Ver evidencia</a>
+<a class="part0-evidence-button" href="ruta/a/tu/evidencia.pdf">Abrir evidencia</a>
 ::::
 
 ::: part0-lienzo-panel

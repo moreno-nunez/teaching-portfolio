@@ -67,8 +67,8 @@ RECONOCER
 ::::
 
 ::: part0-lienzo-panel
-<p>Durante mucho tiempo tendí a fijarme sobre todo en las decisiones, las propuestas o las acciones que podían impulsar una transformación.</p>
-<p>Poco a poco, algunas situaciones empezaron a mostrar que el cambio depende también de aquello que permite sostenenerlo.</p>
+<p>Durante mucho tiempo me fijé sobre todo en las decisiones y acciones capaces de impulsar una transformación.</p>
+<p>Poco a poco, algunas situaciones empezaron a mostrar que el cambio depende también de aquello que permite sostenerlo.</p>
 <p>El vínculo, el tiempo disponible, las oportunidades para revisar el proceso o las condiciones institucionales dejan de aparecer como elementos de contexto para ocupar un lugar central en la lectura de las situaciones.</p>
 :::
 :::::::

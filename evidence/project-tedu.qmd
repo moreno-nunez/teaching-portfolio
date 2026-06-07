@@ -1,0 +1,26 @@
+---
+title: "project-tedu"
+format: html
+---
+
+---
+title: "Evidencia · Trayectoria previa"
+page-layout: full
+format: html
+---
+
+## Trayectoria previa
+
+Esta evidencia sitúa el punto de partida del portafolio a partir de experiencias previas de investigación, docencia e innovación docente.
+
+![Extracto anonimizado de la evidencia](../files/evidencias/captura-temdu.png)
+
+### Qué muestra
+
+Breve explicación de qué se ve en la evidencia.
+
+### Por qué es relevante
+
+Breve conexión con la reflexión del portafolio.
+
+[← Volver a Parte 0](../part0.html)
