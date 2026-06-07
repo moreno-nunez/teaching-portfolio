@@ -1862,7 +1862,7 @@ body:has(.evidence-page) #quarto-document-content{
   transform: translateX(-50%) !important;
 
   margin: 0 !important;
-  padding: 4.5rem 0 7rem;
+  padding: 4.5rem 0 4rem;
 }
 
 .evidence-header{
