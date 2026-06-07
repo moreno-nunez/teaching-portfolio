@@ -67,7 +67,7 @@ CONDICIONES
 ::::
 
 ::: part0-lienzo-panel
-<p>Antes entendía el acompañamiento como una forma de orientar, sugerir alternativas o señalar posibles mejoras. Con el tiempo, esa imagen empieza a resultar insuficiente cuando el objetivo ya no es resolver situaciones concretas, sino favorecer que otros comprendan y transformen su propia práctica.</p>
+<p>Antes entendía el acompañamiento como una forma de orientar sugiriendo posibles mejoras. Con el tiempo, esa imagen ha resultado insuficiente cuando el objetivo pasa a ser favorecer que otros comprendan y transformen su propia práctica.</p>
 <p>El desplazamiento no consiste en intervenir menos, sino en intervenir de otra manera: diseñando las condiciones que permiten revisar evidencias, formular preguntas y construir criterios propios.</p>
 <p>La pregunta que permanece abierta es cómo sostener una presencia activa sin ocupar el lugar desde el que otros necesitan construir sus propias decisiones.</p>
 :::
