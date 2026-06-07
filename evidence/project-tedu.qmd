@@ -24,3 +24,33 @@ Breve explicación de qué se ve en la evidencia.
 Breve conexión con la reflexión del portafolio.
 
 [← Volver a Parte 0](../part0.html)
+
+---
+title: "Evidencia · Nombre de la evidencia"
+page-layout: full
+format: html
+---
+
+::: evidencia-page
+
+## Nombre de la evidencia
+
+::: evidencia-intro
+Breve contextualización de la evidencia: qué es, de dónde procede y por qué se incluye.
+:::
+
+::: evidencia-box
+Aquí iría la captura, extracto, tabla o fragmento seleccionado.
+:::
+
+### Qué muestra
+
+Texto breve.
+
+### Por qué es relevante en este portafolio
+
+Texto breve.
+
+[← Volver a Parte X](../partX.html)
+
+:::
