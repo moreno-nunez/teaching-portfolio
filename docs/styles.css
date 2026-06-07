@@ -2058,3 +2058,7 @@ body:has(.evidence-page) #quarto-document-content{
   line-height: 1.45;
   color: rgba(85,107,90,.62);
 }
+
+.evidence-main .anchorjs-link{
+  display: none !important;
+}
