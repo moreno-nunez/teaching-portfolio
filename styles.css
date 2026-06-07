@@ -2063,3 +2063,26 @@ body:has(.evidence-page) #quarto-document-content{
 .evidence-main .anchorjs-link{
   display: none !important;
 }
+
+body:has(.evidence-page) .evidence-main section.level3 > h3{
+  font-family: var(--font-display) !important;
+  font-weight: 600 !important;
+  font-size: clamp(1.65rem, 2.1vw, 2.25rem) !important;
+  line-height: 1.08 !important;
+  letter-spacing: -0.01em !important;
+  color: var(--text) !important;
+  margin-top: 0 !important;
+  margin-bottom: .45rem !important;
+}
+
+body:has(.evidence-page) .evidence-main section.level3{
+  margin-top: 3.6rem !important;
+}
+
+body:has(.evidence-page) .evidence-main section.level3:first-of-type{
+  margin-top: 2rem !important;
+}
+
+body:has(.evidence-page) .evidence-main section.level3:last-of-type{
+  margin-top: 4.5rem !important;
+}
