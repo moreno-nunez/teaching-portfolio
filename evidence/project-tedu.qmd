@@ -6,11 +6,7 @@ format: html
 
 ::: evidence-page
 
-::: evidence-kicker
-Evidencia · Parte 0
-:::
-
-# Diseñar cambios
+## Evidencia · Parte 0 
 
 ::: evidence-subtitle
 Una primera formulación del cambio docente en los inicios de mi experiencia universitaria.
@@ -20,60 +16,20 @@ Una primera formulación del cambio docente en los inicios de mi experiencia uni
 Esta evidencia recoge el proyecto de cambio docente desarrollado en 2015 como trabajo final del entonces Título de Experto en Docencia Universitaria. En aquel momento era Personal Docente e Investigador en Formación y me encontraba en los primeros años de experiencia docente.
 :::
 
-## Qué muestra
-
-Texto breve.
-
-## Por qué es relevante en este portafolio
-
-Texto breve.
-
-[← Volver a Parte 0](../part0.html){.evidence-back-button}
-
-:::
-
-## Trayectoria previa
-
-Esta evidencia sitúa el punto de partida del portafolio a partir de experiencias previas de investigación, docencia e innovación docente.
+::: evidencia-box
+Aquí iría la captura, extracto, tabla o fragmento seleccionado.
 
 ![Extracto anonimizado de la evidencia](../files/evidencias/captura-temdu.png)
+:::
 
 ### Qué muestra
 
 Breve explicación de qué se ve en la evidencia.
 
-### Por qué es relevante
+### Por qué es relevante en este portafolio
 
 Breve conexión con la reflexión del portafolio.
 
-[← Volver a Parte 0](../part0.html)
-
----
-title: "Evidencia · Nombre de la evidencia"
-page-layout: full
-format: html
----
-
-::: evidencia-page
-
-## Nombre de la evidencia
-
-::: evidencia-intro
-Breve contextualización de la evidencia: qué es, de dónde procede y por qué se incluye.
-:::
-
-::: evidencia-box
-Aquí iría la captura, extracto, tabla o fragmento seleccionado.
-:::
-
-### Qué muestra
-
-Texto breve.
-
-### Por qué es relevante en este portafolio
-
-Texto breve.
-
-[← Volver a Parte X](../partX.html)
+[← Volver a Parte 0](../part0.html){.evidence-back-button}
 
 :::
