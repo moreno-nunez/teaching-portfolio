@@ -1877,8 +1877,9 @@ body:has(.evidence-page) #quarto-document-content{
 
 .evidence-title{
   font-family: var(--font-display);
-  font-size: clamp(3rem, 5vw, 4.6rem);
-  line-height: .98;
+  font-weight: 600;
+  font-size: clamp(1.85rem, 2.6vw, 2.7rem);
+  line-height: 1.05;
   color: var(--raspberry);
   margin: 0 0 .7rem;
 }
@@ -1978,11 +1979,31 @@ body:has(.evidence-page) #quarto-document-content{
 }
 
 .evidence-back-button{
-  display: inline-block;
-  margin-top: 3rem;
-  font-family: var(--font-body);
-  color: var(--muted);
-  border-bottom: 1px solid rgba(95,112,95,.45);
+  display: table !important;
+  margin-top: 3rem !important;
+  margin-left: auto !important;
+
+  position: relative;
+  background: transparent !important;
+  color: var(--raspberry) !important;
+  border: 0 !important;
+  padding: .35rem 0 !important;
+  text-decoration: none !important;
+
+  font-family: var(--font-body) !important;
+  font-size: .9rem !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+}
+
+.evidence-back-button::before{
+  content: "← ";
+}
+
+.evidence-back-button:hover{
+  background: transparent !important;
+  color: var(--raspberry) !important;
+  transform: none !important;
 }
 
 @media (max-width: 900px){
