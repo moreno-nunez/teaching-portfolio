@@ -1854,8 +1854,14 @@ body:has(.evidence-page) #quarto-document-content{
 }
 
 .evidence-page{
-  width: min(var(--part0-max), calc(100% - 2 * var(--part0-page-pad))) !important;
-  margin: 0 auto;
+  width: min(var(--part0-max), calc(100vw - 2 * var(--part0-page-pad))) !important;
+  max-width: none !important;
+
+  position: relative !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+
+  margin: 0 !important;
   padding: 4.5rem 0 7rem;
 }
 
@@ -1936,8 +1942,8 @@ body:has(.evidence-page) #quarto-document-content{
 }
 
 .evidence-main{
-  max-width: none;
-  width: 100%;
+  max-width: none !important;
+  width: 100% !important;
 }
 
 .evidence-main p{
