@@ -1854,7 +1854,7 @@ body:has(.evidence-page) #quarto-document-content{
 }
 
 .evidence-page{
-  width: min(1180px, calc(100% - 8rem));
+  width: min(var(--part0-max), calc(100% - 2 * var(--part0-page-pad)));
   margin: 0 auto;
   padding: 4.5rem 0 7rem;
 }
@@ -1904,6 +1904,9 @@ body:has(.evidence-page) #quarto-document-content{
 .evidence-aside{
   position: sticky;
   top: 120px;
+  max-height: calc(100vh - 150px);
+  overflow-y: auto;
+  padding-right: .4rem;
 }
 
 .evidence-cover{
@@ -1933,7 +1936,8 @@ body:has(.evidence-page) #quarto-document-content{
 }
 
 .evidence-main{
-  max-width: 760px;
+  max-width: none;
+  width: 100%;
 }
 
 .evidence-main p{
@@ -2023,4 +2027,21 @@ body:has(.evidence-page) #quarto-document-content{
   .evidence-cover{
     max-width: 360px;
   }
+}
+.evidence-reading{
+  margin: 0 0 1.3rem;
+  padding-left: 1rem;
+  border-left: 3px solid rgba(178,58,111,.28);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--text);
+}
+
+.evidence-source{
+  margin-top: .75rem;
+  font-family: var(--font-body);
+  font-size: .78rem;
+  line-height: 1.45;
+  color: rgba(85,107,90,.62);
 }

@@ -31,10 +31,14 @@ Título de Experto en Docencia Universitaria (2015)
 :::
 
 ::: evidence-meta
-**Documento:** Proyecto de Cambio Docente  
+**Documento:** Proyecto de Cambio Docente
+
 **Programa:** Título de Experto en Docencia Universitaria (UAM)
-**Año:** 2015  
-**Figura:** Personal Docente e Investigador en Formación  
+
+**Año:** 2015
+
+**Figura:** Personal Docente e Investigador en Formación
+
 **Asignatura:** Desarrollo Cognitivo y Lingüístico (Grado en Psicología)
 :::
 
@@ -82,30 +86,32 @@ La ausencia de orientaciones claras se identificaba como una fuente de insegurid
 
 ### Cómo entendía el cambio docente
 
-::: evidence-fragment
-![](../images/temdu-2.png)
-
-::: evidence-caption
+::: evidence-reading
 La propuesta se articulaba en torno a seis ejes de mejora relacionados con la motivación, las metodologías activas y la evaluación del aprendizaje. 
 La mejora se concebía principalmente como un problema de diseño: seleccionar metodologías adecuadas, secuenciar actividades, definir competencias y planificar procedimientos de evaluación coherentes.
+:::
+
+::: evidence-fragment
+![](../images/temdu-2.png)
+::: evidence-source
+Extracto del Proyecto de Cambio Docente, 2015.
 :::
 :::
 
 ### Cómo intentaba materializar ese cambio
 
+::: evidence-reading
+El esquema de trabajo proponía organizar el aprendizaje como una secuencia estructurada que vinculaba motivación, adquisición de competencias, retroalimentación y aplicación a nuevas situaciones.
+El cambio se concretaba mediante una secuencia estructurada de actividades, entregas intermedias y espacios de seguimiento orientados a acompañar el trabajo del alumnado.
+:::
+
 ::: evidence-fragment
 ![](../images/temdu-3.png)
-
-::: evidence-caption
-El esquema de trabajo proponía organizar el aprendizaje como una secuencia estructurada que vinculaba motivación, adquisición de competencias, retroalimentación y aplicación a nuevas situaciones.
 :::
-:::
-
 ::: evidence-fragment
 ![](../images/temdu-4.png)
-
-::: evidence-caption
-El cambio se concretaba mediante una secuencia estructurada de actividades, entregas intermedias y espacios de seguimiento orientados a acompañar el trabajo del alumnado.
+::: evidence-source
+Extractos de las propuestas de cambio
 :::
 :::
 
@@ -115,10 +121,8 @@ El cambio se concretaba mediante una secuencia estructurada de actividades, entr
 Una década después sigo reconociendo en este proyecto preocupaciones que continúan presentes en mi práctica docente: la importancia de la motivación, la necesidad de ofrecer retroalimentación útil o el interés por promover formas activas de aprendizaje. Sin embargo, también reconozco una concepción del cambio centrada principalmente en el diseño de actividades y en la planificación de la enseñanza. La experiencia posterior, y especialmente el trabajo desarrollado en el ámbito de la mentoría universitaria, me ha llevado a prestar mayor atención a los procesos de interpretación, a las condiciones que sostienen los cambios y al papel de las relaciones profesionales en la transformación de la práctica docente.
 :::
 
-[Volver a Parte 0](../part0.html){.evidence-back-button}
+[Volver a Parte 0 - empezar](../part0.html){.evidence-back-button}
 
 :::
-
 :::
-
 :::
