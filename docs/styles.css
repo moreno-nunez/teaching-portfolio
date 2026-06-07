@@ -1949,19 +1949,23 @@ body:has(.evidence-page) #quarto-document-content{
   line-height: 1.8;
 }
 
-.evidence-main h2{
+.evidence-main h3{
   font-family: var(--font-display);
   text-transform: none;
   letter-spacing: -.01em;
   font-size: clamp(1.8rem, 2.3vw, 2.4rem);
   color: var(--text);
-  
-  margin-top: 4.5rem;
-  margin-bottom: .35rem;
+  line-height: 1.12;
+  margin-top: 3.6rem;
+  margin-bottom: .45rem;
 }
 
-.evidence-main > h2:first-of-type{
-  margin-top: 0;
+.evidence-main > h3:first-of-type{
+  margin-top: 2rem;
+}
+
+.evidence-main > h3:last-of-type{
+  margin-top: 4.5rem;
 }
 
 .evidence-fragment{
@@ -1970,10 +1974,6 @@ body:has(.evidence-page) #quarto-document-content{
   background: white;
   box-shadow: 0 14px 34px rgba(85,107,90,.06);
   border: 1px solid rgba(85,107,90,.08);
-}
-
-.evidence-main .evidence-fragment:last-of-type{
-  margin-bottom: 4.5rem;
 }
 
 .evidence-fragment img{
