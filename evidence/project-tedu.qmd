@@ -93,6 +93,7 @@ La mejora se concebía principalmente como un problema de diseño: seleccionar m
 
 ::: evidence-fragment
 ![](../images/temdu-2.png)
+
 ::: evidence-source
 Extracto del Proyecto de Cambio Docente, 2015.
 :::
@@ -108,10 +109,12 @@ El cambio se concretaba mediante una secuencia estructurada de actividades, entr
 ::: evidence-fragment
 ![](../images/temdu-3.png)
 :::
+
 ::: evidence-fragment
 ![](../images/temdu-4.png)
+
 ::: evidence-source
-Extractos de las propuestas de cambio
+Extractos de las propuestas de cambio.
 :::
 :::
 
