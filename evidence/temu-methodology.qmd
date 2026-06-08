@@ -99,7 +99,7 @@ Al releer estos materiales reconozco uno de los cambios metodológicos más impo
 Aunque todavía no había desarrollado una concepción plenamente articulada de la mentoría, muchas de las ideas que hoy considero centrales ya estaban presentes de manera incipiente: la importancia de observar con intención, la necesidad de construir marcos compartidos para interpretar la práctica y el valor de la reflexión conjunta como condición para el cambio. En retrospectiva, estos aprendizajes constituyen uno de los primeros antecedentes de la mirada metodológica que hoy orienta mi trabajo como mentora.
 :::
 
-[Volver a Parte 0 - empezar](../part0.html){.evidence-back-button}
+[Volver a Parte I - comprender](../part1.html){.evidence-back-button}
 
 :::
 
