@@ -9,15 +9,15 @@ format: html
 ::: evidence-header
 
 ::: evidence-kicker
-Evidencia · Parte 0
+Evidencia · Parte I
 :::
 
 ::: evidence-title
-Una primera mirada al cambio docente
+Reorganizando aprendizajes
 :::
 
 ::: evidence-subtitle
-Título de Experto en Docencia Universitaria (2015)
+Título de Experto en Mentoría Universitaria, primer año (2025)
 :::
 
 :::
@@ -31,69 +31,72 @@ Título de Experto en Docencia Universitaria (2015)
 :::
 
 ::: evidence-meta
-**Programa:** Título de Experto en Docencia Universitaria (UAM)
+**Programa:** Título de Experto en Mentoría Universitaria (UAM)
 
-**Año:** 2015
+**Año:** 2024-2026
 :::
 
 :::
 
 ::: evidence-main
 
-Esta evidencia recoge extractos del Proyecto de Cambio Docente desarrollado en 2015 como trabajo final del entonces Título de Experto en Docencia Universitaria. 
-En aquel momento era Personal Docente e Investigador en Formación y me encontraba en los primeros años de mi trayectoria docente. 
-Revisar este proyecto me ha permitido identificar algunas de las preocupaciones que ya orientaban mi práctica, así como la forma en que entendía entonces los procesos de mejora docente.
+Esta evidencia recoge extractos de distintos trabajos, actividades y reflexiones elaborados durante el primer año del Título de Experto en Mentoría Universitaria (TEMU). 
+Al releerlos hoy, más que identificar técnicas o herramientas concretas, reconozco un cambio progresivo en mi manera de comprender cómo observar, analizar y acompañar la práctica docente. Muchas de las ideas que aparecen aquí anticipan una transformación metodológica que después se consolidaría en los años siguientes.
 
-### Qué me preocupaba entonces
+### Qué empezaba a cuestionar
 
 ::: evidence-reading
-Ya en la primera propuesta aparecen cuestiones que siguen presentes en mi práctica docente actual: la necesidad de que las actividades tengan sentido para el alumnado, la importancia de hacer explícitas las expectativas de aprendizaje y el papel de la retroalimentación para acompañar el trabajo realizado.
+Al inicio del programa tendía a entender los procesos de mejora docente principalmente como problemas de diseño e implementación. Aunque seguía considerando importantes las metodologías, la evaluación o la planificación de las actividades, comenzó a resultarme cada vez más evidente que comprender una práctica docente exigía algo más que identificar fortalezas y debilidades o proponer cambios.
+
+Las actividades relacionadas con el análisis cualitativo y el estudio de caso me llevaron a reconocer la importancia de trabajar sobre situaciones concretas y contextualizadas. Empecé a valorar la necesidad de delimitar el foco de análisis para poder comprender la complejidad de la práctica sin reducirla a categorías generales o soluciones rápidas.
 :::
 
 ::: evidence-fragment
-![](../images/temdu-1.png)
+![](../images/temu1-1.png)
 
 ::: evidence-caption
-Extractos de la propuesta previa al Proyecto de Cambio Docente.
+Extractos sobre evaluación cualitativa y estudio de caso.
 :::
 :::
 
-### Cómo entendía el cambio docente
+### Cómo cambió mi manera de observar
 
 ::: evidence-reading
-La propuesta se articulaba en torno a seis ejes de mejora relacionados con la motivación, las metodologías activas y la evaluación del aprendizaje. 
-La mejora se concebía principalmente como un problema de diseño: seleccionar metodologías adecuadas, secuenciar actividades, definir competencias y planificar procedimientos de evaluación coherentes.
+Uno de los desplazamientos más importantes fue la transformación de mi concepción de la observación docente. La observación dejó de aparecer únicamente como una herramienta para recoger información sobre lo que sucede en el aula y comenzó a adquirir un sentido formativo.
+
+Los textos muestran cómo empieza a emerger una idea de observación basada en la reflexión compartida, la explicitación de supuestos y la construcción conjunta de significados. También aparece la importancia de definir focos de observación claros y de apoyarse en marcos compartidos que permitan interpretar la práctica más allá de impresiones personales o juicios inmediatos.
 :::
 
 ::: evidence-fragment
-![](../images/temdu-2.png)
+![](../images/temu1-2.png)
 
 ::: evidence-source
-Extracto del Proyecto de Cambio Docente, 2015.
+Extracto sobre observación docente y análisis de la práctica.
 :::
 :::
 
-### Cómo intentaba materializar ese cambio
+### Qué implicaciones tenía para el acompañamiento
 
 ::: evidence-reading
-El esquema de trabajo proponía organizar el aprendizaje como una secuencia estructurada que vinculaba motivación, adquisición de competencias, retroalimentación y aplicación a nuevas situaciones.
-El cambio se concretaba mediante una secuencia estructurada de actividades, entregas intermedias y espacios de seguimiento orientados a acompañar el trabajo del alumnado.
+Estas primeras comprensiones metodológicas empezaban a desplazar también mi manera de entender el acompañamiento docente. La mejora ya no aparecía únicamente asociada a la introducción de nuevas estrategias o metodologías, sino a la posibilidad de generar espacios de análisis que ayudasen a comprender mejor la propia práctica.
+
+Comencé a reconocer que observar no consistía simplemente en identificar problemas ni en ofrecer soluciones, sino en favorecer procesos de reflexión que permitieran hacer visibles aspectos de la práctica que normalmente permanecen implícitos. La observación adquiría así valor no tanto por la información que producía como por las conversaciones y procesos de interpretación que hacía posibles.
 :::
 
 ::: evidence-fragment
-![](../images/temdu-3.png)
-
-![](../images/temdu-4.png)
+![](../images/temu1-3.png)
 
 ::: evidence-source
-Ejemplos de las propuestas de cambio.
+Extractos relacionados con la dimensión formativa de la observación.
 :::
 :::
 
 ### Lo que veo hoy al releer esta evidencia
 
 ::: evidence-reflection
-Una década después sigo reconociendo en este proyecto preocupaciones que continúan presentes en mi práctica docente: la importancia de la motivación, la necesidad de ofrecer retroalimentación útil o el interés por promover formas activas de aprendizaje. Sin embargo, también reconozco una concepción del cambio centrada principalmente en el diseño de actividades y en la planificación de la enseñanza. La experiencia posterior, y especialmente el trabajo desarrollado en el ámbito de la mentoría universitaria, me ha llevado a prestar mayor atención a los procesos de interpretación, a las condiciones que sostienen los cambios y al papel de las relaciones profesionales en la transformación de la práctica docente.
+Al releer estos materiales reconozco uno de los cambios metodológicos más importantes de todo el proceso formativo. Empieza a aparecer una forma distinta de aproximarse a la práctica docente: menos centrada en intervenir rápidamente sobre los problemas y más orientada a comprender cómo se construyen las situaciones que posteriormente intentamos transformar.
+
+Aunque todavía no había desarrollado una concepción plenamente articulada de la mentoría, muchas de las ideas que hoy considero centrales ya estaban presentes de manera incipiente: la importancia de observar con intención, la necesidad de construir marcos compartidos para interpretar la práctica y el valor de la reflexión conjunta como condición para el cambio. En retrospectiva, estos aprendizajes constituyen uno de los primeros antecedentes de la mirada metodológica que hoy orienta mi trabajo como mentora.
 :::
 
 [Volver a Parte 0 - empezar](../part0.html){.evidence-back-button}
