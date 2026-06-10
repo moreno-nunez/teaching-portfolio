@@ -5,8 +5,8 @@ format: html
 editor: visual
 ---
 
-::::::::::::::::::::::::::::::: part0-page
-:::::::::: part0-hero
+::::::::::::::::::::::::::::: part0-page
+:::::::: part0-hero
 ::: part0-kicker
 Parte II · acompañar
 :::
@@ -19,18 +19,17 @@ Parte II · acompañar
 Límites, posibilidades y decisiones emergentes
 :::
 
-:::::: part0-hero-bottom
+:::: part0-hero-bottom
 ::: part0-hero-image
-![](images/part0-trayectoria.png)
+![](images/parte2.png)
 :::
-::::::
-::::::::::
+::::
+::::::::
 
 ::: part0-note
 ## Clave de lectura
 
-Durante el segundo año del TEMU, la atención se desplaza desde la comprensión de los procesos hacia las decisiones que empiezan a derivarse de ella.
-Esta parte no recoge transformaciones consolidadas, sino cambios en la forma de decidir, reconocer condiciones necesarias para el cambio e identificar límites que antes pasaban más desapercibidos.
+Durante el segundo año del TEMU, la atención se desplaza desde la comprensión de los procesos hacia las decisiones que empiezan a derivarse de ella. Esta parte no recoge transformaciones consolidadas, sino cambios en la forma de decidir, reconocer condiciones necesarias para el cambio e identificar límites que antes pasaban más desapercibidos.
 :::
 
 ::::::: {.part0-lienzo .part0-temdu}
@@ -39,7 +38,9 @@ DECIDIR
 :::
 
 :::: part0-lienzo-main
-<div class="part0-bigword">antes de intervenir</div>
+::: part0-bigword
+antes de intervenir
+:::
 
 <p>Comprender también es una forma de decidir.</p>
 
@@ -48,7 +49,9 @@ DECIDIR
 
 ::: part0-lienzo-panel
 <p>Algunas decisiones han dejado de organizarse alrededor de la rapidez de la respuesta para desplazarse hacia la calidad de la comprensión.</p>
+
 <p>Cada vez resulta más evidente que acompañar no consiste únicamente en proponer soluciones, sino también en decidir cuándo detenerse, reformular una demanda, introducir una pregunta o esperar antes de intervenir.</p>
+
 <p>La atención se desplaza así desde la búsqueda inmediata de respuestas hacia la construcción de una lectura más precisa de la situación.</p>
 :::
 :::::::
@@ -59,7 +62,9 @@ RECONOCER
 :::
 
 :::: part0-lienzo-main
-<div class="part0-bigword">lo que sostiene</div>
+::: part0-bigword
+lo que sostiene
+:::
 
 <p>El cambio depende también de las condiciones que permiten sostenerlo.</p>
 
@@ -68,7 +73,9 @@ RECONOCER
 
 ::: part0-lienzo-panel
 <p>Durante mucho tiempo me fijé sobre todo en las decisiones y acciones capaces de impulsar una transformación.</p>
+
 <p>Poco a poco, algunas situaciones empezaron a mostrar que el cambio depende también de aquello que permite sostenerlo.</p>
+
 <p>El vínculo, el tiempo disponible, las oportunidades para revisar el proceso o las condiciones institucionales dejan de aparecer como elementos de contexto para ocupar un lugar central en la lectura de las situaciones.</p>
 :::
 :::::::
@@ -79,7 +86,9 @@ SOSTENER
 :::
 
 :::: part0-lienzo-main
-<div class="part0-bigword">tensiones abiertas</div>
+::: part0-bigword
+tensiones abiertas
+:::
 
 <p>Comprender mejor no elimina necesariamente los límites del proceso.</p>
 
@@ -88,7 +97,9 @@ SOSTENER
 
 ::: part0-lienzo-panel
 <p>A medida que algunas situaciones empiezan a leerse con mayor complejidad, también se vuelve más visible aquello que no depende por completo de la calidad de las decisiones tomadas.</p>
+
 <p>Algunos obstáculos remiten a las condiciones institucionales en las que trabajamos, otros aparecen en la propia práctica profesional, otros surgen allí donde dos prioridades igualmente valiosas entran en tensión.</p>
+
 <p>Entre ellas, una pregunta adquiere un peso creciente: cómo introducir el desafío necesario para que algo pueda cambiar sin poner en riesgo el vínculo que hace posible sostener ese cambio.</p>
 :::
 :::::::
@@ -106,4 +117,4 @@ Comprender mejor una situación no garantiza poder transformarla. Sin embargo, m
 Algunas de las decisiones más importantes no consisten en intervenir, sino en comprender mejor qué hace posible —o imposible— el cambio
 :::
 ::::::
-:::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::

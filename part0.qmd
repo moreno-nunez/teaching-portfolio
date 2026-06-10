@@ -21,7 +21,7 @@ Desde dónde escribo este portafolio
 
 :::: part0-hero-bottom
 ::: part0-hero-image
-![](images/part0-trayectoria.png)
+![](images/parte0.png)
 :::
 ::::
 ::::::::
@@ -38,7 +38,9 @@ INICIOS
 :::
 
 :::: part0-lienzo-main
-<div class="part0-bigword">trayectoria previa</div>
+::: part0-bigword
+trayectoria previa
+:::
 
 <p>Una forma de entender el aprendizaje.</p>
 
@@ -60,7 +62,9 @@ HERRAMIENTAS
 :::
 
 :::: part0-lienzo-main
-<div class="part0-bigword">diseñar cambios</div>
+::: part0-bigword
+diseñar cambios
+:::
 
 <p>La mejora docente como objeto de análisis</p>
 
@@ -82,7 +86,9 @@ ESTRATEGIAS
 :::
 
 :::: part0-lienzo-main
-<div class="part0-bigword">preguntas abiertas</div>
+::: part0-bigword
+preguntas abiertas
+:::
 
 <p>Lo que seguía sin encajar del todo.</p>
 
@@ -104,7 +110,9 @@ REDES
 :::
 
 :::: part0-lienzo-main
-<div class="part0-bigword">acompañar procesos</div>
+::: part0-bigword
+acompañar procesos
+:::
 
 <p>Una comprensión construida en diálogo.</p>
 

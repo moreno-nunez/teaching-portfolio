@@ -21,7 +21,7 @@ Aprendizajes del primer año del TEMU
 
 :::: part0-hero-bottom
 ::: part0-hero-image
-![](images/part0-trayectoria.png)
+![](images/parte1.png)
 :::
 ::::
 ::::::::
