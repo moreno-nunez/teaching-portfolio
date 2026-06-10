@@ -768,8 +768,10 @@ body:has(.part0-page) .page-columns{
   margin: 0 auto !important;
 
   display: block !important;
-  border-radius: 2.2rem !important;
-  box-shadow: 0 24px 60px rgba(85,107,90,.14) !important;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
+  background: transparent;
 }
 
 .part0-hero-side{
