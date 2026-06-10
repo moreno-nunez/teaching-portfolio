@@ -2079,3 +2079,24 @@ body:has(.evidence-page) .evidence-main section.level3:first-of-type{
 body:has(.evidence-page) .evidence-main section.level3:last-of-type{
   margin-top: 4.5rem !important;
 }
+
+/* =========================================================
+   HERO BANNERS — ancho editorial sin recortar cuaderno
+   ========================================================= */
+
+.part0-hero-image{
+  width: min(92vw, 1280px) !important;
+  max-width: none !important;
+  margin-left: 50% !important;
+  transform: translateX(-50%) !important;
+  margin-top: 2rem !important;
+}
+
+.part0-hero-image img{
+  width: 100% !important;
+  max-width: none !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 !important;
+  object-fit: contain !important;
+}
