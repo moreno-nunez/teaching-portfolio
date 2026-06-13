@@ -27,13 +27,15 @@ Título de Experto en Mentoría Universitaria, primer año (2025)
 ::: evidence-aside
 
 ::: evidence-cover
-![](../images/temdu-cover.png)
+![](../images/temu1-cover.png)
 :::
 
 ::: evidence-meta
 **Programa:** Título de Experto en Mentoría Universitaria (UAM)
 
 **Año:** 2024-2026
+
+**Dimensión:** Evaluativa
 :::
 
 :::
@@ -52,7 +54,7 @@ Empecé a reconocer que evaluar no consiste solo en verificar si una propuesta h
 :::
 
 ::: evidence-fragment
-![](../images/temu1-1.png)
+![](../images/temu1-e1.png)
 
 ::: evidence-caption
 Extractos sobre la evaluación como comprensión del proceso.
@@ -68,7 +70,7 @@ Los datos cuantitativos, las observaciones, las reflexiones escritas o las evide
 :::
 
 ::: evidence-fragment
-![](../images/temu1-2.png)
+![](../images/temu1-e2.png)
 
 ::: evidence-source
 Extractos sobre el uso situado de datos y evidencias.
@@ -84,7 +86,7 @@ En este sentido, el feedback adquiría un papel central. Ya no aparecía solo co
 :::
 
 ::: evidence-fragment
-![](../images/temu1-3.png)
+![](../images/temu1-e3.png)
 
 ::: evidence-source
 Extractos sobre feedback, evidencias y mejora continua.

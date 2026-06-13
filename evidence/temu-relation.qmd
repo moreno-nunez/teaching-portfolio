@@ -27,13 +27,15 @@ Título de Experto en Mentoría Universitaria, primer año (2025)
 ::: evidence-aside
 
 ::: evidence-cover
-![](../images/temdu-cover.png)
+![](../images/temu1-cover.png)
 :::
 
 ::: evidence-meta
 **Programa:** Título de Experto en Mentoría Universitaria (UAM)
 
 **Año:** 2024-2026
+
+**Dimensión:** Relacional
 :::
 
 :::
@@ -52,7 +54,7 @@ La reconstrucción de la demanda me llevó a comprender que no basta con identif
 :::
 
 ::: evidence-fragment
-![](../images/temu1-1.png)
+![](../images/temu1-r1.png)
 
 ::: evidence-caption
 Extractos sobre reconstrucción de la demanda y escucha de la perspectiva del mentorizado.
@@ -68,7 +70,7 @@ Los textos muestran cómo comenzó a emerger una idea de acompañamiento basada 
 :::
 
 ::: evidence-fragment
-![](../images/temu1-2.png)
+![](../images/temu1-r2.png)
 
 ::: evidence-source
 Extractos sobre confianza, escucha y construcción del espacio de mentoría.
@@ -84,7 +86,7 @@ Las comunidades de práctica y los espacios de colaboración me llevaron a valor
 :::
 
 ::: evidence-fragment
-![](../images/temu1-3.png)
+![](../images/temu1-r3.png)
 
 ::: evidence-source
 Extractos sobre colaboración, comunidades de práctica y aprendizaje profesional compartido.

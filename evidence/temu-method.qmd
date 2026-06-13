@@ -27,13 +27,15 @@ Título de Experto en Mentoría Universitaria, primer año (2025)
 ::: evidence-aside
 
 ::: evidence-cover
-![](../images/temdu-cover.png)
+![](../images/temu1-cover.png)
 :::
 
 ::: evidence-meta
 **Programa:** Título de Experto en Mentoría Universitaria (UAM)
 
 **Año:** 2024-2026
+
+**Dimensión:** Metodológica
 :::
 
 :::
@@ -52,7 +54,7 @@ Las actividades relacionadas con el análisis cualitativo y el estudio de caso m
 :::
 
 ::: evidence-fragment
-![](../images/temu1-1.png)
+![](../images/temu1-m1.png)
 
 ::: evidence-caption
 Extractos sobre evaluación cualitativa y estudio de caso.
@@ -68,7 +70,7 @@ Los textos muestran cómo empieza a emerger una idea de observación basada en l
 :::
 
 ::: evidence-fragment
-![](../images/temu1-2.png)
+![](../images/temu1-m2.png)
 
 ::: evidence-source
 Extracto sobre observación docente y análisis de la práctica.
@@ -84,7 +86,7 @@ Comencé a reconocer que observar no consistía simplemente en identificar probl
 :::
 
 ::: evidence-fragment
-![](../images/temu1-3.png)
+![](../images/temu1-m3.png)
 
 ::: evidence-source
 Extractos relacionados con la dimensión formativa de la observación.
