@@ -57,7 +57,7 @@ La reconstrucción de la demanda me llevó a comprender que no basta con identif
 ![](../images/temu1-r1.png)
 
 ::: evidence-caption
-Extractos sobre reconstrucción de la demanda y escucha de la perspectiva del mentorizado.
+Extractos sobre escucha, construcción compartida de significado y comprensión de la perspectiva del mentorizado.
 :::
 :::
 
@@ -82,7 +82,7 @@ Extractos sobre confianza, escucha y construcción del espacio de mentoría.
 ::: evidence-reading
 Estas comprensiones empezaban a desplazar también mi manera de entender el aprendizaje profesional. La mejora ya no aparecía únicamente como el resultado de la reflexión individual ni de la incorporación de nuevas estrategias, sino como un proceso que se construye mediante el intercambio, el contraste de perspectivas y la elaboración conjunta de significados.
 
-Las comunidades de práctica me llevaron a reconocer que compartir experiencias no consiste en buscar respuestas idénticas para problemas similares, sino en ampliar las formas de interpretar la propia práctica. Aprender profesionalmente implicaba disponer de espacios donde las experiencias pudieran analizarse colectivamente, enriqueciendo la comprensión de situaciones complejas y abriendo nuevas posibilidades de actuación
+Las comunidades de práctica me llevaron a reconocer que compartir experiencias no consiste en buscar respuestas idénticas para problemas similares, sino en ampliar las formas de interpretar la propia práctica. Aprender profesionalmente implicaba disponer de espacios donde las experiencias pudieran analizarse colectivamente, enriqueciendo la comprensión de situaciones complejas y abriendo nuevas posibilidades de actuación.
 :::
 
 ::: evidence-fragment
@@ -98,7 +98,7 @@ Extractos sobre colaboración, comunidades de práctica y aprendizaje profesiona
 ::: evidence-reflection
 Al releer estos materiales reconozco una de las transformaciones más importantes de mi paso por el TEMU: empezar a comprender que la mentoría no se sostiene únicamente en herramientas, procedimientos o recomendaciones, sino en la calidad de la relación profesional que permite trabajar con ellas.
 
-Hoy veo con más claridad que acompañar no significa ocupar el lugar de quien sabe qué debe cambiar, sino contribuir a construir espacios de confianza donde sea posible interpretar la práctica, formular preguntas y revisar supuestos. La mentoría deja así de entenderse como una relación orientada a transmitir soluciones y pasa a concebirse como un proceso de construcción conjunta de significado. En retrospectiva, uno de los aprendizajes más importantes de este primer año fue reconocer que la calidad de las relaciones profesionales no constituye únicamente el contexto del cambio docente, sino una de las condiciones que lo hacen posible.
+Hoy veo con más claridad que acompañar no significa ocupar el lugar de quien sabe qué debe cambiar, sino contribuir a construir espacios de confianza donde sea posible interpretar la práctica, formular preguntas y revisar supuestos. La mentoría deja así de entenderse como una relación orientada a transmitir soluciones y pasa a concebirse como un proceso de construcción conjunta de significado. En retrospectiva, uno de los aprendizajes más importantes de este primer año fue reconocer que los vínculos profesionales que se construyen durante la mentoría no constituyen únicamente el contexto del cambio docente, sino una de las condiciones que lo hacen posible.
 :::
 
 [Volver a Parte I - comprender](../part1.html){.evidence-back-button}
