@@ -38,13 +38,11 @@ DECIDIR
 :::
 
 :::: part0-lienzo-main
-::: part0-bigword
-antes de intervenir
-:::
+<div class="part0-bigword">antes de intervenir</div>
 
 <p>Comprender también es una forma de decidir.</p>
 
-<a class="part0-evidence-button" href="ruta/a/tu/evidencia.pdf">Ver evidencia</a>
+<a class="part0-evidence-button" href="evidence/temu-mentoring.html">Abrir evidencia</a>
 ::::
 
 ::: part0-lienzo-panel
@@ -62,13 +60,11 @@ RECONOCER
 :::
 
 :::: part0-lienzo-main
-::: part0-bigword
-lo que sostiene
-:::
+<div class="part0-bigword">lo que sostiene</div>
 
 <p>El cambio depende también de las condiciones que permiten sostenerlo.</p>
 
-<a class="part0-evidence-button" href="ruta/a/tu/evidencia.pdf">Ver evidencia</a>
+<a class="part0-evidence-button" href="evidence/temu-observation.html">Abrir evidencia</a>
 ::::
 
 ::: part0-lienzo-panel
@@ -86,9 +82,7 @@ SOSTENER
 :::
 
 :::: part0-lienzo-main
-::: part0-bigword
-tensiones abiertas
-:::
+<div class="part0-bigword">tensiones abiertas</div>
 
 <p>Comprender mejor no elimina necesariamente los límites del proceso.</p>
 
