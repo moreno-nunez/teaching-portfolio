@@ -41,7 +41,7 @@ Grupo de Innovación Docente - PRAXIS (2026)
 ::: evidence-main
 Esta evidencia recoge fragmentos del Grupo de Innovación Docente PRAXIS, una iniciativa surgida tras la experiencia compartida en el programa TEMU. Al releer estos materiales, reconozco un desplazamiento importante en mi manera de entender el acompañamiento docente.
 
-Durante mucho tiempo tendí a pensar la mentoría como una relación que se construye entre personas concretas. Sin abandonar esa idea, empecé a comprender que algunas de las transformaciones más valiosas dependen también de la existencia de espacios colectivos capaces de sostener el intercambio profesional más allá de procesos formales o temporales.
+Durante mucho tiempo tendí a pensar la mentoría principalmente como una relación que se construye entre personas concretas. Sin abandonar esa idea, empecé a comprender que algunas de las transformaciones más valiosas dependen también de la existencia de espacios colectivos capaces de sostener el intercambio profesional más allá de procesos formales o temporales.
 
 ### La necesidad de continuar la conversación
 
@@ -64,7 +64,7 @@ Extracto sobre el origen y sentido del grupo.
 ::: evidence-reading
 El grupo se articula alrededor de prácticas que habían adquirido un papel importante durante el TEMU: la observación entre iguales, la retroalimentación formativa y la reflexión compartida sobre la enseñanza.
 
-Más que intercambiar recomendaciones, estas actividades generan oportunidades para ampliar las formas de interpretar la propia práctica y para reconocer posibilidades que resultan difíciles de identificar desde una única perspectiva.
+Más que intercambiar recomendaciones o compartir recursos, estas actividades generan oportunidades para ampliar las formas de interpretar la propia práctica y reconocer posibilidades que resultan difíciles de identificar desde una única perspectiva.
 :::
 
 ::: evidence-fragment
@@ -98,7 +98,7 @@ Al releer estos materiales reconozco que una de las transformaciones más signif
 
 El vínculo sigue ocupando un lugar central, pero ya no aparece únicamente como una condición para el acompañamiento individual. Empiezo a verlo también como algo que puede extenderse, multiplicarse y adquirir formas colectivas capaces de sostener procesos de aprendizaje compartido.
 
-En retrospectiva, el interés de este proyecto no reside únicamente en las actividades que propone, sino en la convicción que lo sustenta: algunas conversaciones sobre la docencia merecen encontrar estructuras que les permitan continuar.
+En retrospectiva, el interés de este proyecto no reside únicamente en las actividades que propone, sino en la convicción que lo sustenta: algunas conversaciones sobre la docencia merecen encontrar estructuras que les permitan continuar. En ese sentido, empiezo a reconocer que construir relaciones profesionales no consiste únicamente en acompañar a personas concretas, sino también en crear las condiciones que permitan que esas conversaciones sigan produciéndose cuando el acompañamiento formal termina.
 :::
 
 [Volver a Parte III - sostener](../part3.html){.evidence-back-button}
