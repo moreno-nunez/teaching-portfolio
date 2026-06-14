@@ -104,9 +104,7 @@ REDES
 :::
 
 :::: part0-lienzo-main
-::: part0-bigword
-acompañar procesos
-:::
+<div class="part0-bigword">acompañar procesos</div>
 
 <p>Una comprensión construida en diálogo.</p>
 
