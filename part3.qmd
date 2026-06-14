@@ -38,13 +38,11 @@ RELACIONES
 :::
 
 :::: part0-lienzo-main
-::: part0-bigword
-construir la relación
-:::
+<div class="part0-bigword">construir la relación</div>
 
 <p>El acompañamiento empieza antes que las propuestas.</p>
 
-<a class="part0-evidence-button" href="ruta/a/tu/evidencia.pdf">Ver evidencia</a>
+<a class="part0-evidence-button" href="evidence/temu-gid.html">Abrir evidencia</a>
 ::::
 
 ::: part0-lienzo-panel
@@ -62,13 +60,11 @@ CONDICIONES
 :::
 
 :::: part0-lienzo-main
-::: part0-bigword
-diseñar condiciones
-:::
+<div class="part0-bigword">diseñar condiciones</div>
 
 <p>Acompañar no consiste en ofrecer respuestas.</p>
 
-<a class="part0-evidence-button" href="ruta/a/tu/evidencia.pdf">Ver evidencia</a>
+<a class="part0-evidence-button" href="evidence/temu-pid.html">Abrir evidencia</a>
 ::::
 
 ::: part0-lienzo-panel
@@ -86,9 +82,7 @@ PREGUNTAS
 :::
 
 :::: part0-lienzo-main
-::: part0-bigword
-preguntas por abrir
-:::
+<div class="part0-bigword">preguntas por abrir</div>
 
 <p>No todo lo que se comprende puede transformarse.</p>
 

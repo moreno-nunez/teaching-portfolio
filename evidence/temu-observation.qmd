@@ -40,9 +40,10 @@ Título de Experto en Mentoría Universitaria, segundo año (2026)
 
 ::: evidence-main
 Esta evidencia recoge extractos de las observaciones docentes realizadas durante el segundo año del Título de Experto en Mentoría Universitaria (TEMU). Al releerlas hoy, reconozco un desplazamiento importante en mi manera de comprender la observación entre iguales.
+
 Inicialmente tendía a pensar la observación como una oportunidad para identificar prácticas interesantes o recoger ideas transferibles a mi propia docencia. Sin embargo, la experiencia de observar contextos muy diversos me llevó progresivamente a prestar atención a otro tipo de cuestiones: qué condiciones hacen posible que una observación resulte formativa, cómo se construyen los focos compartidos de análisis y qué aspectos de la práctica docente permanecen invisibles cuando observamos sin una intención clara.
 
-### La observación empieza antes de entrar al aula
+### La observación empieza antes de entrar en el aula
 
 ::: evidence-reading
 Uno de los aprendizajes más relevantes fue comprender que la observación no comienza cuando se inicia la clase, sino mucho antes. Las conversaciones previas con las personas observadas permitían identificar qué aspectos les interesaba explorar, qué preguntas estaban intentando responder y qué dimensiones de su práctica deseaban analizar con mayor profundidad.
