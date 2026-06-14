@@ -61,7 +61,7 @@ Extractos sobre la evaluación como comprensión del proceso.
 :::
 :::
 
-### Cómo cambió mi manera de entender las evidencias
+### Cómo cambió mi manera de interpretar las evidencias
 
 ::: evidence-reading
 Otro cambio relevante tiene que ver con el valor de los datos y las evidencias. Los textos muestran una transición desde una mirada centrada en la recogida de información hacia una comprensión más situada e interpretativa de la evaluación.
@@ -77,19 +77,19 @@ Extractos sobre el uso situado de datos y evidencias.
 :::
 :::
 
-### Qué implicaciones tenía para el acompañamiento
+### Qué implicaciones tenía para comprender la mejora docente
 
 ::: evidence-reading
-Estas comprensiones empezaban a transformar también mi manera de entender el acompañamiento docente. La evaluación dejaba de situarse al final del proceso y comenzaba a aparecer como una parte constitutiva de la mentoría: una forma de generar información útil, abrir conversaciones y orientar decisiones cuando todavía hay margen de acción.
+Estas comprensiones empezaban a transformar también mi manera de entender la mejora docente. La evaluación dejaba de situarse únicamente al final del proceso y comenzaba a aparecer como una forma de comprender qué aspectos de la experiencia educativa quedaban fuera de los resultados más visibles.
 
-En este sentido, el feedback adquiría un papel central. Ya no aparecía solo como devolución sobre lo realizado, sino como una práctica continua, distribuida en el tiempo y apoyada en evidencias, capaz de favorecer la reflexión y la autorregulación.
+Desde esta mirada, las evidencias cualitativas adquirían un valor específico: permitían interpretar por qué determinadas prácticas no generaban el nivel de implicación o aprendizaje esperado, y ayudaban a repensar el diseño de actividades, las consignas, los tiempos de trabajo y las formas de acompañamiento.
 :::
 
 ::: evidence-fragment
 ![](../images/temu1-e3.png)
 
 ::: evidence-source
-Extractos sobre feedback, evidencias y mejora continua.
+Extractos sobre evaluación cualitativa y comprensión de la experiencia educativa.
 :::
 :::
 
