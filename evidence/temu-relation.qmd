@@ -80,9 +80,9 @@ Extractos sobre confianza, escucha y construcción del espacio de mentoría.
 ### Qué implicaciones tenía para el aprendizaje profesional
 
 ::: evidence-reading
-Estas comprensiones empezaban a desplazar también mi manera de entender el aprendizaje docente. La mejora ya no aparecía únicamente como un proceso individual, dependiente de la reflexión personal o de la incorporación de nuevas estrategias, sino como un proceso que se construye con otros.
+Estas comprensiones empezaban a desplazar también mi manera de entender el aprendizaje profesional. La mejora ya no aparecía únicamente como el resultado de la reflexión individual ni de la incorporación de nuevas estrategias, sino como un proceso que se construye mediante el intercambio, el contraste de perspectivas y la elaboración conjunta de significados.
 
-Las comunidades de práctica y los espacios de colaboración me llevaron a valorar la importancia de contrastar perspectivas, compartir interpretaciones y construir conjuntamente el sentido de las experiencias docentes. Aprender profesionalmente implicaba no solo acumular experiencias, sino disponer de espacios relacionales donde esas experiencias pudieran analizarse y resignificarse.
+Las comunidades de práctica me llevaron a reconocer que compartir experiencias no consiste en buscar respuestas idénticas para problemas similares, sino en ampliar las formas de interpretar la propia práctica. Aprender profesionalmente implicaba disponer de espacios donde las experiencias pudieran analizarse colectivamente, enriqueciendo la comprensión de situaciones complejas y abriendo nuevas posibilidades de actuación
 :::
 
 ::: evidence-fragment
@@ -98,7 +98,7 @@ Extractos sobre colaboración, comunidades de práctica y aprendizaje profesiona
 ::: evidence-reflection
 Al releer estos materiales reconozco una de las transformaciones más importantes de mi paso por el TEMU: empezar a comprender que la mentoría no se sostiene únicamente en herramientas, procedimientos o recomendaciones, sino en la calidad de la relación profesional que permite trabajar con ellas.
 
-Hoy veo con más claridad que acompañar no significa ocupar el lugar de quien sabe qué debe cambiar, sino contribuir a construir un espacio donde sea posible interpretar la práctica, formular preguntas, revisar supuestos y tomar decisiones con sentido. La relación no es solo el marco en el que ocurre la mentoría; es una de las condiciones que hacen posible el cambio docente.
+Hoy veo con más claridad que acompañar no significa ocupar el lugar de quien sabe qué debe cambiar, sino contribuir a construir espacios de confianza donde sea posible interpretar la práctica, formular preguntas y revisar supuestos. La mentoría deja así de entenderse como una relación orientada a transmitir soluciones y pasa a concebirse como un proceso de construcción conjunta de significado. En retrospectiva, uno de los aprendizajes más importantes de este primer año fue reconocer que la calidad de las relaciones profesionales no constituye únicamente el contexto del cambio docente, sino una de las condiciones que lo hacen posible.
 :::
 
 [Volver a Parte I - comprender](../part1.html){.evidence-back-button}
