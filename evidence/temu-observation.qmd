@@ -93,9 +93,11 @@ Extractos de observaciones realizadas en contextos interdisciplinares.
 ### Lo que veo hoy al releer esta evidencia
 
 ::: evidence-reflection
-La diversidad disciplinar de las observaciones constituyó otra fuente importante de aprendizaje. Aunque las asignaturas observadas pertenecían a ámbitos muy diferentes, muchas de las preocupaciones que aparecían en ellas resultaban sorprendentemente similares.
+Al releer estas observaciones reconozco que uno de los aprendizajes más importantes no tuvo que ver con las prácticas observadas en sí mismas, sino con las condiciones que hacían posible aprender de ellas.
 
-La participación del alumnado, el desarrollo de la autonomía, el uso formativo de la evaluación o la construcción de procesos de razonamiento complejos emergían una y otra vez en contextos aparentemente muy distintos. Observar otras disciplinas no solo permitió descubrir estrategias diferentes, sino también reconocer preguntas pedagógicas comunes que atraviesan la enseñanza universitaria.
+La observación entre iguales empezó a dejar de parecerme una herramienta destinada a identificar fortalezas o debilidades para convertirse en una práctica de indagación compartida. Comprendí que su valor depende menos de la capacidad para emitir juicios y más de la posibilidad de construir preguntas relevantes, describir con rigor lo que ocurre y generar espacios donde distintas formas de entender la enseñanza puedan entrar en diálogo.
+
+En retrospectiva, estas experiencias me ayudaron a reconocer que muchos de los procesos que sostienen el cambio docente —la confianza, la explicitación de focos compartidos, la reflexión conjunta o la diversidad de perspectivas— suelen permanecer en segundo plano, a pesar de ser precisamente los que permiten que la observación resulte formativa.
 :::
 
 [Volver a Parte II - acompañar](../part2.html){.evidence-back-button}
