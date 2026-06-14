@@ -1,5 +1,110 @@
 ---
-title: "temu-pid"
+title: ""
+page-layout: full
 format: html
 ---
 
+::: evidence-page
+
+::: evidence-header
+
+::: evidence-kicker
+Evidencia · Parte III
+:::
+
+::: evidence-title
+Diseñar lo que hace posible el cambio
+:::
+
+::: evidence-subtitle
+Proyecto de Innovación Docente: Miradas cruzadas (2026)
+:::
+
+:::
+
+::: evidence-layout
+
+::: evidence-aside
+
+::: evidence-cover
+![](../images/pid-cover.png)
+:::
+
+::: evidence-meta
+**Programa:** Proyecto de Innovación Docente
+
+**Año:** 2026
+:::
+
+:::
+
+::: evidence-main
+Esta evidencia recoge fragmentos del Proyecto de Innovación Docente desarrollado tras la experiencia acumulada durante el programa TEMU y la creación del Grupo de Innovación Docente PRAXIS. Al releer estos materiales, reconozco un desplazamiento importante en mi manera de entender el acompañamiento docente.
+
+Durante mucho tiempo tendí a pensar que la mejora de la enseñanza dependía principalmente de las decisiones que tomaban las personas implicadas. Sin abandonar esa idea, empecé a comprender que muchas transformaciones dependen también de algo menos visible: las condiciones que permiten que la reflexión, la observación y el aprendizaje compartido puedan sostenerse en el tiempo.
+
+### Exprimir el potencial
+
+::: evidence-reading
+Las primeras experiencias de observación entre iguales mostraron un gran potencial para el aprendizaje docente, pero también hicieron visibles algunas limitaciones. La ausencia de protocolos compartidos, la dificultad para sistematizar las devoluciones o la falta de continuidad entre observaciones hacían difícil consolidar los procesos iniciados.
+
+Poco a poco fui comprendiendo que muchas de las dificultades no estaban relacionadas con la motivación de las personas participantes, sino con la ausencia de estructuras capaces de sostener el trabajo colectivo.
+:::
+
+::: evidence-fragment
+![](../images/pid1.png)
+
+::: evidence-caption
+Extracto sobre las limitaciones identificadas en las experiencias iniciales de observación entre iguales.
+:::
+:::
+
+### Diseñar procesos para favorecer la reflexión
+
+::: evidence-reading
+Uno de los cambios más relevantes fue empezar a pensar la innovación docente no solo en términos de actividades o metodologías, sino como diseño de procesos. El proyecto se construye alrededor de ciclos completos que integran observación, retroalimentación, implementación de mejoras y reflexión compartida.
+
+La atención se desplaza así desde las acciones concretas hacia las condiciones que permiten que esas acciones generen aprendizaje profesional.
+:::
+
+::: evidence-fragment
+![](../images/pid2.png)
+
+::: evidence-source
+Extracto sobre la estructura de los ciclos de observación y mejora.
+:::
+:::
+
+### Crear estructuras que permanezcan
+
+::: evidence-reading
+Otra cuestión que comenzó a adquirir importancia fue la sostenibilidad de los procesos de aprendizaje docente. La reflexión compartida deja de entenderse como una actividad puntual para convertirse en una práctica que requiere espacios, tiempos y dinámicas específicas.
+
+El proyecto incorpora reuniones periódicas, procesos colectivos de análisis y mecanismos para compartir experiencias, con el objetivo de que el aprendizaje no dependa únicamente de iniciativas individuales.
+:::
+
+::: evidence-fragment
+![](../images/pid3.png)
+
+::: evidence-source
+Extracto sobre la comunidad de práctica y el aprendizaje colectivo.
+:::
+:::
+
+### Lo que veo hoy al releer esta evidencia
+
+::: evidence-reflection
+Al releer estos materiales reconozco una transformación importante en mi manera de entender el acompañamiento docente. La atención deja de centrarse exclusivamente en las personas y empieza a dirigirse también hacia las condiciones que hacen posible el aprendizaje profesional.
+
+Acompañar ya no significa únicamente ayudar a otros a reflexionar sobre su práctica. Empieza a significar también diseñar estructuras, tiempos y espacios que permitan que esa reflexión ocurra, se sostenga y pueda generar cambios duraderos.
+
+En retrospectiva, uno de los aprendizajes más importantes de este proceso ha sido comprender que muchas veces el cambio no depende únicamente de las decisiones que toman las personas, sino de la arquitectura que hace posibles esas decisiones.
+:::
+
+[Volver a Parte III - sostener](../part3.html){.evidence-back-button}
+
+:::
+
+:::
+
+:::
