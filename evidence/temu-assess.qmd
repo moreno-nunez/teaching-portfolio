@@ -101,7 +101,7 @@ Al releer estos materiales reconozco una reformulación importante de mi mirada 
 Hoy veo en estas reflexiones una idea que después sería central en mi manera de entender la mentoría universitaria: los procesos de cambio docente necesitan evidencias, pero esas evidencias solo tienen valor cuando se interpretan de forma contextualizada y se ponen al servicio de la reflexión compartida. Evaluar no es añadir una medición al final del proceso, sino construir condiciones para comprender mejor qué está cambiando, por qué está cambiando y cómo puede sostenerse ese cambio.
 :::
 
-[Volver a Parte I - comprender](../part1.html){.evidence-back-button}
+[Volver a Parte I - comprender](../part1.html#assess){.evidence-back-button}
 
 :::
 

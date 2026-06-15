@@ -101,7 +101,7 @@ Al releer estos materiales reconozco una de las transformaciones más importante
 Hoy veo con más claridad que acompañar no significa ocupar el lugar de quien sabe qué debe cambiar, sino contribuir a construir espacios de confianza donde sea posible interpretar la práctica, formular preguntas y revisar supuestos. La mentoría deja así de entenderse como una relación orientada a transmitir soluciones y pasa a concebirse como un proceso de construcción conjunta de significado. En retrospectiva, uno de los aprendizajes más importantes de este primer año fue reconocer que los vínculos profesionales que se construyen durante la mentoría no constituyen únicamente el contexto del cambio docente, sino una de las condiciones que lo hacen posible.
 :::
 
-[Volver a Parte I - comprender](../part1.html){.evidence-back-button}
+[Volver a Parte I - comprender](../part1.html#relation){.evidence-back-button}
 
 :::
 

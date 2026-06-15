@@ -32,7 +32,7 @@ Aprendizajes del primer año del TEMU
 Al igual que en el desarrollo cognitivo comprender precede a actuar, durante el primer curso del TEMU no incorporé únicamente nuevas herramientas de acompañamiento. Cambiaron también las preguntas desde las que interpreto la docencia, la evaluación y los procesos de cambio. Esta parte reconstruye esos desplazamientos a través de tres miradas: metodológica, evaluativa y relacional.
 :::
 
-::::::: {.part0-lienzo .part0-temdu}
+::::::: {.part0-lienzo .part0-temdu #method}
 ::: part0-lienzo-tag
 LECTURA
 :::
@@ -54,7 +54,7 @@ LECTURA
 :::
 :::::::
 
-::::::: {.part0-lienzo .part0-docentia}
+::::::: {.part0-lienzo .part0-docentia #assess}
 ::: part0-lienzo-tag
 TIEMPOS
 :::
@@ -76,7 +76,7 @@ TIEMPOS
 :::
 :::::::
 
-::::::: {.part0-lienzo .part0-temu}
+::::::: {.part0-lienzo .part0-temu #relation}
 ::: part0-lienzo-tag
 VÍNCULO
 :::
