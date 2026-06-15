@@ -105,7 +105,7 @@ PREGUNTAS
 Ver el recorrido completo
 </div>
 
-<a class="part0-map-link" href="docs/cartografia-temu.pdf">explorar la cartografía visual →</a>
+<a class="part0-map-link" href="cartografia.pdf">explorar el mapa completo →</a>
 
 :::
 :::
