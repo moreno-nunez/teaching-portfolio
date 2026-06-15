@@ -1121,42 +1121,42 @@ body:has(.part0-page) .page-columns{
 
 .part0-map-note{
   width: min(var(--part0-max), calc(100% - 2 * var(--part0-page-pad)));
-  margin: 1.4rem auto 3.2rem;
-  padding: 1.1rem 0 0;
-  border-top: 1px solid rgba(85,107,90,.12);
+  margin: 2.2rem auto 3rem;
+  padding: 0;
 }
 
 .part0-map-label{
-  display: inline-block;
-  margin: 0 0 .55rem;
-
-  font-family: var(--font-body);
-  font-size: .72rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: .16em;
-  color: var(--raspberry-soft);
+  margin: 0 0 1.4rem !important;
+  padding: 0 0 .55rem !important;
+  border-bottom: 1px solid var(--border) !important;
 }
 
-.part0-map-note p{
-  max-width: 760px;
-  margin: 0 0 .55rem;
-
-  font-family: var(--font-body);
-  font-size: .9rem;
-  line-height: 1.7;
-  color: rgba(85,107,90,.82);
-}
-
-.part0-map-link{
-  display: inline-block;
+.part0-map-label p{
+  margin: 0 !important;
+  padding: 0 !important;
   border: 0 !important;
-  text-decoration: none !important;
+
+  font-family: var(--font-body) !important;
+  font-size: .78rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: .16em !important;
+  color: var(--raspberry-soft) !important;
+}
+
+.part0-map-note > p{
+  max-width: 820px;
+  margin: 0 0 1.4rem;
 
   font-family: var(--font-body);
-  font-size: .86rem;
-  font-weight: 700;
-  color: var(--raspberry) !important;
+  font-size: 1rem;
+  line-height: 1.8;
+  font-weight: 400;
+  color: var(--text);
+}
+
+.part0-map-note .part0-evidence-button{
+  margin-top: .4rem !important;
 }
 
 /* ==========================================================================
