@@ -39,7 +39,7 @@ Proyecto de Innovación Docente: Miradas cruzadas (2026)
 :::
 
 ::: evidence-main
-Esta evidencia recoge fragmentos de la comunicación presentada al III Congreso de Innovación Docente de las Universidades Madrileñas y del Proyecto de Innovación Docente desarrollado a partir de ella. Al releer ambos documentos, reconozco un cambio importante en mi manera de entender el cambio docente.
+Esta evidencia recoge fragmentos de la comunicación presentada al III Congreso de Innovación Docente de las Universidades Madrileñas y del Proyecto de Innovación Docente desarrollado a partir de ella. Al releer ambos documentos, reconozco un desplazamiento importante en mi manera de comprender qué hace posible que los procesos de mejora docente puedan sostenerse en el tiempo.
 
 Durante mucho tiempo tendí a prestar atención principalmente a las decisiones que toman las personas cuando intentan mejorar su práctica. Sin abandonar esa mirada, empecé a comprender que muchas transformaciones dependen también de algo menos visible: las condiciones que permiten que la reflexión compartida, la observación entre iguales y el aprendizaje profesional puedan sostenerse más allá de experiencias puntuales.
 
@@ -48,9 +48,9 @@ Lo que inicialmente aparecía como una experiencia valiosa de observación entre
 ### Del pilotaje a la necesidad de estructura
 
 ::: evidence-reading
-La comunicación presentada al congreso de innovación docente permitió sistematizar el pilotaje de observaciones entre iguales desarrollado durante el segundo año del TEMU. Ese ejercicio de escritura colectiva ayudó a transformar una experiencia formativa en un objeto de análisis compartido.
+La comunicación presentada al congreso de innovación docente permitió sistematizar el pilotaje de observaciones entre iguales desarrollado durante el segundo año del TEMU. El proceso de análisis y escritura hizo visible algo que durante la experiencia había permanecido en segundo plano: el potencial de la observación entre iguales dependía tanto de la implicación de quienes participaban como de las condiciones que permitían sostenerla.
 
-Al poner en común lo observado, se hizo más evidente que el potencial de la observación entre iguales no dependía solo de la implicación del profesorado participante. Para sostener y transferir la experiencia era necesario avanzar hacia protocolos compartidos, instrumentos flexibles, espacios planificados de devolución y ciclos sucesivos de mejora.
+Para consolidar y transferir la experiencia era necesario avanzar hacia protocolos compartidos, instrumentos flexibles, espacios planificados de devolución y ciclos sucesivos de mejora.
 :::
 
 ::: evidence-fragment
@@ -100,7 +100,7 @@ Al releer estos materiales reconozco una transformación importante en mi manera
 
 Acompañar ya no significa únicamente ayudar a otros a reflexionar sobre su práctica. Empieza a significar también diseñar estructuras, tiempos y espacios que permitan que esa reflexión ocurra, se sostenga y pueda generar cambios duraderos.
 
-En retrospectiva, uno de los aprendizajes más importantes de este proceso ha sido comprender que muchas veces el cambio no depende únicamente de las decisiones que toman las personas, sino de la arquitectura que hace posibles esas decisiones. Empiezo a reconocer así una faceta del acompañamiento que apenas intuía al inicio del TEMU: la responsabilidad de diseñar condiciones que permitan que otros puedan observar, reflexionar y aprender juntos.
+En retrospectiva, uno de los aprendizajes más importantes de este proceso ha sido comprender que muchas veces el cambio no depende únicamente de las decisiones que toman las personas, sino de la arquitectura que hace posibles esas decisiones. Empiezo a reconocer así una faceta del acompañamiento que apenas intuía al inicio del TEMU: la responsabilidad de diseñar condiciones que permitan que otros puedan observar, reflexionar y aprender juntos. En cierto modo, el foco deja de estar únicamente en acompañar personas concretas y empieza a incluir también el diseño de los contextos que hacen posible ese acompañamiento.
 :::
 
 [Volver a Parte III - sostener](../part3.html){.evidence-back-button}
