@@ -104,7 +104,7 @@ VÍNCULO
 <div class="part0-map-label">mapa de aprendizajes</div>
 
 <div class="part0-map-text">
-Además de las evidencias seleccionadas, el registro completo del primer año permite reconstruir cómo algunos aprendizajes, preguntas y desplazamientos fueron reapareciendo a lo largo del TEMU.
+Además de las evidencias seleccionadas, tras el primer año del TEMU registré los aprendizajes, preguntas y desplazamientos que surgieron de cada módulo formativo. El mapa completo permite reconstruir ese proceso y muestra cómo algunas ideas fueron reapareciendo y reorganizándose a lo largo del tiempo
 </div>
 
 <a class="part0-map-link" href="docs/mapa-aprendizajes-temu.pdf">explorar el mapa completo →</a>
