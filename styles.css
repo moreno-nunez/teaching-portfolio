@@ -1152,7 +1152,13 @@ body:has(.part0-page) .page-columns{
   color: var(--text);
 }
 
-.part0-map-note .part0-evidence-button{
+.part0-map-note{
+  width: min(var(--part0-max), calc(100% - 2 * var(--part0-page-pad)));
+  margin: 2.2rem auto 3rem;
+  padding: 0;
+}
+
+.part0-evidence-button{
   margin-top: .4rem !important;
 }
 
