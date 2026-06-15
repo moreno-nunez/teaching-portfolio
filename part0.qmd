@@ -52,7 +52,7 @@ INICIOS
 :::
 :::::::
 
-::::::: {.part0-lienzo .part0-docentia}
+::::::: {.part0-lienzo .part0-docentia #tedu}
 ::: part0-lienzo-tag
 HERRAMIENTAS
 :::
@@ -74,7 +74,7 @@ HERRAMIENTAS
 :::
 :::::::
 
-::::::: {.part0-lienzo .part0-preguntas}
+::::::: {.part0-lienzo .part0-preguntas #docentia}
 ::: part0-lienzo-tag
 ESTRATEGIAS
 :::
