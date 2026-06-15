@@ -32,7 +32,7 @@ Proyección en la mentoría universitaria
 Esta última parte explora cómo las comprensiones construidas a lo largo del proceso empiezan a orientar la manera de acompañar a otros. Las reflexiones se organizan en torno a tres desplazamientos: el lugar del vínculo, el diseño de condiciones para el aprendizaje y las preguntas que se abrirán a partir de aquí.
 :::
 
-::::::: {.part0-lienzo .part0-temdu}
+::::::: {.part0-lienzo .part0-temdu #gid}
 ::: part0-lienzo-tag
 RELACIONES
 :::
@@ -54,7 +54,7 @@ RELACIONES
 :::
 :::::::
 
-::::::: {.part0-lienzo .part0-docentia}
+::::::: {.part0-lienzo .part0-docentia #pid}
 ::: part0-lienzo-tag
 CONDICIONES
 :::

@@ -103,7 +103,7 @@ Acompañar ya no significa únicamente ayudar a otros a reflexionar sobre su pr�
 En retrospectiva, uno de los aprendizajes más importantes de este proceso ha sido comprender que muchas veces el cambio no depende únicamente de las decisiones que toman las personas, sino de la arquitectura que hace posibles esas decisiones. Empiezo a reconocer así una faceta del acompañamiento que apenas intuía al inicio del TEMU: la responsabilidad de diseñar condiciones que permitan que otros puedan observar, reflexionar y aprender juntos. En cierto modo, el foco deja de estar únicamente en acompañar personas concretas y empieza a incluir también el diseño de los contextos que hacen posible ese acompañamiento.
 :::
 
-[Volver a Parte III - sostener](../part3.html){.evidence-back-button}
+[Volver a Parte III - sostener](../part3.html#pid){.evidence-back-button}
 
 :::
 

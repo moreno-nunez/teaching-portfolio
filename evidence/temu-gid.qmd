@@ -101,7 +101,7 @@ El vínculo sigue ocupando un lugar central, pero ya no aparece únicamente como
 En retrospectiva, el interés de este proyecto no reside únicamente en las actividades que propone, sino en la convicción que lo sustenta: algunas conversaciones sobre la docencia merecen encontrar estructuras que les permitan continuar. En ese sentido, empiezo a reconocer que construir relaciones profesionales no consiste únicamente en acompañar a personas concretas, sino también en crear las condiciones que permitan que esas conversaciones sigan produciéndose cuando el acompañamiento formal termina.
 :::
 
-[Volver a Parte III - sostener](../part3.html){.evidence-back-button}
+[Volver a Parte III - sostener](../part3.html#gid){.evidence-back-button}
 
 :::
 
