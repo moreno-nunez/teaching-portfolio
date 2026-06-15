@@ -98,14 +98,11 @@ VÍNCULO
 :::
 :::::::
 
-::: part0-subtitle
-detrás de estas evidencias
-:::
-<p>Tras el primer año del TEMU realicé un registro sistemático de los aprendizajes, preguntas y desplazamientos que surgieron a partir de cada módulo formativo. El mapa completo permite reconstruir ese proceso con mayor detalle y muestra cómo algunas ideas fueron reapareciendo y reorganizándose a lo largo del tiempo.
+##detrás de estas evidencias
 
+Tras el primer año del TEMU realicé un registro sistemático de los aprendizajes, preguntas y desplazamientos que surgieron a partir de cada módulo formativo. El mapa completo permite reconstruir ese proceso con mayor detalle y muestra cómo algunas ideas fueron reapareciendo y reorganizándose a lo largo del tiempo.
 
 <a class="part0-evidence-button" href="evidence/temu-relation.html">explorar el mapa completo</a>
-</p>
 
 :::::: part0-question
 ::: part0-question-label
