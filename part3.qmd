@@ -102,10 +102,10 @@ PREGUNTAS
 <div class="part0-map-label">cartografía del recorrido</div>
 
 <div class="part0-map-text">
-Ver el recorrido completo
+Las cuatro imágenes que acompañan las páginas principales forman parte de una misma composición visual. Reunidas en una única imagen permiten observar de manera conjunta algunos de los desplazamientos que articulan el recorrido reconstruido en este portafolio.
 </div>
 
-<a class="part0-map-link" href="cartografia.pdf">explorar el mapa completo →</a>
+<a class="part0-map-link" href="cartografia.pdf">ver la cartografía completa →</a>
 
 :::
 :::
