@@ -99,11 +99,17 @@ VÍNCULO
 :::::::
 
 ::: {.part0-map-note}
-<span class="part0-map-label">mapa de aprendizajes</span>
+::: {.part0-map-inner}
 
-<span class="part0-map-text">Además de las evidencias seleccionadas, el registro completo del primer año permite reconstruir cómo algunos aprendizajes, preguntas y desplazamientos fueron reapareciendo a lo largo del TEMU.</span>
+<div class="part0-map-label">mapa de aprendizajes</div>
+
+<div class="part0-map-text">
+Además de las evidencias seleccionadas, el registro completo del primer año permite reconstruir cómo algunos aprendizajes, preguntas y desplazamientos fueron reapareciendo a lo largo del TEMU.
+</div>
 
 <a class="part0-map-link" href="docs/mapa-aprendizajes-temu.pdf">explorar el mapa completo →</a>
+
+:::
 :::
 
 :::::: part0-question

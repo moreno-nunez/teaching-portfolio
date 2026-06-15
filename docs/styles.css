@@ -1129,18 +1129,16 @@ body:has(.part0-page) .page-columns{
   column-gap: clamp(2rem, 5vw, 5rem);
 }
 
-.part0-map-label,
-.part0-map-text,
-.part0-map-link{
+.part0-map-inner{
   grid-column: 2;
   max-width: 760px;
+
+  padding-top: 1rem;
+  border-top: 1px solid rgba(85,107,90,.12);
 }
 
 .part0-map-label{
-  display: block;
   margin: 0 0 1rem;
-  padding-top: 1rem;
-  border-top: 1px solid rgba(85,107,90,.12);
 
   font-family: var(--font-body);
   font-size: .78rem;
@@ -1151,7 +1149,6 @@ body:has(.part0-page) .page-columns{
 }
 
 .part0-map-text{
-  display: block;
   margin: 0 0 .8rem;
 
   font-family: var(--font-body);
@@ -1161,7 +1158,7 @@ body:has(.part0-page) .page-columns{
 }
 
 .part0-map-link{
-  display: block;
+  display: inline-block;
   border: 0 !important;
   text-decoration: none !important;
 
