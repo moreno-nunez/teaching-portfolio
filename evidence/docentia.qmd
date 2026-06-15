@@ -31,7 +31,7 @@ Programa DOCENTIA-UAM, primera evaluación (2022)
 :::
 
 ::: evidence-meta
-**Programa:** Programa DOCENTIA-UAM
+**Programa:** DOCENTIA-UAM
 
 **Año:** 2022
 
