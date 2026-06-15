@@ -112,7 +112,7 @@ Extracto sobre el papel de las preguntas en el acompañamiento docente.
 Al inicio del proceso tendía a pensar que acompañar consistía en ayudar a encontrar soluciones. Estas reuniones me hicieron reconocer que muchas veces la aportación más relevante de la mentoría no consiste en proponer respuestas, sino en generar condiciones para que los problemas puedan formularse de manera más precisa. Comprender mejor una situación no garantiza resolverla, pero modifica las decisiones que se consideran posibles y permite actuar con mayor intención.
 :::
 
-[Volver a Parte II - acompañar](../part2.html){.evidence-back-button}
+[Volver a Parte II - acompañar](../part2.html#mentoring){.evidence-back-button}
 
 :::
 

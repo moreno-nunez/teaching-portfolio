@@ -101,7 +101,7 @@ La observación entre iguales empezó a dejar de parecerme una herramienta desti
 En retrospectiva, estas experiencias me ayudaron a reconocer que muchos de los procesos que sostienen el cambio docente —la confianza, la explicitación de focos compartidos, la reflexión conjunta o la diversidad de perspectivas— suelen permanecer en segundo plano, a pesar de ser precisamente los que permiten que la observación resulte formativa.
 :::
 
-[Volver a Parte II - acompañar](../part2.html){.evidence-back-button}
+[Volver a Parte II - acompañar](../part2.html#observation){.evidence-back-button}
 
 :::
 
