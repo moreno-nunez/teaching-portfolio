@@ -1121,17 +1121,13 @@ body:has(.part0-page) .page-columns{
 
 .part0-map-note{
   width: min(var(--part0-max), calc(100% - 2 * var(--part0-page-pad)));
-  margin: 2.4rem auto 5rem;
-  padding: 0 0 3.2rem;
-  border-bottom: 1px solid var(--border);
+  margin: 2.2rem auto 3rem;
+  padding: 0;
 }
 
 .part0-map-label{
   display: block;
-  width: 100%;
   margin: 0 0 1.4rem;
-  padding: 0 0 .65rem;
-  border-bottom: 1px solid var(--border);
 
   font-family: var(--font-body);
   font-size: .78rem;
@@ -1146,14 +1142,14 @@ body:has(.part0-page) .page-columns{
   margin: 0 0 1.4rem;
 
   font-family: var(--font-body);
-  font-size: clamp(1.02rem, 1.25vw, 1.22rem);
-  line-height: 1.75;
-  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.8;
+  font-weight: 400;
   color: var(--text);
 }
 
 .part0-map-note .part0-evidence-button{
-  margin-top: 1.4rem !important;
+  margin-top: .4rem !important;
 }
 
 /* ==========================================================================
