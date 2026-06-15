@@ -86,7 +86,7 @@ ESTRATEGIAS
 
 <p>Lo que seguía sin encajar del todo.</p>
 
-<a class="part0-evidence-button" href="ruta/a/tu/evidencia.pdf">Ver evidencia</a>
+<a class="part0-evidence-button" href="evidence/docentia.html">Abrir evidencia</a>
 ::::
 
 ::: part0-lienzo-panel
