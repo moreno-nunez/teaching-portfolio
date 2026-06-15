@@ -96,6 +96,20 @@ PREGUNTAS
 :::
 :::::::
 
+::: {.part0-map-note}
+::: {.part0-map-inner}
+
+<div class="part0-map-label">cartografía del recorrido</div>
+
+<div class="part0-map-text">
+Ver el recorrido completo
+</div>
+
+<a class="part0-map-link" href="docs/cartografia-temu.pdf">explorar la cartografía visual →</a>
+
+:::
+:::
+
 :::::: part0-question
 ::: part0-question-label
 Una idea que permanece
