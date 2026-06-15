@@ -85,8 +85,6 @@ SOSTENER
 <div class="part0-bigword">tensiones abiertas</div>
 
 <p>Comprender mejor no elimina necesariamente los límites del proceso.</p>
-
-<a class="part0-evidence-button" href="ruta/a/tu/evidencia.pdf">Ver evidencia</a>
 ::::
 
 ::: part0-lienzo-panel

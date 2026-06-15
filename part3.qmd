@@ -85,8 +85,6 @@ PREGUNTAS
 <div class="part0-bigword">preguntas por abrir</div>
 
 <p>No todo lo que se comprende puede transformarse.</p>
-
-<a class="part0-evidence-button" href="ruta/a/tu/evidencia.pdf">Ver evidencia</a>
 ::::
 
 ::: part0-lienzo-panel

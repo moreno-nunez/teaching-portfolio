@@ -41,8 +41,6 @@ INICIOS
 <div class="part0-bigword">trayectoria previa</div>
 
 <p>Una forma de entender el aprendizaje.</p>
-
-<a class="part0-evidence-button" href="ruta/a/tu/evidencia.pdf">Ver evidencia</a>
 ::::
 
 ::: part0-lienzo-panel
@@ -107,8 +105,6 @@ REDES
 <div class="part0-bigword">acompañar procesos</div>
 
 <p>Una comprensión construida en diálogo.</p>
-
-<a class="part0-evidence-button" href="ruta/a/tu/evidencia.pdf">Ver evidencia</a>
 ::::
 
 ::: part0-lienzo-panel
