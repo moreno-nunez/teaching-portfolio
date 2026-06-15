@@ -46,7 +46,7 @@ RELACIONES
 ::::
 
 ::: part0-lienzo-panel
-<p>Tendía a entender el vínculo como una condición importante, pero secundaria: algo que facilitaba el trabajo compartido. Poco a poco, esa idea empezó a resultar insuficiente. Lo que cambia no es la valoración del vínculo, sino el lugar que ocupa.</p>
+<p>El vínculo aparecía inicialmente como una condición importante, aunque secundaria: algo que facilitaba el trabajo compartido. Esa lectura, sin embargo, empezó a resultar insuficiente. Lo que cambia no es la valoración del vínculo, sino el lugar que ocupa.</p>
 
 <p>Deja de aparecer como algo que acompaña el proceso para convertirse en aquello que hace posible formular preguntas, introducir desafíos o decidir cuándo es mejor esperar.</p>
 
