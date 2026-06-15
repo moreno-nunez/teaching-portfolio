@@ -62,7 +62,7 @@ HERRAMIENTAS
 
 <p>La mejora docente como objeto de análisis</p>
 
-<a class="part0-evidence-button" href="evidence/project-tedu.html">Abrir evidencia</a>
+<a class="part0-evidence-button" href="evidence/project-tedu.html">explorar la evidencia</a>
 ::::
 
 ::: part0-lienzo-panel
@@ -84,7 +84,7 @@ ESTRATEGIAS
 
 <p>Lo que seguía sin encajar del todo.</p>
 
-<a class="part0-evidence-button" href="evidence/docentia.html">Abrir evidencia</a>
+<a class="part0-evidence-button" href="evidence/docentia.html">explorar la evidencia</a>
 ::::
 
 ::: part0-lienzo-panel

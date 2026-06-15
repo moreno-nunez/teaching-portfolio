@@ -42,7 +42,7 @@ LECTURA
 
 <p>La intervención empieza antes de actuar.</p>
 
-<a class="part0-evidence-button" href="evidence/temu-method.html">Abrir evidencia</a>
+<a class="part0-evidence-button" href="evidence/temu-method.html">explorar la evidencia</a>
 ::::
 
 ::: part0-lienzo-panel
@@ -64,7 +64,7 @@ TIEMPOS
 
 <p>Evaluar también implica esperar.</p>
 
-<a class="part0-evidence-button" href="evidence/temu-assess.html">Abrir evidencia</a>
+<a class="part0-evidence-button" href="evidence/temu-assess.html">explorar la evidencia</a>
 ::::
 
 ::: part0-lienzo-panel
@@ -86,7 +86,7 @@ VÍNCULO
 
 <p>Ningún proceso se sostiene completamente en solitario.</p>
 
-<a class="part0-evidence-button" href="evidence/temu-relation.html">Abrir evidencia</a>
+<a class="part0-evidence-button" href="evidence/temu-relation.html">explorar la evidencia</a>
 ::::
 
 ::: part0-lienzo-panel

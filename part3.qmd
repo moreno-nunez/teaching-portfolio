@@ -42,7 +42,7 @@ RELACIONES
 
 <p>El acompañamiento empieza antes que las propuestas.</p>
 
-<a class="part0-evidence-button" href="evidence/temu-gid.html">Abrir evidencia</a>
+<a class="part0-evidence-button" href="evidence/temu-gid.html">explorar la evidencia</a>
 ::::
 
 ::: part0-lienzo-panel
@@ -64,7 +64,7 @@ CONDICIONES
 
 <p>Acompañar no consiste en ofrecer respuestas.</p>
 
-<a class="part0-evidence-button" href="evidence/temu-pid.html">Abrir evidencia</a>
+<a class="part0-evidence-button" href="evidence/temu-pid.html">explorar la evidencia</a>
 ::::
 
 ::: part0-lienzo-panel
