@@ -48,7 +48,7 @@ Al releerlos hoy, más que identificar técnicas o herramientas concretas, recon
 ### Qué empezaba a cuestionar
 
 ::: evidence-reading
-Al inicio del programa tendía a entender los procesos de mejora docente principalmente como problemas de diseño e implementación. Aunque seguía considerando importantes las metodologías, la evaluación o la planificación de las actividades, comenzó a resultarme cada vez más evidente que comprender una práctica docente exigía algo más que identificar fortalezas y debilidades o proponer cambios.
+En los primeros trabajos del programa, la mejora docente todavía aparecía muy vinculada al diseño y la implementación de propuestas. Aunque seguía considerando importantes las metodologías, la evaluación o la planificación de las actividades, comenzó a resultarme cada vez más evidente que comprender una práctica docente exigía algo más que identificar fortalezas y debilidades o proponer cambios.
 
 Las actividades relacionadas con el análisis cualitativo y el estudio de caso me llevaron a reconocer la importancia de trabajar sobre situaciones concretas y contextualizadas. Empecé a valorar la necesidad de delimitar el foco de análisis para poder comprender la complejidad de la práctica sin reducirla a categorías generales o soluciones rápidas.
 :::
