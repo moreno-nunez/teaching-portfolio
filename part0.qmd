@@ -118,7 +118,7 @@ REDES
 
 :::::: part0-question
 ::: part0-question-label
-Pregunta que abre el portafolio
+Una idea que permanece
 :::
 
 ::: part0-question-intro

@@ -98,7 +98,7 @@ PREGUNTAS
 
 :::::: part0-question
 ::: part0-question-label
-Pregunta que atraviesa esta parte
+Una idea que permanece
 :::
 
 ::: part0-question-intro
