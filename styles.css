@@ -865,6 +865,7 @@ body:has(.part0-page) .page-columns{
 }
 
 .part0-lienzo{
+  scroll-margin-top: 110px;
   width: min(var(--part0-max), calc(100% - 2 * var(--part0-page-pad))) !important;
   min-height: 30vh;
   margin: 0 auto clamp(3.5rem, 6vw, 5.5rem);
