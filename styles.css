@@ -2265,3 +2265,16 @@ body:has(.evidence-page) .evidence-main section.level3:last-of-type{
   }
 
 }
+
+@media (max-width:768px){
+
+  .site-footer{
+    padding: .75rem 1rem !important;
+  }
+
+  .back-to-top{
+    padding: .45rem .9rem !important;
+    font-size: .95rem !important;
+  }
+
+}
