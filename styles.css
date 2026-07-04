@@ -2215,19 +2215,19 @@ body:has(.evidence-page) .evidence-main section.level3:last-of-type{
 
   body.home .home-hero__logo{
     order: 3 !important;
-    margin: 0 auto 2.2rem !important;
+    margin: -0.8 auto 1.8rem !important;
     max-width: 360px !important;
   }
 
   body.home .home-logo{
-    width: min(320px, 82vw) !important;
+    width: min(290px, 78vw) !important;
     margin: 0 auto !important;
   }
 
   body.home .home-hero__logo .social-icons{
     justify-content: center !important;
     padding-left: 0 !important;
-    margin-top: -1.2rem !important;
+    margin-top: -.6rem !important;
   }
 
   body.home .home-intro{
@@ -2235,6 +2235,7 @@ body:has(.evidence-page) .evidence-main section.level3:last-of-type{
     max-width: 34rem !important;
     text-align: center !important;
     margin: 0 auto !important;
+    margin-top: .5rem !important;
   }
 
 }
