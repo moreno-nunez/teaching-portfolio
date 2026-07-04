@@ -1657,7 +1657,7 @@ body:has(.part0-page) .page-columns{
     width: 100% !important;
     transform: none !important;
     z-index: 99999 !important;
-    background: rgba(82, 103, 77, .82) !important;
+    background: transparent !important;
   }
 
 #quarto-header .navbar{
@@ -1770,7 +1770,7 @@ body:has(.part0-page) .page-columns{
 
   #quarto-header,
   #quarto-header .navbar{
-    background: transparent !important;
+    background: rgba(82,103,77,.82) !important;
   }
 }
 
