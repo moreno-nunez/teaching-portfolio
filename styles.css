@@ -1731,6 +1731,18 @@ body:has(.part0-page) .page-columns{
   }
 }
 
+@media (max-width: 991.98px){
+
+  #quarto-header .navbar-brand img{
+    transition: height .25s ease;
+  }
+
+  #quarto-header .navbar{
+    transition: padding .25s ease;
+  }
+
+}
+
 /* NAVBAR FIJA DEFINITIVA */
 #quarto-header,
 #quarto-header.headroom,
