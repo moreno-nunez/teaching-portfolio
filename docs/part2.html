@@ -659,29 +659,38 @@ Entre ellas, una pregunta adquiere un peso creciente: c√≥mo introducir el desaf√
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-     const footer = document.querySelector(".site-footer");
-     if (!footer) return;
-
-     let lastScrollY = window.scrollY;
-
+      const footer = document.querySelector(".site-footer");
+      if (!footer) return;
+    
+      let lastScrollY = window.scrollY;
+    
       function toggleFooter() {
-       const currentScrollY = window.scrollY;
-       const scrollingDown = currentScrollY > lastScrollY;
-       const nearBottom =
-        window.innerHeight + currentScrollY >= document.documentElement.scrollHeight - 80;
-
-      footer.classList.toggle("is-visible", nearBottom && scrollingDown);
-
-      lastScrollY = currentScrollY;
-    }
-
-    window.addEventListener("scroll", toggleFooter, { passive: true });
-    window.addEventListener("resize", toggleFooter);
-    toggleFooter();
+        const isMobile = window.innerWidth <= 768;
+    
+        if (isMobile) {
+          footer.classList.add("is-visible");
+          footer.classList.add("is-mobile-footer");
+          return;
+        }
+    
+        footer.classList.remove("is-mobile-footer");
+    
+        const currentScrollY = window.scrollY;
+        const scrollingDown = currentScrollY > lastScrollY;
+        const nearBottom =
+          window.innerHeight + currentScrollY >= document.documentElement.scrollHeight - 80;
+    
+        footer.classList.toggle("is-visible", nearBottom && scrollingDown);
+    
+        lastScrollY = currentScrollY;
+      }
+    
+      window.addEventListener("scroll", toggleFooter, { passive: true });
+      window.addEventListener("resize", toggleFooter);
+      toggleFooter();
     });
-  </script>
 
+</body>
 
-
-
-</body></html>
+</html>
+</script></body></html>
