@@ -21,12 +21,10 @@ format:
   html:
     theme: cosmo
     css: styles.css
-    include-in-header:
-      text: |
-        <script src="navbar-mobile.js"></script>    
     toc: false
     include-in-header:
       - text: |
+          <script src="navbar-mobile.js"></script>    
           <script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
           <link rel="preconnect" href="https://fonts.googleapis.com">
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

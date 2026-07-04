@@ -1228,6 +1228,38 @@ body:has(.part0-page) .page-columns{
     margin-top: 0;
   }
 }
+
+@media (max-width: 991.98px){
+
+  #quarto-header{
+    transition: all .25s ease;
+  }
+
+  #quarto-header .navbar{
+    transition: all .25s ease;
+  }
+
+  #quarto-header .navbar-brand img{
+    transition: height .25s ease;
+  }
+
+  #quarto-header.is-scrolled .navbar{
+    padding: .35rem .75rem .45rem !important;
+  }
+
+  #quarto-header.is-scrolled .navbar-brand img{
+    height: 40px !important;
+  }
+
+  #quarto-header.is-scrolled .navbar-brand{
+    margin-bottom: .15rem !important;
+  }
+
+  body.is-scrolled{
+    padding-top: 90px;
+  }
+
+}
 /* ==========================================================================
    PRINT — PART 0
    Evita que los lienzos interactivos se rompan al imprimir/exportar PDF
