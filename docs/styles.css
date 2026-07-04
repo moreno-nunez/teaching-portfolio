@@ -1248,7 +1248,7 @@ body:has(.part0-page) .page-columns{
   }
 
   #quarto-header.is-scrolled .navbar-brand img{
-    height: 40px !important;
+    height: 34px !important;
   }
 
   #quarto-header.is-scrolled .navbar-brand{
@@ -1758,7 +1758,7 @@ body:has(.part0-page) .page-columns{
 
   #quarto-header,
   #quarto-header .navbar{
-    background: rgba(82, 103, 77, .82) !important;
+    background: transparent !important;
   }
 }
 
