@@ -2239,3 +2239,29 @@ body:has(.evidence-page) .evidence-main section.level3:last-of-type{
   }
 
 }
+
+@media (max-width:768px){
+
+  .site-footer{
+    bottom: 5.5rem !important;
+    width: calc(100% - 2rem) !important;
+    grid-template-columns: 1fr !important;
+    justify-items: center !important;
+    gap: .75rem !important;
+  }
+
+  .site-footer-social{
+    grid-column: 1 !important;
+    justify-self: center !important;
+  }
+
+  .site-footer-center{
+    grid-column: 1 !important;
+    justify-self: center !important;
+  }
+
+  .site-footer-message{
+    display: none !important;
+  }
+
+}
