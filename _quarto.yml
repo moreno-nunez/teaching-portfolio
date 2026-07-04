@@ -21,6 +21,9 @@ format:
   html:
     theme: cosmo
     css: styles.css
+    include-in-header:
+      text: |
+        <script src="navbar-mobile.js"></script>    
     toc: false
     include-in-header:
       - text: |
