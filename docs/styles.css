@@ -2182,3 +2182,59 @@ body:has(.evidence-page) .evidence-main section.level3:last-of-type{
   }
 
 }
+
+/* =========================================================
+   HOME — orden móvil portada
+   ========================================================= */
+
+@media (max-width: 768px){
+
+  body.home .home-hero{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 0 !important;
+    padding-top: 4rem !important;
+  }
+
+  body.home .home-hero__text{
+    display: contents !important;
+  }
+
+  body.home .home-heading{
+    order: 1 !important;
+    text-align: center !important;
+    margin-bottom: .7rem !important;
+  }
+
+  body.home .home-program{
+    order: 2 !important;
+    text-align: center !important;
+    margin-bottom: 2rem !important;
+  }
+
+  body.home .home-hero__logo{
+    order: 3 !important;
+    margin: 0 auto 2.2rem !important;
+    max-width: 360px !important;
+  }
+
+  body.home .home-logo{
+    width: min(320px, 82vw) !important;
+    margin: 0 auto !important;
+  }
+
+  body.home .home-hero__logo .social-icons{
+    justify-content: center !important;
+    padding-left: 0 !important;
+    margin-top: -1.2rem !important;
+  }
+
+  body.home .home-intro{
+    order: 4 !important;
+    max-width: 34rem !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+  }
+
+}
