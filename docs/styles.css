@@ -1657,7 +1657,7 @@ body:has(.part0-page) .page-columns{
     width: 100% !important;
     transform: none !important;
     z-index: 99999 !important;
-    background: transparent !important;
+    background: rgba(82, 103, 77, .82) !important;
   }
 
 #quarto-header .navbar{
@@ -2172,4 +2172,13 @@ body:has(.evidence-page) .evidence-main section.level3:first-of-type{
 
 body:has(.evidence-page) .evidence-main section.level3:last-of-type{
   margin-top: 4.5rem !important;
+}
+
+@media (max-width: 991.98px){
+
+  #quarto-header,
+  #quarto-header .navbar{
+    background: rgba(82, 103, 77, .72) !important;
+  }
+
 }
