@@ -687,7 +687,7 @@ Cambió, sobre todo, la manera de leer las situaciones antes de decidir cómo ac
        const nearBottom =
         window.innerHeight + currentScrollY >= document.documentElement.scrollHeight - 80;
 
-      footer.classList.toggle("is-visible", nearBottom && scrollingDown);
+      footer.classList.toggle("is-visible", nearBottom);
 
       lastScrollY = currentScrollY;
     }
