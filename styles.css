@@ -2235,7 +2235,7 @@ body:has(.evidence-page) .evidence-main section.level3:last-of-type{
     max-width: 34rem !important;
     text-align: center !important;
     margin: 0 auto !important;
-    margin-top: .5rem !important;
+    margin-top: 0 !important;
   }
 
 }
