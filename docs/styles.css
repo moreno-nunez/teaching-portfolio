@@ -2328,3 +2328,55 @@ body:has(.evidence-page) .evidence-main section.level3:last-of-type{
   }
 
 }
+
+/* =========================================================
+   PART 0 — clave de lectura móvil FINAL
+   ========================================================= */
+
+@media (max-width: 768px){
+
+  body:has(.part0-page) .part0-hero{
+    padding-bottom: .75rem !important;
+  }
+
+  body:has(.part0-page) .part0-hero-bottom{
+    margin-bottom: 0 !important;
+    gap: .75rem !important;
+  }
+
+  body:has(.part0-page) .part0-hero-image{
+    margin-bottom: 0 !important;
+  }
+
+  body:has(.part0-page) .part0-note{
+    display: block !important;
+    grid-template-columns: none !important;
+
+    width: calc(100% - 2rem) !important;
+    max-width: none !important;
+
+    margin: .5rem auto 2rem !important;
+    padding: 0 !important;
+  }
+
+  body:has(.part0-page) .part0-note h2,
+  body:has(.part0-page) .part0-note p{
+    grid-column: auto !important;
+    max-width: none !important;
+  }
+
+  body:has(.part0-page) .part0-note h2{
+    margin: 0 0 1rem 0 !important;
+    text-align: left !important;
+  }
+
+  body:has(.part0-page) .part0-note p{
+    width: 100% !important;
+    padding-left: 1rem !important;
+    margin: 0 !important;
+
+    font-size: 1.02rem !important;
+    line-height: 1.65 !important;
+  }
+
+}
