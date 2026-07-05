@@ -2324,3 +2324,25 @@ body:has(.evidence-page) .evidence-main section.level3:last-of-type{
   }
 
 }
+
+/* =========================================================
+   LIENZOS — botón evidencia más cerca en móvil
+   ========================================================= */
+
+@media (max-width: 768px){
+
+  .part0-lienzo-main p:has(+ .part0-evidence-button),
+  .part0-lienzo-main p:has(+ p .part0-evidence-button){
+    margin-bottom: 0 !important;
+  }
+
+  .part0-lienzo-main p:has(.part0-evidence-button){
+    margin-top: .25rem !important;
+    margin-bottom: 0 !important;
+  }
+
+  .part0-evidence-button{
+    margin-top: .25rem !important;
+  }
+
+}
