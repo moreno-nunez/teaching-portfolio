@@ -38,9 +38,7 @@ LECTURA
 :::
 
 :::: part0-lienzo-main
-::: {part0-bigword}
-leer situaciones
-:::
+# leer situaciones {.part0-bigword}
 
 <p>La intervención empieza antes de actuar.</p>
 
