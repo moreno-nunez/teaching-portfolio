@@ -2246,40 +2246,9 @@ body:has(.evidence-page) .evidence-main section.level3:last-of-type{
 
 @media (max-width: 768px){
 
-  .site-footer{
-    position: static !important;
-    opacity: 1 !important;
-    pointer-events: auto !important;
-    transform: none !important;
-
-    width: calc(100% - 2rem) !important;
-    margin: 3rem auto 2rem !important;
-
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    gap: 1rem !important;
+  body.home .home-hero{
+    padding-bottom: 1rem !important;
   }
-
-  .site-footer-social{
-    display: flex !important;
-    justify-content: center !important;
-    gap: 1.2rem !important;
-    margin: 0 !important;
-  }
-
-  .site-footer-center{
-    display: flex !important;
-    justify-content: center !important;
-  }
-
-  .site-footer-message{
-    display: none !important;
-  }
-
-}
-
-@media (max-width: 768px){
 
   .site-footer{
     position: static !important;
@@ -2288,16 +2257,15 @@ body:has(.evidence-page) .evidence-main section.level3:last-of-type{
     transform: none !important;
 
     width: calc(100% - 2rem) !important;
-    margin: 1rem auto 1.5rem !important;
+    margin: 0 auto 1.5rem !important;
 
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
-    gap: 1rem !important;
+    gap: .8rem !important;
   }
 
-  .site-footer .footer-social,
-  .site-footer .site-footer-social{
+  .site-footer .footer-social{
     display: flex !important;
     justify-content: center !important;
     gap: 1.1rem !important;
