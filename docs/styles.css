@@ -2288,7 +2288,7 @@ body:has(.evidence-page) .evidence-main section.level3:last-of-type{
     transform: none !important;
 
     width: calc(100% - 2rem) !important;
-    margin: 3rem auto 2rem !important;
+    margin: 1rem auto 1.5rem !important;
 
     display: flex !important;
     flex-direction: column !important;
