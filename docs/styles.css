@@ -2241,13 +2241,22 @@ body:has(.evidence-page) .evidence-main section.level3:last-of-type{
 }
 
 /* =========================================================
-   FOOTER — móvil funcional, escritorio intacto
+   HOME + FOOTER — ajuste móvil final
    ========================================================= */
 
 @media (max-width: 768px){
 
   body.home .home-hero{
-    padding-bottom: 1rem !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  body.home #quarto-content{
+    padding-bottom: 0 !important;
+  }
+
+  body.home .home-intro{
+    margin-bottom: 0 !important;
   }
 
   .site-footer{
@@ -2257,12 +2266,12 @@ body:has(.evidence-page) .evidence-main section.level3:last-of-type{
     transform: none !important;
 
     width: calc(100% - 2rem) !important;
-    margin: 0 auto 1.5rem !important;
+    margin: -2rem auto 1.5rem !important;
 
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
-    gap: .8rem !important;
+    gap: .65rem !important;
   }
 
   .site-footer .footer-social{
