@@ -60,9 +60,7 @@ TIEMPOS
 :::
 
 :::: part0-lienzo-main
-::: part0-bigword
-procesos abiertos
-:::
+# procesos abiertos {.part0-bigword}
 
 <p>Evaluar también implica esperar.</p>
 
@@ -84,9 +82,7 @@ VÍNCULO
 :::
 
 :::: part0-lienzo-main
-::: part0-bigword
-pensar juntos
-:::
+# pensar juntos {.part0-bigword}
 
 <p>Ningún proceso se sostiene completamente en solitario.</p>
 
