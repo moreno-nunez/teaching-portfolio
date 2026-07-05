@@ -1409,7 +1409,7 @@ body:has(.part0-page) .page-columns{
   }
 
   .part0-hero{
-    padding: 3rem 0 3.5rem !important;
+    padding: 3rem 0 1rem !important;
   }
 
   .part0-title h1,
