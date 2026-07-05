@@ -2352,11 +2352,12 @@ body:has(.evidence-page) .evidence-main section.level3:last-of-type{
 @media (max-width: 768px){
 
   html{
-    scroll-padding-top: 195px !important;
+    scroll-padding-top: 0 !important;
   }
 
-  body:has(.part0-page) [id]{
-    scroll-margin-top: 175px !important;
+  body:has(.part0-page) .part0-lienzo,
+  body:has(.part0-page) .part0-lienzo[id]{
+    scroll-margin-top: 28px !important;
   }
 
 }
