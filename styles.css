@@ -2326,64 +2326,21 @@ body:has(.evidence-page) .evidence-main section.level3:last-of-type{
 }
 
 /* =========================================================
-   LIENZOS — móvil: título + subtítulo + panel + botón
+   LIENZOS — móvil: espaciado limpio
    ========================================================= */
 
 @media (max-width: 768px){
 
-  .part0-lienzo{
-    display: grid !important;
-    grid-template-columns: 1fr !important;
-    grid-auto-flow: row !important;
-    row-gap: 0 !important;
-  }
-
-  .part0-lienzo-tag{
-    grid-column: 1 !important;
-    grid-row: auto !important;
-    order: 1 !important;
-  }
-
-  .part0-lienzo-main{
-    display: contents !important;
-  }
-
-  .part0-bigword{
-    grid-column: 1 !important;
-    grid-row: auto !important;
-    order: 2 !important;
-    margin-bottom: .65rem !important;
-  }
-
-  .part0-lienzo-main > p:not(:has(.part0-evidence-button)){
-    grid-column: 1 !important;
-    grid-row: auto !important;
-    order: 3 !important;
-    margin-bottom: 1rem !important;
-  }
-
-  .part0-lienzo-panel{
-    grid-column: 1 !important;
-    grid-row: auto !important;
-    order: 4 !important;
-
-    opacity: 1 !important;
-    transform: none !important;
-    pointer-events: auto !important;
-
-    margin-top: .2rem !important;
-    margin-bottom: .85rem !important;
-  }
-
-  .part0-lienzo-main > p:has(.part0-evidence-button){
-    grid-column: 1 !important;
-    grid-row: auto !important;
-    order: 5 !important;
-    margin: 0 !important;
+  .part0-lienzo-main p{
+    margin-bottom: .25rem !important;
   }
 
   .part0-evidence-button{
-    margin-top: 0 !important;
+    margin-top: .15rem !important;
+  }
+
+  .part0-lienzo-panel{
+    margin-top: 1.2rem !important;
   }
 
 }
