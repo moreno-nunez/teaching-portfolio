@@ -2310,3 +2310,43 @@ body:has(.evidence-page) .evidence-main section.level3:last-of-type{
 
 }
 
+@media (max-width: 768px){
+
+  /* 1. Menos espacio entre imagen inicial y clave de lectura */
+  .part0-hero{
+    padding-bottom: .25rem !important;
+  }
+
+  .part0-hero-bottom{
+    gap: .35rem !important;
+  }
+
+  .part0-note{
+    margin-top: 0 !important;
+  }
+
+  /* 2. Acercar botón al título/subtítulo del lienzo */
+  .part0-evidence-button{
+    margin-top: .65rem !important;
+  }
+
+  .part0-lienzo-main p{
+    margin-bottom: .45rem !important;
+  }
+
+  /* 3. Cartografía / mapa aprendizaje a ancho completo en móvil */
+  .part0-map-note{
+    display: block !important;
+    width: calc(100% - 2rem) !important;
+    max-width: none !important;
+    margin: 1rem auto 2.4rem !important;
+    padding: 0 !important;
+  }
+
+  .part0-map-inner{
+    max-width: none !important;
+    width: 100% !important;
+    padding-top: 1rem !important;
+  }
+
+}
