@@ -2326,23 +2326,48 @@ body:has(.evidence-page) .evidence-main section.level3:last-of-type{
 }
 
 /* =========================================================
-   LIENZOS — botón evidencia más cerca en móvil
+   LIENZOS — orden móvil: título + subtítulo + panel + botón
    ========================================================= */
 
 @media (max-width: 768px){
 
-  .part0-lienzo-main p:has(+ .part0-evidence-button),
-  .part0-lienzo-main p:has(+ p .part0-evidence-button){
-    margin-bottom: 0 !important;
+  .part0-lienzo{
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 0 !important;
   }
 
-  .part0-lienzo-main p:has(.part0-evidence-button){
-    margin-top: .25rem !important;
-    margin-bottom: 0 !important;
+  .part0-lienzo-tag{
+    order: 1 !important;
+  }
+
+  .part0-lienzo-main{
+    display: contents !important;
+  }
+
+  .part0-bigword{
+    order: 2 !important;
+    margin-bottom: .65rem !important;
+  }
+
+  .part0-lienzo-main > p:not(:has(.part0-evidence-button)){
+    order: 3 !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .part0-lienzo-panel{
+    order: 4 !important;
+    margin-top: .2rem !important;
+    margin-bottom: .9rem !important;
+  }
+
+  .part0-lienzo-main > p:has(.part0-evidence-button){
+    order: 5 !important;
+    margin: 0 !important;
   }
 
   .part0-evidence-button{
-    margin-top: .25rem !important;
+    margin-top: 0 !important;
   }
 
 }
