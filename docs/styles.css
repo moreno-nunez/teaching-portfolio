@@ -2362,3 +2362,13 @@ body:has(.evidence-page) .evidence-main section.level3:last-of-type{
   }
 
 }
+
+/* HOME — ocultar redes bajo el logo en móvil */
+
+@media (max-width: 768px){
+
+  body.home .home-hero__logo .social-icons{
+    display: none !important;
+  }
+
+}
