@@ -2344,3 +2344,15 @@ body:has(.evidence-page) .evidence-main section.level3:last-of-type{
   }
 
 }
+
+/* =========================================================
+   ANCLAS — ajuste móvil al volver desde evidencias
+   ========================================================= */
+
+@media (max-width: 768px){
+
+  .part0-lienzo{
+    scroll-margin-top: 150px !important;
+  }
+
+}
