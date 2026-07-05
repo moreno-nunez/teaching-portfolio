@@ -5,7 +5,7 @@ format: html
 editor: visual
 ---
 
-::::::::::::::::::::::::::::: part0-page
+::::::::::::::::::::::::::::::::: part0-page
 :::::::: part0-hero
 ::: part0-kicker
 Parte I · comprender
@@ -32,13 +32,15 @@ Aprendizajes del primer año del TEMU
 Al igual que en el desarrollo cognitivo comprender precede a actuar, durante el primer curso del TEMU no incorporé únicamente nuevas herramientas de acompañamiento. Cambiaron también las preguntas desde las que interpreto la docencia, la evaluación y los procesos de cambio. Esta parte reconstruye esos desplazamientos a través de tres miradas: metodológica, evaluativa y relacional.
 :::
 
-::::::: {.part0-lienzo .part0-temdu #method}
+::::::: {#method .part0-lienzo .part0-temdu}
 ::: part0-lienzo-tag
 LECTURA
 :::
 
 :::: part0-lienzo-main
-<div class="part0-bigword">leer situaciones</div>
+::: part0-bigword
+leer situaciones
+:::
 
 <p>La intervención empieza antes de actuar.</p>
 
@@ -54,13 +56,15 @@ LECTURA
 :::
 :::::::
 
-::::::: {.part0-lienzo .part0-docentia #assess}
+::::::: {#assess .part0-lienzo .part0-docentia}
 ::: part0-lienzo-tag
 TIEMPOS
 :::
 
 :::: part0-lienzo-main
-<div class="part0-bigword">procesos abiertos</div>
+::: part0-bigword
+procesos abiertos
+:::
 
 <p>Evaluar también implica esperar.</p>
 
@@ -76,13 +80,15 @@ TIEMPOS
 :::
 :::::::
 
-::::::: {.part0-lienzo .part0-temu #relation}
+::::::: {#relation .part0-lienzo .part0-temu}
 ::: part0-lienzo-tag
 VÍNCULO
 :::
 
 :::: part0-lienzo-main
-<div class="part0-bigword">pensar juntos</div>
+::: part0-bigword
+pensar juntos
+:::
 
 <p>Ningún proceso se sostiene completamente en solitario.</p>
 
@@ -98,18 +104,19 @@ VÍNCULO
 :::
 :::::::
 
-::: {.part0-map-note}
-::: {.part0-map-inner}
+:::::: part0-map-note
+::::: part0-map-inner
+::: part0-map-label
+mapa de aprendizajes
+:::
 
-<div class="part0-map-label">mapa de aprendizajes</div>
-
-<div class="part0-map-text">
+::: part0-map-text
 Además de las evidencias seleccionadas, el registro completo del primer año del TEMU permite reconstruir cómo algunas preguntas y aprendizajes fueron reapareciendo y reorganizándose a lo largo del programa.
-</div>
+:::
 
 <a class="part0-map-link" href="mapa-aprendizajes-temu.pdf">explorar el mapa completo →</a>
-:::
-:::
+:::::
+::::::
 
 :::::: part0-question
 ::: part0-question-label
@@ -126,4 +133,4 @@ Una idea que permanece
 Antes de cambiar lo que hacemos, cambia la forma en que interpretamos lo que ocurre
 :::
 ::::::
-:::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::
