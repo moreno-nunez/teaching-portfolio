@@ -14,7 +14,8 @@ editor: source
 ::: {.home-hero__text}
 
 ::: home-heading
-Identidad y desarrollo profesional
+trayectoria y 
+desarrollo docente
 :::
 
 ::: home-program
