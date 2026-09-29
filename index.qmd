@@ -14,8 +14,7 @@ editor: source
 ::: {.home-hero__text}
 
 ::: home-heading
-trayectoria y 
-desarrollo docente
+trayectoria y desarrollo docente
 :::
 
 ::: home-program
